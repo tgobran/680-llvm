@@ -1,0 +1,520 @@
+Counters:
+  _Z11is_attackedP7state_tii:
+    Hash: 0x1ccc837ae884dea2
+    Counters: 24
+    Function count: 1563000597
+  _Z8in_checkP7state_t:
+    Hash: 0x000029261a4d8691
+    Counters: 2
+    Function count: 643992957
+  _Z10attacks_toP7state_ti:
+    Hash: 0x46b4acc767fc65d8
+    Counters: 5
+    Function count: 859881838
+  _Z13PrintBitboardy:
+    Hash: 0xc1f7d433f6345cc5
+    Counters: 4
+    Function count: 0
+  _Z17PrintRotBitboardsP7state_t:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  _Z17PrintAllBitboardsP7state_t:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  _Z22SetupPrecalculatedDatav:
+    Hash: 0x62ebd72438b97850
+    Counters: 87
+    Function count: 1
+  _ZSt3minIiERKT_S2_S2_:
+    Hash: 0x000000029b498458
+    Counters: 2
+    Function count: 576019074
+  _Z16SetupCastleMasksP7state_t:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 25
+  _Z11RankAttacksyj:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 3330560340
+  _Z11FileAttacksyj:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 3437787237
+  _Z15DiagonalAttacksyj:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2683744756
+  _Z15AntiDiagAttacksyj:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2579642869
+  _Z13BishopAttacksP7state_ti:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2243214897
+  _Z11RookAttacksP7state_ti:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2869551984
+  _Z8PopCounty:
+    Hash: 0x0000000000002458
+    Counters: 2
+    Function count: 5393808666
+  _Z9FindFirsty:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 51
+  _Z15FindFirstRemovePy:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 7592818589
+  _Z8FindLasty:
+    Hash: 0x000a71244a712458
+    Counters: 3
+    Function count: 396
+  _Z13ThickPopCounty:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2351442609
+  _Z4ranki:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2087828881
+  _Z4filei:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2049743712
+  _Z8sum_distii:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 426922806
+  _Z12taxicab_distii:
+    Hash: 0x000000a712613611
+    Counters: 2
+    Function count: 597933535
+  _Z16taxicab_dist_bitii:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 597932234
+  _Z11check_phaseP11gamestate_tP7state_t:
+    Hash: 0x30c1a586c3bc1d4f
+    Counters: 20
+    Function count: 12
+  _Z7is_drawP11gamestate_tP7state_t:
+    Hash: 0xa706727da390f4b4
+    Counters: 16
+    Function count: 507243255
+  _Z21insufficient_materialP7state_t:
+    Hash: 0x8fd28d9e4ded8dce
+    Counters: 25
+    Function count: 0
+  _Z14drawn_endgamesP7state_tiii:
+    Hash: 0xfa517a00b56ffc10
+    Counters: 251
+    Function count: 288009370
+  _Z14setup_epd_lineP11gamestate_tP7state_tPKc:
+    Hash: 0x8abf01f5d530ebcd
+    Counters: 68
+    Function count: 12
+  atoi:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 680
+  _Z14check_solutionP7state_tPci:
+    Hash: 0x892bd369a2aa9848
+    Counters: 7
+    Function count: 0
+  _Z17run_epd_testsuiteP11gamestate_tP7state_tPKc:
+    Hash: 0x000029f498442811
+    Counters: 3
+    Function count: 1
+  _Z15position_to_fenP7state_tPc:
+    Hash: 0xf004a60bf02c5bd6
+    Counters: 14
+    Function count: 0
+  _Z9gen_quietP7state_tPi:
+    Hash: 0x3c3c491ba23293aa
+    Counters: 28
+    Function count: 7394807
+  _Z11add_capturePiiiiii:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2468518944
+  _Z8add_movePiiii:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 726928023
+  _Z15add_king_castlePiiii:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2677703
+  _Z3genP7state_tPi:
+    Hash: 0x2e7abc167c113ecb
+    Counters: 49
+    Function count: 49742872
+  _Z12gen_capturesP7state_tPi:
+    Hash: 0xef83ac41acdd388f
+    Counters: 35
+    Function count: 209616225
+  _Z15gen_good_checksP7state_tPi:
+    Hash: 0x3db22b512f09a843
+    Counters: 16
+    Function count: 57578690
+  _Z16gen_check_blocksP7state_tPii:
+    Hash: 0x6d058f1a662e4d4a
+    Counters: 23
+    Function count: 38085146
+  _Z12gen_evasionsP7state_tPii:
+    Hash: 0x59e5369fc1e00b38
+    Counters: 14
+    Function count: 44687203
+  _Z15init_parametersP11gamestate_t:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  _Z4makeP7state_ti:
+    Hash: 0x0028515e136e0f57
+    Counters: 43
+    Function count: 916714589
+  _Z6unmakeP7state_ti:
+    Hash: 0x7691922c5982f38d
+    Counters: 20
+    Function count: 916714589
+  _Z11check_legalP7state_ti:
+    Hash: 0x89ac9d383321a35b
+    Counters: 14
+    Function count: 916704357
+  _Z20check_castle_blockerP7state_ti:
+    Hash: 0x69ccd00bb78ed7fd
+    Counters: 69
+    Function count: 5454817
+  _Z5fevalP7state_tiP12t_eval_comps:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 288009370
+  neval.cpp:_ZL13mobility_evalP7state_tP12t_eval_compsP12attackinfo_t:
+    Hash: 0xf6e96b488a6bbda3
+    Counters: 17
+    Function count: 288009370
+  neval.cpp:_ZL15kingsafety_evalP7state_tP8pawntt_tP12t_eval_comps:
+    Hash: 0xa39a84adf7fcb2d5
+    Counters: 23
+    Function count: 288009370
+  neval.cpp:_ZL17kingpressure_evalP7state_tP12attackinfo_tP12t_eval_comps:
+    Hash: 0x8b96f3fef9c86b2c
+    Counters: 26
+    Function count: 288009370
+  neval.cpp:_ZL11passer_evalP7state_tP8pawntt_tiP12t_eval_comps:
+    Hash: 0x95580f01d11afda0
+    Counters: 57
+    Function count: 288009370
+  neval.cpp:_ZL15positional_evalP7state_tP8pawntt_tP12t_eval_comps:
+    Hash: 0x78b24bcbbe5c472b
+    Counters: 21
+    Function count: 288009370
+  neval.cpp:_ZL12trapped_evalP7state_tP12t_eval_comps:
+    Hash: 0xd3485f4a01c78d01
+    Counters: 73
+    Function count: 288009370
+  _Z4evalP7state_tiii:
+    Hash: 0x697f32c081c5c3c9
+    Counters: 10
+    Function count: 411793847
+  neval.cpp:_ZL16opposite_bishopsP7state_tiii:
+    Hash: 0xfb23b5ce4950dd27
+    Counters: 13
+    Function count: 288009370
+  _Z13retrieve_evalP7state_t:
+    Hash: 0x0000000292613611
+    Counters: 2
+    Function count: 436909794
+  _Z13clear_pawn_ttv:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 1
+  _Z5scaleiii:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  _Z16static_pawn_evalP7state_t:
+    Hash: 0x000000000a812458
+    Counters: 2
+    Function count: 288009370
+  pawn.cpp:_ZL14full_pawn_evalP7state_tP8pawntt_t:
+    Hash: 0xf4a2da1e1b61e7a7
+    Counters: 93
+    Function count: 4158022
+  _Z8psq_evalP7state_tP12t_eval_comps:
+    Hash: 0x765f94b5bf1f3875
+    Counters: 6
+    Function count: 288009370
+  _Z14init_psq_scoreP7state_t:
+    Hash: 0x0000000000002458
+    Counters: 2
+    Function count: 25
+  _Z18preprocess_preparev:
+    Hash: 0x13586915a55f19c5
+    Counters: 13
+    Function count: 1
+  _Z7qsearchP7state_tiiii:
+    Hash: 0xef58965299ec813a
+    Counters: 93
+    Function count: 309018805
+  search.cpp:_ZL17search_time_checkP7state_t:
+    Hash: 0xafc9817f1159c636
+    Counters: 21
+    Function count: 507243255
+  search.cpp:_ZL16fast_order_movesP7state_tPiS1_ij:
+    Hash: 0xbc14dacf83eaee5a
+    Counters: 9
+    Function count: 255239892
+  search.cpp:_ZL15remove_one_fastPiS_S_i:
+    Hash: 0x7b70523e12328583
+    Counters: 6
+    Function count: 1545844414
+  search.cpp:_ZL15history_pre_cutP7state_tii:
+    Hash: 0x000000000000061b
+    Counters: 1
+    Function count: 556156805
+  _Z6searchP7state_tiiiii:
+    Hash: 0xe9b5268aff19ebd1
+    Counters: 250
+    Function count: 199934691
+  search.cpp:_ZL11order_movesP7state_tPiS1_ij:
+    Hash: 0xa7e65d3d5f3391f9
+    Counters: 22
+    Function count: 69078140
+  search.cpp:_ZL13history_scoreP7state_ti:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 96908110
+  search.cpp:_ZL12history_goodP7state_tii:
+    Hash: 0x0551f4f566541981
+    Counters: 13
+    Function count: 47215918
+  search.cpp:_ZL11history_badP7state_tii:
+    Hash: 0x0e4dac2043feb329
+    Counters: 7
+    Function count: 12338365
+  _Z14rootmovesearchP7state_tiiiii:
+    Hash: 0x000000000a498458
+    Counters: 2
+    Function count: 9697
+  _Z11search_rootP7state_tiii:
+    Hash: 0x4901c97e967cec83
+    Counters: 103
+    Function count: 244
+  _Z21reset_search_countersP7state_t:
+    Hash: 0x00000000000046d1
+    Counters: 2
+    Function count: 12
+  _Z17reset_search_dataP7state_t:
+    Hash: 0x000000011b44a491
+    Counters: 3
+    Function count: 12
+  _Z5thinkP11gamestate_tP7state_t:
+    Hash: 0x29f682321d5cb630
+    Counters: 111
+    Function count: 12
+  _ZSt3maxIiERKT_S2_S2_:
+    Hash: 0x000000029b498458
+    Counters: 2
+    Function count: 0
+  search.cpp:_ZL12make_blunderP7state_tiPii:
+    Hash: 0xe57bf60ff0c01add
+    Counters: 28
+    Function count: 0
+  _Z3seeP7state_tiiii:
+    Hash: 0xe2d7f33583e17090
+    Counters: 21
+    Function count: 859881838
+  main:
+    Hash: 0x000000a7d24d8458
+    Counters: 2
+    Function count: 1
+  _Z8clear_ttv:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 13
+  _Z11clear_dp_ttv:
+    Hash: 0x000000000a712458
+    Counters: 2
+    Function count: 12
+  _Z18initialize_zobristP7state_t:
+    Hash: 0x000000011b11b451
+    Counters: 3
+    Function count: 1
+  _Z15initialize_hashP7state_t:
+    Hash: 0x02b6ecb179d20c4c
+    Counters: 5
+    Function count: 13
+  _Z7StoreTTP7state_tiiijiiii:
+    Hash: 0xf5f16dce66d25ac7
+    Counters: 14
+    Function count: 405205355
+  _Z7ProbeTTP7state_tPiiiPjS1_S1_S1_S1_i:
+    Hash: 0x5e444fa3d3869743
+    Counters: 15
+    Function count: 506568965
+  _Z10alloc_hashv:
+    Hash: 0x000000000a7d2458
+    Counters: 2
+    Function count: 1
+  _Z9free_hashv:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  _Z12elo_to_depthi:
+    Hash: 0xb39d41dc2c514e95
+    Counters: 18
+    Function count: 0
+  _Z14elo_to_blunderi:
+    Hash: 0xb39d41dc2c514e95
+    Counters: 18
+    Function count: 0
+  _Z12compact_movei:
+    Hash: 0x0000000000292458
+    Counters: 2
+    Function count: 3322262585
+  _Z4logLi:
+    Hash: 0x0000000000002458
+    Counters: 2
+    Function count: 0
+  _Z14dumpsearchstatP7state_t:
+    Hash: 0x000000000029a491
+    Counters: 2
+    Function count: 12
+  _Z13allocate_timeP11gamestate_ti:
+    Hash: 0xbaa3f935ec8d06a0
+    Counters: 15
+    Function count: 0
+  _Z11comp_to_sanP7state_tiPc:
+    Hash: 0x5f7fb45f3c8093ff
+    Counters: 30
+    Function count: 14775
+  _Z13comp_to_coordP7state_tiPc:
+    Hash: 0x54b64c36b0d0c467
+    Counters: 15
+    Function count: 0
+  _Z13display_boardP7state_ti:
+    Hash: 0xfc240783533e3358
+    Counters: 6
+    Function count: 12
+  _Z8myprintfPKcz:
+    Hash: 0x0000000292292451
+    Counters: 3
+    Function count: 2390
+  _Z9init_gameP11gamestate_tP7state_t:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 13
+  _Z18reset_piece_squareP7state_t:
+    Hash: 0x7a9d8670937fd7b3
+    Counters: 10
+    Function count: 25
+  _Z7is_movePc:
+    Hash: 0x000a38e392613611
+    Counters: 8
+    Function count: 0
+  _Z20extract_current_pathP7state_t:
+    Hash: 0x011b28e7df493451
+    Counters: 5
+    Function count: 0
+  _Z19extract_ponder_moveP7state_t:
+    Hash: 0x6594c7488efa4346
+    Counters: 7
+    Function count: 0
+  _Z24extract_current_bestlineP7state_t:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  utils.cpp:_ZL15hash_extract_pvP7state_tiPc:
+    Hash: 0x8840fd58bb5a1d2f
+    Counters: 13
+    Function count: 5153
+  _Z12stringize_pvP7state_tPc:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  _Z13post_thinkingP7state_tiiPci:
+    Hash: 0x3be4d0474b4f53e2
+    Counters: 10
+    Function count: 472
+  _Z9rdifftimeii:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 31595
+  _Z5rtimev:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 31607
+  _Z16post_fh_thinkingP7state_tiiPci:
+    Hash: 0xb6ca2f61c42dcb3a
+    Counters: 9
+    Function count: 34
+  _Z16post_fl_thinkingP7state_tiiPci:
+    Hash: 0xb6ca2f61c42dcb3a
+    Counters: 9
+    Function count: 41
+  _Z21post_multipv_thinkingP7state_tiii:
+    Hash: 0x4344b8973a08bb88
+    Counters: 10
+    Function count: 0
+  utils.cpp:_ZL14resort_multipvv:
+    Hash: 0x011b11b29c491451
+    Counters: 4
+    Function count: 0
+  vprintf:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2390
+  _Z6rinputPciP8_IO_FILE:
+    Hash: 0x1b528a9ab3c7e22d
+    Counters: 12
+    Function count: 0
+  _Z8start_upv:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 1
+  _Z12verify_coordP7state_tPcPi:
+    Hash: 0xe43366d7226c6725
+    Counters: 6
+    Function count: 0
+  _Z17input_causes_stopv:
+    Hash: 0x5dfad81e00ceba89
+    Counters: 8
+    Function count: 0
+  _Z9interruptv:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 31147
+  _Z11reset_boardP7state_t:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  _Z15make_text_movesP11gamestate_tP7state_tPc:
+    Hash: 0x008e81b29a498451
+    Counters: 5
+    Function count: 0
+  _Z8myrandomv:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1792
+  _Z7mysrandj:
+    Hash: 0x000000000029f491
+    Counters: 2
+    Function count: 2
+Instrumentation level: Front-end
+Functions shown: 127
+Total functions: 127
+Maximum function count: 7592818589
+Maximum internal block count: 11904211699
+Top 5 functions with the largest internal block counts: 
+  search.cpp:_ZL15remove_one_fastPiS_S_i, max count = 11904211699
+  _Z15FindFirstRemovePy, max count = 7592818589
+  _Z8PopCounty, max count = 5393808666
+  _Z11FileAttacksyj, max count = 3437787237
+  _Z11RankAttacksyj, max count = 3330560340

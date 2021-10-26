@@ -1,0 +1,2184 @@
+Counters:
+  main:
+    Hash: 0x5288d2c8c8270837
+    Counters: 38
+    Function count: 1
+  init_encoder:
+    Hash: 0xbb3ddb5c57825c42
+    Counters: 15
+    Function count: 1
+  uncompressStream:
+    Hash: 0x5aab199693f18263
+    Counters: 20
+    Function count: 2
+  spec_xz.c:init_decoder:
+    Hash: 0x0350f58f895a32b4
+    Counters: 13
+    Function count: 2
+  compressStream:
+    Hash: 0xddf616eb2f6cbe00
+    Counters: 18
+    Function count: 1
+  tuklib_physmem:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_version_number:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_version_string:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_alloc:
+    Hash: 0x6cdd47e9192e8fc6
+    Counters: 5
+    Function count: 31
+  lzma_free:
+    Hash: 0x000028e820493458
+    Counters: 4
+    Function count: 40
+  lzma_bufcpy:
+    Hash: 0x000000000000d6d8
+    Counters: 2
+    Function count: 38440
+  lzma_next_filter_init:
+    Hash: 0x00032a049145835f
+    Counters: 4
+    Function count: 6
+  lzma_next_end:
+    Hash: 0x02a048a8124d1458
+    Counters: 3
+    Function count: 23
+  lzma_next_filter_update:
+    Hash: 0x248783814c7b6f7e
+    Counters: 3
+    Function count: 0
+  lzma_strm_init:
+    Hash: 0xa4e664bb25f2fe9f
+    Counters: 4
+    Function count: 3
+  lzma_code:
+    Hash: 0x6cf94df0dcbd0631
+    Counters: 71
+    Function count: 80863
+  lzma_end:
+    Hash: 0x000000a3a0812458
+    Counters: 4
+    Function count: 3
+  lzma_get_check:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 0
+  lzma_memusage:
+    Hash: 0xe870ec50fb0276ad
+    Counters: 8
+    Function count: 0
+  lzma_memlimit_get:
+    Hash: 0xe870ec50fb0276ad
+    Counters: 8
+    Function count: 0
+  lzma_memlimit_set:
+    Hash: 0x7f1ee2805d412e59
+    Counters: 9
+    Function count: 0
+  lzma_block_compressed_size:
+    Hash: 0xdfa575ed046d7f58
+    Counters: 6
+    Function count: 0
+  lzma_block_unpadded_size:
+    Hash: 0x8a172d0184057a8b
+    Counters: 19
+    Function count: 6
+  lzma_block_total_size:
+    Hash: 0x000000000a812458
+    Counters: 2
+    Function count: 0
+  block_util.c:vli_ceil4:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_easy_preset:
+    Hash: 0x000000000a498458
+    Counters: 2
+    Function count: 0
+  lzma_filters_copy:
+    Hash: 0x36e11e69b4051b2a
+    Counters: 12
+    Function count: 1
+  lzma_raw_coder_init:
+    Hash: 0x80a0aeef4792a810
+    Counters: 13
+    Function count: 3
+  filter_common.c:validate_chain:
+    Hash: 0xaea7eed692df8eb3
+    Counters: 13
+    Function count: 5
+  lzma_raw_coder_memusage:
+    Hash: 0x71d54ee4b008e627
+    Counters: 6
+    Function count: 2
+  lzma_physmem:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_index_init:
+    Hash: 0xbdd8079c801e35dd
+    Counters: 3
+    Function count: 1
+  index.c:index_init_plain:
+    Hash: 0x000000000a812458
+    Counters: 2
+    Function count: 1
+  index.c:index_stream_init:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 1
+  index.c:index_tree_append:
+    Hash: 0x2b328d2dc0ee277c
+    Counters: 6
+    Function count: 2
+  lzma_index_end:
+    Hash: 0x000000000a812458
+    Counters: 2
+    Function count: 2
+  index.c:index_tree_end:
+    Hash: 0x000000000a812458
+    Counters: 2
+    Function count: 2
+  index.c:index_stream_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma_index_prealloc:
+    Hash: 0x000000000a712458
+    Counters: 2
+    Function count: 0
+  lzma_index_memusage:
+    Hash: 0xbb227324ebe8849a
+    Counters: 12
+    Function count: 0
+  lzma_index_memused:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_index_block_count:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma_index_stream_count:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_index_size:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  index.c:index_size:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 4
+  lzma_index_total_size:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_index_stream_size:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_index_file_size:
+    Hash: 0x000000000001835f
+    Counters: 2
+    Function count: 0
+  index.c:index_file_size:
+    Hash: 0x3052f6cae5f3ccba
+    Counters: 3
+    Function count: 1
+  lzma_index_uncompressed_size:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_index_checks:
+    Hash: 0x000000000a812458
+    Counters: 2
+    Function count: 0
+  lzma_index_padding_size:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  index.c:index_size_unpadded:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 5
+  lzma_index_stream_flags:
+    Hash: 0x6c4a894e9bbb6cd7
+    Counters: 6
+    Function count: 0
+  lzma_index_stream_padding:
+    Hash: 0x5082354b1acca8dc
+    Counters: 7
+    Function count: 0
+  lzma_index_append:
+    Hash: 0xe2158fdd9aba908f
+    Counters: 16
+    Function count: 1
+  index.c:vli_ceil4:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 8
+  lzma_index_cat:
+    Hash: 0x71b0db82671f6dfe
+    Counters: 12
+    Function count: 0
+  index.c:index_cat_helper:
+    Hash: 0x000a81244a812458
+    Counters: 3
+    Function count: 0
+  lzma_index_dup:
+    Hash: 0xe5e023239e3d9b20
+    Counters: 4
+    Function count: 0
+  index.c:index_dup_stream:
+    Hash: 0x9760945744781339
+    Counters: 7
+    Function count: 0
+  index.c:index_tree_next:
+    Hash: 0xbab3b6333db700a9
+    Counters: 6
+    Function count: 2
+  lzma_index_iter_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma_index_iter_rewind:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma_index_iter_next:
+    Hash: 0x90633f13c0cac097
+    Counters: 25
+    Function count: 2
+  index.c:iter_set_info:
+    Hash: 0x3ced3f828be458e2
+    Counters: 11
+    Function count: 1
+  lzma_index_iter_locate:
+    Hash: 0xc1d32f558c7b24e7
+    Counters: 4
+    Function count: 0
+  index.c:index_tree_locate:
+    Hash: 0x000280a7124d1458
+    Counters: 3
+    Function count: 0
+  index.c:index_tree_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  index.c:bsr32:
+    Hash: 0x61f0247ea5f74c42
+    Counters: 6
+    Function count: 0
+  index.c:ctz32:
+    Hash: 0x61f0247ea5f74c42
+    Counters: 6
+    Function count: 0
+  index.c:index_tree_node_end:
+    Hash: 0xbb85ffe52b239b06
+    Counters: 4
+    Function count: 2
+  lzma_stream_flags_compare:
+    Hash: 0x919eba3c1199b888
+    Counters: 15
+    Function count: 2
+  stream_flags_common.c:is_backward_size_valid:
+    Hash: 0x000000060e39e75f
+    Counters: 5
+    Function count: 0
+  lzma_vli_size:
+    Hash: 0x000a7126110e0458
+    Counters: 3
+    Function count: 25
+  lzma_alone_encoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 0
+  alone_encoder.c:alone_encoder_init:
+    Hash: 0xe2907c0457d73095
+    Counters: 8
+    Function count: 0
+  alone_encoder.c:alone_encode:
+    Hash: 0xef539de7d29746f9
+    Counters: 7
+    Function count: 0
+  alone_encoder.c:alone_encoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  alone_encoder.c:unaligned_write32le:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_block_buffer_bound:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 0
+  block_buffer_encoder.c:lzma2_bound:
+    Hash: 0x2435d95632eb4be4
+    Counters: 3
+    Function count: 0
+  lzma_block_buffer_encode:
+    Hash: 0x30162c5031749666
+    Counters: 23
+    Function count: 0
+  block_buffer_encoder.c:block_encode_normal:
+    Hash: 0x04000ffcf7a96782
+    Counters: 11
+    Function count: 0
+  block_buffer_encoder.c:block_encode_uncompressed:
+    Hash: 0xdd3dfecaaf6efff2
+    Counters: 6
+    Function count: 0
+  lzma_block_encoder_init:
+    Hash: 0xa3698224d87c221d
+    Counters: 9
+    Function count: 1
+  block_encoder.c:block_encode:
+    Hash: 0x6ac9bb1c7a848978
+    Counters: 14
+    Function count: 36316
+  block_encoder.c:block_encoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  block_encoder.c:block_encoder_update:
+    Hash: 0x00000002a0498458
+    Counters: 2
+    Function count: 0
+  lzma_block_encoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 0
+  lzma_block_header_size:
+    Hash: 0x094b2e62385c46c2
+    Counters: 15
+    Function count: 1
+  lzma_block_header_encode:
+    Hash: 0x61aa004ddc20aa34
+    Counters: 18
+    Function count: 1
+  block_header_encoder.c:unaligned_write32le:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma_easy_buffer_encode:
+    Hash: 0x000000000a498458
+    Counters: 2
+    Function count: 0
+  lzma_easy_encoder:
+    Hash: 0x000000000a498458
+    Counters: 2
+    Function count: 0
+  lzma_easy_encoder_memusage:
+    Hash: 0x000000000a498458
+    Counters: 2
+    Function count: 0
+  lzma_raw_buffer_encode:
+    Hash: 0xb4a355786d5b2dcd
+    Counters: 14
+    Function count: 0
+  lzma_filter_encoder_is_supported:
+    Hash: 0x0000000000000620
+    Counters: 1
+    Function count: 0
+  filter_encoder.c:encoder_find:
+    Hash: 0x00046ca7d2611458
+    Counters: 3
+    Function count: 4
+  lzma_filters_update:
+    Hash: 0x769b4862c465637d
+    Counters: 5
+    Function count: 0
+  lzma_raw_encoder_memusage:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_raw_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma_raw_encoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 0
+  lzma_properties_size:
+    Hash: 0x4b2bb9cad5a54380
+    Counters: 4
+    Function count: 2
+  lzma_properties_encode:
+    Hash: 0xbdd8079c801e35dd
+    Counters: 3
+    Function count: 1
+  lzma_filter_flags_size:
+    Hash: 0x67c9bea3d2695cb9
+    Counters: 4
+    Function count: 1
+  lzma_filter_flags_encode:
+    Hash: 0xf08b527f905f4f2e
+    Counters: 11
+    Function count: 1
+  lzma_index_encoder_init:
+    Hash: 0x8af158c7b1e9994a
+    Counters: 6
+    Function count: 1
+  index_encoder.c:index_encode:
+    Hash: 0x603d24b117d5ae2c
+    Counters: 19
+    Function count: 1
+  index_encoder.c:index_encoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  index_encoder.c:index_encoder_reset:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma_index_encoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 0
+  lzma_index_buffer_encode:
+    Hash: 0xf5e460c0e711f252
+    Counters: 10
+    Function count: 0
+  lzma_stream_buffer_bound:
+    Hash: 0x4852ac512557d151
+    Counters: 4
+    Function count: 0
+  lzma_stream_buffer_encode:
+    Hash: 0x13c9721782e4a6f8
+    Counters: 24
+    Function count: 0
+  lzma_stream_encoder_init:
+    Hash: 0xad54ac5461267821
+    Counters: 9
+    Function count: 1
+  stream_encoder.c:stream_encode:
+    Hash: 0x2afbc8537551a997
+    Counters: 28
+    Function count: 36316
+  stream_encoder.c:stream_encoder_end:
+    Hash: 0x0000000000120458
+    Counters: 2
+    Function count: 1
+  stream_encoder.c:stream_encoder_update:
+    Hash: 0x6c35b90ca0e0ad4a
+    Counters: 7
+    Function count: 1
+  lzma_stream_encoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 1
+  stream_encoder.c:block_encoder_init:
+    Hash: 0x00000ca812611458
+    Counters: 3
+    Function count: 1
+  lzma_stream_header_encode:
+    Hash: 0x02a049844a498458
+    Counters: 3
+    Function count: 1
+  stream_flags_encoder.c:stream_flags_encode:
+    Hash: 0x000000029c498458
+    Counters: 2
+    Function count: 2
+  stream_flags_encoder.c:unaligned_write32le:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 3
+  lzma_stream_footer_encode:
+    Hash: 0xc75f2094aeb60ffb
+    Counters: 4
+    Function count: 1
+  stream_flags_encoder.c:is_backward_size_valid:
+    Hash: 0x000000060e39e75f
+    Counters: 5
+    Function count: 1
+  lzma_vli_encode:
+    Hash: 0xf883ee4748fb8126
+    Counters: 11
+    Function count: 5
+  lzma_alone_decoder_init:
+    Hash: 0x8af158c7b1e9994a
+    Counters: 6
+    Function count: 0
+  alone_decoder.c:alone_decode:
+    Hash: 0x4ae4676ec1a96b9e
+    Counters: 26
+    Function count: 0
+  alone_decoder.c:alone_decoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  alone_decoder.c:alone_decoder_memconfig:
+    Hash: 0x02a048a6d2611458
+    Counters: 3
+    Function count: 0
+  lzma_alone_decoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 0
+  lzma_auto_decoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 0
+  auto_decoder.c:auto_decoder_init:
+    Hash: 0x0189611045aa3bee
+    Counters: 7
+    Function count: 0
+  auto_decoder.c:auto_decode:
+    Hash: 0xf1ff2c6453917a16
+    Counters: 19
+    Function count: 0
+  auto_decoder.c:auto_decoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  auto_decoder.c:auto_decoder_get_check:
+    Hash: 0x000000000001835f
+    Counters: 2
+    Function count: 0
+  auto_decoder.c:auto_decoder_memconfig:
+    Hash: 0x7c0cb36d76fe610d
+    Counters: 5
+    Function count: 0
+  lzma_block_buffer_decode:
+    Hash: 0xb4800c0519487f48
+    Counters: 18
+    Function count: 0
+  lzma_block_decoder_init:
+    Hash: 0x6c6843a1489808ce
+    Counters: 10
+    Function count: 2
+  block_decoder.c:block_decode:
+    Hash: 0xa19661e5892a2476
+    Counters: 20
+    Function count: 44547
+  block_decoder.c:block_decoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma_block_decoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 0
+  block_decoder.c:update_size:
+    Hash: 0x413129e599435cfa
+    Counters: 5
+    Function count: 89094
+  block_decoder.c:is_size_valid:
+    Hash: 0x000000000060f7df
+    Counters: 3
+    Function count: 4
+  lzma_block_header_decode:
+    Hash: 0x309c0c33f059601a
+    Counters: 18
+    Function count: 2
+  block_header_decoder.c:unaligned_read32le:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  block_header_decoder.c:free_properties:
+    Hash: 0x000000000011b458
+    Counters: 2
+    Function count: 0
+  lzma_easy_decoder_memusage:
+    Hash: 0x000000000a498458
+    Counters: 2
+    Function count: 0
+  lzma_raw_buffer_decode:
+    Hash: 0x63c79af81c1c90a6
+    Counters: 19
+    Function count: 0
+  lzma_filter_decoder_is_supported:
+    Hash: 0x0000000000000620
+    Counters: 1
+    Function count: 0
+  filter_decoder.c:decoder_find:
+    Hash: 0x00046ca7d2611458
+    Counters: 3
+    Function count: 6
+  lzma_raw_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma_raw_decoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 0
+  lzma_raw_decoder_memusage:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma_properties_decode:
+    Hash: 0xefc5dfe7a7d413af
+    Counters: 4
+    Function count: 2
+  lzma_filter_flags_decode:
+    Hash: 0xd080696575cffc88
+    Counters: 7
+    Function count: 2
+  lzma_index_decoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 0
+  index_decoder.c:index_decoder_init:
+    Hash: 0x057b6768eaf100f8
+    Counters: 8
+    Function count: 0
+  lzma_index_buffer_decode:
+    Hash: 0x689747d08d6a75f5
+    Counters: 15
+    Function count: 0
+  index_decoder.c:index_decoder_reset:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 0
+  index_decoder.c:index_decode:
+    Hash: 0x67401e64504173fd
+    Counters: 31
+    Function count: 0
+  index_decoder.c:index_decoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  index_decoder.c:index_decoder_memconfig:
+    Hash: 0x02a048a6d2611458
+    Counters: 3
+    Function count: 0
+  lzma_index_hash_init:
+    Hash: 0x029f48a7d2611458
+    Counters: 3
+    Function count: 2
+  lzma_index_hash_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma_index_hash_size:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  index_hash.c:index_size:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 6
+  lzma_index_hash_append:
+    Hash: 0x54de94a3add86cb6
+    Counters: 17
+    Function count: 2
+  index_hash.c:hash_append:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 4
+  index_hash.c:index_stream_size:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma_index_hash_decode:
+    Hash: 0x91884da91b2536ff
+    Counters: 42
+    Function count: 2
+  index_hash.c:index_size_unpadded:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 8
+  index_hash.c:vli_ceil4:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 10
+  lzma_stream_buffer_decode:
+    Hash: 0xa211a4fbd8d21de1
+    Counters: 20
+    Function count: 0
+  lzma_stream_decoder_init:
+    Hash: 0xf27bd116f393d32b
+    Counters: 7
+    Function count: 2
+  stream_decoder.c:stream_decode:
+    Hash: 0x55b4c75e72e3f8c7
+    Counters: 52
+    Function count: 44547
+  stream_decoder.c:stream_decoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  stream_decoder.c:stream_decoder_get_check:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  stream_decoder.c:stream_decoder_memconfig:
+    Hash: 0x02a048a6d2611458
+    Counters: 3
+    Function count: 0
+  stream_decoder.c:stream_decoder_reset:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 2
+  lzma_stream_decoder:
+    Hash: 0x1248a0197287ff51
+    Counters: 5
+    Function count: 2
+  lzma_stream_header_decode:
+    Hash: 0x7b4889e0f117cb2f
+    Counters: 4
+    Function count: 2
+  stream_flags_decoder.c:unaligned_read32le:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 6
+  stream_flags_decoder.c:stream_flags_decode:
+    Hash: 0x000000a3e0498458
+    Counters: 4
+    Function count: 4
+  lzma_stream_footer_decode:
+    Hash: 0x7b4889e0f117cb2f
+    Counters: 4
+    Function count: 2
+  lzma_vli_decode:
+    Hash: 0x6d0d21fff5e1fd17
+    Counters: 16
+    Function count: 10
+  lzma_check_is_supported:
+    Hash: 0x000000029c498458
+    Counters: 2
+    Function count: 5
+  lzma_check_size:
+    Hash: 0x000000029c498458
+    Counters: 2
+    Function count: 10
+  lzma_check_init:
+    Hash: 0xf075cb4e7dfe9b90
+    Counters: 7
+    Function count: 7
+  lzma_check_update:
+    Hash: 0x01c8588588589598
+    Counters: 6
+    Function count: 80867
+  lzma_check_finish:
+    Hash: 0x01c8588588589598
+    Counters: 6
+    Function count: 7
+  lzma_crc32:
+    Hash: 0x275e7f66508f02c4
+    Counters: 5
+    Function count: 12
+  lzma_crc64:
+    Hash: 0x275e7f66508f02c4
+    Counters: 5
+    Function count: 80863
+  lzma_sha256_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 4
+  lzma_sha256_update:
+    Hash: 0x68666a0e17b571b9
+    Counters: 4
+    Function count: 4
+  sha256.c:process:
+    Hash: 0x000000000011b458
+    Counters: 2
+    Function count: 4
+  lzma_sha256_finish:
+    Hash: 0x4f9625c8baf05c1e
+    Counters: 4
+    Function count: 4
+  sha256.c:transform:
+    Hash: 0x04fa99b3d99874c3
+    Counters: 18
+    Function count: 4
+  lzma_lz_encoder_memusage:
+    Hash: 0x000000000a498458
+    Counters: 2
+    Function count: 0
+  lz_encoder.c:lz_encoder_prepare:
+    Hash: 0x9813a73abf8342e0
+    Counters: 27
+    Function count: 1
+  lzma_lz_encoder_init:
+    Hash: 0xb450476fd75cbb74
+    Counters: 7
+    Function count: 1
+  lz_encoder.c:lz_encode:
+    Hash: 0x08a657b4009bd660
+    Counters: 11
+    Function count: 36316
+  lz_encoder.c:lz_encoder_end:
+    Hash: 0x00000002a0493458
+    Counters: 2
+    Function count: 1
+  lz_encoder.c:lz_encoder_update:
+    Hash: 0x37fe3af56219e0e4
+    Counters: 4
+    Function count: 0
+  lz_encoder.c:lz_encoder_init:
+    Hash: 0x20f6a4cad2a65267
+    Counters: 9
+    Function count: 1
+  lzma_mf_is_supported:
+    Hash: 0x61f0247ea5f74c42
+    Counters: 6
+    Function count: 0
+  lz_encoder.c:fill_window:
+    Hash: 0xbc6f3d6f76d89ffa
+    Counters: 11
+    Function count: 32027
+  lz_encoder.c:move_window:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 27
+  lzma_mf_find:
+    Hash: 0x5d3566b6b1ffa668
+    Counters: 7
+    Function count: 195785210
+  lz_encoder_mf.c:mf_avail:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 262598398
+  lz_encoder_mf.c:mf_ptr:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 262598395
+  lzma_mf_hc3_find:
+    Hash: 0x68f1c26ebc0678ec
+    Counters: 14
+    Function count: 0
+  lz_encoder_mf.c:move_pending:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 3
+  lz_encoder_mf.c:move_pos:
+    Hash: 0x000029f49129f491
+    Counters: 3
+    Function count: 262143997
+  lz_encoder_mf.c:hc_find_func:
+    Hash: 0xf1d1b0f17e13ec87
+    Counters: 13
+    Function count: 0
+  lzma_mf_hc3_skip:
+    Hash: 0x00ca6d25d10d1811
+    Counters: 4
+    Function count: 0
+  lzma_mf_hc4_find:
+    Hash: 0x268971d92d25b9bf
+    Counters: 21
+    Function count: 0
+  lzma_mf_hc4_skip:
+    Hash: 0x00ca6d25d10d1811
+    Counters: 4
+    Function count: 0
+  lzma_mf_bt2_find:
+    Hash: 0xe797d46bf2ed9c4e
+    Counters: 7
+    Function count: 0
+  lz_encoder_mf.c:bt_find_func:
+    Hash: 0x1aa31fd529662c32
+    Counters: 13
+    Function count: 195708139
+  lzma_mf_bt2_skip:
+    Hash: 0x84b407f294e4ff04
+    Counters: 8
+    Function count: 0
+  lz_encoder_mf.c:bt_skip_func:
+    Hash: 0xba9121db22371f48
+    Counters: 12
+    Function count: 66435858
+  lzma_mf_bt3_find:
+    Hash: 0x68f1c26ebc0678ec
+    Counters: 14
+    Function count: 0
+  lzma_mf_bt3_skip:
+    Hash: 0x84b407f294e4ff04
+    Counters: 8
+    Function count: 0
+  lzma_mf_bt4_find:
+    Hash: 0x268971d92d25b9bf
+    Counters: 21
+    Function count: 195785210
+  lzma_mf_bt4_skip:
+    Hash: 0x84b407f294e4ff04
+    Counters: 8
+    Function count: 463536
+  lz_encoder_mf.c:normalize:
+    Hash: 0x00046ca7524d1458
+    Counters: 3
+    Function count: 0
+  lzma_lz_decoder_init:
+    Hash: 0x82615c7d082c0742
+    Counters: 13
+    Function count: 2
+  lz_decoder.c:lz_decode:
+    Hash: 0x1e675ef1b37319b8
+    Counters: 18
+    Function count: 44547
+  lz_decoder.c:lz_decoder_end:
+    Hash: 0x00000002a0493458
+    Counters: 2
+    Function count: 2
+  lz_decoder.c:lz_decoder_reset:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 4
+  lzma_lz_decoder_memusage:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma_lz_decoder_uncompressed:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  lz_decoder.c:decode_buffer:
+    Hash: 0x61b8ea1956fb9b63
+    Counters: 13
+    Function count: 44547
+  lzma_lzma_encode:
+    Hash: 0xac122a5f35099cfd
+    Counters: 17
+    Function count: 32690
+  lzma_encoder.c:encode_init:
+    Hash: 0x500103d2056e0e1a
+    Counters: 3
+    Function count: 1
+  lzma_encoder.c:mf_position:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 32690
+  lzma_encoder.c:rc_encode:
+    Hash: 0x5ac1dac3e3c44790
+    Counters: 13
+    Function count: 27229463
+  lzma_encoder.c:rc_pending:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 27228797
+  lzma_encoder.c:encode_symbol:
+    Hash: 0x029f49329b493451
+    Counters: 3
+    Function count: 27196108
+  lzma_encoder.c:encode_eopm:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  lzma_encoder.c:rc_flush:
+    Hash: 0x00000000000046d1
+    Counters: 2
+    Function count: 665
+  lzma_lzma_encoder_reset:
+    Hash: 0xef27f006ac22188c
+    Counters: 9
+    Function count: 66
+  lzma_encoder.c:is_options_valid:
+    Hash: 0x001838e39e74f7df
+    Counters: 8
+    Function count: 66
+  lzma_encoder.c:rc_reset:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 731
+  lzma_encoder.c:literal_init:
+    Hash: 0x00000046c46d1458
+    Counters: 3
+    Function count: 66
+  lzma_encoder.c:length_encoder_reset:
+    Hash: 0x8d320faaec3a4e41
+    Counters: 7
+    Function count: 132
+  lzma_lzma_encoder_create:
+    Hash: 0x00837e43116a5804
+    Counters: 10
+    Function count: 1
+  lzma_encoder.c:set_lz_options:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma_lzma_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_encoder.c:lzma_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_lzma_encoder_memusage:
+    Hash: 0xdd4761b89633c250
+    Counters: 3
+    Function count: 0
+  lzma_lzma_lclppb_encode:
+    Hash: 0x000000029a498458
+    Counters: 2
+    Function count: 1
+  lzma_encoder.c:is_lclppb_valid:
+    Hash: 0x000060e38e75d75d
+    Counters: 7
+    Function count: 67
+  lzma_lzma_props_encode:
+    Hash: 0x000000000a498458
+    Counters: 2
+    Function count: 0
+  lzma_encoder.c:unaligned_write32le:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_mode_is_supported:
+    Hash: 0x000000000060f7df
+    Counters: 3
+    Function count: 0
+  lzma_encoder.c:mf_skip:
+    Hash: 0x00000000002a0491
+    Counters: 2
+    Function count: 1
+  lzma_encoder.c:rc_bit:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 338314708
+  lzma_encoder.c:rc_bittree:
+    Hash: 0x0000000000003811
+    Counters: 2
+    Function count: 32625082
+  lzma_encoder.c:rc_shift_low:
+    Hash: 0xdddc5d47b69d41ac
+    Counters: 6
+    Function count: 40838599
+  lzma_encoder.c:literal:
+    Hash: 0x000a6d24d135d35d
+    Counters: 4
+    Function count: 12401955
+  lzma_encoder.c:rep_match:
+    Hash: 0xdd657b0d8d25bde4
+    Counters: 7
+    Function count: 3996583
+  lzma_encoder.c:match:
+    Hash: 0x14ee2896aa31f9e1
+    Counters: 5
+    Function count: 10797570
+  lzma_encoder.c:literal_matched:
+    Hash: 0x00000000000036d1
+    Counters: 2
+    Function count: 4906679
+  lzma_encoder.c:length:
+    Hash: 0x9dc24aac4b0a50b4
+    Counters: 5
+    Function count: 14332235
+  lzma_encoder.c:length_update_prices:
+    Hash: 0x5bec78fcf52e116b
+    Counters: 8
+    Function count: 227921
+  lzma_encoder.c:rc_bit_0_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 455842
+  lzma_encoder.c:rc_bit_1_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 455842
+  lzma_encoder.c:rc_bittree_price:
+    Hash: 0x00000000000e0458
+    Counters: 2
+    Function count: 14359023
+  lzma_encoder.c:rc_bit_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 96638504
+  lzma_encoder.c:get_pos_slot:
+    Hash: 0x5a0baa258a6a0d50
+    Counters: 3
+    Function count: 10797570
+  lzma_encoder.c:rc_bittree_reverse:
+    Hash: 0x0000000000003811
+    Counters: 2
+    Function count: 10750592
+  lzma_encoder.c:rc_direct:
+    Hash: 0x0000000000003811
+    Counters: 2
+    Function count: 8657929
+  lzma_encoder.c:lzma_encode:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 0
+  lzma_lzma_preset:
+    Hash: 0x856c482a9d9ac5a9
+    Counters: 13
+    Function count: 1
+  lzma_lzma_optimum_fast:
+    Hash: 0x71a20fdabc9e3d1b
+    Counters: 55
+    Function count: 0
+  lzma_encoder_optimum_fast.c:mf_ptr:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_encoder_optimum_fast.c:mf_avail:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_encoder_optimum_fast.c:mf_skip:
+    Hash: 0x00000000002a0491
+    Counters: 2
+    Function count: 0
+  lzma_lzma_optimum_normal:
+    Hash: 0xf76ccf668e264bb6
+    Counters: 9
+    Function count: 27196108
+  lzma_encoder_optimum_normal.c:fill_distances_prices:
+    Hash: 0xc9e2daf12dae0976
+    Counters: 7
+    Function count: 63339
+  lzma_encoder_optimum_normal.c:fill_align_prices:
+    Hash: 0x000000000011b458
+    Counters: 2
+    Function count: 205837
+  lzma_encoder_optimum_normal.c:helper1:
+    Hash: 0x1f07ab0fa73a4e72
+    Counters: 36
+    Function count: 5940681
+  lzma_encoder_optimum_normal.c:helper2:
+    Hash: 0x226074ff085af68c
+    Counters: 85
+    Function count: 189844529
+  lzma_encoder_optimum_normal.c:mf_ptr:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 195785210
+  lzma_encoder_optimum_normal.c:mf_avail:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 195786525
+  lzma_encoder_optimum_normal.c:backward:
+    Hash: 0x00ca48a491460458
+    Counters: 4
+    Function count: 858569
+  lzma_encoder_optimum_normal.c:rc_bittree_price:
+    Hash: 0x00000000000e0458
+    Counters: 2
+    Function count: 41936004
+  lzma_encoder_optimum_normal.c:rc_direct_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 8614104
+  lzma_encoder_optimum_normal.c:get_pos_slot:
+    Hash: 0x5a0baa258a6a0d50
+    Counters: 3
+    Function count: 7854036
+  lzma_encoder_optimum_normal.c:rc_bittree_reverse_price:
+    Hash: 0x00000000000e0458
+    Counters: 2
+    Function count: 11147428
+  lzma_encoder_optimum_normal.c:rc_bit_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2354835913
+  lzma_encoder_optimum_normal.c:mf_skip:
+    Hash: 0x00000000002a0491
+    Counters: 2
+    Function count: 463535
+  lzma_encoder_optimum_normal.c:rc_bit_0_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 870471159
+  lzma_encoder_optimum_normal.c:get_literal_price:
+    Hash: 0x000a6924c36d1458
+    Counters: 3
+    Function count: 275154110
+  lzma_encoder_optimum_normal.c:make_literal:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 33521441
+  lzma_encoder_optimum_normal.c:rc_bit_1_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 855813784
+  lzma_encoder_optimum_normal.c:get_short_rep_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 106255176
+  lzma_encoder_optimum_normal.c:make_short_rep:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 3764737
+  lzma_encoder_optimum_normal.c:get_pure_rep_price:
+    Hash: 0xd6a247329b5f6f30
+    Counters: 3
+    Function count: 268900827
+  lzma_encoder_optimum_normal.c:get_len_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 3509320374
+  lzma_encoder_optimum_normal.c:get_pos_len_price:
+    Hash: 0x000035b29b493458
+    Counters: 3
+    Function count: 1486399284
+  lzma_encoder_optimum_normal.c:get_pos_slot_2:
+    Hash: 0x5a0baa258a6a0d50
+    Counters: 3
+    Function count: 1258327880
+  lzma_encoder_optimum_normal.c:get_rep_price:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 85259805
+  lzma_lzma_decoder_create:
+    Hash: 0x029f48a7d2611458
+    Counters: 3
+    Function count: 2
+  lzma_decoder.c:lzma_decode:
+    Hash: 0x1afec785f7c47d40
+    Counters: 599
+    Function count: 44106
+  lzma_decoder.c:lzma_decoder_reset:
+    Hash: 0xac70209fea7a3aa1
+    Counters: 15
+    Function count: 14
+  lzma_decoder.c:lzma_decoder_uncompressed:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 722
+  lzma_lzma_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_decoder.c:lzma_decoder_init:
+    Hash: 0xb4523f1090101af0
+    Counters: 4
+    Function count: 0
+  lzma_lzma_lclppb_decode:
+    Hash: 0x000000a71261161c
+    Counters: 2
+    Function count: 2
+  lzma_lzma_decoder_memusage_nocheck:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma_lzma_decoder_memusage:
+    Hash: 0x000000029a498458
+    Counters: 2
+    Function count: 0
+  lzma_decoder.c:is_lclppb_valid:
+    Hash: 0x000060e38e75d75d
+    Counters: 7
+    Function count: 0
+  lzma_lzma_props_decode:
+    Hash: 0xcd921eeba43eb4e6
+    Counters: 5
+    Function count: 0
+  lzma_decoder.c:unaligned_read32le:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_decoder.c:rc_read_init:
+    Hash: 0x000270a7d2611458
+    Counters: 3
+    Function count: 44106
+  lzma_decoder.c:dict_get:
+    Hash: 0x000000000001835b
+    Counters: 2
+    Function count: 18220329
+  lzma_decoder.c:dict_put:
+    Hash: 0x029f49844a712458
+    Counters: 3
+    Function count: 10673650
+  lzma_decoder.c:dict_is_distance_valid:
+    Hash: 0x000000000000061c
+    Counters: 1
+    Function count: 17805619
+  lzma_decoder.c:dict_repeat:
+    Hash: 0x28ebe8c162ebeb52
+    Counters: 7
+    Function count: 17285192
+  lzma_decoder.c:literal_init:
+    Hash: 0x00000046c46d1458
+    Counters: 3
+    Function count: 14
+  lzma_lzma2_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma2_encoder.c:lzma2_encoder_init:
+    Hash: 0x364616d59e8dca65
+    Counters: 9
+    Function count: 1
+  lzma_lzma2_encoder_memusage:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 0
+  lzma_lzma2_props_encode:
+    Hash: 0x000035c29f493458
+    Counters: 3
+    Function count: 1
+  lzma2_encoder.c:get_pos_slot:
+    Hash: 0x5a0baa258a6a0d50
+    Counters: 3
+    Function count: 1
+  lzma2_encoder.c:lzma2_encode:
+    Hash: 0xf8d5f63be7e80a58
+    Counters: 20
+    Function count: 37007
+  lzma2_encoder.c:lzma2_encoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 1
+  lzma2_encoder.c:lzma2_encoder_options_update:
+    Hash: 0xac4907becd903550
+    Counters: 16
+    Function count: 0
+  lzma2_encoder.c:mf_unencoded:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 666
+  lzma2_encoder.c:lzma2_header_uncompressed:
+    Hash: 0x000000000a493458
+    Counters: 2
+    Function count: 65
+  lzma2_encoder.c:lzma2_header_lzma:
+    Hash: 0x16aa68fc976e8ebb
+    Counters: 5
+    Function count: 600
+  lzma2_encoder.c:mf_read:
+    Hash: 0x000000000000d6d8
+    Counters: 2
+    Function count: 549
+  lzma_lzma2_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma2_decoder.c:lzma2_decoder_init:
+    Hash: 0x157e426a2fcd5867
+    Counters: 5
+    Function count: 2
+  lzma_lzma2_decoder_memusage:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma_lzma2_props_decode:
+    Hash: 0x9d7102e0bc903e3d
+    Counters: 6
+    Function count: 2
+  lzma2_decoder.c:lzma2_decode:
+    Hash: 0xe185c705bf2b2b34
+    Counters: 30
+    Function count: 44549
+  lzma2_decoder.c:lzma2_decoder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma2_decoder.c:dict_reset:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 2
+  lzma2_decoder.c:dict_write:
+    Hash: 0x000a71244a712458
+    Counters: 3
+    Function count: 1239
+  lzma_delta_coder_init:
+    Hash: 0xbf0ec027f6eda0c2
+    Counters: 4
+    Function count: 0
+  delta_common.c:delta_coder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_delta_coder_memusage:
+    Hash: 0xe43d7657ace3dfe3
+    Counters: 8
+    Function count: 0
+  lzma_delta_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  delta_encoder.c:delta_encode:
+    Hash: 0x08bfe92cdf1c0ddc
+    Counters: 6
+    Function count: 0
+  delta_encoder.c:delta_encoder_update:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_delta_props_encode:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 0
+  delta_encoder.c:copy_and_encode:
+    Hash: 0x00000000000046d1
+    Counters: 2
+    Function count: 0
+  delta_encoder.c:encode_in_place:
+    Hash: 0x00000000000046d1
+    Counters: 2
+    Function count: 0
+  lzma_delta_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  delta_decoder.c:delta_decode:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_delta_props_decode:
+    Hash: 0x248783814c7b6f7e
+    Counters: 3
+    Function count: 0
+  delta_decoder.c:decode_buffer:
+    Hash: 0x00000000000046d1
+    Counters: 2
+    Function count: 0
+  lzma_simple_coder_init:
+    Hash: 0x5875485ec75d53a8
+    Counters: 7
+    Function count: 0
+  simple_coder.c:simple_code:
+    Hash: 0xf938a549daf2fc28
+    Counters: 18
+    Function count: 0
+  simple_coder.c:simple_coder_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  simple_coder.c:simple_coder_update:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  simple_coder.c:copy_or_code:
+    Hash: 0x6d50230f38efa585
+    Counters: 9
+    Function count: 0
+  simple_coder.c:call_filter:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_simple_props_size:
+    Hash: 0x000000000d3df7d8
+    Counters: 4
+    Function count: 0
+  lzma_simple_props_encode:
+    Hash: 0x000028f7df498458
+    Counters: 4
+    Function count: 0
+  simple_encoder.c:unaligned_write32le:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_simple_props_decode:
+    Hash: 0xa94a78fd7ea8220f
+    Counters: 5
+    Function count: 0
+  simple_decoder.c:unaligned_read32le:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_simple_x86_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  x86.c:x86_coder_init:
+    Hash: 0x000000000a7d2458
+    Counters: 2
+    Function count: 0
+  lzma_simple_x86_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  x86.c:x86_code:
+    Hash: 0x82568ae8aa425d7f
+    Counters: 25
+    Function count: 0
+  lzma_simple_powerpc_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  powerpc.c:powerpc_coder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_simple_powerpc_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  powerpc.c:powerpc_code:
+    Hash: 0x28428e5343d8c2ae
+    Counters: 6
+    Function count: 0
+  lzma_simple_ia64_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  ia64.c:ia64_coder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_simple_ia64_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  ia64.c:ia64_code:
+    Hash: 0x662fa6a09553fd7a
+    Counters: 10
+    Function count: 0
+  lzma_simple_arm_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  arm.c:arm_coder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_simple_arm_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  arm.c:arm_code:
+    Hash: 0x404e48fc514b0d70
+    Counters: 4
+    Function count: 0
+  lzma_simple_armthumb_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  armthumb.c:armthumb_coder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_simple_armthumb_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  armthumb.c:armthumb_code:
+    Hash: 0x28428e5343d8c2ae
+    Counters: 6
+    Function count: 0
+  lzma_simple_sparc_encoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  sparc.c:sparc_coder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  lzma_simple_sparc_decoder_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  sparc.c:sparc_code:
+    Hash: 0x2965b8d270dfef56
+    Counters: 9
+    Function count: 0
+  coder_set_check:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  coder_set_preset:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  coder.c:forget_filter_chain:
+    Hash: 0x000000000009c458
+    Counters: 2
+    Function count: 0
+  coder_set_extreme:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  coder_add_filter:
+    Hash: 0x000000000a7d2458
+    Counters: 2
+    Function count: 0
+  coder_set_compression_settings:
+    Hash: 0xe9567d15c350c441
+    Counters: 31
+    Function count: 0
+  coder.c:memlimit_too_small:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  coder_run:
+    Hash: 0xf84d76193a32a90b
+    Counters: 10
+    Function count: 0
+  coder.c:coder_init:
+    Hash: 0x775e69979d9f2dc1
+    Counters: 31
+    Function count: 0
+  coder.c:coder_normal:
+    Hash: 0xd0bb194b7474fadb
+    Counters: 28
+    Function count: 0
+  coder.c:coder_passthru:
+    Hash: 0xfa2f26d9a3e7fb12
+    Counters: 5
+    Function count: 0
+  coder.c:is_format_xz:
+    Hash: 0x000000000060e79f
+    Counters: 3
+    Function count: 0
+  coder.c:is_format_lzma:
+    Hash: 0x2d3c9ce3073592c7
+    Counters: 11
+    Function count: 0
+  io_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  io_no_sparse:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  io_open_src:
+    Hash: 0x000000029261160d
+    Counters: 3
+    Function count: 0
+  file_io.c:io_open_src_real:
+    Hash: 0xf517157709122172
+    Counters: 10
+    Function count: 0
+  io_open_dest:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  file_io.c:io_open_dest_real:
+    Hash: 0xbdd8079c801e35dd
+    Counters: 3
+    Function count: 0
+  io_close:
+    Hash: 0x15899283c0ad7e65
+    Counters: 9
+    Function count: 0
+  file_io.c:io_write_buf:
+    Hash: 0x5b421589c83bea48
+    Counters: 6
+    Function count: 0
+  file_io.c:io_close_dest:
+    Hash: 0x020d6d3e55ea1fc8
+    Counters: 5
+    Function count: 0
+  file_io.c:io_close_src:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  io_read:
+    Hash: 0x65efc261b1289815
+    Counters: 6
+    Function count: 0
+  io_pread:
+    Hash: 0x638d4c3693531e64
+    Counters: 4
+    Function count: 0
+  io_write:
+    Hash: 0xbe335f3c6f9c3889
+    Counters: 7
+    Function count: 0
+  file_io.c:is_sparse:
+    Hash: 0x00046ca812611458
+    Counters: 3
+    Function count: 0
+  hardware_threadlimit_set:
+    Hash: 0x000000029f493458
+    Counters: 2
+    Function count: 0
+  hardware_threadlimit_get:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  hardware_memlimit_set:
+    Hash: 0x029244a491292458
+    Counters: 4
+    Function count: 0
+  hardware_memlimit_get:
+    Hash: 0x000000000d7d8360
+    Counters: 3
+    Function count: 0
+  hardware_memlimit_show:
+    Hash: 0x0000000000000020
+    Counters: 1
+    Function count: 0
+  hardware_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  list_totals:
+    Hash: 0x243b32a622637107
+    Counters: 4
+    Function count: 0
+  list.c:print_totals_robot:
+    Hash: 0x000000029e48d458
+    Counters: 3
+    Function count: 0
+  list.c:print_totals_basic:
+    Hash: 0x000000000d7cd758
+    Counters: 3
+    Function count: 0
+  list.c:print_totals_adv:
+    Hash: 0x000000029e48d458
+    Counters: 3
+    Function count: 0
+  list_file:
+    Hash: 0x0c1698c0bec7e0f6
+    Counters: 10
+    Function count: 0
+  list.c:parse_indexes:
+    Hash: 0xbbe76e1b59439947
+    Counters: 36
+    Function count: 0
+  list.c:print_info_robot:
+    Hash: 0xb7bb332f59990439
+    Counters: 10
+    Function count: 0
+  list.c:print_info_basic:
+    Hash: 0x000000000a692458
+    Counters: 2
+    Function count: 0
+  list.c:print_info_adv:
+    Hash: 0x67729424d6058e09
+    Counters: 14
+    Function count: 0
+  list.c:update_totals:
+    Hash: 0x000000000a6d2458
+    Counters: 2
+    Function count: 0
+  list.c:get_check_names:
+    Hash: 0x034474a48d351458
+    Counters: 6
+    Function count: 0
+  list.c:get_ratio:
+    Hash: 0x6679c258343eedbc
+    Counters: 3
+    Function count: 0
+  putchar:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  list.c:print_adv_helper:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  list.c:parse_details:
+    Hash: 0x000a49844a498458
+    Counters: 3
+    Function count: 0
+  list.c:parse_block_header:
+    Hash: 0x6ad8d9c4719cd04a
+    Counters: 25
+    Function count: 0
+  list.c:parse_check_value:
+    Hash: 0x4fc7885028736027
+    Counters: 6
+    Function count: 0
+  set_exit_status:
+    Hash: 0x000000000a812458
+    Counters: 2
+    Function count: 0
+  set_exit_no_warn:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_verbosity_increase:
+    Hash: 0x000000000a6d2458
+    Counters: 2
+    Function count: 0
+  message_verbosity_decrease:
+    Hash: 0x000000000a712458
+    Counters: 2
+    Function count: 0
+  message_verbosity_get:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_set_files:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_filename:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_progress_start:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_progress_update:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_progress_end:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message.c:vmessage:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_warning:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_error:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_fatal:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  message_bug:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  message_signal_handler:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  message_strm:
+    Hash: 0x86b79814e8ecb789
+    Counters: 14
+    Function count: 0
+  message_mem_needed:
+    Hash: 0x40483ca35ee074e4
+    Counters: 4
+    Function count: 0
+  message_filters_to_str:
+    Hash: 0xe582babf9863a5a8
+    Counters: 31
+    Function count: 0
+  message.c:uint32_to_optstr:
+    Hash: 0xd6a247329b5f6f30
+    Counters: 3
+    Function count: 0
+  message_filters_show:
+    Hash: 0x000000029c498458
+    Counters: 2
+    Function count: 0
+  message_try_help:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  message_version:
+    Hash: 0x000000000a493460
+    Counters: 2
+    Function count: 0
+  message_help:
+    Hash: 0x643d5228532e66bd
+    Counters: 10
+    Function count: 0
+  options_delta:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  options.c:parse_options:
+    Hash: 0x3318157f2fbe0431
+    Counters: 20
+    Function count: 0
+  options.c:set_delta:
+    Hash: 0x0000000000007216
+    Counters: 3
+    Function count: 0
+  options_bcj:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  options.c:set_bcj:
+    Hash: 0x0000000000007216
+    Counters: 3
+    Function count: 0
+  options_lzma:
+    Hash: 0xda217a43688d084a
+    Counters: 4
+    Function count: 0
+  options.c:set_lzma:
+    Hash: 0xd07300fd7242e591
+    Counters: 18
+    Function count: 0
+  options.c:error_lzma_preset:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  signals_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  signals_block:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  signals_unblock:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  signals_exit:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  xrealloc:
+    Hash: 0x000000000a7d2458
+    Counters: 2
+    Function count: 0
+  xstrdup:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  str_to_uint64:
+    Hash: 0x1c80a8d51875abef
+    Counters: 36
+    Function count: 0
+  round_up_to_mib:
+    Hash: 0x0000000000000620
+    Counters: 1
+    Function count: 0
+  uint64_to_str:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  util.c:check_thousand_sep:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  uint64_to_nicestr:
+    Hash: 0x99e94946a64f74bb
+    Counters: 13
+    Function count: 0
+  my_snprintf:
+    Hash: 0x000028f6de493458
+    Counters: 4
+    Function count: 0
+  is_empty_filename:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 0
+  is_tty_stdin:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  is_tty_stdout:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  tuklib_open_stdxxx:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  tuklib_progname_init:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  tuklib_exit:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 0
+  tuklib_cpucores:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  tuklib_mbstr_width:
+    Hash: 0x000000000a812458
+    Counters: 2
+    Function count: 0
+  tuklib_mbstr_fw:
+    Hash: 0x33f194bca6c07ddb
+    Counters: 4
+    Function count: 0
+  spec_mem_init:
+    Hash: 0xe74bb328d3100ad8
+    Counters: 9
+    Function count: 1
+  spec_mem_sum:
+    Hash: 0x92bf8d61bad1c2a4
+    Counters: 5
+    Function count: 3
+  spec_mem_load:
+    Hash: 0x6a14ff5b2acca682
+    Counters: 21
+    Function count: 1
+  spec_mem_io.c:fd_grow:
+    Hash: 0x000029f49129b491
+    Counters: 3
+    Function count: 0
+  spec_uncompress:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 2
+  compare_sum:
+    Hash: 0x5d59ff9198469bd7
+    Counters: 7
+    Function count: 2
+  print_sum:
+    Hash: 0x00000000000046d1
+    Counters: 2
+    Function count: 1
+  spec_mem_read:
+    Hash: 0x872ca774d5d71f32
+    Counters: 11
+    Function count: 0
+  spec_mem_fread:
+    Hash: 0x69f347b86647422b
+    Counters: 11
+    Function count: 37990
+  spec_mem_getc:
+    Hash: 0xc589b1f08c5d808d
+    Counters: 10
+    Function count: 0
+  spec_mem_ungetc:
+    Hash: 0xaf94c2fb5026ddee
+    Counters: 10
+    Function count: 0
+  spec_mem_lseek:
+    Hash: 0xb7302b2219c7371f
+    Counters: 13
+    Function count: 2
+  spec_mem_rewind:
+    Hash: 0x000000000a6d2458
+    Counters: 2
+    Function count: 2
+  spec_mem_reset:
+    Hash: 0x000a6d244a6d2458
+    Counters: 3
+    Function count: 2
+  spec_mem_get_length:
+    Hash: 0x02a049844a6d2458
+    Counters: 3
+    Function count: 0
+  spec_mem_fopen:
+    Hash: 0x20fd9294e6a48524
+    Counters: 8
+    Function count: 0
+  spec_mem_open:
+    Hash: 0x7b844913fdd611cd
+    Counters: 10
+    Function count: 0
+  spec_mem_write:
+    Hash: 0x20a7be5e6df81387
+    Counters: 9
+    Function count: 0
+  spec_mem_fwrite:
+    Hash: 0xb01b571d87d4f99c
+    Counters: 9
+    Function count: 43547
+  spec_mem_putc:
+    Hash: 0x7d2c52be8bb351a3
+    Counters: 9
+    Function count: 0
+  spec_mem_feof:
+    Hash: 0x75a65f77b1269f0a
+    Counters: 5
+    Function count: 75987
+  spec_mem_close:
+    Hash: 0x11027dd178cfc55d
+    Counters: 5
+    Function count: 0
+  spec_empty:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  spec_initbufs:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 1
+  spec_compress:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 1
+  debug_time:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 6
+  sum_str_to_hex:
+    Hash: 0x000029f49111b458
+    Counters: 3
+    Function count: 1
+  spec_mem_io.c:hex_char_to_num:
+    Hash: 0x16b56c6a87355a4f
+    Counters: 7
+    Function count: 128
+  spec_mem_alloc_fds:
+    Hash: 0xcb526207ad4aaa8e
+    Counters: 5
+    Function count: 1
+  spec_mem_free_fds:
+    Hash: 0x4e9ce30a89b48254
+    Counters: 7
+    Function count: 0
+  sha_init:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 3
+  sha_process:
+    Hash: 0x435ea7ee1d50729a
+    Counters: 6
+    Function count: 3
+  sha512.c:sortof_strdup:
+    Hash: 0x000000000a7d2458
+    Counters: 2
+    Function count: 3
+  sha512.c:sha_compress:
+    Hash: 0xed2fd488e19acfe7
+    Counters: 6
+    Function count: 4516156
+  sha512.c:sha_min:
+    Hash: 0x000000000001835b
+    Counters: 2
+    Function count: 1
+  sha_done:
+    Hash: 0x1db4c048a26e1724
+    Counters: 5
+    Function count: 3
+  sha512.c:store64:
+    Hash: 0x0000000000004811
+    Counters: 2
+    Function count: 27
+  sha512.c:load64:
+    Hash: 0x0000000000120458
+    Counters: 2
+    Function count: 72258496
+  sha512.c:Gamma1:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 289033984
+  sha512.c:Gamma0:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 289033984
+  sha512.c:Sigma1:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 361292480
+  sha512.c:Ch:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 361292480
+  sha512.c:Sigma0:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 361292480
+  sha512.c:Maj:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 361292480
+  sha512.c:Rot:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 3323890816
+  sha512.c:Sh:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 578067968
+Instrumentation level: Front-end
+Functions shown: 543
+Total functions: 543
+Maximum function count: 3509320374
+Maximum internal block count: 6329676010
+Top 5 functions with the largest internal block counts: 
+  lz_encoder_mf.c:bt_find_func, max count = 6329676010
+  lz_encoder_mf.c:bt_skip_func, max count = 5133904873
+  lzma_encoder_optimum_normal.c:get_len_price, max count = 3509320374
+  sha512.c:Rot, max count = 3323890816
+  lzma_encoder_optimum_normal.c:rc_bit_price, max count = 2354835913
