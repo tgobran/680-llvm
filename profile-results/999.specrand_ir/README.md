@@ -6,32 +6,32 @@ The program was compiled with the following options:
 
 Smaller functions such as simple Constructors were ignored for hot functions.
 
-### 1. 
-Basic Block Executions: 
+### 1. spec_genrand_int32 (specrand-common/specrand.c)
+Basic Block Executions: 1879384
 
 Features:
 * TODO
 
-### 2. 
-Basic Block Executions: 
+### 2. spec_rand (specrand-common/specrand.c)
+Basic Block Executions: 939692
 
 Features:
 * TODO
 
-### 3. 
-Basic Block Executions: 
+### 3. spec_lrand48 (specrand-common/specrand.c)
+Basic Block Executions: 939692
 
 Features:
 * TODO
 
-### 4. 
-Basic Block Executions: 
+### 4. run_sequence (main.c)
+Basic Block Executions: 469846
 
 Features:
 * TODO
 
-### 5. 
-Basic Block Executions: 
+### 5. spec_init_genrand (specrand-common/specrand.c)
+Basic Block Executions: 4984
 
 Features:
 * TODO
