@@ -31,7 +31,7 @@ Features:
 * TODO
 
 ### 5. merge_strings (FastBoard.cpp)
-Basic Block Executions: 
+Basic Block Executions: 5601060928
 
 Features:
 * TODO
