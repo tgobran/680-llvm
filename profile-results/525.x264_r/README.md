@@ -6,32 +6,32 @@ The program was compiled with the following options:
 
 Smaller functions such as simple Constructors were ignored for hot functions.
 
-### 1. 
-Basic Block Executions: 
+### 1. variance (image_validator/ImageValidator.c)
+Basic Block Executions: 1843200
 
 Features:
 * TODO
 
-### 2. 
-Basic Block Executions: 
+### 2. mean (image_validator/ImageValidator.c)
+Basic Block Executions: 1843200
 
 Features:
 * TODO
 
-### 3. 
-Basic Block Executions: 
+### 3. read_yuv_file (image_validator/ImageValidator.c)
+Basic Block Executions: 921600
 
 Features:
 * TODO
 
-### 4. 
-Basic Block Executions: 
+### 4. computeSSIM (image_validator/ImageValidator.c)
+Basic Block Executions: 921600
 
 Features:
 * TODO
 
-### 5. 
-Basic Block Executions: 
+### 5. covariance (image_validator/ImageValidator.c)
+Basic Block Executions: 921600
 
 Features:
 * TODO
