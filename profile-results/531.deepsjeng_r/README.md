@@ -6,32 +6,32 @@ The program was compiled with the following options:
 
 Smaller functions such as simple Constructors were ignored for hot functions.
 
-### 1. 
-Basic Block Executions: 
+### 1. remove_one_fast (search.cpp)
+Basic Block Executions: 11904211699
 
 Features:
 * TODO
 
-### 2. 
-Basic Block Executions: 
+### 2. FindFirstRemove (bits.cpp)
+Basic Block Executions: 7592818589
 
 Features:
 * TODO
 
-### 3. 
-Basic Block Executions: 
+### 3. PopCount (bits.cpp)
+Basic Block Executions: 5393808666
 
 Features:
 * TODO
 
-### 4. 
-Basic Block Executions: 
+### 4. FileAttacks (bitboard.cpp)
+Basic Block Executions: 3437787237
 
 Features:
 * TODO
 
-### 5. 
-Basic Block Executions: 
+### 5. RankAttacks (bitboard.cpp)
+Basic Block Executions: 3330560340
 
 Features:
 * TODO
