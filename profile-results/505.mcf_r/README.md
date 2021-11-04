@@ -6,32 +6,32 @@ The program was compiled with the following options:
 
 Smaller functions such as simple Constructors were ignored for hot functions.
 
-### 1. 
-Basic Block Executions: 
+### 1. cost_compare (pbeampp.c)
+Basic Block Executions: 17199625996
 
 Features:
 * TODO
 
-### 2. 
-Basic Block Executions: 
+### 2. primal_bea_mpp (pbeampp.c)
+Basic Block Executions: 9092114390
 
 Features:
 * TODO
 
-### 3. 
-Basic Block Executions: 
+### 3. spec_qsort (spec_qsort/spec_qsort.c)
+Basic Block Executions: 8160331559
 
 Features:
 * TODO
 
-### 4. 
-Basic Block Executions: 
+### 4. replace_weaker_arc (implicit.c)
+Basic Block Executions: 3948246921
 
 Features:
 * TODO
 
-### 5. 
-Basic Block Executions: 
+### 5. price_out_impl (implicit.c)
+Basic Block Executions: 3712252500
 
 Features:
 * TODO
