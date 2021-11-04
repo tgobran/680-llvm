@@ -6,31 +6,31 @@ The program was compiled with the following options:
 
 Smaller functions such as simple Constructors were ignored for hot functions.
 
-### 1. 
-Basic Block Executions: 
+### 1. play_random_move (FastState.cpp)
+Basic Block Executions: 7835753190
 
 Features:
 * TODO
 
-### 2. 
-Basic Block Executions: 
+### 2. kill_or_connect (FastBoard.cpp)
+Basic Block Executions: 7547852578
 
 Features:
 * TODO
 
-### 3. 
-Basic Block Executions: 
+### 3. nbr_criticality (FastBoard.cpp)
+Basic Block Executions: 6538040572
 
 Features:
 * TODO
 
-### 4. 
-Basic Block Executions: 
+### 4. add_pattern_moves (FastBoard.cpp)
+Basic Block Executions: 6282723048
 
 Features:
 * TODO
 
-### 5. 
+### 5. merge_strings (FastBoard.cpp)
 Basic Block Executions: 
 
 Features:
