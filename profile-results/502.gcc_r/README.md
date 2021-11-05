@@ -36,21 +36,21 @@ Features:
 Basic Block Executions: 212348411
 
 Features:
-    - function declared with two different prototypes by the help of #IFDEF
-    - one level loop
-    - double nested if statement inside loop
+ - function declared with two different prototypes by the help of #IFDEF
+ - one level loop
+ - double nested if statement inside loop
 
 ### 5. bitmap_bit_p (bitmap.c)
 Basic Block Executions: 178942441
 
 Features:
-	 - function declared with two different prototypes by the help of #IFDEF
-	 - malloc --> heap access
-	 - nested if statements with function calls inside
-	 - one level loops with if statements inside, some of thos if statments contain function calls inside
-	 - several if then elses inside loop
-	 - call another hot function --> qsort
-	 - if --> loop ----> function call
+  - function declared with two different prototypes by the help of #IFDEF
+  - malloc --> heap access
+  - nested if statements with function calls inside
+  - one level loops with if statements inside, some of thos if statments contain function calls inside
+  - several if then elses inside loop
+  - call another hot function --> qsort
+  - if --> loop ----> function call
 
 ## Refrate O2 Hot Functions
 
