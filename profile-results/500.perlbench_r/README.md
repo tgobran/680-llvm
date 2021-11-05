@@ -16,7 +16,8 @@ Features:
 Basic Block Executions: 1130348949
 
 Features:
-* TODO
+
+
 
 ### 3. Perl_leave_scope (scope.c)
 Basic Block Executions: 995660652
@@ -34,6 +35,11 @@ Features:
 Basic Block Executions: 852534058
 
 Features:
+1.	Several Nested if then else statement with complex function call inside.
+2.	Several Nested If condition with goto statement 
+3.	Function call within the nested if statements.
+4.	Several Nested if condition within while loop.
+5.	While loop inside the nested if condition.
 
 
 ### 5. Perl_hv_common (hv.c)
