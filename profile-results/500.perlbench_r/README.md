@@ -16,6 +16,16 @@ Features:
 Basic Block Executions: 1130348949
 
 Features:
+1.	One level while loop with complex function call.
+2.	Multiple Nested if condition with function call inside.
+3.	Several If else condition within while loop, while loop within another if statement
+4.	Multiple Nested if then else statement.
+5.	Case statement with multiple if then else statement.
+6.	Several Nested if condition within one level for loop
+7.	While condition with function call within the Nested loop.
+8.	Nested loops within while loop
+9.	While  If  While loop
+10.	Function defined with #ifdef identifier statement
 
 
 
