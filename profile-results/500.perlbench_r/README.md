@@ -24,7 +24,7 @@ Features:
 6.	Several Nested if condition within one level for loop
 7.	While condition with function call within the Nested loop.
 8.	Nested loops within while loop
-9.	While  If  While loop
+9.	While --> If --> While loop
 10.	Function defined with #ifdef identifier statement
 
 
