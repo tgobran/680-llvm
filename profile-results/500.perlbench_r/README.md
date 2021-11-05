@@ -22,7 +22,13 @@ Features:
 Basic Block Executions: 995660652
 
 Features:
-* TODO
+1.	Nested If statement within while loop.
+2.	Several If condition inside switch case
+3.	Function defined with #ifdef identifier statement
+4.	One level loop with if statements inside
+5.	Nested if condition with complex function call inside.
+6.	Case statement with multiple if condition.
+
 
 ### 4. Perl_regexec_flags (regexec.c)
 Basic Block Executions: 852534058
