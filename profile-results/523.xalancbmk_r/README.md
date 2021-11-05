@@ -6,32 +6,34 @@ The program was compiled with the following options:
 
 Smaller functions such as simple Constructors were ignored for hot functions.
 
-### 1. 
-Basic Block Executions: 
+This benchmark was particularly problematic in terms of finding suitable hot functions.
+
+### 1. stringLen (xercesc/util/XMLString.hpp)
+Basic Block Executions: 24090350766
 
 Features:
 * TODO
 
-### 2. 
-Basic Block Executions: 
+### 2. isInBorders (xalanc/PlatformSupport/ArenaBlockBase.hpp)
+Basic Block Executions: 16754842027
 
 Features:
 * TODO
 
-### 3. 
-Basic Block Executions: 
+### 3. destroyObject (xalanc/PlatformSupport/ReusableArenaBlock.hpp)
+Basic Block Executions: 16752607655
 
 Features:
 * TODO
 
-### 4. 
-Basic Block Executions: 
+### 4. equals (xercesc/util/XMLString.hpp)
+Basic Block Executions: 8607499441
 
 Features:
 * TODO
 
-### 5. 
-Basic Block Executions: 
+### 5. shrinkCount (xalanc/Include/XalanVector.hpp)
+Basic Block Executions: 1279868516
 
 Features:
 * TODO
