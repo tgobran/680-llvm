@@ -10,47 +10,39 @@ Smaller functions such as simple Constructors were ignored for hot functions.
 Basic Block Executions: 499227316
 
 Features:
-- several if then else statements
-- function declared with two different prototypes by the help of #IFDEF
+ - one level loop 
+ - two level nested conditionals inside loop
 
 
 ### 2. bitmap.c:bitmap_find_bit (bitmap.c)
 Basic Block Executions: 487201171
 
 Features:
-   - function declared with two different prototypes by the help of #IFDEF
-   - several one level loops with if statements with complicated condition inside them
-   - if statements with function calls as their condition
+ - several if then elses
+ - one level loop inside if statements
 
 ### 3. cfgrtl.c:rtl_split_edge (cfgrtl.c)
 Basic Block Executions: 269079181
 
 Features:
-- two level perfect nested loops with a function call inside the second loop.  --> three of this
-- function calls inside if statements
-- function calls in condition part of the loop
-- function calls inside of if statement
-- goto !!!!!!!  ----> considerning this goto it's three level nested loop
+  - several if statements
+  - one level loop inside if
+  - function calls inside if
 
 ### 4. bitmap_ior_into (bitmap.c)
 Basic Block Executions: 212348411
 
 Features:
- - function declared with two different prototypes by the help of #IFDEF
- - one level loop
- - double nested if statement inside loop
+  - one level loop
+  - if statements inside loop
+  - function calls inside loop
 
 ### 5. bitmap_bit_p (bitmap.c)
 Basic Block Executions: 178942441
 
 Features:
-  - function declared with two different prototypes by the help of #IFDEF
-  - malloc --> heap access
-  - nested if statements with function calls inside
-  - one level loops with if statements inside, some of thos if statments contain function calls inside
-  - several if then elses inside loop
-  - call another hot function --> qsort
-  - if --> loop ----> function call
+  - only one if statement
+  - only one function call
 
 ## Refrate O2 Hot Functions
 
