@@ -28,13 +28,18 @@ Features:
 Basic Block Executions: 852534058
 
 Features:
-* TODO
+
 
 ### 5. Perl_hv_common (hv.c)
 Basic Block Executions: 623131659
 
 Features:
-* TODO
+
+1.	Several Nested If then else statement with complex function calls inside.
+2.	Function defined with #ifdef identifier statement
+3.	Multiple One level loop with multiple if statements inside. Among those if statements some 
+Calls complex functions inside.
+
 
 ## Refrate O2 Hot Functions
 
