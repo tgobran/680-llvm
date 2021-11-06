@@ -25,7 +25,7 @@ Features:
 7.	While condition with function call within the Nested loop.
 8.	Nested loops within while loop
 9.	While --> If --> While loop
-10.	Function defined with #ifdef identifier statement
+
 
 
 
@@ -59,8 +59,7 @@ Basic Block Executions: 623131659
 Features:
 
 1.	Several Nested If then else statement with complex function calls inside.
-2.	Function defined with #ifdef identifier statement
-3.	Multiple One level loop with multiple if statements inside. Among those if statements some 
+2.	Multiple One level loop with multiple if statements inside. Among those if statements some 
 Calls complex functions inside.
 
 
