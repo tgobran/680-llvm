@@ -28,7 +28,7 @@ A function call within another function which only perform basic mathematical op
 Basic Block Executions: 469846
 
 Features:
-1.	Multiple for loop with if else condition. Function call within in the if else statement.
+1.	Multiple for loop with if else condition. Function call within the if else statement.
 2.	Multiple one level for loop with a single if condition. Within the if condition there is function call.
 
 
