@@ -10,13 +10,19 @@ Smaller functions such as simple Constructors were ignored for hot functions.
 Basic Block Executions: 1843200
 
 Features:
-* TODO
+* Simple function
+* Single nested loop
+* Iteration count dependent on function arguments
+* Loop computation based on strided array access.
 
 ### 2. mean (image_validator/ImageValidator.c)
 Basic Block Executions: 1843200
 
 Features:
-* TODO
+* Simple function
+* Single nested loop
+* Iteration count dependent on function arguments
+* Loop computation based on strided array access.
 
 ### 3. read_yuv_file (image_validator/ImageValidator.c)
 Basic Block Executions: 921600
@@ -34,7 +40,10 @@ Features:
 Basic Block Executions: 921600
 
 Features:
-* TODO
+* Simple function
+* Single nested loop
+* Iteration count dependent on function arguments
+* Loop computation based on strided array access.
 
 ## Refrate O2 Hot Functions
 
