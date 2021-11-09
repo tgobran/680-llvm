@@ -28,13 +28,23 @@ Features:
 Basic Block Executions: 921600
 
 Features:
-* TODO
+* Complex Function
+* I/O Acccesses
+* Memory Allocation and Freeing
+* 2 Single Nested Loop
+* 4 Double Nested Loop
+* No Perfect Nested Loops
+* Some of the Double Nested Loops perform conditional execution at the beginning
 
 ### 4. computeSSIM (image_validator/ImageValidator.c)
 Basic Block Executions: 921600
 
 Features:
-* TODO
+* Complex Function
+* Memory Allocation and Freeing
+* Quad Nested Loop - Double Nested with two Separate Double Nested within
+* Single Nested Loop
+* Significant control flow
 
 ### 5. covariance (image_validator/ImageValidator.c)
 Basic Block Executions: 921600
