@@ -12,31 +12,41 @@ This benchmark was particularly problematic in terms of finding suitable hot fun
 Basic Block Executions: 24090350766
 
 Features:
-* TODO
+* Simple function
+* Control flow decides if a simple loop is executed inside.
+* Loop iteration count dependent on function input.
 
 ### 2. isInBorders (xalanc/PlatformSupport/ArenaBlockBase.hpp)
 Basic Block Executions: 16754842027
 
 Features:
-* TODO
+* Very Simple Function
+* Large amount of control flow
+* Function calls decide control flow direction.
 
 ### 3. destroyObject (xalanc/PlatformSupport/ReusableArenaBlock.hpp)
 Basic Block Executions: 16752607655
 
 Features:
-* TODO
+* No Loops
+* Multiple calls to constructors and other functions inside.
 
 ### 4. equals (xercesc/util/XMLString.hpp)
 Basic Block Executions: 8607499441
 
 Features:
-* TODO
+* Significant control flow.
+* Single Nested Loop
+* Loop with argument decided iteration count.
 
 ### 5. shrinkCount (xalanc/Include/XalanVector.hpp)
 Basic Block Executions: 1279868516
 
 Features:
-* TODO
+* Simple function
+* Single Nested Loop
+* Loop iteration count dependent on input
+* Function call within loop.
 
 ## Refrate O2 Hot Functions
 
