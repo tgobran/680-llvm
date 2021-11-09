@@ -10,31 +10,38 @@ Smaller functions such as simple Constructors were ignored for hot functions.
 Basic Block Executions: 11904211699
 
 Features:
-* TODO
+* Conditionally executed Single Nested Loop
+* Loop Iteration based on function parameter
+* Significant amount of conditional execution in the function
 
 ### 2. FindFirstRemove (bits.cpp)
 Basic Block Executions: 7592818589
 
 Features:
-* TODO
+* Simple function
+* Global array access
 
 ### 3. PopCount (bits.cpp)
 Basic Block Executions: 5393808666
 
 Features:
-* TODO
+* Simple function
+* Single Nested Loop
+* Array iteration dependent on function parameter
 
 ### 4. FileAttacks (bitboard.cpp)
 Basic Block Executions: 3437787237
 
 Features:
-* TODO
+* Simple function
+* Global array access
 
 ### 5. RankAttacks (bitboard.cpp)
 Basic Block Executions: 3330560340
 
 Features:
-* TODO
+* Simple function
+* Global array access
 
 ## Refrate O2 Hot Functions
 
