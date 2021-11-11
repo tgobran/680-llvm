@@ -10,31 +10,34 @@ Smaller functions such as simple Constructors were ignored for hot functions.
 Basic Block Executions: 7835753190
 
 Features:
-* TODO
+1.	Nested if statements with function call inside.
+2.	One level for loop within the if condition.
+
 
 ### 2. kill_or_connect (FastBoard.cpp)
 Basic Block Executions: 7547852578
 
 Features:
-* TODO
+One level for loop with if condition.
+
 
 ### 3. nbr_criticality (FastBoard.cpp)
 Basic Block Executions: 6538040572
 
 Features:
-* TODO
+If condition within one level for loop.
 
 ### 4. add_pattern_moves (FastBoard.cpp)
 Basic Block Executions: 6282723048
 
 Features:
-* TODO
+One level for loop with nested if condition.
 
 ### 5. merge_strings (FastBoard.cpp)
 Basic Block Executions: 5601060928
 
 Features:
-* TODO
+Nested for loop within do while loop.
 
 ## Refrate O2 Hot Functions
 

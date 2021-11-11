@@ -10,31 +10,33 @@ Smaller functions such as simple Constructors were ignored for hot functions.
 Basic Block Executions: 1879384
 
 Features:
-* TODO
+Two level nested for loop within nested if condition.
 
 ### 2. spec_rand (specrand-common/specrand.c)
 Basic Block Executions: 939692
 
 Features:
-* TODO
+A function call within another function which only perform basic mathematical operation.
 
 ### 3. spec_lrand48 (specrand-common/specrand.c)
 Basic Block Executions: 939692
 
 Features:
-* TODO
+A function call within another function which only perform basic mathematical operation.
 
 ### 4. run_sequence (main.c)
 Basic Block Executions: 469846
 
 Features:
-* TODO
+1.	Multiple for loop with if else condition. Function call within the if else statement.
+2.	Multiple one level for loop with a single if condition. Within the if condition there is function call.
+
 
 ### 5. spec_init_genrand (specrand-common/specrand.c)
 Basic Block Executions: 4984
 
 Features:
-* TODO
+A simple for loop within a function.
 
 ## Refrate O2 Hot Functions
 

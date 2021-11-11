@@ -12,31 +12,37 @@ This benchmark in particular was difficult to profile for larger functions as th
 Basic Block Executions: 5757400812
 
 Features:
-* TODO
+* Relatively simple function
+* Single nested loop.
+* Iteration count derived from a function argument and a global variable.
+* Minor control flow inside of the loop.
 
 ### 2. insert (simulator/cmessageheap.cc)
 Basic Block Executions: 1730030891
 
 Features:
-* TODO
+* Two Single Nested Loops
+* Loop bodies are simple, the seconde has control flow inside of the loop.
 
 ### 3. printState (model/EtherMAC.cc)
 Basic Block Executions: 894348966
 
 Features:
-* TODO
+* Two Switch statements that perform basic calculation .
 
 ### 4. deliver (simulator/cgate.cc)
 Basic Block Executions: 599148757
 
 Features:
-* TODO
+* Control flow function
+* Calls other functions within.
 
 ### 5. printAddressTable (model/MACRelayUnitBase.cc)
 Basic Block Executions: 556984284
 
 Features:
-* TODO
+* Single Nested Loop
+* Simple computation inside of the loop with no minor control flow.
 
 ## Refrate O2 Hot Functions
 
