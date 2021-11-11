@@ -1,0 +1,218 @@
+Counters:
+  global_opt:
+    Hash: 0xe5da08470dcc8882
+    Counters: 7
+    Function count: 1
+  main:
+    Hash: 0x85aa60d3f09e0f7c
+    Counters: 5
+    Function count: 1
+  atoi:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  refresh_neighbour_lists:
+    Hash: 0x00000046d111b458
+    Counters: 3
+    Function count: 34
+  flow_cost:
+    Hash: 0xa877121b165955f3
+    Counters: 10
+    Function count: 35
+  start:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 0
+  getArcPosition:
+    Hash: 0x000000029c493458
+    Counters: 2
+    Function count: 190861695
+  getOriginalArcPosition:
+    Hash: 0x0000000000000018
+    Counters: 1
+    Function count: 14669862
+  flow_org_cost:
+    Hash: 0x7aa7db22aeaf4e6f
+    Counters: 10
+    Function count: 0
+  primal_feasible:
+    Hash: 0xcdebe91ed7dfa2e0
+    Counters: 10
+    Function count: 33
+  dual_feasible:
+    Hash: 0x23416dd3c0e0ece8
+    Counters: 11
+    Function count: 33
+  getfree:
+    Hash: 0x46b4acc767fc65d8
+    Counters: 5
+    Function count: 1
+  read_min:
+    Hash: 0xb959c07c78dfca9c
+    Counters: 27
+    Function count: 1
+  refreshArcPointers:
+    Hash: 0x86ae6575f9a3c3fb
+    Counters: 11
+    Function count: 66
+  refreshPositions:
+    Hash: 0x00046ca6d25d1458
+    Counters: 3
+    Function count: 66
+  marc_arcs:
+    Hash: 0xcd1e0631f8ee16df
+    Counters: 15
+    Function count: 33
+  implicit.c:arc_compare:
+    Hash: 0x78248c612ed8306b
+    Counters: 4
+    Function count: 2790238363
+  resize_prob:
+    Hash: 0x8820a0bba686bb37
+    Counters: 6
+    Function count: 2
+  insert_new_arc:
+    Hash: 0x000000000239c458
+    Counters: 4
+    Function count: 121138835
+  replace_weaker_arc:
+    Hash: 0x8add657a5a2f8545
+    Counters: 7
+    Function count: 193293681
+  calculate_max_redcost:
+    Hash: 0x00000046ca712451
+    Counters: 3
+    Function count: 247457
+  switch_arcs:
+    Hash: 0x1876d4ef849695a9
+    Counters: 9
+    Function count: 288
+  price_out_impl:
+    Hash: 0x2c0c9384d8a906d3
+    Counters: 41
+    Function count: 33
+  suspend_impl:
+    Hash: 0x8e47ccb2686f43ba
+    Counters: 11
+    Function count: 32
+  primal_start_artificial:
+    Hash: 0x0271fc4f38aa1d89
+    Counters: 4
+    Function count: 1
+  write_circulations:
+    Hash: 0x6d956f69bcd6d78d
+    Counters: 10
+    Function count: 0
+  write_objective_value:
+    Hash: 0x000000029f498458
+    Counters: 2
+    Function count: 1
+  update_tree:
+    Hash: 0xda0839d2817a44d7
+    Counters: 28
+    Function count: 1977246
+  primal_iminus:
+    Hash: 0x210e2baa4c6453f9
+    Counters: 11
+    Function count: 1977246
+  primal_update_flow:
+    Hash: 0x6c7b3ea1c4e80244
+    Counters: 5
+    Function count: 0
+  markBaskets:
+    Hash: 0x0de87cd81b8c6abf
+    Counters: 9
+    Function count: 1977246
+  worker:
+    Hash: 0x011b44268a7d2451
+    Counters: 4
+    Function count: 0
+  master:
+    Hash: 0xdde3bedd4d915a20
+    Counters: 21
+    Function count: 33
+  primal_net_simplex:
+    Hash: 0x000000029f493458
+    Counters: 2
+    Function count: 33
+  set_static_vars:
+    Hash: 0x0000000000000000
+    Counters: 1
+    Function count: 33
+  bea_is_dual_infeasible:
+    Hash: 0x000060f39b7ce71f
+    Counters: 6
+    Function count: 8939527315
+  cost_compare:
+    Hash: 0xa213fa38057d05af
+    Counters: 4
+    Function count: 17199625996
+  primal_bea_mpp:
+    Hash: 0xd96139f0240fc2fc
+    Counters: 24
+    Function count: 1977279
+  spec_qsort:
+    Hash: 0xfef9b0a0dd15b5c5
+    Counters: 50
+    Function count: 312488396
+  spec_qsort.c:swapfunc:
+    Hash: 0xabf4f5727086cd71
+    Counters: 6
+    Function count: 336885004
+  spec_qsort.c:med3:
+    Hash: 0x7631cbce1b7e4697
+    Counters: 6
+    Function count: 516923801
+Instrumentation level: Front-end
+Functions shown: 41
+Total functions: 41
+Maximum function count: 17199625996
+Maximum internal block count: 9092114390
+Top 50 functions with the largest internal block counts: 
+  cost_compare, max count = 17199625996
+  primal_bea_mpp, max count = 9092114390
+  bea_is_dual_infeasible, max count = 8939527315
+  spec_qsort, max count = 8160331559
+  replace_weaker_arc, max count = 3948246921
+  price_out_impl, max count = 3712252500
+  implicit.c:arc_compare, max count = 2790238363
+  switch_arcs, max count = 661031396
+  spec_qsort.c:med3, max count = 516923801
+  spec_qsort.c:swapfunc, max count = 336885004
+  insert_new_arc, max count = 244122925
+  primal_iminus, max count = 232562681
+  getArcPosition, max count = 190861695
+  update_tree, max count = 119591748
+  markBaskets, max count = 118630464
+  refreshPositions, max count = 102533635
+  flow_cost, max count = 96896165
+  dual_feasible, max count = 96520947
+  suspend_impl, max count = 91168281
+  marc_arcs, max count = 90533697
+  getOriginalArcPosition, max count = 14669862
+  refresh_neighbour_lists, max count = 6179174
+  refreshArcPointers, max count = 1980132
+  master, max count = 1977279
+  primal_feasible, max count = 990033
+  calculate_max_redcost, max count = 247457
+  primal_start_artificial, max count = 162202
+  read_min, max count = 117202
+  resize_prob, max count = 60002
+  set_static_vars, max count = 33
+  primal_net_simplex, max count = 33
+  global_opt, max count = 33
+  getfree, max count = 1
+  write_objective_value, max count = 1
+  main, max count = 1
+  worker, max count = 0
+  flow_org_cost, max count = 0
+  write_circulations, max count = 0
+  primal_update_flow, max count = 0
+  start, max count = 0
+  atoi, max count = 0
+Statistics for memory intrinsic calls sizes profile:
+  Total number of sites: 0
+  Total number of sites with values: 0
+  Total number of profiled values: 0
+  Value sites histogram:
+	NumTargets, SiteCount
