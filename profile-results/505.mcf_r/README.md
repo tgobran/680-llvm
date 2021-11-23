@@ -1,9 +1,13 @@
 ## Refrate O2 Hot Functions
 
-The program was compiled with the following options:
-
+For Runtime information the following options were used:
 ```
 -g -O2 -pg -march=native -fno-unsafe-math-optimizations -fcommon
+```
+
+For Basic Block information the following options were used:
+```
+-g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -fprofile-instr-generate
 ```
 
 ### 1. spec_qsort (spec_qsort/spec_qsort.c)
