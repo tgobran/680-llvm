@@ -5,13 +5,12 @@ For Runtime information the following options were used:
 -g -O2 -pg -march=native -fno-unsafe-math-optimizations -fcommon
 ```
 
-For Basic Block information the following options were used:
+Additional instrumentation information was gathered with the following options:
 ```
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -fprofile-instr-generate
 ```
 
 ### 1. shiftup (simulator/cmessageheap.cc)
-Basic Block Executions: TODO \
 Refrate Runtime: 27.37% \
 Calls: 468300994
 
@@ -22,7 +21,6 @@ Features:
 - Minor control flow inside of the loop.
 
 ### 2. deliver (simulator/cgate.cc)
-Basic Block Executions: TODO \
 Refrate Runtime: 9.43% \
 Calls: 309644908
 
@@ -31,7 +29,6 @@ Features:
 - Calls other functions within.
 
 ### 3. record (simulator/indexedfileoutvectormgr.cc)
-Basic Block Executions: TODO \
 Refrate Runtime: 9.07% \
 Calls: 494191607
 
