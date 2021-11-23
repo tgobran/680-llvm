@@ -3,7 +3,7 @@
 The program was compiled with the following options:
 
 ```
--g -O0 -pg -march=native -fno-unsafe-math-optimizations -fcommon -fprofile-instr-generate
+-g -O2 -pg -march=native -fno-unsafe-math-optimizations -fcommon
 ```
 
 ### 1. df_worklist_dataflow (df-core.c)
