@@ -1,10 +1,14 @@
 ## Refrate O2 Hot Functions
 
-The program was compiled with the following options:
+For Runtime information the following options were used:
+```
+-g -O2 -pg -march=native -fno-unsafe-math-optimizations -fcommon
+```
 
-```-g -O0 -pg -march=native -fno-unsafe-math-optimizations -fcommon```
-
-Smaller functions such as simple Constructors were ignored for hot functions.
+For Basic Block information the following options were used:
+```
+-g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -fprofile-instr-generate
+```
 
 ### 1. regex.c:S_regmatch (ext/re/re_exec.c)
 Basic Block Executions: 1130348949
