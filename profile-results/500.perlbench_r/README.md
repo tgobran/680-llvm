@@ -68,7 +68,28 @@ Features:
 - A nested if condition with a while loop inside.
 
 Active Passes:
-- 
+- SimplifyCFGPass
+- SROA
+- EarlyCSEPass
+- IPSCCPPass
+- GlobalOptPass
+- DeadArgumentEliminationPass
+- InstCombinePass
+- InlinerPass
+- PostOrderFunctionAttrsPass
+- JumpThreadingPass
+- CorrelatedValuePropagationPass
+- TailCallElimPass
+- ReassociatePass
+- LoopSimplifyPass
+- LCSSAPass
+- LICMPass
+- LoopRotatePass
+- IndVarSimplifyPass
+- GVN
+- BDCEPass
+- MemCpyOptPass
+- LoopUnrollPass
 
 ### 3. Perl_hv_common (hv.c)
 Refrate Runtime: 6.96% \
@@ -78,6 +99,27 @@ Features:
 - Several nested if-else statements with complex function calls within.
 - Multiple single level loops with if statements inside, some have calls to complex functions.
 
+Active Passes:
+- IPSCCPPass
+- GlobalOptPass
+- InferFunctionAttrsPass
+- SimplifyCFGPass
+- SROA
+- EarlyCSEPass
+- DeadArgumentEliminationPass
+- InstCombinePass
+- JumpThreadingPass
+- CorrelatedValuePropagationPass
+- TailCallElimPass
+- ReassociatePass
+- LoopSimplifyPass
+- LCSSAPass
+- LoopRotatePass
+- LICMPass
+- GVN
+- BDCEPass
+- DSEPass
+- InferFunctionAttrsPass
 
 ## Ignored Functions
 
