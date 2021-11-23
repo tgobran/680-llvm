@@ -2,7 +2,7 @@
 
 The program was compiled with the following options:
 
-```-g -O0 -pg -fno-inline-functions -march=native -fno-unsafe-math-optimizations -fcommon```
+```-g -O0 -pg -march=native -fno-unsafe-math-optimizations -fcommon```
 
 Smaller functions such as simple Constructors were ignored for hot functions.
 
