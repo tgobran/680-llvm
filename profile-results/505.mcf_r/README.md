@@ -34,6 +34,6 @@ Basic Block Executions: 17199625996
 Refrate Runtime: 13.67%
 
 Features:
-- Very simple function
+- Very simple function.
 - Done with a conditional definition for two different prototypes.
 - Series of comparion if statements that decide from various return values.
