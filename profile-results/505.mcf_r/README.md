@@ -16,11 +16,6 @@ Features:
 - Function calls inside if statements.
 - Function calls in conditions of the loops.
 - Function calls inside of if statements.
-- 
-- two level perfect nested loops with a function call inside the second loop.  --> three of this
-- function calls inside if statements
-- function calls in condition part of the loop
-- function calls inside of if statement
 - Goto present, jumps back to the start of the function allowing more loop executions.
 
 ### 2. primal_bea_mpp (pbeampp.c)
