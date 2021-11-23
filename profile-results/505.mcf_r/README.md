@@ -26,6 +26,9 @@ Features:
 - Function calls inside of if statements.
 - Goto present, jumps back to the start of the function allowing more loop executions.
 
+Active Passes:
+- TODO
+
 ### 2. primal_bea_mpp (pbeampp.c)
 Refrate Runtime: 18.80% \
 Calls: 1977279
@@ -35,6 +38,9 @@ Features:
 - Several single level loops with if statements based on complicated conditions inside.
 - If statements with function calls as their conditions.
 
+Active Passes:
+- TODO
+
 ### 3. cost_compare (pbeampp.c)
 Refrate Runtime: 13.67% \
 Calls: 8609691404
@@ -43,3 +49,6 @@ Features:
 - Very simple function.
 - Done with a conditional definition for two different prototypes.
 - Series of comparion if statements that decide from various return values.
+
+Active Passes:
+- TODO
