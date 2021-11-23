@@ -1,61 +1,43 @@
 ## Refrate O2 Hot Functions
 
 For Runtime information the following options were used:
-
 ```
 -g -O2 -pg -march=native -fno-unsafe-math-optimizations -fcommon
 ```
 
 For Basic Block information the following options were used:
-
 ```
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -fprofile-instr-generate
 ```
 
-Smaller functions such as simple Constructors were ignored for hot functions.
-
-This benchmark in particular was difficult to profile for larger functions as the vast majority of the profile data related to very small operator overloads and constructors / get operations.
-
 ### 1. shiftup (simulator/cmessageheap.cc)
-Basic Block Executions: 5757400812
+Basic Block Executions: TODO
+
+Refrate Runtime: 27.37%
+Calls: 468300994
 
 Features:
-* Relatively simple function
-* Single nested loop.
-* Iteration count derived from a function argument and a global variable.
-* Minor control flow inside of the loop.
+- Relatively simple function
+- Single nested loop.
+- Iteration count derived from a function argument and a global variable.
+- Minor control flow inside of the loop.
 
-### 2. insert (simulator/cmessageheap.cc)
-Basic Block Executions: 1730030891
+### 2. deliver (simulator/cgate.cc)
+Basic Block Executions: TODO
 
-Features:
-* Two Single Nested Loops
-* Loop bodies are simple, the seconde has control flow inside of the loop.
-
-### 3. printState (model/EtherMAC.cc)
-Basic Block Executions: 894348966
+Refrate Runtime: 9.43%
+Calls: 309644908
 
 Features:
-* Two Switch statements that perform basic calculation .
+- Control flow function
+- Calls other functions within.
 
-### 4. deliver (simulator/cgate.cc)
-Basic Block Executions: 599148757
+### 3. record (simulator/indexedfileoutvectormgr.cc)
+Basic Block Executions: TODO
 
-Features:
-* Control flow function
-* Calls other functions within.
-
-### 5. printAddressTable (model/MACRelayUnitBase.cc)
-Basic Block Executions: 556984284
+Refrate Runtime: 9.07%
+Calls: 494191607
 
 Features:
-* Single Nested Loop
-* Simple computation inside of the loop with no minor control flow.
-
-## Refrate O2 Hot Functions
-
-The program was compiled with the following options:
-
-```-g -O2 -fno-inline-functions -march=native -fno-unsafe-math-optimizations -fcommon -fprofile-instr-generate```
-
-TODO
+- Control flow function
+- Nested if statements with considerable calculation depending on the route.
