@@ -1,0 +1,973 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 18.91     71.33    71.33 506568965     0.00     0.00  ProbeTT(state_t*, int*, int, int, unsigned int*, int*, int*, int*, int*, int)
+  7.92    101.23    29.90     9697     0.00     0.04  search(state_t*, int, int, int, int, int)
+  7.08    127.95    26.72 1545844414     0.00     0.00  remove_one_fast(int*, int*, int*, int)
+  5.51    148.73    20.78 859881838     0.00     0.00  see(state_t*, int, int, int, int)
+  5.05    167.80    19.06 916714589     0.00     0.00  make(state_t*, int)
+  4.23    183.75    15.95 140537493     0.00     0.00  qsearch(state_t*, int, int, int, int)
+  3.55    197.13    13.38 69078140     0.00     0.00  order_moves(state_t*, int*, int*, int, unsigned int)
+  2.86    207.92    10.79 405205355     0.00     0.00  StoreTT(state_t*, int, int, int, unsigned int, int, int, int, int)
+  2.73    218.22    10.30 7592818589     0.00     0.00  FindFirstRemove(unsigned long long*)
+  2.54    227.81     9.59 1563000597     0.00     0.00  is_attacked(state_t*, int, int)
+  2.38    236.78     8.97 859881838     0.00     0.00  attacks_to(state_t*, int)
+  2.31    245.49     8.71 288009370     0.00     0.00  mobility_eval(state_t*, t_eval_comps*, attackinfo_t*)
+  2.07    253.30     7.81 209616225     0.00     0.00  gen_captures(state_t*, int*)
+  1.97    260.73     7.43 916714589     0.00     0.00  unmake(state_t*, int)
+  1.94    268.03     7.30 255239892     0.00     0.00  fast_order_moves(state_t*, int*, int*, int, unsigned int)
+  1.69    274.39     6.37 411793847     0.00     0.00  eval(state_t*, int, int, int)
+  1.46    279.90     5.51 3437787237     0.00     0.00  FileAttacks(unsigned long long, unsigned int)
+  1.43    285.31     5.41 49742872     0.00     0.00  gen(state_t*, int*)
+  1.41    290.64     5.33 3322262585     0.00     0.00  compact_move(int)
+  1.33    295.67     5.03 2468518944     0.00     0.00  add_capture(int*, int, int, int, int, int)
+  1.33    300.68     5.01 288009370     0.00     0.00  passer_eval(state_t*, pawntt_t*, int, t_eval_comps*)
+  1.31    305.64     4.96 3330560340     0.00     0.00  RankAttacks(unsigned long long, unsigned int)
+  1.26    310.37     4.74 2869551984     0.00     0.00  RookAttacks(state_t*, int)
+  1.25    315.09     4.72 2683744756     0.00     0.00  DiagonalAttacks(unsigned long long, unsigned int)
+  1.16    319.47     4.38 288009370     0.00     0.00  kingsafety_eval(state_t*, pawntt_t*, t_eval_comps*)
+  0.98    323.16     3.70 2579642869     0.00     0.00  AntiDiagAttacks(unsigned long long, unsigned int)
+  0.98    326.85     3.69 2351442609     0.00     0.00  ThickPopCount(unsigned long long)
+  0.94    330.40     3.55 2243214897     0.00     0.00  BishopAttacks(state_t*, int)
+  0.89    333.74     3.34 5393808666     0.00     0.00  PopCount(unsigned long long)
+  0.79    336.72     2.98 288009370     0.00     0.00  feval(state_t*, int, t_eval_comps*)
+  0.76    339.61     2.89 288009370     0.00     0.00  kingpressure_eval(state_t*, attackinfo_t*, t_eval_comps*)
+  0.66    342.10     2.50 288009370     0.00     0.00  positional_eval(state_t*, pawntt_t*, t_eval_comps*)
+  0.65    344.55     2.45 916704357     0.00     0.00  check_legal(state_t*, int)
+  0.63    346.92     2.37 288009370     0.00     0.00  trapped_eval(state_t*, t_eval_comps*)
+  0.57    349.06     2.14  4158022     0.00     0.00  full_pawn_eval(state_t*, pawntt_t*)
+  0.52    351.03     1.98 2087828881     0.00     0.00  rank(int)
+  0.51    352.97     1.94 2049743712     0.00     0.00  file(int)
+  0.50    354.85     1.88 556156805     0.00     0.00  history_pre_cut(state_t*, int, int)
+  0.47    356.64     1.79 57578690     0.00     0.00  gen_good_checks(state_t*, int*)
+  0.45    358.35     1.71 597933535     0.00     0.00  taxicab_dist(int, int)
+  0.42    359.95     1.60       51     0.03     0.03  FindFirst(unsigned long long)
+  0.36    361.29     1.34 38085146     0.00     0.00  gen_check_blocks(state_t*, int*, int)
+  0.33    362.55     1.26 288009370     0.00     0.00  static_pawn_eval(state_t*)
+  0.30    363.69     1.15 576019074     0.00     0.00  int const& std::min<int>(int const&, int const&)
+  0.30    364.82     1.13 643992957     0.00     0.00  in_check(state_t*)
+  0.29    365.91     1.09 507243255     0.00     0.00  is_draw(gamestate_t*, state_t*)
+  0.27    366.94     1.03  7394807     0.00     0.00  gen_quiet(state_t*, int*)
+  0.27    367.94     1.00 726928023     0.00     0.00  add_move(int*, int, int, int)
+  0.26    368.93     0.99                             elo_to_blunder(int)
+  0.25    369.86     0.94 288009370     0.00     0.00  drawn_endgames(state_t*, int, int, int)
+  0.23    370.72     0.86 426922806     0.00     0.00  sum_dist(int, int)
+  0.23    371.57     0.85 507243255     0.00     0.00  search_time_check(state_t*)
+  0.19    372.28     0.71 288009370     0.00     0.00  psq_eval(state_t*, t_eval_comps*)
+  0.16    372.90     0.62        1     0.62     0.62  init_parameters(gamestate_t*)
+  0.15    373.45     0.55 288009370     0.00     0.00  opposite_bishops(state_t*, int, int, int)
+  0.14    373.96     0.51 96908110     0.00     0.00  history_score(state_t*, int)
+  0.14    374.47     0.51       25     0.02     0.02  SetupCastleMasks(state_t*)
+  0.13    374.95     0.49 597932234     0.00     0.00  taxicab_dist_bit(int, int)
+  0.10    375.34     0.39 436909794     0.00     0.00  retrieve_eval(state_t*)
+  0.09    375.67     0.33 44687203     0.00     0.00  gen_evasions(state_t*, int*, int)
+  0.06    375.92     0.25                             int const& std::max<int>(int const&, int const&)
+  0.06    376.15     0.23                             frame_dummy
+  0.05    376.34     0.19  2677703     0.00     0.00  add_king_castle(int*, int, int, int)
+  0.05    376.53     0.19       13     0.01     0.01  initialize_hash(state_t*)
+  0.05    376.70     0.18      396     0.00     0.00  FindLast(unsigned long long)
+  0.04    376.86     0.16 47215918     0.00     0.00  history_good(state_t*, int, int)
+  0.03    376.97     0.11                             scale(int, int, int)
+  0.02    377.06     0.09       12     0.01     0.01  check_phase(gamestate_t*, state_t*)
+  0.02    377.14     0.08        1     0.08     0.08  preprocess_prepare()
+  0.02    377.22     0.08                             insufficient_material(state_t*)
+  0.02    377.28     0.07  5454817     0.00     0.00  check_castle_blocker(state_t*, int)
+  0.01    377.31     0.03 12338365     0.00     0.00  history_bad(state_t*, int, int)
+  0.00    377.32     0.01                             input_causes_stop()
+  0.00    377.32     0.00    31159     0.00     0.00  rtime()
+  0.00    377.32     0.00    31147     0.00     0.00  interrupt()
+  0.00    377.32     0.00    31147     0.00     0.00  rdifftime(int, int)
+  0.00    377.32     0.00    14775     0.00     0.00  comp_to_san(state_t*, int, char*)
+  0.00    377.32     0.00     9697     0.00     0.04  rootmovesearch(state_t*, int, int, int, int, int)
+  0.00    377.32     0.00     2390     0.00     0.00  myprintf(char const*, ...)
+  0.00    377.32     0.00     1792     0.00     0.00  myrandom()
+  0.00    377.32     0.00      472     0.00     0.00  post_thinking(state_t*, int, int, char*, int)
+  0.00    377.32     0.00      390     0.00     0.00  hash_extract_pv(state_t*, int, char*)
+  0.00    377.32     0.00      244     0.00     1.53  search_root(state_t*, int, int, int)
+  0.00    377.32     0.00       41     0.00     0.00  post_fl_thinking(state_t*, int, int, char*, int)
+  0.00    377.32     0.00       34     0.00     0.00  post_fh_thinking(state_t*, int, int, char*, int)
+  0.00    377.32     0.00       25     0.00     0.00  init_psq_score(state_t*)
+  0.00    377.32     0.00       25     0.00     0.00  reset_piece_square(state_t*)
+  0.00    377.32     0.00       13     0.00     0.00  clear_tt()
+  0.00    377.32     0.00       13     0.00     0.02  init_game(gamestate_t*, state_t*)
+  0.00    377.32     0.00       12     0.00     0.00  clear_dp_tt()
+  0.00    377.32     0.00       12     0.00     0.00  display_board(state_t*, int)
+  0.00    377.32     0.00       12     0.00     0.00  dumpsearchstat(state_t*)
+  0.00    377.32     0.00       12     0.00     0.06  setup_epd_line(gamestate_t*, state_t*, char const*)
+  0.00    377.32     0.00       12     0.00     0.00  reset_search_data(state_t*)
+  0.00    377.32     0.00       12     0.00     0.00  reset_search_counters(state_t*)
+  0.00    377.32     0.00       12     0.00    31.19  think(gamestate_t*, state_t*)
+  0.00    377.32     0.00        2     0.00     0.00  mysrand(unsigned int)
+  0.00    377.32     0.00        1     0.00     0.00  alloc_hash()
+  0.00    377.32     0.00        1     0.00     0.00  clear_pawn_tt()
+  0.00    377.32     0.00        1     0.00   374.93  run_epd_testsuite(gamestate_t*, state_t*, char const*)
+  0.00    377.32     0.00        1     0.00     0.00  initialize_zobrist(state_t*)
+  0.00    377.32     0.00        1     0.00     0.00  SetupPrecalculatedData()
+  0.00    377.32     0.00        1     0.00     0.00  start_up()
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.00% of 377.32 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     99.6    0.00  375.66                 main [1]
+                0.00  374.93       1/1           run_epd_testsuite(gamestate_t*, state_t*, char const*) [2]
+                0.62    0.00       1/1           init_parameters(gamestate_t*) [61]
+                0.08    0.00       1/1           preprocess_prepare() [76]
+                0.00    0.02       1/13          init_game(gamestate_t*, state_t*) [67]
+                0.01    0.00       1/13          initialize_hash(state_t*) [71]
+                0.00    0.00       1/1           SetupPrecalculatedData() [87]
+                0.00    0.00       2/2390        myprintf(char const*, ...) [96]
+                0.00    0.00       1/1           start_up() [109]
+                0.00    0.00       1/1           initialize_zobrist(state_t*) [108]
+                0.00    0.00       1/1           alloc_hash() [106]
+                0.00    0.00       1/2           mysrand(unsigned int) [105]
+                0.00    0.00       1/13          clear_tt() [99]
+                0.00    0.00       1/1           clear_pawn_tt() [107]
+-----------------------------------------------
+                0.00  374.93       1/1           main [1]
+[2]     99.4    0.00  374.93       1         run_epd_testsuite(gamestate_t*, state_t*, char const*) [2]
+                0.00  374.27      12/12          think(gamestate_t*, state_t*) [3]
+                0.00    0.67      12/12          setup_epd_line(gamestate_t*, state_t*, char const*) [60]
+                0.00    0.00      48/2390        myprintf(char const*, ...) [96]
+                0.00    0.00      12/12          dumpsearchstat(state_t*) [102]
+                0.00    0.00      12/13          clear_tt() [99]
+                0.00    0.00      12/12          display_board(state_t*, int) [101]
+-----------------------------------------------
+                0.00  374.27      12/12          run_epd_testsuite(gamestate_t*, state_t*, char const*) [2]
+[3]     99.2    0.00  374.27      12         think(gamestate_t*, state_t*) [3]
+                0.00  374.18     244/244         search_root(state_t*, int, int, int) [4]
+                0.09    0.00      12/12          check_phase(gamestate_t*, state_t*) [75]
+                0.00    0.00     194/472         post_thinking(state_t*, int, int, char*, int) [82]
+                0.00    0.00     544/916714589     make(state_t*, int) [16]
+                0.00    0.00     544/916704357     check_legal(state_t*, int) [26]
+                0.00    0.00     544/916714589     unmake(state_t*, int) [27]
+                0.00    0.00      12/49742872     gen(state_t*, int*) [19]
+                0.00    0.00     206/576019074     int const& std::min<int>(int const&, int const&) [53]
+                0.00    0.00      24/1563000597     is_attacked(state_t*, int, int) [23]
+                0.00    0.00      24/643992957     in_check(state_t*) [54]
+                0.00    0.00     206/31159       rtime() [93]
+                0.00    0.00     194/31147       rdifftime(int, int) [95]
+                0.00    0.00     194/31147       interrupt() [94]
+                0.00    0.00      24/2390        myprintf(char const*, ...) [96]
+                0.00    0.00      12/12          reset_search_data(state_t*) [103]
+                0.00    0.00      12/12          clear_dp_tt() [100]
+                0.00    0.00      12/12          reset_search_counters(state_t*) [104]
+-----------------------------------------------
+                0.00  374.18     244/244         think(gamestate_t*, state_t*) [3]
+[4]     99.2    0.00  374.18     244         search_root(state_t*, int, int, int) [4]
+                0.00  374.17    9697/9697        rootmovesearch(state_t*, int, int, int, int, int) [5]
+                0.00    0.00    9564/14775       comp_to_san(state_t*, int, char*) [81]
+                0.00    0.00     278/472         post_thinking(state_t*, int, int, char*, int) [82]
+                0.00    0.00    9808/411793847     eval(state_t*, int, int, int) [8]
+                0.00    0.00   19219/916714589     make(state_t*, int) [16]
+                0.00    0.00    9864/1545844414     remove_one_fast(int*, int*, int*, int) [13]
+                0.00    0.00   19219/916714589     unmake(state_t*, int) [27]
+                0.00    0.00    9655/916704357     check_legal(state_t*, int) [26]
+                0.00    0.00     244/69078140     order_moves(state_t*, int*, int*, int, unsigned int) [15]
+                0.00    0.00    9808/1563000597     is_attacked(state_t*, int, int) [23]
+                0.00    0.00     244/49742872     gen(state_t*, int*) [19]
+                0.00    0.00    8645/96908110     history_score(state_t*, int) [63]
+                0.00    0.00     244/506568965     ProbeTT(state_t*, int*, int, int, unsigned int*, int*, int*, int*, int*, int) [10]
+                0.00    0.00    9808/643992957     in_check(state_t*) [54]
+                0.00    0.00      41/41          post_fl_thinking(state_t*, int, int, char*, int) [84]
+                0.00    0.00      34/34          post_fh_thinking(state_t*, int, int, char*, int) [85]
+                0.00    0.00     244/405205355     StoreTT(state_t*, int, int, int, unsigned int, int, int, int, int) [21]
+                0.00    0.00    1465/2087828881     rank(int) [49]
+                0.00    0.00     282/47215918     history_good(state_t*, int, int) [73]
+                0.00    0.00     325/3322262585     compact_move(int) [31]
+-----------------------------------------------
+                0.00  374.17    9697/9697        search_root(state_t*, int, int, int) [4]
+[5]     99.2    0.00  374.17    9697         rootmovesearch(state_t*, int, int, int, int, int) [5]
+               29.90  344.27    9697/9697        search(state_t*, int, int, int, int, int) [6]
+                0.00    0.00     730/140537493     qsearch(state_t*, int, int, int, int) [7]
+-----------------------------------------------
+                             199924994             search(state_t*, int, int, int, int, int) [6]
+               29.90  344.27    9697/9697        rootmovesearch(state_t*, int, int, int, int, int) [5]
+[6]     99.2   29.90  344.27    9697+199924994 search(state_t*, int, int, int, int, int) [6]
+               15.95  160.41 140536763/140537493     qsearch(state_t*, int, int, int, int) [7]
+                3.48   44.60 224827062/411793847     eval(state_t*, int, int, int) [8]
+               27.89    0.00 198047847/506568965     ProbeTT(state_t*, int*, int, int, unsigned int*, int*, int*, int*, int*, int) [10]
+               13.38   12.04 69077896/69078140     order_moves(state_t*, int*, int*, int, unsigned int) [15]
+                5.41    7.56 49724834/49742872     gen(state_t*, int*) [19]
+               12.61    0.00 606246485/916714589     make(state_t*, int) [16]
+               12.50    0.00 723253817/1545844414     remove_one_fast(int*, int*, int*, int) [13]
+                1.62    4.11 606246485/916704357     check_legal(state_t*, int) [26]
+                4.91    0.00 606246485/916714589     unmake(state_t*, int) [27]
+                2.46    1.96 101640560/859881838     see(state_t*, int, int, int, int) [11]
+                3.74    0.00 140250449/405205355     StoreTT(state_t*, int, int, int, unsigned int, int, int, int, int) [21]
+                2.80    0.28 456994282/1563000597     is_attacked(state_t*, int, int) [23]
+                0.14    2.86 19349472/44687203     gen_evasions(state_t*, int*, int) [28]
+                1.09    0.00 322665391/556156805     history_pre_cut(state_t*, int, int) [51]
+                0.80    0.00 456994282/643992957     in_check(state_t*) [54]
+                0.51    0.00 96899465/96908110     history_score(state_t*, int) [63]
+                0.43    0.00 198224450/507243255     is_draw(gamestate_t*, state_t*) [55]
+                0.33    0.00 198224450/507243255     search_time_check(state_t*) [58]
+                0.16    0.00 47215636/47215918     history_good(state_t*, int, int) [73]
+                0.15    0.00 171789668/436909794     retrieve_eval(state_t*) [66]
+                0.08    0.00 47415885/3322262585     compact_move(int) [31]
+                0.03    0.00 12338365/12338365     history_bad(state_t*, int, int) [79]
+                             199924994             search(state_t*, int, int, int, int, int) [6]
+-----------------------------------------------
+                             168481312             qsearch(state_t*, int, int, int, int) [7]
+                0.00    0.00     730/140537493     rootmovesearch(state_t*, int, int, int, int, int) [5]
+               15.95  160.41 140536763/140537493     search(state_t*, int, int, int, int, int) [6]
+[7]     46.7   15.95  160.41 140537493+168481312 qsearch(state_t*, int, int, int, int) [7]
+               43.44    0.00 308515751/506568965     ProbeTT(state_t*, int*, int, int, unsigned int*, int*, int*, int*, int*, int) [10]
+                2.89   37.08 186956977/411793847     eval(state_t*, int, int, int) [8]
+               14.22    0.00 822580733/1545844414     remove_one_fast(int*, int*, int*, int) [13]
+                6.15    5.78 164929022/209616225     gen_captures(state_t*, int*) [17]
+                7.30    1.79 255239892/255239892     fast_order_moves(state_t*, int*, int*, int, unsigned int) [25]
+                4.79    3.81 198031441/859881838     see(state_t*, int, int, int, int) [11]
+                7.06    0.00 264954662/405205355     StoreTT(state_t*, int, int, int, unsigned int, int, int, int, int) [21]
+                6.46    0.00 310413473/916714589     make(state_t*, int) [16]
+                1.79    2.44 57578690/57578690     gen_good_checks(state_t*, int*) [35]
+                0.19    3.74 25337373/44687203     gen_evasions(state_t*, int*, int) [28]
+                0.83    2.10 310413473/916704357     check_legal(state_t*, int) [26]
+                2.51    0.00 310413473/916714589     unmake(state_t*, int) [27]
+                1.03    1.09 7394807/7394807     gen_quiet(state_t*, int*) [48]
+                1.15    0.12 186956187/1563000597     is_attacked(state_t*, int, int) [23]
+                0.79    0.00 233491414/556156805     history_pre_cut(state_t*, int, int) [51]
+                0.66    0.00 309018805/507243255     is_draw(gamestate_t*, state_t*) [55]
+                0.52    0.00 309018805/507243255     search_time_check(state_t*) [58]
+                0.33    0.00 186956187/643992957     in_check(state_t*) [54]
+                0.24    0.00 265120126/436909794     retrieve_eval(state_t*) [66]
+                0.12    0.00 77169184/3322262585     compact_move(int) [31]
+                             168481312             qsearch(state_t*, int, int, int, int) [7]
+-----------------------------------------------
+                0.00    0.00    9808/411793847     search_root(state_t*, int, int, int) [4]
+                2.89   37.08 186956977/411793847     qsearch(state_t*, int, int, int, int) [7]
+                3.48   44.60 224827062/411793847     search(state_t*, int, int, int, int, int) [6]
+[8]     23.3    6.37   81.68 411793847         eval(state_t*, int, int, int) [8]
+                2.98   74.30 288009370/288009370     feval(state_t*, int, t_eval_comps*) [9]
+                0.94    1.77 288009370/288009370     drawn_endgames(state_t*, int, int, int) [44]
+                1.15    0.00 576018740/576019074     int const& std::min<int>(int const&, int const&) [53]
+                0.55    0.00 288009370/288009370     opposite_bishops(state_t*, int, int, int) [62]
+-----------------------------------------------
+                2.98   74.30 288009370/288009370     eval(state_t*, int, int, int) [8]
+[9]     20.5    2.98   74.30 288009370         feval(state_t*, int, t_eval_comps*) [9]
+                8.71   20.59 288009370/288009370     mobility_eval(state_t*, t_eval_comps*, attackinfo_t*) [12]
+                5.01   20.44 288009370/288009370     passer_eval(state_t*, pawntt_t*, int, t_eval_comps*) [14]
+                4.38    1.46 288009370/288009370     kingsafety_eval(state_t*, pawntt_t*, t_eval_comps*) [29]
+                2.89    0.93 288009370/288009370     kingpressure_eval(state_t*, attackinfo_t*, t_eval_comps*) [37]
+                1.26    2.25 288009370/288009370     static_pawn_eval(state_t*) [40]
+                2.50    0.82 288009370/288009370     positional_eval(state_t*, pawntt_t*, t_eval_comps*) [42]
+                2.37    0.00 288009370/288009370     trapped_eval(state_t*, t_eval_comps*) [46]
+                0.71    0.00 288009370/288009370     psq_eval(state_t*, t_eval_comps*) [59]
+-----------------------------------------------
+                0.00    0.00     244/506568965     search_root(state_t*, int, int, int) [4]
+                0.00    0.00    5123/506568965     hash_extract_pv(state_t*, int, char*) [83]
+               27.89    0.00 198047847/506568965     search(state_t*, int, int, int, int, int) [6]
+               43.44    0.00 308515751/506568965     qsearch(state_t*, int, int, int, int) [7]
+[10]    18.9   71.33    0.00 506568965         ProbeTT(state_t*, int*, int, int, unsigned int*, int*, int*, int*, int*, int) [10]
+-----------------------------------------------
+                2.46    1.96 101640560/859881838     search(state_t*, int, int, int, int, int) [6]
+                4.79    3.81 198031441/859881838     qsearch(state_t*, int, int, int, int) [7]
+                4.84    3.85 200338615/859881838     order_moves(state_t*, int*, int*, int, unsigned int) [15]
+                8.70    6.92 359871222/859881838     passer_eval(state_t*, pawntt_t*, int, t_eval_comps*) [14]
+[11]     9.9   20.78   16.54 859881838         see(state_t*, int, int, int, int) [11]
+                8.97    1.88 859881838/859881838     attacks_to(state_t*, int) [20]
+                1.06    1.99 642946454/2869551984     RookAttacks(state_t*, int) [18]
+                0.88    1.77 553876857/2243214897     BishopAttacks(state_t*, int) [22]
+-----------------------------------------------
+                8.71   20.59 288009370/288009370     feval(state_t*, int, t_eval_comps*) [9]
+[12]     7.8    8.71   20.59 288009370         mobility_eval(state_t*, t_eval_comps*, attackinfo_t*) [12]
+                2.20    4.11 1330074715/2869551984     RookAttacks(state_t*, int) [18]
+                1.62    3.26 1022901546/2243214897     BishopAttacks(state_t*, int) [22]
+                3.16    0.00 2327920856/7592818589     FindFirstRemove(unsigned long long*) [24]
+                0.86    1.61 426922806/426922806     sum_dist(int, int) [45]
+                2.35    0.00 1499130649/2351442609     ThickPopCount(unsigned long long) [39]
+                1.42    0.00 2287031805/5393808666     PopCount(unsigned long long) [41]
+-----------------------------------------------
+                0.00    0.00    9864/1545844414     search_root(state_t*, int, int, int) [4]
+               12.50    0.00 723253817/1545844414     search(state_t*, int, int, int, int, int) [6]
+               14.22    0.00 822580733/1545844414     qsearch(state_t*, int, int, int, int) [7]
+[13]     7.1   26.72    0.00 1545844414         remove_one_fast(int*, int*, int*, int) [13]
+-----------------------------------------------
+                5.01   20.44 288009370/288009370     feval(state_t*, int, t_eval_comps*) [9]
+[14]     6.7    5.01   20.44 288009370         passer_eval(state_t*, pawntt_t*, int, t_eval_comps*) [14]
+                8.70    6.92 359871222/859881838     see(state_t*, int, int, int, int) [11]
+                1.71    2.26 597932234/597933535     taxicab_dist(int, int) [36]
+                0.49    0.00 597932234/597932234     taxicab_dist_bit(int, int) [65]
+                0.37    0.00 270818984/7592818589     FindFirstRemove(unsigned long long*) [24]
+-----------------------------------------------
+                0.00    0.00     244/69078140     search_root(state_t*, int, int, int) [4]
+               13.38   12.04 69077896/69078140     search(state_t*, int, int, int, int, int) [6]
+[15]     6.7   13.38   12.04 69078140         order_moves(state_t*, int*, int*, int, unsigned int) [15]
+                4.84    3.85 200338615/859881838     see(state_t*, int, int, int, int) [11]
+                3.34    0.00 2083620615/3322262585     compact_move(int) [31]
+-----------------------------------------------
+                0.00    0.00      28/916714589     post_fh_thinking(state_t*, int, int, char*, int) [85]
+                0.00    0.00      30/916714589     post_fl_thinking(state_t*, int, int, char*, int) [84]
+                0.00    0.00     544/916714589     think(gamestate_t*, state_t*) [3]
+                0.00    0.00     610/916714589     post_thinking(state_t*, int, int, char*, int) [82]
+                0.00    0.00    4763/916714589     hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00   19219/916714589     search_root(state_t*, int, int, int) [4]
+                0.00    0.00   29437/916714589     comp_to_san(state_t*, int, char*) [81]
+                6.46    0.00 310413473/916714589     qsearch(state_t*, int, int, int, int) [7]
+               12.61    0.00 606246485/916714589     search(state_t*, int, int, int, int, int) [6]
+[16]     5.1   19.06    0.00 916714589         make(state_t*, int) [16]
+-----------------------------------------------
+                1.67    1.57 44687203/209616225     gen_evasions(state_t*, int*, int) [28]
+                6.15    5.78 164929022/209616225     qsearch(state_t*, int, int, int, int) [7]
+[17]     4.0    7.81    7.35 209616225         gen_captures(state_t*, int*) [17]
+                2.18    0.00 1605864690/7592818589     FindFirstRemove(unsigned long long*) [24]
+                0.75    1.41 456141816/2869551984     RookAttacks(state_t*, int) [18]
+                0.55    1.11 349148367/2243214897     BishopAttacks(state_t*, int) [22]
+                1.35    0.00 660234237/2468518944     add_capture(int*, int, int, int, int, int) [32]
+-----------------------------------------------
+                0.03    0.06 18375388/2869551984     gen_quiet(state_t*, int*) [48]
+                0.14    0.26 82968365/2869551984     gen_check_blocks(state_t*, int*, int) [43]
+                0.19    0.36 116529139/2869551984     gen(state_t*, int*) [19]
+                0.37    0.69 222516107/2869551984     gen_good_checks(state_t*, int*) [35]
+                0.75    1.41 456141816/2869551984     gen_captures(state_t*, int*) [17]
+                1.06    1.99 642946454/2869551984     see(state_t*, int, int, int, int) [11]
+                2.20    4.11 1330074715/2869551984     mobility_eval(state_t*, t_eval_comps*, attackinfo_t*) [12]
+[18]     3.6    4.74    8.87 2869551984         RookAttacks(state_t*, int) [18]
+                4.60    0.00 2869551984/3437787237     FileAttacks(unsigned long long, unsigned int) [30]
+                4.27    0.00 2869551984/3330560340     RankAttacks(unsigned long long, unsigned int) [33]
+-----------------------------------------------
+                0.00    0.00      12/49742872     think(gamestate_t*, state_t*) [3]
+                0.00    0.00     244/49742872     search_root(state_t*, int, int, int) [4]
+                0.00    0.00    4753/49742872     hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00   13029/49742872     comp_to_san(state_t*, int, char*) [81]
+                5.41    7.56 49724834/49742872     search(state_t*, int, int, int, int, int) [6]
+[19]     3.4    5.41    7.56 49742872         gen(state_t*, int*) [19]
+                3.14    0.00 1540196767/2468518944     add_capture(int*, int, int, int, int, int) [32]
+                2.82    0.00 2079865526/7592818589     FindFirstRemove(unsigned long long*) [24]
+                0.19    0.36 116529139/2869551984     RookAttacks(state_t*, int) [18]
+                0.14    0.28 89137284/2243214897     BishopAttacks(state_t*, int) [22]
+                0.41    0.00 299650367/726928023     add_move(int*, int, int, int) [56]
+                0.16    0.00 2201552/2677703     add_king_castle(int*, int, int, int) [70]
+                0.05    0.00 4587051/5454817     check_castle_blocker(state_t*, int) [78]
+-----------------------------------------------
+                8.97    1.88 859881838/859881838     see(state_t*, int, int, int, int) [11]
+[20]     2.9    8.97    1.88 859881838         attacks_to(state_t*, int) [20]
+                0.57    0.00 352944178/3437787237     FileAttacks(unsigned long long, unsigned int) [30]
+                0.49    0.00 278039722/2683744756     DiagonalAttacks(unsigned long long, unsigned int) [34]
+                0.46    0.00 308367889/3330560340     RankAttacks(unsigned long long, unsigned int) [33]
+                0.37    0.00 257395063/2579642869     AntiDiagAttacks(unsigned long long, unsigned int) [38]
+-----------------------------------------------
+                0.00    0.00     244/405205355     search_root(state_t*, int, int, int) [4]
+                3.74    0.00 140250449/405205355     search(state_t*, int, int, int, int, int) [6]
+                7.06    0.00 264954662/405205355     qsearch(state_t*, int, int, int, int) [7]
+[21]     2.9   10.79    0.00 405205355         StoreTT(state_t*, int, int, int, unsigned int, int, int, int, int) [21]
+-----------------------------------------------
+                0.02    0.04 13590894/2243214897     gen_quiet(state_t*, int*) [48]
+                0.11    0.21 67069061/2243214897     gen_check_blocks(state_t*, int*, int) [43]
+                0.14    0.28 89137284/2243214897     gen(state_t*, int*) [19]
+                0.23    0.47 147490888/2243214897     gen_good_checks(state_t*, int*) [35]
+                0.55    1.11 349148367/2243214897     gen_captures(state_t*, int*) [17]
+                0.88    1.77 553876857/2243214897     see(state_t*, int, int, int, int) [11]
+                1.62    3.26 1022901546/2243214897     mobility_eval(state_t*, t_eval_comps*, attackinfo_t*) [12]
+[22]     2.8    3.55    7.16 2243214897         BishopAttacks(state_t*, int) [22]
+                3.95    0.00 2243214897/2683744756     DiagonalAttacks(unsigned long long, unsigned int) [34]
+                3.21    0.00 2243214897/2579642869     AntiDiagAttacks(unsigned long long, unsigned int) [38]
+-----------------------------------------------
+                0.00    0.00      24/1563000597     think(gamestate_t*, state_t*) [3]
+                0.00    0.00    5469/1563000597     hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00    9808/1563000597     search_root(state_t*, int, int, int) [4]
+                0.00    0.00   27187/1563000597     comp_to_san(state_t*, int, char*) [81]
+                1.15    0.12 186956187/1563000597     qsearch(state_t*, int, int, int, int) [7]
+                2.80    0.28 456994282/1563000597     search(state_t*, int, int, int, int, int) [6]
+                5.64    0.57 919007640/1563000597     check_legal(state_t*, int) [26]
+[23]     2.8    9.59    0.97 1563000597         is_attacked(state_t*, int, int) [23]
+                0.34    0.00 215291075/3437787237     FileAttacks(unsigned long long, unsigned int) [30]
+                0.29    0.00 162490137/2683744756     DiagonalAttacks(unsigned long long, unsigned int) [34]
+                0.23    0.00 152640467/3330560340     RankAttacks(unsigned long long, unsigned int) [33]
+                0.11    0.00 79032909/2579642869     AntiDiagAttacks(unsigned long long, unsigned int) [38]
+-----------------------------------------------
+                0.00    0.00     312/7592818589     check_phase(gamestate_t*, state_t*) [75]
+                0.00    0.00     728/7592818589     init_psq_score(state_t*) [86]
+                0.06    0.00 43240564/7592818589     full_pawn_eval(state_t*, pawntt_t*) [47]
+                0.24    0.00 178570437/7592818589     gen_evasions(state_t*, int*, int) [28]
+                0.37    0.00 270818984/7592818589     passer_eval(state_t*, pawntt_t*, int, t_eval_comps*) [14]
+                0.40    0.00 295433270/7592818589     gen_quiet(state_t*, int*) [48]
+                0.51    0.00 374030479/7592818589     gen_check_blocks(state_t*, int*, int) [43]
+                0.57    0.00 417072743/7592818589     gen_good_checks(state_t*, int*) [35]
+                2.18    0.00 1605864690/7592818589     gen_captures(state_t*, int*) [17]
+                2.82    0.00 2079865526/7592818589     gen(state_t*, int*) [19]
+                3.16    0.00 2327920856/7592818589     mobility_eval(state_t*, t_eval_comps*, attackinfo_t*) [12]
+[24]     2.7   10.30    0.00 7592818589         FindFirstRemove(unsigned long long*) [24]
+-----------------------------------------------
+                7.30    1.79 255239892/255239892     qsearch(state_t*, int, int, int, int) [7]
+[25]     2.4    7.30    1.79 255239892         fast_order_moves(state_t*, int*, int*, int, unsigned int) [25]
+                1.79    0.00 1113871673/3322262585     compact_move(int) [31]
+-----------------------------------------------
+                0.00    0.00     544/916704357     think(gamestate_t*, state_t*) [3]
+                0.00    0.00    4763/916704357     hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00    9655/916704357     search_root(state_t*, int, int, int) [4]
+                0.00    0.00   29437/916704357     comp_to_san(state_t*, int, char*) [81]
+                0.83    2.10 310413473/916704357     qsearch(state_t*, int, int, int, int) [7]
+                1.62    4.11 606246485/916704357     search(state_t*, int, int, int, int, int) [6]
+[26]     2.3    2.45    6.21 916704357         check_legal(state_t*, int) [26]
+                5.64    0.57 919007640/1563000597     is_attacked(state_t*, int, int) [23]
+-----------------------------------------------
+                0.00    0.00      28/916714589     post_fh_thinking(state_t*, int, int, char*, int) [85]
+                0.00    0.00      30/916714589     post_fl_thinking(state_t*, int, int, char*, int) [84]
+                0.00    0.00     544/916714589     think(gamestate_t*, state_t*) [3]
+                0.00    0.00     610/916714589     post_thinking(state_t*, int, int, char*, int) [82]
+                0.00    0.00    4763/916714589     hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00   19219/916714589     search_root(state_t*, int, int, int) [4]
+                0.00    0.00   29437/916714589     comp_to_san(state_t*, int, char*) [81]
+                2.51    0.00 310413473/916714589     qsearch(state_t*, int, int, int, int) [7]
+                4.91    0.00 606246485/916714589     search(state_t*, int, int, int, int, int) [6]
+[27]     2.0    7.43    0.00 916714589         unmake(state_t*, int) [27]
+-----------------------------------------------
+                0.00    0.00     358/44687203     hash_extract_pv(state_t*, int, char*) [83]
+                0.14    2.86 19349472/44687203     search(state_t*, int, int, int, int, int) [6]
+                0.19    3.74 25337373/44687203     qsearch(state_t*, int, int, int, int) [7]
+[28]     1.8    0.33    6.59 44687203         gen_evasions(state_t*, int*, int) [28]
+                1.67    1.57 44687203/209616225     gen_captures(state_t*, int*) [17]
+                1.34    1.53 38085146/38085146     gen_check_blocks(state_t*, int*, int) [43]
+                0.25    0.00 178570437/726928023     add_move(int*, int, int, int) [56]
+                0.24    0.00 178570437/7592818589     FindFirstRemove(unsigned long long*) [24]
+-----------------------------------------------
+                4.38    1.46 288009370/288009370     feval(state_t*, int, t_eval_comps*) [9]
+[29]     1.5    4.38    1.46 288009370         kingsafety_eval(state_t*, pawntt_t*, t_eval_comps*) [29]
+                0.79    0.00 1278317641/5393808666     PopCount(unsigned long long) [41]
+                0.67    0.00 426005681/2351442609     ThickPopCount(unsigned long long) [39]
+-----------------------------------------------
+                0.34    0.00 215291075/3437787237     is_attacked(state_t*, int, int) [23]
+                0.57    0.00 352944178/3437787237     attacks_to(state_t*, int) [20]
+                4.60    0.00 2869551984/3437787237     RookAttacks(state_t*, int) [18]
+[30]     1.5    5.51    0.00 3437787237         FileAttacks(unsigned long long, unsigned int) [30]
+-----------------------------------------------
+                0.00    0.00     325/3322262585     search_root(state_t*, int, int, int) [4]
+                0.00    0.00  184903/3322262585     hash_extract_pv(state_t*, int, char*) [83]
+                0.08    0.00 47415885/3322262585     search(state_t*, int, int, int, int, int) [6]
+                0.12    0.00 77169184/3322262585     qsearch(state_t*, int, int, int, int) [7]
+                1.79    0.00 1113871673/3322262585     fast_order_moves(state_t*, int*, int*, int, unsigned int) [25]
+                3.34    0.00 2083620615/3322262585     order_moves(state_t*, int*, int*, int, unsigned int) [15]
+[31]     1.4    5.33    0.00 3322262585         compact_move(int) [31]
+-----------------------------------------------
+                0.11    0.00 55716364/2468518944     gen_good_checks(state_t*, int*) [35]
+                0.43    0.00 212371576/2468518944     gen_quiet(state_t*, int*) [48]
+                1.35    0.00 660234237/2468518944     gen_captures(state_t*, int*) [17]
+                3.14    0.00 1540196767/2468518944     gen(state_t*, int*) [19]
+[32]     1.3    5.03    0.00 2468518944         add_capture(int*, int, int, int, int, int) [32]
+-----------------------------------------------
+                0.23    0.00 152640467/3330560340     is_attacked(state_t*, int, int) [23]
+                0.46    0.00 308367889/3330560340     attacks_to(state_t*, int) [20]
+                4.27    0.00 2869551984/3330560340     RookAttacks(state_t*, int) [18]
+[33]     1.3    4.96    0.00 3330560340         RankAttacks(unsigned long long, unsigned int) [33]
+-----------------------------------------------
+                0.29    0.00 162490137/2683744756     is_attacked(state_t*, int, int) [23]
+                0.49    0.00 278039722/2683744756     attacks_to(state_t*, int) [20]
+                3.95    0.00 2243214897/2683744756     BishopAttacks(state_t*, int) [22]
+[34]     1.3    4.72    0.00 2683744756         DiagonalAttacks(unsigned long long, unsigned int) [34]
+-----------------------------------------------
+                1.79    2.44 57578690/57578690     qsearch(state_t*, int, int, int, int) [7]
+[35]     1.1    1.79    2.44 57578690         gen_good_checks(state_t*, int*) [35]
+                0.37    0.69 222516107/2869551984     RookAttacks(state_t*, int) [18]
+                0.23    0.47 147490888/2243214897     BishopAttacks(state_t*, int) [22]
+                0.57    0.00 417072743/7592818589     FindFirstRemove(unsigned long long*) [24]
+                0.11    0.00 55716364/2468518944     add_capture(int*, int, int, int, int, int) [32]
+                0.00    0.00 1189087/726928023     add_move(int*, int, int, int) [56]
+-----------------------------------------------
+                0.00    0.00    1301/597933535     drawn_endgames(state_t*, int, int, int) [44]
+                1.71    2.26 597932234/597933535     passer_eval(state_t*, pawntt_t*, int, t_eval_comps*) [14]
+[36]     1.1    1.71    2.26 597933535         taxicab_dist(int, int) [36]
+                1.13    0.00 1195867070/2087828881     rank(int) [49]
+                1.13    0.00 1195867070/2049743712     file(int) [50]
+-----------------------------------------------
+                2.89    0.93 288009370/288009370     feval(state_t*, int, t_eval_comps*) [9]
+[37]     1.0    2.89    0.93 288009370         kingpressure_eval(state_t*, attackinfo_t*, t_eval_comps*) [37]
+                0.67    0.00 426306279/2351442609     ThickPopCount(unsigned long long) [39]
+                0.26    0.00 426306279/5393808666     PopCount(unsigned long long) [41]
+-----------------------------------------------
+                0.11    0.00 79032909/2579642869     is_attacked(state_t*, int, int) [23]
+                0.37    0.00 257395063/2579642869     attacks_to(state_t*, int) [20]
+                3.21    0.00 2243214897/2579642869     BishopAttacks(state_t*, int) [22]
+[38]     1.0    3.70    0.00 2579642869         AntiDiagAttacks(unsigned long long, unsigned int) [38]
+-----------------------------------------------
+                0.67    0.00 426005681/2351442609     kingsafety_eval(state_t*, pawntt_t*, t_eval_comps*) [29]
+                0.67    0.00 426306279/2351442609     kingpressure_eval(state_t*, attackinfo_t*, t_eval_comps*) [37]
+                2.35    0.00 1499130649/2351442609     mobility_eval(state_t*, t_eval_comps*, attackinfo_t*) [12]
+[39]     1.0    3.69    0.00 2351442609         ThickPopCount(unsigned long long) [39]
+-----------------------------------------------
+                1.26    2.25 288009370/288009370     feval(state_t*, int, t_eval_comps*) [9]
+[40]     0.9    1.26    2.25 288009370         static_pawn_eval(state_t*) [40]
+                2.14    0.11 4158022/4158022     full_pawn_eval(state_t*, pawntt_t*) [47]
+-----------------------------------------------
+                0.00    0.00 1838047/5393808666     opposite_bishops(state_t*, int, int, int) [62]
+                0.05    0.00 81033519/5393808666     full_pawn_eval(state_t*, pawntt_t*) [47]
+                0.26    0.00 426306279/5393808666     kingpressure_eval(state_t*, attackinfo_t*, t_eval_comps*) [37]
+                0.79    0.00 1278317641/5393808666     kingsafety_eval(state_t*, pawntt_t*, t_eval_comps*) [29]
+                0.82    0.00 1319281375/5393808666     positional_eval(state_t*, pawntt_t*, t_eval_comps*) [42]
+                1.42    0.00 2287031805/5393808666     mobility_eval(state_t*, t_eval_comps*, attackinfo_t*) [12]
+[41]     0.9    3.34    0.00 5393808666         PopCount(unsigned long long) [41]
+-----------------------------------------------
+                2.50    0.82 288009370/288009370     feval(state_t*, int, t_eval_comps*) [9]
+[42]     0.9    2.50    0.82 288009370         positional_eval(state_t*, pawntt_t*, t_eval_comps*) [42]
+                0.82    0.00 1319281375/5393808666     PopCount(unsigned long long) [41]
+-----------------------------------------------
+                1.34    1.53 38085146/38085146     gen_evasions(state_t*, int*, int) [28]
+[43]     0.8    1.34    1.53 38085146         gen_check_blocks(state_t*, int*, int) [43]
+                0.51    0.00 374030479/7592818589     FindFirstRemove(unsigned long long*) [24]
+                0.14    0.26 82968365/2869551984     RookAttacks(state_t*, int) [18]
+                0.11    0.21 67069061/2243214897     BishopAttacks(state_t*, int) [22]
+                0.28    0.00 201824960/726928023     add_move(int*, int, int, int) [56]
+                0.04    0.00 38085146/2087828881     rank(int) [49]
+-----------------------------------------------
+                0.94    1.77 288009370/288009370     eval(state_t*, int, int, int) [8]
+[44]     0.7    0.94    1.77 288009370         drawn_endgames(state_t*, int, int, int) [44]
+                1.60    0.00      51/51          FindFirst(unsigned long long) [52]
+                0.18    0.00     396/396         FindLast(unsigned long long) [72]
+                0.00    0.00    1301/597933535     taxicab_dist(int, int) [36]
+                0.00    0.00      60/2049743712     file(int) [50]
+                0.00    0.00      38/2087828881     rank(int) [49]
+-----------------------------------------------
+                0.86    1.61 426922806/426922806     mobility_eval(state_t*, t_eval_comps*, attackinfo_t*) [12]
+[45]     0.7    0.86    1.61 426922806         sum_dist(int, int) [45]
+                0.81    0.00 853845612/2087828881     rank(int) [49]
+                0.81    0.00 853845612/2049743712     file(int) [50]
+-----------------------------------------------
+                2.37    0.00 288009370/288009370     feval(state_t*, int, t_eval_comps*) [9]
+[46]     0.6    2.37    0.00 288009370         trapped_eval(state_t*, t_eval_comps*) [46]
+-----------------------------------------------
+                2.14    0.11 4158022/4158022     static_pawn_eval(state_t*) [40]
+[47]     0.6    2.14    0.11 4158022         full_pawn_eval(state_t*, pawntt_t*) [47]
+                0.06    0.00 43240564/7592818589     FindFirstRemove(unsigned long long*) [24]
+                0.05    0.00 81033519/5393808666     PopCount(unsigned long long) [41]
+-----------------------------------------------
+                1.03    1.09 7394807/7394807     qsearch(state_t*, int, int, int, int) [7]
+[48]     0.6    1.03    1.09 7394807         gen_quiet(state_t*, int*) [48]
+                0.43    0.00 212371576/2468518944     add_capture(int*, int, int, int, int, int) [32]
+                0.40    0.00 295433270/7592818589     FindFirstRemove(unsigned long long*) [24]
+                0.03    0.06 18375388/2869551984     RookAttacks(state_t*, int) [18]
+                0.02    0.04 13590894/2243214897     BishopAttacks(state_t*, int) [22]
+                0.06    0.00 45693172/726928023     add_move(int*, int, int, int) [56]
+                0.03    0.00  476151/2677703     add_king_castle(int*, int, int, int) [70]
+                0.01    0.00  867766/5454817     check_castle_blocker(state_t*, int) [78]
+-----------------------------------------------
+                0.00    0.00      38/2087828881     drawn_endgames(state_t*, int, int, int) [44]
+                0.00    0.00    1465/2087828881     search_root(state_t*, int, int, int) [4]
+                0.00    0.00   29550/2087828881     comp_to_san(state_t*, int, char*) [81]
+                0.04    0.00 38085146/2087828881     gen_check_blocks(state_t*, int*, int) [43]
+                0.81    0.00 853845612/2087828881     sum_dist(int, int) [45]
+                1.13    0.00 1195867070/2087828881     taxicab_dist(int, int) [36]
+[49]     0.5    1.98    0.00 2087828881         rank(int) [49]
+-----------------------------------------------
+                0.00    0.00      60/2049743712     drawn_endgames(state_t*, int, int, int) [44]
+                0.00    0.00   30970/2049743712     comp_to_san(state_t*, int, char*) [81]
+                0.81    0.00 853845612/2049743712     sum_dist(int, int) [45]
+                1.13    0.00 1195867070/2049743712     taxicab_dist(int, int) [36]
+[50]     0.5    1.94    0.00 2049743712         file(int) [50]
+-----------------------------------------------
+                0.79    0.00 233491414/556156805     qsearch(state_t*, int, int, int, int) [7]
+                1.09    0.00 322665391/556156805     search(state_t*, int, int, int, int, int) [6]
+[51]     0.5    1.88    0.00 556156805         history_pre_cut(state_t*, int, int) [51]
+-----------------------------------------------
+                1.60    0.00      51/51          drawn_endgames(state_t*, int, int, int) [44]
+[52]     0.4    1.60    0.00      51         FindFirst(unsigned long long) [52]
+-----------------------------------------------
+                0.00    0.00     128/576019074     SetupPrecalculatedData() [87]
+                0.00    0.00     206/576019074     think(gamestate_t*, state_t*) [3]
+                1.15    0.00 576018740/576019074     eval(state_t*, int, int, int) [8]
+[53]     0.3    1.15    0.00 576019074         int const& std::min<int>(int const&, int const&) [53]
+-----------------------------------------------
+                0.00    0.00      24/643992957     think(gamestate_t*, state_t*) [3]
+                0.00    0.00    5469/643992957     hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00    9808/643992957     search_root(state_t*, int, int, int) [4]
+                0.00    0.00   27187/643992957     comp_to_san(state_t*, int, char*) [81]
+                0.33    0.00 186956187/643992957     qsearch(state_t*, int, int, int, int) [7]
+                0.80    0.00 456994282/643992957     search(state_t*, int, int, int, int, int) [6]
+[54]     0.3    1.13    0.00 643992957         in_check(state_t*) [54]
+-----------------------------------------------
+                0.43    0.00 198224450/507243255     search(state_t*, int, int, int, int, int) [6]
+                0.66    0.00 309018805/507243255     qsearch(state_t*, int, int, int, int) [7]
+[55]     0.3    1.09    0.00 507243255         is_draw(gamestate_t*, state_t*) [55]
+-----------------------------------------------
+                0.00    0.00 1189087/726928023     gen_good_checks(state_t*, int*) [35]
+                0.06    0.00 45693172/726928023     gen_quiet(state_t*, int*) [48]
+                0.25    0.00 178570437/726928023     gen_evasions(state_t*, int*, int) [28]
+                0.28    0.00 201824960/726928023     gen_check_blocks(state_t*, int*, int) [43]
+                0.41    0.00 299650367/726928023     gen(state_t*, int*) [19]
+[56]     0.3    1.00    0.00 726928023         add_move(int*, int, int, int) [56]
+-----------------------------------------------
+                                                 <spontaneous>
+[57]     0.3    0.99    0.00                 elo_to_blunder(int) [57]
+-----------------------------------------------
+                0.33    0.00 198224450/507243255     search(state_t*, int, int, int, int, int) [6]
+                0.52    0.00 309018805/507243255     qsearch(state_t*, int, int, int, int) [7]
+[58]     0.2    0.85    0.00 507243255         search_time_check(state_t*) [58]
+                0.00    0.00   30953/31147       interrupt() [94]
+                0.00    0.00   30953/31159       rtime() [93]
+                0.00    0.00   30953/31147       rdifftime(int, int) [95]
+-----------------------------------------------
+                0.71    0.00 288009370/288009370     feval(state_t*, int, t_eval_comps*) [9]
+[59]     0.2    0.71    0.00 288009370         psq_eval(state_t*, t_eval_comps*) [59]
+-----------------------------------------------
+                0.00    0.67      12/12          run_epd_testsuite(gamestate_t*, state_t*, char const*) [2]
+[60]     0.2    0.00    0.67      12         setup_epd_line(gamestate_t*, state_t*, char const*) [60]
+                0.00    0.24      12/13          init_game(gamestate_t*, state_t*) [67]
+                0.24    0.00      12/25          SetupCastleMasks(state_t*) [64]
+                0.18    0.00      12/13          initialize_hash(state_t*) [71]
+                0.00    0.00      12/25          init_psq_score(state_t*) [86]
+                0.00    0.00      12/25          reset_piece_square(state_t*) [98]
+-----------------------------------------------
+                0.62    0.00       1/1           main [1]
+[61]     0.2    0.62    0.00       1         init_parameters(gamestate_t*) [61]
+-----------------------------------------------
+                0.55    0.00 288009370/288009370     eval(state_t*, int, int, int) [8]
+[62]     0.1    0.55    0.00 288009370         opposite_bishops(state_t*, int, int, int) [62]
+                0.00    0.00 1838047/5393808666     PopCount(unsigned long long) [41]
+-----------------------------------------------
+                0.00    0.00    8645/96908110     search_root(state_t*, int, int, int) [4]
+                0.51    0.00 96899465/96908110     search(state_t*, int, int, int, int, int) [6]
+[63]     0.1    0.51    0.00 96908110         history_score(state_t*, int) [63]
+-----------------------------------------------
+                0.24    0.00      12/25          setup_epd_line(gamestate_t*, state_t*, char const*) [60]
+                0.27    0.00      13/25          init_game(gamestate_t*, state_t*) [67]
+[64]     0.1    0.51    0.00      25         SetupCastleMasks(state_t*) [64]
+-----------------------------------------------
+                0.49    0.00 597932234/597932234     passer_eval(state_t*, pawntt_t*, int, t_eval_comps*) [14]
+[65]     0.1    0.49    0.00 597932234         taxicab_dist_bit(int, int) [65]
+-----------------------------------------------
+                0.15    0.00 171789668/436909794     search(state_t*, int, int, int, int, int) [6]
+                0.24    0.00 265120126/436909794     qsearch(state_t*, int, int, int, int) [7]
+[66]     0.1    0.39    0.00 436909794         retrieve_eval(state_t*) [66]
+-----------------------------------------------
+                0.00    0.02       1/13          main [1]
+                0.00    0.24      12/13          setup_epd_line(gamestate_t*, state_t*, char const*) [60]
+[67]     0.1    0.00    0.27      13         init_game(gamestate_t*, state_t*) [67]
+                0.27    0.00      13/25          SetupCastleMasks(state_t*) [64]
+                0.00    0.00      13/25          init_psq_score(state_t*) [86]
+                0.00    0.00      13/25          reset_piece_square(state_t*) [98]
+-----------------------------------------------
+                                                 <spontaneous>
+[68]     0.1    0.25    0.00                 int const& std::max<int>(int const&, int const&) [68]
+-----------------------------------------------
+                                                 <spontaneous>
+[69]     0.1    0.23    0.00                 frame_dummy [69]
+-----------------------------------------------
+                0.03    0.00  476151/2677703     gen_quiet(state_t*, int*) [48]
+                0.16    0.00 2201552/2677703     gen(state_t*, int*) [19]
+[70]     0.1    0.19    0.00 2677703         add_king_castle(int*, int, int, int) [70]
+-----------------------------------------------
+                0.01    0.00       1/13          main [1]
+                0.18    0.00      12/13          setup_epd_line(gamestate_t*, state_t*, char const*) [60]
+[71]     0.1    0.19    0.00      13         initialize_hash(state_t*) [71]
+-----------------------------------------------
+                0.18    0.00     396/396         drawn_endgames(state_t*, int, int, int) [44]
+[72]     0.0    0.18    0.00     396         FindLast(unsigned long long) [72]
+-----------------------------------------------
+                0.00    0.00     282/47215918     search_root(state_t*, int, int, int) [4]
+                0.16    0.00 47215636/47215918     search(state_t*, int, int, int, int, int) [6]
+[73]     0.0    0.16    0.00 47215918         history_good(state_t*, int, int) [73]
+-----------------------------------------------
+                                                 <spontaneous>
+[74]     0.0    0.11    0.00                 scale(int, int, int) [74]
+-----------------------------------------------
+                0.09    0.00      12/12          think(gamestate_t*, state_t*) [3]
+[75]     0.0    0.09    0.00      12         check_phase(gamestate_t*, state_t*) [75]
+                0.00    0.00     312/7592818589     FindFirstRemove(unsigned long long*) [24]
+-----------------------------------------------
+                0.08    0.00       1/1           main [1]
+[76]     0.0    0.08    0.00       1         preprocess_prepare() [76]
+-----------------------------------------------
+                                                 <spontaneous>
+[77]     0.0    0.08    0.00                 insufficient_material(state_t*) [77]
+-----------------------------------------------
+                0.01    0.00  867766/5454817     gen_quiet(state_t*, int*) [48]
+                0.05    0.00 4587051/5454817     gen(state_t*, int*) [19]
+[78]     0.0    0.07    0.00 5454817         check_castle_blocker(state_t*, int) [78]
+-----------------------------------------------
+                0.03    0.00 12338365/12338365     search(state_t*, int, int, int, int, int) [6]
+[79]     0.0    0.03    0.00 12338365         history_bad(state_t*, int, int) [79]
+-----------------------------------------------
+                                                 <spontaneous>
+[80]     0.0    0.01    0.00                 input_causes_stop() [80]
+-----------------------------------------------
+                0.00    0.00      28/14775       post_fh_thinking(state_t*, int, int, char*, int) [85]
+                0.00    0.00      30/14775       post_fl_thinking(state_t*, int, int, char*, int) [84]
+                0.00    0.00     390/14775       post_thinking(state_t*, int, int, char*, int) [82]
+                0.00    0.00    4763/14775       hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00    9564/14775       search_root(state_t*, int, int, int) [4]
+[81]     0.0    0.00    0.00   14775         comp_to_san(state_t*, int, char*) [81]
+                0.00    0.00   13029/49742872     gen(state_t*, int*) [19]
+                0.00    0.00   29437/916714589     make(state_t*, int) [16]
+                0.00    0.00   29437/916704357     check_legal(state_t*, int) [26]
+                0.00    0.00   29437/916714589     unmake(state_t*, int) [27]
+                0.00    0.00   27187/1563000597     is_attacked(state_t*, int, int) [23]
+                0.00    0.00   27187/643992957     in_check(state_t*) [54]
+                0.00    0.00   30970/2049743712     file(int) [50]
+                0.00    0.00   29550/2087828881     rank(int) [49]
+-----------------------------------------------
+                0.00    0.00     194/472         think(gamestate_t*, state_t*) [3]
+                0.00    0.00     278/472         search_root(state_t*, int, int, int) [4]
+[82]     0.0    0.00    0.00     472         post_thinking(state_t*, int, int, char*, int) [82]
+                0.00    0.00     390/390         hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00     390/14775       comp_to_san(state_t*, int, char*) [81]
+                0.00    0.00     610/916714589     make(state_t*, int) [16]
+                0.00    0.00     610/916714589     unmake(state_t*, int) [27]
+                0.00    0.00    1170/2390        myprintf(char const*, ...) [96]
+-----------------------------------------------
+                                4763             hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00     390/390         post_thinking(state_t*, int, int, char*, int) [82]
+[83]     0.0    0.00    0.00     390+4763    hash_extract_pv(state_t*, int, char*) [83]
+                0.00    0.00    4763/14775       comp_to_san(state_t*, int, char*) [81]
+                0.00    0.00    4753/49742872     gen(state_t*, int*) [19]
+                0.00    0.00    5123/506568965     ProbeTT(state_t*, int*, int, int, unsigned int*, int*, int*, int*, int*, int) [10]
+                0.00    0.00  184903/3322262585     compact_move(int) [31]
+                0.00    0.00    4763/916714589     make(state_t*, int) [16]
+                0.00    0.00     358/44687203     gen_evasions(state_t*, int*, int) [28]
+                0.00    0.00    4763/916704357     check_legal(state_t*, int) [26]
+                0.00    0.00    4763/916714589     unmake(state_t*, int) [27]
+                0.00    0.00    5469/1563000597     is_attacked(state_t*, int, int) [23]
+                0.00    0.00    5469/643992957     in_check(state_t*) [54]
+                                4763             hash_extract_pv(state_t*, int, char*) [83]
+-----------------------------------------------
+                0.00    0.00      41/41          search_root(state_t*, int, int, int) [4]
+[84]     0.0    0.00    0.00      41         post_fl_thinking(state_t*, int, int, char*, int) [84]
+                0.00    0.00      30/14775       comp_to_san(state_t*, int, char*) [81]
+                0.00    0.00      30/916714589     make(state_t*, int) [16]
+                0.00    0.00      30/916714589     unmake(state_t*, int) [27]
+                0.00    0.00      90/2390        myprintf(char const*, ...) [96]
+-----------------------------------------------
+                0.00    0.00      34/34          search_root(state_t*, int, int, int) [4]
+[85]     0.0    0.00    0.00      34         post_fh_thinking(state_t*, int, int, char*, int) [85]
+                0.00    0.00      28/14775       comp_to_san(state_t*, int, char*) [81]
+                0.00    0.00      28/916714589     make(state_t*, int) [16]
+                0.00    0.00      28/916714589     unmake(state_t*, int) [27]
+                0.00    0.00      84/2390        myprintf(char const*, ...) [96]
+-----------------------------------------------
+                0.00    0.00      12/25          setup_epd_line(gamestate_t*, state_t*, char const*) [60]
+                0.00    0.00      13/25          init_game(gamestate_t*, state_t*) [67]
+[86]     0.0    0.00    0.00      25         init_psq_score(state_t*) [86]
+                0.00    0.00     728/7592818589     FindFirstRemove(unsigned long long*) [24]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[87]     0.0    0.00    0.00       1         SetupPrecalculatedData() [87]
+                0.00    0.00     128/576019074     int const& std::min<int>(int const&, int const&) [53]
+-----------------------------------------------
+                0.00    0.00     206/31159       think(gamestate_t*, state_t*) [3]
+                0.00    0.00   30953/31159       search_time_check(state_t*) [58]
+[93]     0.0    0.00    0.00   31159         rtime() [93]
+-----------------------------------------------
+                0.00    0.00     194/31147       think(gamestate_t*, state_t*) [3]
+                0.00    0.00   30953/31147       search_time_check(state_t*) [58]
+[94]     0.0    0.00    0.00   31147         interrupt() [94]
+-----------------------------------------------
+                0.00    0.00     194/31147       think(gamestate_t*, state_t*) [3]
+                0.00    0.00   30953/31147       search_time_check(state_t*) [58]
+[95]     0.0    0.00    0.00   31147         rdifftime(int, int) [95]
+-----------------------------------------------
+                0.00    0.00       2/2390        main [1]
+                0.00    0.00      24/2390        think(gamestate_t*, state_t*) [3]
+                0.00    0.00      48/2390        run_epd_testsuite(gamestate_t*, state_t*, char const*) [2]
+                0.00    0.00      84/2390        post_fh_thinking(state_t*, int, int, char*, int) [85]
+                0.00    0.00      90/2390        post_fl_thinking(state_t*, int, int, char*, int) [84]
+                0.00    0.00     972/2390        display_board(state_t*, int) [101]
+                0.00    0.00    1170/2390        post_thinking(state_t*, int, int, char*, int) [82]
+[96]     0.0    0.00    0.00    2390         myprintf(char const*, ...) [96]
+-----------------------------------------------
+                0.00    0.00    1792/1792        initialize_zobrist(state_t*) [108]
+[97]     0.0    0.00    0.00    1792         myrandom() [97]
+-----------------------------------------------
+                0.00    0.00      12/25          setup_epd_line(gamestate_t*, state_t*, char const*) [60]
+                0.00    0.00      13/25          init_game(gamestate_t*, state_t*) [67]
+[98]     0.0    0.00    0.00      25         reset_piece_square(state_t*) [98]
+-----------------------------------------------
+                0.00    0.00       1/13          main [1]
+                0.00    0.00      12/13          run_epd_testsuite(gamestate_t*, state_t*, char const*) [2]
+[99]     0.0    0.00    0.00      13         clear_tt() [99]
+-----------------------------------------------
+                0.00    0.00      12/12          think(gamestate_t*, state_t*) [3]
+[100]    0.0    0.00    0.00      12         clear_dp_tt() [100]
+-----------------------------------------------
+                0.00    0.00      12/12          run_epd_testsuite(gamestate_t*, state_t*, char const*) [2]
+[101]    0.0    0.00    0.00      12         display_board(state_t*, int) [101]
+                0.00    0.00     972/2390        myprintf(char const*, ...) [96]
+-----------------------------------------------
+                0.00    0.00      12/12          run_epd_testsuite(gamestate_t*, state_t*, char const*) [2]
+[102]    0.0    0.00    0.00      12         dumpsearchstat(state_t*) [102]
+-----------------------------------------------
+                0.00    0.00      12/12          think(gamestate_t*, state_t*) [3]
+[103]    0.0    0.00    0.00      12         reset_search_data(state_t*) [103]
+-----------------------------------------------
+                0.00    0.00      12/12          think(gamestate_t*, state_t*) [3]
+[104]    0.0    0.00    0.00      12         reset_search_counters(state_t*) [104]
+-----------------------------------------------
+                0.00    0.00       1/2           main [1]
+                0.00    0.00       1/2           initialize_zobrist(state_t*) [108]
+[105]    0.0    0.00    0.00       2         mysrand(unsigned int) [105]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[106]    0.0    0.00    0.00       1         alloc_hash() [106]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[107]    0.0    0.00    0.00       1         clear_pawn_tt() [107]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[108]    0.0    0.00    0.00       1         initialize_zobrist(state_t*) [108]
+                0.00    0.00    1792/1792        myrandom() [97]
+                0.00    0.00       1/2           mysrand(unsigned int) [105]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[109]    0.0    0.00    0.00       1         start_up() [109]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [106] alloc_hash()           [64] SetupCastleMasks(state_t*) [56] add_move(int*, int, int, int)
+  [20] attacks_to(state_t*, int) [43] gen_check_blocks(state_t*, int*, int) [99] clear_tt()
+  [30] FileAttacks(unsigned long long, unsigned int) [85] post_fh_thinking(state_t*, int, int, char*, int) [54] in_check(state_t*)
+  [33] RankAttacks(unsigned long long, unsigned int) [84] post_fl_thinking(state_t*, int, int, char*, int) [96] myprintf(char const*, ...)
+  [18] RookAttacks(state_t*, int) [40] static_pawn_eval(state_t*) [97] myrandom()
+  [32] add_capture(int*, int, int, int, int, int) [65] taxicab_dist_bit(int, int) [59] psq_eval(state_t*, t_eval_comps*)
+  [26] check_legal(state_t*, int) [80] input_causes_stop() [109] start_up()
+  [75] check_phase(gamestate_t*, state_t*) [103] reset_search_data(state_t*) [45] sum_dist(int, int)
+ [100] clear_dp_tt()           [2] run_epd_testsuite(gamestate_t*, state_t*, char const*) [52] FindFirst(unsigned long long)
+  [81] comp_to_san(state_t*, int, char*) [108] initialize_zobrist(state_t*) [48] gen_quiet(state_t*, int*)
+  [23] is_attacked(state_t*, int, int) [76] preprocess_prepare() [67] init_game(gamestate_t*, state_t*)
+   [4] search_root(state_t*, int, int, int) [98] reset_piece_square(state_t*) [94] interrupt()
+  [31] compact_move(int)      [78] check_castle_blocker(state_t*, int) [95] rdifftime(int, int)
+  [17] gen_captures(state_t*, int*) [77] insufficient_material(state_t*) [79] history_bad(state_t*, int, int) (search.cpp)
+  [28] gen_evasions(state_t*, int*, int) [104] reset_search_counters(state_t*) [15] order_moves(state_t*, int*, int*, int, unsigned int) (search.cpp)
+  [36] taxicab_dist(int, int) [87] SetupPrecalculatedData() [14] passer_eval(state_t*, pawntt_t*, int, t_eval_comps*) (neval.cpp)
+  [22] BishopAttacks(state_t*, int) [19] gen(state_t*, int*) [73] history_good(state_t*, int, int) (search.cpp)
+  [39] ThickPopCount(unsigned long long) [11] see(state_t*, int, int, int, int) [46] trapped_eval(state_t*, t_eval_comps*) (neval.cpp)
+ [107] clear_pawn_tt()         [8] eval(state_t*, int, int, int) [63] history_score(state_t*, int) (search.cpp)
+ [101] display_board(state_t*, int) [50] file(int)        [12] mobility_eval(state_t*, t_eval_comps*, attackinfo_t*) (neval.cpp)
+  [82] post_thinking(state_t*, int, int, char*, int) [16] make(state_t*, int) [47] full_pawn_eval(state_t*, pawntt_t*) (pawn.cpp)
+  [66] retrieve_eval(state_t*) [49] rank(int)             [83] hash_extract_pv(state_t*, int, char*) (utils.cpp)
+  [44] drawn_endgames(state_t*, int, int, int) [9] feval(state_t*, int, t_eval_comps*) [51] history_pre_cut(state_t*, int, int) (search.cpp)
+ [102] dumpsearchstat(state_t*) [93] rtime()              [29] kingsafety_eval(state_t*, pawntt_t*, t_eval_comps*) (neval.cpp)
+  [57] elo_to_blunder(int)    [74] scale(int, int, int)   [42] positional_eval(state_t*, pawntt_t*, t_eval_comps*) (neval.cpp)
+  [86] init_psq_score(state_t*) [3] think(gamestate_t*, state_t*) [13] remove_one_fast(int*, int*, int*, int) (search.cpp)
+   [5] rootmovesearch(state_t*, int, int, int, int, int) [6] search(state_t*, int, int, int, int, int) [25] fast_order_moves(state_t*, int*, int*, int, unsigned int) (search.cpp)
+  [60] setup_epd_line(gamestate_t*, state_t*, char const*) [27] unmake(state_t*, int) [62] opposite_bishops(state_t*, int, int, int) (neval.cpp)
+  [38] AntiDiagAttacks(unsigned long long, unsigned int) [10] ProbeTT(state_t*, int*, int, int, unsigned int*, int*, int*, int*, int*, int) [37] kingpressure_eval(state_t*, attackinfo_t*, t_eval_comps*) (neval.cpp)
+  [34] DiagonalAttacks(unsigned long long, unsigned int) [21] StoreTT(state_t*, int, int, int, unsigned int, int, int, int, int) [58] search_time_check(state_t*) (search.cpp)
+  [24] FindFirstRemove(unsigned long long*) [55] is_draw(gamestate_t*, state_t*) [68] int const& std::max<int>(int const&, int const&)
+  [70] add_king_castle(int*, int, int, int) [105] mysrand(unsigned int) [53] int const& std::min<int>(int const&, int const&)
+  [35] gen_good_checks(state_t*, int*) [7] qsearch(state_t*, int, int, int, int) [69] frame_dummy
+  [61] init_parameters(gamestate_t*) [72] FindLast(unsigned long long)
+  [71] initialize_hash(state_t*) [41] PopCount(unsigned long long)

@@ -1,0 +1,355 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 27.20      2.37     2.37    71012     0.00     0.00  primal_bea_mpp
+ 22.44      4.33     1.96 610286980     0.00     0.00  cost_compare
+ 18.02      5.90     1.57    71012     0.00     0.00  spec_qsort
+ 10.56      6.82     0.92       10     0.09     0.12  price_out_impl
+  7.69      7.49     0.67 291125514     0.00     0.00  bea_is_dual_infeasible
+  6.20      8.03     0.54 58693462     0.00     0.00  arc_compare
+  1.26      8.14     0.11    71002     0.00     0.00  update_tree
+  1.26      8.25     0.11       10     0.01     0.01  marc_arcs
+  0.92      8.33     0.08   328509     0.00     0.00  replace_weaker_arc
+  0.80      8.40     0.07 11492446     0.00     0.00  swapfunc
+  0.69      8.46     0.06  2726304     0.00     0.00  insert_new_arc
+  0.46      8.50     0.04       10     0.00     0.00  dual_feasible
+  0.34      8.53     0.03    71002     0.00     0.00  primal_iminus
+  0.34      8.56     0.03       20     0.00     0.00  refreshArcPointers
+  0.34      8.59     0.03       12     0.00     0.00  flow_cost
+  0.34      8.62     0.03        9     0.00     0.01  suspend_impl
+  0.29      8.65     0.03       10     0.00     0.00  set_static_vars
+  0.23      8.67     0.02 18082992     0.00     0.00  med3
+  0.23      8.69     0.02    71002     0.00     0.00  markBaskets
+  0.23      8.71     0.02       20     0.00     0.00  refreshPositions
+  0.17      8.72     0.02  5006700     0.00     0.00  getArcPosition
+  0.06      8.73     0.01                             start
+  0.00      8.73     0.00  2574387     0.00     0.00  getOriginalArcPosition
+  0.00      8.73     0.00      834     0.00     0.00  calculate_max_redcost
+  0.00      8.73     0.00       11     0.00     0.00  refresh_neighbour_lists
+  0.00      8.73     0.00       10     0.00     0.74  master
+  0.00      8.73     0.00       10     0.00     0.00  primal_feasible
+  0.00      8.73     0.00       10     0.00     0.74  primal_net_simplex
+  0.00      8.73     0.00        2     0.00     0.00  resize_prob
+  0.00      8.73     0.00        2     0.00     0.00  switch_arcs
+  0.00      8.73     0.00        1     0.00     0.00  getfree
+  0.00      8.73     0.00        1     0.00     8.72  global_opt
+  0.00      8.73     0.00        1     0.00     0.00  primal_start_artificial
+  0.00      8.73     0.00        1     0.00     0.00  read_min
+  0.00      8.73     0.00        1     0.00     0.00  write_objective_value
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.11% of 8.73 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     99.9    0.00    8.72                 main [1]
+                0.00    8.72       1/1           global_opt [2]
+                0.00    0.00       1/1           write_objective_value [27]
+                0.00    0.00       1/1           read_min [28]
+                0.00    0.00       1/1           primal_start_artificial [36]
+                0.00    0.00       1/1           getfree [35]
+-----------------------------------------------
+                0.00    8.72       1/1           main [1]
+[2]     99.9    0.00    8.72       1         global_opt [2]
+                0.00    7.42      10/10          primal_net_simplex [3]
+                0.92    0.28      10/10          price_out_impl [8]
+                0.03    0.03       9/9           suspend_impl [17]
+                0.03    0.00      11/12          flow_cost [22]
+                0.00    0.00       1/20          refreshPositions [18]
+-----------------------------------------------
+                0.00    7.42      10/10          global_opt [2]
+[3]     85.1    0.00    7.42      10         primal_net_simplex [3]
+                0.00    7.36      10/10          master [4]
+                0.04    0.00      10/10          dual_feasible [19]
+                0.03    0.00      10/10          set_static_vars [23]
+                0.00    0.00      10/10          primal_feasible [33]
+-----------------------------------------------
+                0.00    7.36      10/10          primal_net_simplex [3]
+[4]     84.3    0.00    7.36      10         master [4]
+                2.37    4.83   71012/71012       primal_bea_mpp [5]
+                0.11    0.00   71002/71002       update_tree [12]
+                0.03    0.00   71002/71002       primal_iminus [21]
+                0.02    0.00   71002/71002       markBaskets [24]
+-----------------------------------------------
+                2.37    4.83   71012/71012       master [4]
+[5]     82.5    2.37    4.83   71012         primal_bea_mpp [5]
+                1.57    2.59   71002/71012       spec_qsort [6]
+                0.67    0.00 291125514/291125514     bea_is_dual_infeasible [9]
+-----------------------------------------------
+                             10674903             spec_qsort [6]
+                0.00    0.00      10/71012       price_out_impl [8]
+                1.57    2.59   71002/71012       primal_bea_mpp [5]
+[6]     47.6    1.57    2.59   71012+10674903 spec_qsort [6]
+                1.81    0.00 564461169/610286980     cost_compare [7]
+                0.52    0.00 56550389/58693462     arc_compare [10]
+                0.02    0.17 18082992/18082992     med3 [11]
+                0.07    0.00 11492446/11492446     swapfunc [15]
+                             10674903             spec_qsort [6]
+-----------------------------------------------
+                0.15    0.00 45825811/610286980     med3 [11]
+                1.81    0.00 564461169/610286980     spec_qsort [6]
+[7]     22.4    1.96    0.00 610286980         cost_compare [7]
+-----------------------------------------------
+                0.92    0.28      10/10          global_opt [2]
+[8]     13.8    0.92    0.28      10         price_out_impl [8]
+                0.11    0.00      10/10          marc_arcs [13]
+                0.08    0.00  328499/328509      replace_weaker_arc [14]
+                0.06    0.00 2726304/2726304     insert_new_arc [16]
+                0.01    0.02      10/20          refreshPositions [18]
+                0.01    0.00 1726304/5006700     getArcPosition [25]
+                0.00    0.00      10/71012       spec_qsort [6]
+                0.00    0.00       2/2           switch_arcs [29]
+                0.00    0.00     834/834         calculate_max_redcost [31]
+                0.00    0.00       2/2           resize_prob [34]
+                0.00    0.00       2/11          refresh_neighbour_lists [32]
+-----------------------------------------------
+                0.67    0.00 291125514/291125514     primal_bea_mpp [5]
+[9]      7.7    0.67    0.00 291125514         bea_is_dual_infeasible [9]
+-----------------------------------------------
+                0.02    0.00 2143073/58693462     med3 [11]
+                0.52    0.00 56550389/58693462     spec_qsort [6]
+[10]     6.2    0.54    0.00 58693462         arc_compare [10]
+-----------------------------------------------
+                0.02    0.17 18082992/18082992     spec_qsort [6]
+[11]     2.1    0.02    0.17 18082992         med3 [11]
+                0.15    0.00 45825811/610286980     cost_compare [7]
+                0.02    0.00 2143073/58693462     arc_compare [10]
+-----------------------------------------------
+                0.11    0.00   71002/71002       master [4]
+[12]     1.3    0.11    0.00   71002         update_tree [12]
+-----------------------------------------------
+                0.11    0.00      10/10          price_out_impl [8]
+[13]     1.3    0.11    0.00      10         marc_arcs [13]
+-----------------------------------------------
+                0.00    0.00      10/328509      switch_arcs [29]
+                0.08    0.00  328499/328509      price_out_impl [8]
+[14]     0.9    0.08    0.00  328509         replace_weaker_arc [14]
+-----------------------------------------------
+                0.07    0.00 11492446/11492446     spec_qsort [6]
+[15]     0.8    0.07    0.00 11492446         swapfunc [15]
+-----------------------------------------------
+                0.06    0.00 2726304/2726304     price_out_impl [8]
+[16]     0.7    0.06    0.00 2726304         insert_new_arc [16]
+-----------------------------------------------
+                0.03    0.03       9/9           global_opt [2]
+[17]     0.7    0.03    0.03       9         suspend_impl [17]
+                0.01    0.02       9/20          refreshPositions [18]
+                0.01    0.00 1755711/5006700     getArcPosition [25]
+                0.00    0.00       9/11          refresh_neighbour_lists [32]
+-----------------------------------------------
+                0.00    0.00       1/20          global_opt [2]
+                0.01    0.02       9/20          suspend_impl [17]
+                0.01    0.02      10/20          price_out_impl [8]
+[18]     0.6    0.02    0.03      20         refreshPositions [18]
+                0.03    0.00      20/20          refreshArcPointers [20]
+                0.00    0.00 1057253/5006700     getArcPosition [25]
+                0.00    0.00 1057253/2574387     getOriginalArcPosition [30]
+-----------------------------------------------
+                0.04    0.00      10/10          primal_net_simplex [3]
+[19]     0.5    0.04    0.00      10         dual_feasible [19]
+-----------------------------------------------
+                0.03    0.00      20/20          refreshPositions [18]
+[20]     0.4    0.03    0.00      20         refreshArcPointers [20]
+                0.00    0.00  359043/5006700     getArcPosition [25]
+                0.00    0.00  355557/2574387     getOriginalArcPosition [30]
+-----------------------------------------------
+                0.03    0.00   71002/71002       master [4]
+[21]     0.3    0.03    0.00   71002         primal_iminus [21]
+-----------------------------------------------
+                0.00    0.00       1/12          write_objective_value [27]
+                0.03    0.00      11/12          global_opt [2]
+[22]     0.3    0.03    0.00      12         flow_cost [22]
+-----------------------------------------------
+                0.03    0.00      10/10          primal_net_simplex [3]
+[23]     0.3    0.03    0.00      10         set_static_vars [23]
+-----------------------------------------------
+                0.02    0.00   71002/71002       master [4]
+[24]     0.2    0.02    0.00   71002         markBaskets [24]
+-----------------------------------------------
+                0.00    0.00  108389/5006700     read_min [28]
+                0.00    0.00  359043/5006700     refreshArcPointers [20]
+                0.00    0.00 1057253/5006700     refreshPositions [18]
+                0.01    0.00 1726304/5006700     price_out_impl [8]
+                0.01    0.00 1755711/5006700     suspend_impl [17]
+[25]     0.2    0.02    0.00 5006700         getArcPosition [25]
+-----------------------------------------------
+                                                 <spontaneous>
+[26]     0.1    0.01    0.00                 start [26]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[27]     0.0    0.00    0.00       1         write_objective_value [27]
+                0.00    0.00       1/12          flow_cost [22]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[28]     0.0    0.00    0.00       1         read_min [28]
+                0.00    0.00  108389/5006700     getArcPosition [25]
+-----------------------------------------------
+                0.00    0.00       2/2           price_out_impl [8]
+[29]     0.0    0.00    0.00       2         switch_arcs [29]
+                0.00    0.00      10/328509      replace_weaker_arc [14]
+-----------------------------------------------
+                0.00    0.00  355557/2574387     refreshArcPointers [20]
+                0.00    0.00 1057253/2574387     refreshPositions [18]
+                0.00    0.00 1161577/2574387     refresh_neighbour_lists [32]
+[30]     0.0    0.00    0.00 2574387         getOriginalArcPosition [30]
+-----------------------------------------------
+                0.00    0.00     834/834         price_out_impl [8]
+[31]     0.0    0.00    0.00     834         calculate_max_redcost [31]
+-----------------------------------------------
+                0.00    0.00       2/11          price_out_impl [8]
+                0.00    0.00       9/11          suspend_impl [17]
+[32]     0.0    0.00    0.00      11         refresh_neighbour_lists [32]
+                0.00    0.00 1161577/2574387     getOriginalArcPosition [30]
+-----------------------------------------------
+                0.00    0.00      10/10          primal_net_simplex [3]
+[33]     0.0    0.00    0.00      10         primal_feasible [33]
+-----------------------------------------------
+                0.00    0.00       2/2           price_out_impl [8]
+[34]     0.0    0.00    0.00       2         resize_prob [34]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[35]     0.0    0.00    0.00       1         getfree [35]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[36]     0.0    0.00    0.00       1         primal_start_artificial [36]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [10] arc_compare (implicit.c) [24] markBaskets          [32] refresh_neighbour_lists
+   [9] bea_is_dual_infeasible  [4] master                 [14] replace_weaker_arc
+  [31] calculate_max_redcost  [11] med3 (spec_qsort.c)    [34] resize_prob
+   [7] cost_compare            [8] price_out_impl         [23] set_static_vars
+  [19] dual_feasible           [5] primal_bea_mpp          [6] spec_qsort
+  [22] flow_cost              [33] primal_feasible        [26] start
+  [25] getArcPosition         [21] primal_iminus          [17] suspend_impl
+  [30] getOriginalArcPosition  [3] primal_net_simplex     [15] swapfunc (spec_qsort.c)
+  [35] getfree                [36] primal_start_artificial [29] switch_arcs
+   [2] global_opt             [28] read_min               [12] update_tree
+  [16] insert_new_arc         [20] refreshArcPointers     [27] write_objective_value
+  [13] marc_arcs              [18] refreshPositions
