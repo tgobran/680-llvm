@@ -23,6 +23,9 @@ Features:
 - No Loops
 - Multiple calls to constructors and other functions inside.
 
+Active Passes:
+- TODO
+
 ### 2. contains (ValueStore.cpp)
 Refrate Runtime:  19.47% \
 Calls: 317186
@@ -30,9 +33,15 @@ Calls: 317186
 Features:
 - TODO
 
+Active Passes:
+- TODO
+
 ### 3. release (XalanDOMStringCache.cpp)
 Refrate Runtime:  7.34% \
 Calls: 67596232
 
 Features:
+- TODO
+
+Active Passes:
 - TODO
