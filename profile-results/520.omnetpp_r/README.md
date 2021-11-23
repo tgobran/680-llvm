@@ -25,6 +25,9 @@ Features:
 - Iteration count derived from a function argument and a global variable.
 - Minor control flow inside of the loop.
 
+Active Passes:
+- TODO
+
 ### 2. deliver (simulator/cgate.cc)
 Refrate Runtime: 9.43% \
 Calls: 309644908
@@ -33,6 +36,9 @@ Features:
 - Control flow function
 - Calls other functions within.
 
+Active Passes:
+- TODO
+
 ### 3. record (simulator/indexedfileoutvectormgr.cc)
 Refrate Runtime: 9.07% \
 Calls: 494191607
@@ -40,3 +46,6 @@ Calls: 494191607
 Features:
 - Control flow function
 - Nested if statements with considerable calculation depending on the route.
+
+Active Passes:
+- TODO
