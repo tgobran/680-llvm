@@ -10,6 +10,11 @@ Additional instrumentation information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -fprofile-instr-generate
 ```
 
+Active pass information was gathered with the following options:
+```
+-g -O2 -mllvm --print-changed=quiet -mllvm --filter-print-funcs=FUNCNAME -march=native -fno-unsafe-math-optimizations -fcommon
+```
+
 ### 1. spec_qsort (spec_qsort/spec_qsort.c)
 Refrate Runtime: 24.99% \
 Calls: 1977279
