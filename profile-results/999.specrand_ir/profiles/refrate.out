@@ -8,7 +8,6 @@ Each sample counts as 0.01 seconds.
   0.00      0.00     0.00  1879384     0.00     0.00  spec_genrand_int32
   0.00      0.00     0.00   939692     0.00     0.00  spec_lrand48
   0.00      0.00     0.00   939692     0.00     0.00  spec_rand
-  0.00      0.00     0.00        8     0.00     0.00  spec_init_genrand
   0.00      0.00     0.00        8     0.00     0.00  spec_srand
   0.00      0.00     0.00        2     0.00     0.00  run_sequence
 
@@ -55,26 +54,22 @@ index % time    self  children    called     name
                 0.00    0.00  939692/1879384     spec_lrand48 [2]
 [1]      0.0    0.00    0.00 1879384         spec_genrand_int32 [1]
 -----------------------------------------------
-                0.00    0.00  939692/939692      run_sequence [6]
+                0.00    0.00  939692/939692      run_sequence [5]
 [2]      0.0    0.00    0.00  939692         spec_lrand48 [2]
                 0.00    0.00  939692/1879384     spec_genrand_int32 [1]
 -----------------------------------------------
-                0.00    0.00  939692/939692      run_sequence [6]
+                0.00    0.00  939692/939692      run_sequence [5]
 [3]      0.0    0.00    0.00  939692         spec_rand [3]
                 0.00    0.00  939692/1879384     spec_genrand_int32 [1]
 -----------------------------------------------
-                0.00    0.00       8/8           run_sequence [6]
-[4]      0.0    0.00    0.00       8         spec_init_genrand [4]
+                0.00    0.00       8/8           run_sequence [5]
+[4]      0.0    0.00    0.00       8         spec_srand [4]
 -----------------------------------------------
-                0.00    0.00       8/8           run_sequence [6]
-[5]      0.0    0.00    0.00       8         spec_srand [5]
------------------------------------------------
-                0.00    0.00       2/2           main [12]
-[6]      0.0    0.00    0.00       2         run_sequence [6]
+                0.00    0.00       2/2           main [11]
+[5]      0.0    0.00    0.00       2         run_sequence [5]
                 0.00    0.00  939692/939692      spec_rand [3]
                 0.00    0.00  939692/939692      spec_lrand48 [2]
-                0.00    0.00       8/8           spec_init_genrand [4]
-                0.00    0.00       8/8           spec_srand [5]
+                0.00    0.00       8/8           spec_srand [4]
 -----------------------------------------------
 
  This table describes the call tree of the program, and was sorted by
@@ -167,5 +162,5 @@ notice and this notice are preserved.
 
 Index by function name
 
-   [6] run_sequence            [4] spec_init_genrand       [3] spec_rand
-   [1] spec_genrand_int32      [2] spec_lrand48            [5] spec_srand
+   [5] run_sequence            [2] spec_lrand48            [4] spec_srand
+   [1] spec_genrand_int32      [3] spec_rand

@@ -1,0 +1,83 @@
+Counters:
+  main:
+    Hash: 0x23589a1e8dceb3e2
+    Counters: 81
+    Function count: 1
+  get_version:
+    Hash: 0xdf09107d0a0fb2e3
+    Counters: 5
+    Function count: 1
+  spec_strdup:
+    Hash: 0x000000000a7d2458
+    Counters: 2
+    Function count: 6
+  printUsage:
+    Hash: 0x000000000029f491
+    Counters: 2
+    Function count: 0
+  load_image_file:
+    Hash: 0x9e0ab6afadeea180
+    Counters: 10
+    Function count: 2
+  init_targa:
+    Hash: 0x18f66084057fad48
+    Counters: 8
+    Function count: 0
+  dump_tga:
+    Hash: 0xcf5134dd4cba7006
+    Counters: 10
+    Function count: 0
+  dump_header:
+    Hash: 0xd7ec78d8cbb8be70
+    Counters: 13
+    Function count: 0
+  computeSSIM:
+    Hash: 0x3deb473a1f761ceb
+    Counters: 63
+    Function count: 1
+  mean:
+    Hash: 0x000000000011b458
+    Counters: 2
+    Function count: 28800
+  variance:
+    Hash: 0x000000000011b458
+    Counters: 2
+    Function count: 28800
+  covariance:
+    Hash: 0x000000000011b458
+    Counters: 2
+    Function count: 14400
+  read_yuv_file:
+    Hash: 0x72cf5b17f3b13b6c
+    Counters: 28
+    Function count: 1
+  read_tga_file:
+    Hash: 0xc2bccaf2db01dbd1
+    Counters: 16
+    Function count: 1
+Instrumentation level: Front-end
+Functions shown: 14
+Total functions: 14
+Maximum function count: 28800
+Maximum internal block count: 1843200
+Top 20 functions with the largest internal block counts: 
+  variance, max count = 1843200
+  mean, max count = 1843200
+  read_yuv_file, max count = 921600
+  computeSSIM, max count = 921600
+  covariance, max count = 921600
+  read_tga_file, max count = 921600
+  main, max count = 21
+  spec_strdup, max count = 6
+  load_image_file, max count = 2
+  get_version, max count = 1
+  dump_header, max count = 0
+  dump_tga, max count = 0
+  init_targa, max count = 0
+  printUsage, max count = 0
+Statistics for memory intrinsic calls sizes profile:
+  Total number of sites: 0
+  Total number of sites with values: 0
+  Total number of profiled values: 0
+  Value sites histogram:
+	NumTargets, SiteCount

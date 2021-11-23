@@ -1,0 +1,1872 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 17.72      0.14     0.14     1431     0.10     0.10  lzma_decode
+ 16.46      0.27     0.13        1   130.01   130.01  spec_mem_init
+ 11.39      0.36     0.09   583865     0.00     0.00  rc_encode
+  8.86      0.43     0.07   948857     0.00     0.00  bt_find_func
+  6.33      0.48     0.05 64051872     0.00     0.00  Rot
+  5.06      0.52     0.04    99716     0.00     0.00  bt_skip_func
+  2.53      0.54     0.02  6962160     0.00     0.00  Ch
+  2.53      0.56     0.02  6962160     0.00     0.00  Maj
+  2.53      0.58     0.02  5569728     0.00     0.00  Gamma0
+  2.53      0.60     0.02  3383808     0.00     0.00  get_pos_len_price
+  2.53      0.62     0.02  1625001     0.00     0.00  rc_bit_0_price
+  2.53      0.64     0.02   949023     0.00     0.00  lzma_mf_bt4_find
+  2.53      0.66     0.02   443352     0.00     0.00  helper2
+  1.27      0.67     0.01  6962160     0.00     0.00  Sigma0
+  1.27      0.68     0.01  6962160     0.00     0.00  Sigma1
+  1.27      0.69     0.01  5569728     0.00     0.00  Gamma1
+  1.27      0.70     0.01  5500533     0.00     0.00  rc_bit
+  1.27      0.71     0.01  4613632     0.00     0.00  rc_bit_price
+  1.27      0.72     0.01  1388600     0.00     0.00  rc_bit_1_price
+  1.27      0.73     0.01   949023     0.00     0.00  lzma_mf_find
+  1.27      0.74     0.01   598164     0.00     0.00  rc_bittree
+  1.27      0.75     0.01   518807     0.00     0.00  get_literal_price
+  1.27      0.76     0.01   321984     0.00     0.00  get_pure_rep_price
+  1.27      0.77     0.01    87027     0.00     0.00  sha_compress
+  1.27      0.78     0.01    32774     0.00     0.00  transform
+  1.27      0.79     0.01      367     0.03     0.14  lzma_mf_bt4_skip
+  0.00      0.79     0.00 11139456     0.00     0.00  Sh
+  0.00      0.79     0.00  9891107     0.00     0.00  get_len_price
+  0.00      0.79     0.00  2675228     0.00     0.00  get_pos_slot_2
+  0.00      0.79     0.00  1392432     0.00     0.00  load64
+  0.00      0.79     0.00  1219130     0.00     0.00  dict_get
+  0.00      0.79     0.00  1048942     0.00     0.00  mf_avail
+  0.00      0.79     0.00  1048939     0.00     0.00  mf_ptr
+  0.00      0.79     0.00  1048573     0.00     0.00  move_pos
+  0.00      0.79     0.00  1033054     0.00     0.00  dict_put
+  0.00      0.79     0.00   949023     0.00     0.00  mf_avail
+  0.00      0.79     0.00   949023     0.00     0.00  mf_ptr
+  0.00      0.79     0.00   629881     0.00     0.00  rc_shift_low
+  0.00      0.79     0.00   583854     0.00     0.00  rc_pending
+  0.00      0.79     0.00   583716     0.00     0.00  encode_symbol
+  0.00      0.79     0.00   583716     0.00     0.00  lzma_lzma_optimum_normal
+  0.00      0.79     0.00   546720     0.00     0.00  literal
+  0.00      0.79     0.00   505671     0.00     0.00  helper1
+  0.00      0.79     0.00   303920     0.00     0.00  rc_bit_price
+  0.00      0.79     0.00   302862     0.00     0.00  dict_is_distance_valid
+  0.00      0.79     0.00   298971     0.00     0.00  dict_repeat
+  0.00      0.79     0.00   252876     0.00     0.00  get_short_rep_price
+  0.00      0.79     0.00   183099     0.00     0.00  rc_bittree_price
+  0.00      0.79     0.00   141124     0.00     0.00  make_literal
+  0.00      0.79     0.00    46592     0.00     0.00  rc_bittree_reverse_price
+  0.00      0.79     0.00    41961     0.00     0.00  get_rep_price
+  0.00      0.79     0.00    39440     0.00     0.00  rc_bittree_price
+  0.00      0.79     0.00    35526     0.00     0.00  length
+  0.00      0.79     0.00    32774     0.00     0.00  process
+  0.00      0.79     0.00    32172     0.00     0.00  get_pos_slot
+  0.00      0.79     0.00    32172     0.00     0.00  match
+  0.00      0.79     0.00    31749     0.00     0.00  rc_bittree_reverse
+  0.00      0.79     0.00    31691     0.00     0.00  backward
+  0.00      0.79     0.00    28768     0.00     0.00  get_pos_slot
+  0.00      0.79     0.00    27840     0.00     0.00  rc_direct_price
+  0.00      0.79     0.00    26322     0.00     0.00  rc_direct
+  0.00      0.79     0.00    16255     0.00     0.00  literal_matched
+  0.00      0.79     0.00     4824     0.00     0.00  rep_match
+  0.00      0.79     0.00     4798     0.00     0.00  make_short_rep
+  0.00      0.79     0.00     2930     0.00     0.00  update_size
+  0.00      0.79     0.00     1663     0.00     0.00  lzma_check_update
+  0.00      0.79     0.00     1659     0.00     0.31  lzma_code
+  0.00      0.79     0.00     1467     0.00     0.10  lzma2_decode
+  0.00      0.79     0.00     1465     0.00     0.10  block_decode
+  0.00      0.79     0.00     1465     0.00     0.10  decode_buffer
+  0.00      0.79     0.00     1465     0.00     0.10  lz_decode
+  0.00      0.79     0.00     1465     0.00     0.10  stream_decode
+  0.00      0.79     0.00     1431     0.00     0.00  rc_read_init
+  0.00      0.79     0.00     1309     0.00     0.00  spec_mem_fwrite
+  0.00      0.79     0.00     1261     0.00     0.00  lzma_crc64
+  0.00      0.79     0.00     1114     0.00     0.00  fill_align_prices
+  0.00      0.79     0.00      728     0.00     0.00  spec_mem_feof
+  0.00      0.79     0.00      402     0.00     0.02  lzma_sha256_update
+  0.00      0.79     0.00      366     0.00     0.14  mf_skip
+  0.00      0.79     0.00      363     0.00     0.00  spec_mem_fread
+  0.00      0.79     0.00      290     0.00     0.00  rc_bit_0_price
+  0.00      0.79     0.00      290     0.00     0.00  rc_bit_1_price
+  0.00      0.79     0.00      276     0.00     0.00  lzma_bufcpy
+  0.00      0.79     0.00      232     0.00     0.00  fill_distances_prices
+  0.00      0.79     0.00      204     0.00     1.76  lzma2_encode
+  0.00      0.79     0.00      194     0.00     1.88  block_encode
+  0.00      0.79     0.00      194     0.00     1.86  lz_encode
+  0.00      0.79     0.00      194     0.00     1.88  stream_encode
+  0.00      0.79     0.00      145     0.00     0.00  length_update_prices
+  0.00      0.79     0.00      138     0.00     2.61  lzma_lzma_encode
+  0.00      0.79     0.00      138     0.00     0.00  mf_position
+  0.00      0.79     0.00      128     0.00     0.00  fill_window
+  0.00      0.79     0.00      128     0.00     0.00  hex_char_to_num
+  0.00      0.79     0.00       64     0.00     0.00  dict_write
+  0.00      0.79     0.00       40     0.00     0.00  lzma_free
+  0.00      0.79     0.00       31     0.00     0.00  lzma_alloc
+  0.00      0.79     0.00       28     0.00     0.00  lzma_decoder_uncompressed
+  0.00      0.79     0.00       27     0.00     0.00  store64
+  0.00      0.79     0.00       25     0.00     0.00  lzma_vli_size
+  0.00      0.79     0.00       23     0.00     0.00  lzma_next_end
+  0.00      0.79     0.00       17     0.00     0.00  mf_read
+  0.00      0.79     0.00       14     0.00     0.00  rc_reset
+  0.00      0.79     0.00       12     0.00     0.00  lzma_crc32
+  0.00      0.79     0.00       12     0.00     0.00  mf_unencoded
+  0.00      0.79     0.00       11     0.00     0.00  rc_flush
+  0.00      0.79     0.00       10     0.00     0.00  lzma_check_size
+  0.00      0.79     0.00       10     0.00     0.00  lzma_vli_decode
+  0.00      0.79     0.00       10     0.00     0.00  vli_ceil4
+  0.00      0.79     0.00        9     0.00     0.00  lzma2_header_lzma
+  0.00      0.79     0.00        8     0.00     0.00  index_size_unpadded
+  0.00      0.79     0.00        8     0.00     0.00  vli_ceil4
+  0.00      0.79     0.00        7     0.00     0.00  lzma_check_finish
+  0.00      0.79     0.00        7     0.00     0.00  lzma_check_init
+  0.00      0.79     0.00        6     0.00     0.00  debug_time
+  0.00      0.79     0.00        6     0.00     0.00  decoder_find
+  0.00      0.79     0.00        6     0.00     0.00  index_size
+  0.00      0.79     0.00        6     0.00     0.00  length_encoder_reset
+  0.00      0.79     0.00        6     0.00     0.00  lzma_block_unpadded_size
+  0.00      0.79     0.00        6     0.00     0.00  lzma_next_filter_init
+  0.00      0.79     0.00        6     0.00     0.00  lzma_sha256_finish
+  0.00      0.79     0.00        6     0.00     0.00  lzma_sha256_init
+  0.00      0.79     0.00        6     0.00     0.00  unaligned_read32le
+  0.00      0.79     0.00        5     0.00     0.00  index_size_unpadded
+  0.00      0.79     0.00        5     0.00     0.00  lzma_check_is_supported
+  0.00      0.79     0.00        5     0.00     0.00  lzma_vli_encode
+  0.00      0.79     0.00        5     0.00     0.00  validate_chain
+  0.00      0.79     0.00        4     0.00     0.00  encoder_find
+  0.00      0.79     0.00        4     0.00     0.02  hash_append
+  0.00      0.79     0.00        4     0.00     0.00  index_size
+  0.00      0.79     0.00        4     0.00     0.00  is_lclppb_valid
+  0.00      0.79     0.00        4     0.00     0.00  is_size_valid
+  0.00      0.79     0.00        4     0.00     0.00  literal_init
+  0.00      0.79     0.00        4     0.00     0.00  lz_decoder_reset
+  0.00      0.79     0.00        4     0.00     0.00  lzma_decoder_reset
+  0.00      0.79     0.00        4     0.00     0.00  stream_flags_decode
+  0.00      0.79     0.00        3     0.00     0.00  is_options_valid
+  0.00      0.79     0.00        3     0.00     0.00  literal_init
+  0.00      0.79     0.00        3     0.00     0.00  lzma_end
+  0.00      0.79     0.00        3     0.00     0.00  lzma_lzma_encoder_reset
+  0.00      0.79     0.00        3     0.00     0.00  lzma_raw_coder_init
+  0.00      0.79     0.00        3     0.00     0.00  lzma_strm_init
+  0.00      0.79     0.00        3     0.00     0.00  move_pending
+  0.00      0.79     0.00        3     0.00     0.00  sha_done
+  0.00      0.79     0.00        3     0.00     0.00  sha_init
+  0.00      0.79     0.00        3     0.00    50.00  sha_process
+  0.00      0.79     0.00        3     0.00     0.00  sortof_strdup
+  0.00      0.79     0.00        3     0.00    50.01  spec_mem_sum
+  0.00      0.79     0.00        3     0.00     0.00  unaligned_write32le
+  0.00      0.79     0.00        2     0.00     0.00  block_decoder_end
+  0.00      0.79     0.00        2     0.00     0.00  compare_sum
+  0.00      0.79     0.00        2     0.00     0.00  dict_reset
+  0.00      0.79     0.00        2     0.00     0.00  index_stream_size
+  0.00      0.79     0.00        2     0.00     0.00  index_tree_append
+  0.00      0.79     0.00        2     0.00     0.00  index_tree_end
+  0.00      0.79     0.00        2     0.00     0.00  index_tree_init
+  0.00      0.79     0.00        2     0.00     0.00  index_tree_next
+  0.00      0.79     0.00        2     0.00     0.00  init_decoder
+  0.00      0.79     0.00        2     0.00     0.00  lz_decoder_end
+  0.00      0.79     0.00        2     0.00     0.00  lzma2_decoder_end
+  0.00      0.79     0.00        2     0.00     0.00  lzma2_decoder_init
+  0.00      0.79     0.00        2     0.00     0.00  lzma2_header_uncompressed
+  0.00      0.79     0.00        2     0.00     0.00  lzma_block_decoder_init
+  0.00      0.79     0.00        2     0.00     0.00  lzma_block_header_decode
+  0.00      0.79     0.00        2     0.00     0.00  lzma_filter_flags_decode
+  0.00      0.79     0.00        2     0.00     0.00  lzma_index_end
+  0.00      0.79     0.00        2     0.00     0.02  lzma_index_hash_append
+  0.00      0.79     0.00        2     0.00     0.03  lzma_index_hash_decode
+  0.00      0.79     0.00        2     0.00     0.00  lzma_index_hash_end
+  0.00      0.79     0.00        2     0.00     0.00  lzma_index_hash_init
+  0.00      0.79     0.00        2     0.00     0.00  lzma_index_hash_size
+  0.00      0.79     0.00        2     0.00     0.00  lzma_index_iter_next
+  0.00      0.79     0.00        2     0.00     0.00  lzma_lz_decoder_init
+  0.00      0.79     0.00        2     0.00     0.00  lzma_lz_decoder_memusage
+  0.00      0.79     0.00        2     0.00     0.00  lzma_lzma2_decoder_init
+  0.00      0.79     0.00        2     0.00     0.00  lzma_lzma2_decoder_memusage
+  0.00      0.79     0.00        2     0.00     0.00  lzma_lzma2_props_decode
+  0.00      0.79     0.00        2     0.00     0.00  lzma_lzma_decoder_create
+  0.00      0.79     0.00        2     0.00     0.00  lzma_lzma_decoder_memusage_nocheck
+  0.00      0.79     0.00        2     0.00     0.00  lzma_lzma_lclppb_decode
+  0.00      0.79     0.00        2     0.00     0.00  lzma_properties_decode
+  0.00      0.79     0.00        2     0.00     0.00  lzma_properties_size
+  0.00      0.79     0.00        2     0.00     0.00  lzma_raw_coder_memusage
+  0.00      0.79     0.00        2     0.00     0.00  lzma_raw_decoder_init
+  0.00      0.79     0.00        2     0.00     0.00  lzma_raw_decoder_memusage
+  0.00      0.79     0.00        2     0.00     0.00  lzma_stream_decoder
+  0.00      0.79     0.00        2     0.00     0.00  lzma_stream_decoder_init
+  0.00      0.79     0.00        2     0.00     0.00  lzma_stream_flags_compare
+  0.00      0.79     0.00        2     0.00     0.00  lzma_stream_footer_decode
+  0.00      0.79     0.00        2     0.00     0.00  lzma_stream_header_decode
+  0.00      0.79     0.00        2     0.00     0.00  spec_mem_lseek
+  0.00      0.79     0.00        2     0.00     0.00  spec_mem_reset
+  0.00      0.79     0.00        2     0.00     0.00  spec_mem_rewind
+  0.00      0.79     0.00        2     0.00   225.20  spec_uncompress
+  0.00      0.79     0.00        2     0.00     0.00  stream_decoder_end
+  0.00      0.79     0.00        2     0.00     0.00  stream_decoder_reset
+  0.00      0.79     0.00        2     0.00     0.00  stream_flags_encode
+  0.00      0.79     0.00        2     0.00     0.00  unaligned_read32le
+  0.00      0.79     0.00        2     0.00   225.20  uncompressStream
+  0.00      0.79     0.00        1     0.00     0.00  block_encoder_end
+  0.00      0.79     0.00        1     0.00     0.00  block_encoder_init
+  0.00      0.79     0.00        1     0.00    59.64  compressStream
+  0.00      0.79     0.00        1     0.00     0.14  encode_init
+  0.00      0.79     0.00        1     0.00     0.00  get_pos_slot
+  0.00      0.79     0.00        1     0.00     0.00  index_encode
+  0.00      0.79     0.00        1     0.00     0.00  index_encoder_end
+  0.00      0.79     0.00        1     0.00     0.00  index_encoder_reset
+  0.00      0.79     0.00        1     0.00     0.00  index_file_size
+  0.00      0.79     0.00        1     0.00     0.00  index_init_plain
+  0.00      0.79     0.00        1     0.00     0.00  index_stream_end
+  0.00      0.79     0.00        1     0.00     0.00  index_stream_init
+  0.00      0.79     0.00        1     0.00     0.00  index_tree_node_end
+  0.00      0.79     0.00        1     0.00     0.00  init_encoder
+  0.00      0.79     0.00        1     0.00     0.00  is_backward_size_valid
+  0.00      0.79     0.00        1     0.00     0.00  iter_set_info
+  0.00      0.79     0.00        1     0.00     0.00  lz_encoder_end
+  0.00      0.79     0.00        1     0.00     0.00  lz_encoder_init
+  0.00      0.79     0.00        1     0.00     0.00  lz_encoder_prepare
+  0.00      0.79     0.00        1     0.00     0.00  lzma2_encoder_end
+  0.00      0.79     0.00        1     0.00     0.00  lzma2_encoder_init
+  0.00      0.79     0.00        1     0.00     0.00  lzma_block_encoder_init
+  0.00      0.79     0.00        1     0.00     0.00  lzma_block_header_encode
+  0.00      0.79     0.00        1     0.00     0.00  lzma_block_header_size
+  0.00      0.79     0.00        1     0.00     0.00  lzma_filter_flags_encode
+  0.00      0.79     0.00        1     0.00     0.00  lzma_filter_flags_size
+  0.00      0.79     0.00        1     0.00     0.00  lzma_filters_copy
+  0.00      0.79     0.00        1     0.00     0.00  lzma_index_append
+  0.00      0.79     0.00        1     0.00     0.00  lzma_index_block_count
+  0.00      0.79     0.00        1     0.00     0.00  lzma_index_encoder_init
+  0.00      0.79     0.00        1     0.00     0.00  lzma_index_init
+  0.00      0.79     0.00        1     0.00     0.00  lzma_index_iter_init
+  0.00      0.79     0.00        1     0.00     0.00  lzma_index_iter_rewind
+  0.00      0.79     0.00        1     0.00     0.00  lzma_index_padding_size
+  0.00      0.79     0.00        1     0.00     0.00  lzma_index_size
+  0.00      0.79     0.00        1     0.00     0.00  lzma_lz_encoder_init
+  0.00      0.79     0.00        1     0.00     0.00  lzma_lzma2_encoder_init
+  0.00      0.79     0.00        1     0.00     0.00  lzma_lzma2_props_encode
+  0.00      0.79     0.00        1     0.00     0.00  lzma_lzma_encoder_create
+  0.00      0.79     0.00        1     0.00     0.00  lzma_lzma_lclppb_encode
+  0.00      0.79     0.00        1     0.00     0.00  lzma_lzma_preset
+  0.00      0.79     0.00        1     0.00     0.00  lzma_properties_encode
+  0.00      0.79     0.00        1     0.00     0.00  lzma_raw_encoder_init
+  0.00      0.79     0.00        1     0.00     0.00  lzma_stream_encoder
+  0.00      0.79     0.00        1     0.00     0.00  lzma_stream_encoder_init
+  0.00      0.79     0.00        1     0.00     0.00  lzma_stream_footer_encode
+  0.00      0.79     0.00        1     0.00     0.00  lzma_stream_header_encode
+  0.00      0.79     0.00        1     0.00     0.14  mf_skip
+  0.00      0.79     0.00        1     0.00     0.00  print_sum
+  0.00      0.79     0.00        1     0.00     0.00  set_lz_options
+  0.00      0.79     0.00        1     0.00    59.64  spec_compress
+  0.00      0.79     0.00        1     0.00     0.00  spec_initbufs
+  0.00      0.79     0.00        1     0.00     0.00  spec_mem_alloc_fds
+  0.00      0.79     0.00        1     0.00   325.21  spec_mem_load
+  0.00      0.79     0.00        1     0.00     0.00  stream_encoder_end
+  0.00      0.79     0.00        1     0.00     0.00  stream_encoder_update
+  0.00      0.79     0.00        1     0.00     0.00  sum_str_to_hex
+  0.00      0.79     0.00        1     0.00     0.00  unaligned_write32le
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 1.27% of 0.79 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    0.79                 main [1]
+                0.00    0.33       1/1           spec_mem_load [10]
+                0.00    0.23       1/2           spec_uncompress [3]
+                0.13    0.00       1/1           spec_mem_init [21]
+                0.00    0.06       1/1           spec_compress [29]
+                0.00    0.05       1/3           spec_mem_sum [13]
+                0.00    0.00       6/6           debug_time [130]
+                0.00    0.00       2/2           spec_mem_reset [200]
+                0.00    0.00       2/2           spec_mem_rewind [201]
+                0.00    0.00       1/1           sum_str_to_hex [257]
+                0.00    0.00       1/1           spec_mem_alloc_fds [254]
+                0.00    0.00       1/1           spec_initbufs [253]
+                0.00    0.00       1/2           compare_sum [161]
+-----------------------------------------------
+                0.00    0.06     194/1659        compressStream [28]
+                0.00    0.45    1465/1659        uncompressStream [4]
+[2]     64.6    0.00    0.51    1659         lzma_code [2]
+                0.00    0.36     194/194         stream_encode [6]
+                0.00    0.15    1465/1465        stream_decode [15]
+-----------------------------------------------
+                0.00    0.23       1/2           main [1]
+                0.00    0.23       1/2           spec_mem_load [10]
+[3]     57.0    0.00    0.45       2         spec_uncompress [3]
+                0.00    0.45       2/2           uncompressStream [4]
+-----------------------------------------------
+                0.00    0.45       2/2           spec_uncompress [3]
+[4]     57.0    0.00    0.45       2         uncompressStream [4]
+                0.00    0.45    1465/1659        lzma_code [2]
+                0.00    0.00    1232/1309        spec_mem_fwrite [99]
+                0.00    0.00     470/728         spec_mem_feof [101]
+                0.00    0.00     235/363         spec_mem_fread [102]
+                0.00    0.00       2/2           init_decoder [168]
+                0.00    0.00       2/3           lzma_end [152]
+-----------------------------------------------
+                0.00    0.36     194/194         stream_encode [6]
+[5]     46.2    0.00    0.36     194         block_encode [5]
+                0.00    0.36     194/194         lz_encode [8]
+                0.00    0.00     194/402         lzma_sha256_update [52]
+                0.00    0.00       1/6           lzma_sha256_finish [70]
+                0.00    0.00     194/1663        lzma_check_update [97]
+                0.00    0.00       1/7           lzma_check_finish [128]
+                0.00    0.00       1/10          lzma_check_size [122]
+                0.00    0.00       1/276         lzma_bufcpy [105]
+-----------------------------------------------
+                0.00    0.36     194/194         lzma_code [2]
+[6]     46.2    0.00    0.36     194         stream_encode [6]
+                0.00    0.36     194/194         block_encode [5]
+                0.00    0.00       3/276         lzma_bufcpy [105]
+                0.00    0.00       1/1           lzma_index_encoder_init [233]
+                0.00    0.00       1/6           lzma_block_unpadded_size [134]
+                0.00    0.00       1/1           lzma_index_append [231]
+                0.00    0.00       1/1           index_encode [209]
+                0.00    0.00       1/8           vli_ceil4 [127]
+                0.00    0.00       1/4           index_size [143]
+                0.00    0.00       1/1           lzma_index_size [238]
+                0.00    0.00       1/1           lzma_stream_footer_encode [249]
+                0.00    0.00       1/1           lzma_block_header_encode [226]
+-----------------------------------------------
+                0.00    0.36     204/204         lz_encode [8]
+[7]     45.6    0.00    0.36     204         lzma2_encode [7]
+                0.00    0.36     138/138         lzma_lzma_encode [9]
+                0.00    0.00      72/276         lzma_bufcpy [105]
+                0.00    0.00      17/17          mf_read [117]
+                0.00    0.00      12/12          mf_unencoded [120]
+                0.00    0.00       9/9           lzma2_header_lzma [125]
+                0.00    0.00       2/3           lzma_lzma_encoder_reset [153]
+                0.00    0.00       2/2           lzma2_header_uncompressed [172]
+-----------------------------------------------
+                0.00    0.36     194/194         block_encode [5]
+[8]     45.6    0.00    0.36     194         lz_encode [8]
+                0.00    0.36     204/204         lzma2_encode [7]
+                0.00    0.00     128/128         fill_window [108]
+-----------------------------------------------
+                0.00    0.36     138/138         lzma2_encode [7]
+[9]     45.6    0.00    0.36     138         lzma_lzma_encode [9]
+                0.00    0.25  583716/583716      lzma_lzma_optimum_normal [11]
+                0.09    0.00  583865/583865      rc_encode [26]
+                0.00    0.02  583716/583716      encode_symbol [41]
+                0.00    0.00       1/1           encode_init [63]
+                0.00    0.00  583854/583854      rc_pending [84]
+                0.00    0.00     138/138         mf_position [107]
+                0.00    0.00      11/11          rc_flush [121]
+-----------------------------------------------
+                0.00    0.33       1/1           main [1]
+[10]    41.2    0.00    0.33       1         spec_mem_load [10]
+                0.00    0.23       1/2           spec_uncompress [3]
+                0.00    0.10       2/3           spec_mem_sum [13]
+                0.00    0.00       1/2           compare_sum [161]
+                0.00    0.00       1/1           print_sum [251]
+-----------------------------------------------
+                0.00    0.25  583716/583716      lzma_lzma_encode [9]
+[11]    31.6    0.00    0.25  583716         lzma_lzma_optimum_normal [11]
+                0.00    0.11  505671/505671      helper1 [22]
+                0.02    0.08  443352/443352      helper2 [24]
+                0.00    0.04  443423/949023      lzma_mf_find [23]
+                0.00    0.00     232/232         fill_distances_prices [58]
+                0.00    0.00    1114/1114        fill_align_prices [62]
+                0.00    0.00  443352/949023      mf_ptr [82]
+                0.00    0.00  443352/949023      mf_avail [81]
+                0.00    0.00   31691/31691       backward [91]
+-----------------------------------------------
+                0.00    0.00       3/87027       sha_done [69]
+                0.01    0.14   87024/87027       sha_process [14]
+[12]    19.0    0.01    0.14   87027         sha_compress [12]
+                0.02    0.01 5569728/5569728     Gamma0 [34]
+                0.01    0.02 6962160/6962160     Sigma1 [36]
+                0.01    0.02 6962160/6962160     Sigma0 [35]
+                0.02    0.00 6962160/6962160     Ch [37]
+                0.02    0.00 6962160/6962160     Maj [38]
+                0.01    0.01 5569728/5569728     Gamma1 [42]
+                0.00    0.00 1392432/1392432     load64 [75]
+-----------------------------------------------
+                0.00    0.05       1/3           main [1]
+                0.00    0.10       2/3           spec_mem_load [10]
+[13]    19.0    0.00    0.15       3         spec_mem_sum [13]
+                0.00    0.15       3/3           sha_process [14]
+                0.00    0.00       3/3           sha_done [69]
+                0.00    0.00       3/3           sha_init [157]
+                0.00    0.00       3/27          store64 [114]
+-----------------------------------------------
+                0.00    0.15       3/3           spec_mem_sum [13]
+[14]    19.0    0.00    0.15       3         sha_process [14]
+                0.01    0.14   87024/87027       sha_compress [12]
+                0.00    0.00       3/3           sortof_strdup [158]
+-----------------------------------------------
+                0.00    0.15    1465/1465        lzma_code [2]
+[15]    18.4    0.00    0.15    1465         stream_decode [15]
+                0.00    0.15    1465/1465        block_decode [16]
+                0.00    0.00       2/2           lzma_index_hash_decode [67]
+                0.00    0.00       2/2           lzma_index_hash_append [68]
+                0.00    0.00       8/40          lzma_free [111]
+                0.00    0.00       6/276         lzma_bufcpy [105]
+                0.00    0.00       2/2           lzma_stream_header_decode [198]
+                0.00    0.00       2/5           lzma_check_is_supported [139]
+                0.00    0.00       2/2           lzma_stream_footer_decode [197]
+                0.00    0.00       2/10          vli_ceil4 [124]
+                0.00    0.00       2/6           index_size [132]
+                0.00    0.00       2/2           lzma_index_hash_size [179]
+                0.00    0.00       2/2           lzma_stream_flags_compare [196]
+                0.00    0.00       2/2           lzma_block_header_decode [174]
+                0.00    0.00       2/2           lzma_raw_coder_memusage [191]
+                0.00    0.00       2/2           lzma_raw_decoder_memusage [193]
+                0.00    0.00       2/3           lzma_raw_coder_init [154]
+                0.00    0.00       2/2           lzma_raw_decoder_init [192]
+                0.00    0.00       2/2           lzma_block_decoder_init [173]
+                0.00    0.00       2/6           lzma_block_unpadded_size [134]
+-----------------------------------------------
+                0.00    0.15    1465/1465        stream_decode [15]
+[16]    18.4    0.00    0.15    1465         block_decode [16]
+                0.00    0.14    1465/1465        lz_decode [19]
+                0.00    0.01     204/402         lzma_sha256_update [52]
+                0.00    0.00       1/6           lzma_sha256_finish [70]
+                0.00    0.00    2930/2930        update_size [96]
+                0.00    0.00    1465/1663        lzma_check_update [97]
+                0.00    0.00       4/4           is_size_valid [145]
+                0.00    0.00       2/7           lzma_check_finish [128]
+                0.00    0.00       2/10          lzma_check_size [122]
+                0.00    0.00       2/276         lzma_bufcpy [105]
+                0.00    0.00       2/5           lzma_check_is_supported [139]
+-----------------------------------------------
+                0.00    0.14    1467/1467        decode_buffer [18]
+[17]    17.7    0.00    0.14    1467         lzma2_decode [17]
+                0.14    0.00    1431/1431        lzma_decode [20]
+                0.00    0.00      64/64          dict_write [110]
+                0.00    0.00      28/28          lzma_decoder_uncompressed [113]
+                0.00    0.00       4/4           lzma_decoder_reset [148]
+                0.00    0.00       2/2           lzma_lzma_lclppb_decode [188]
+                0.00    0.00       2/2           dict_reset [162]
+-----------------------------------------------
+                0.00    0.14    1465/1465        lz_decode [19]
+[18]    17.7    0.00    0.14    1465         decode_buffer [18]
+                0.00    0.14    1467/1467        lzma2_decode [17]
+                0.00    0.00       2/4           lz_decoder_reset [147]
+-----------------------------------------------
+                0.00    0.14    1465/1465        block_decode [16]
+[19]    17.7    0.00    0.14    1465         lz_decode [19]
+                0.00    0.14    1465/1465        decode_buffer [18]
+-----------------------------------------------
+                0.14    0.00    1431/1431        lzma2_decode [17]
+[20]    17.7    0.14    0.00    1431         lzma_decode [20]
+                0.00    0.00 1114807/1219130     dict_get [76]
+                0.00    0.00 1033054/1033054     dict_put [80]
+                0.00    0.00  302862/302862      dict_is_distance_valid [86]
+                0.00    0.00  298971/298971      dict_repeat [87]
+                0.00    0.00    1431/1431        rc_read_init [98]
+-----------------------------------------------
+                0.13    0.00       1/1           main [1]
+[21]    16.5    0.13    0.00       1         spec_mem_init [21]
+-----------------------------------------------
+                0.00    0.11  505671/505671      lzma_lzma_optimum_normal [11]
+[22]    13.5    0.00    0.11  505671         helper1 [22]
+                0.01    0.05  505600/949023      lzma_mf_find [23]
+                0.00    0.05     366/366         mf_skip [32]
+                0.00    0.00   34407/518807      get_literal_price [44]
+                0.00    0.00   66098/1625001     rc_bit_0_price [40]
+                0.00    0.00   32183/183099      rc_bittree_price [54]
+                0.00    0.00   88690/3383808     get_pos_len_price [39]
+                0.00    0.00   68814/1388600     rc_bit_1_price [49]
+                0.00    0.00    3636/252876      get_short_rep_price [53]
+                0.00    0.00    1181/321984      get_pure_rep_price [46]
+                0.00    0.00  505671/949023      mf_avail [81]
+                0.00    0.00  505671/949023      mf_ptr [82]
+                0.00    0.00   34407/141124      make_literal [88]
+                0.00    0.00   23947/9891107     get_len_price [73]
+                0.00    0.00    1394/4798        make_short_rep [95]
+-----------------------------------------------
+                0.00    0.04  443423/949023      lzma_lzma_optimum_normal [11]
+                0.01    0.05  505600/949023      helper1 [22]
+[23]    12.7    0.01    0.09  949023         lzma_mf_find [23]
+                0.02    0.07  949023/949023      lzma_mf_bt4_find [25]
+                0.00    0.00     366/1048942     mf_avail [77]
+                0.00    0.00     366/1048939     mf_ptr [78]
+-----------------------------------------------
+                0.02    0.08  443352/443352      lzma_lzma_optimum_normal [11]
+[24]    12.1    0.02    0.08  443352         helper2 [24]
+                0.02    0.00 3295118/3383808     get_pos_len_price [39]
+                0.01    0.01  484400/518807      get_literal_price [44]
+                0.01    0.01  278842/321984      get_pure_rep_price [46]
+                0.01    0.00  758343/1625001     rc_bit_0_price [40]
+                0.01    0.00  970626/1388600     rc_bit_1_price [49]
+                0.00    0.01  249240/252876      get_short_rep_price [53]
+                0.00    0.00   41961/41961       get_rep_price [56]
+                0.00    0.00  110084/183099      rc_bittree_price [54]
+                0.00    0.00 6441391/9891107     get_len_price [73]
+                0.00    0.00  105905/141124      make_literal [88]
+                0.00    0.00    3404/4798        make_short_rep [95]
+-----------------------------------------------
+                0.02    0.07  949023/949023      lzma_mf_find [23]
+[25]    11.4    0.02    0.07  949023         lzma_mf_bt4_find [25]
+                0.07    0.00  948857/948857      bt_find_func [27]
+                0.00    0.00     163/99716       bt_skip_func [33]
+                0.00    0.00  949023/1048942     mf_avail [77]
+                0.00    0.00  949020/1048939     mf_ptr [78]
+                0.00    0.00  949020/1048573     move_pos [79]
+                0.00    0.00       3/3           move_pending [156]
+-----------------------------------------------
+                0.09    0.00  583865/583865      lzma_lzma_encode [9]
+[26]    11.4    0.09    0.00  583865         rc_encode [26]
+                0.00    0.00  629881/629881      rc_shift_low [83]
+                0.00    0.00      11/14          rc_reset [118]
+-----------------------------------------------
+                0.07    0.00  948857/948857      lzma_mf_bt4_find [25]
+[27]     8.9    0.07    0.00  948857         bt_find_func [27]
+-----------------------------------------------
+                0.00    0.06       1/1           spec_compress [29]
+[28]     7.5    0.00    0.06       1         compressStream [28]
+                0.00    0.06     194/1659        lzma_code [2]
+                0.00    0.00     258/728         spec_mem_feof [101]
+                0.00    0.00     128/363         spec_mem_fread [102]
+                0.00    0.00      77/1309        spec_mem_fwrite [99]
+                0.00    0.00       1/1           init_encoder [217]
+                0.00    0.00       1/3           lzma_end [152]
+-----------------------------------------------
+                0.00    0.06       1/1           main [1]
+[29]     7.5    0.00    0.06       1         spec_compress [29]
+                0.00    0.06       1/1           compressStream [28]
+-----------------------------------------------
+                0.01    0.00 11139456/64051872     Gamma1 [42]
+                0.01    0.00 11139456/64051872     Gamma0 [34]
+                0.02    0.00 20886480/64051872     Sigma1 [36]
+                0.02    0.00 20886480/64051872     Sigma0 [35]
+[30]     6.3    0.05    0.00 64051872         Rot [30]
+-----------------------------------------------
+                0.00    0.00       1/367         mf_skip [64]
+                0.01    0.04     366/367         mf_skip [32]
+[31]     6.3    0.01    0.04     367         lzma_mf_bt4_skip [31]
+                0.04    0.00   99553/99716       bt_skip_func [33]
+                0.00    0.00   99553/1048939     mf_ptr [78]
+                0.00    0.00   99553/1048573     move_pos [79]
+                0.00    0.00   99553/1048942     mf_avail [77]
+-----------------------------------------------
+                0.00    0.05     366/366         helper1 [22]
+[32]     6.3    0.00    0.05     366         mf_skip [32]
+                0.01    0.04     366/367         lzma_mf_bt4_skip [31]
+-----------------------------------------------
+                0.00    0.00     163/99716       lzma_mf_bt4_find [25]
+                0.04    0.00   99553/99716       lzma_mf_bt4_skip [31]
+[33]     5.1    0.04    0.00   99716         bt_skip_func [33]
+-----------------------------------------------
+                0.02    0.01 5569728/5569728     sha_compress [12]
+[34]     3.6    0.02    0.01 5569728         Gamma0 [34]
+                0.01    0.00 11139456/64051872     Rot [30]
+                0.00    0.00 5569728/11139456     Sh [72]
+-----------------------------------------------
+                0.01    0.02 6962160/6962160     sha_compress [12]
+[35]     3.3    0.01    0.02 6962160         Sigma0 [35]
+                0.02    0.00 20886480/64051872     Rot [30]
+-----------------------------------------------
+                0.01    0.02 6962160/6962160     sha_compress [12]
+[36]     3.3    0.01    0.02 6962160         Sigma1 [36]
+                0.02    0.00 20886480/64051872     Rot [30]
+-----------------------------------------------
+                0.02    0.00 6962160/6962160     sha_compress [12]
+[37]     2.5    0.02    0.00 6962160         Ch [37]
+-----------------------------------------------
+                0.02    0.00 6962160/6962160     sha_compress [12]
+[38]     2.5    0.02    0.00 6962160         Maj [38]
+-----------------------------------------------
+                0.00    0.00   88690/3383808     helper1 [22]
+                0.02    0.00 3295118/3383808     helper2 [24]
+[39]     2.5    0.02    0.00 3383808         get_pos_len_price [39]
+                0.00    0.00 3383808/9891107     get_len_price [73]
+                0.00    0.00 2675228/2675228     get_pos_slot_2 [74]
+-----------------------------------------------
+                0.00    0.00   66098/1625001     helper1 [22]
+                0.00    0.00  294808/1625001     get_pure_rep_price [46]
+                0.01    0.00  505752/1625001     get_short_rep_price [53]
+                0.01    0.00  758343/1625001     helper2 [24]
+[40]     2.5    0.02    0.00 1625001         rc_bit_0_price [40]
+-----------------------------------------------
+                0.00    0.02  583716/583716      lzma_lzma_encode [9]
+[41]     2.5    0.00    0.02  583716         encode_symbol [41]
+                0.00    0.02  546720/546720      literal [45]
+                0.00    0.00   32172/32172       match [55]
+                0.00    0.00  620712/5500533     rc_bit [47]
+                0.00    0.00    4824/4824        rep_match [65]
+-----------------------------------------------
+                0.01    0.01 5569728/5569728     sha_compress [12]
+[42]     2.4    0.01    0.01 5569728         Gamma1 [42]
+                0.01    0.00 11139456/64051872     Rot [30]
+                0.00    0.00 5569728/11139456     Sh [72]
+-----------------------------------------------
+                0.00    0.00       1/598164      encode_init [63]
+                0.00    0.00   32172/598164      match [55]
+                0.00    0.00   35526/598164      length [57]
+                0.01    0.01  530465/598164      literal [45]
+[43]     2.3    0.01    0.01  598164         rc_bittree [43]
+                0.01    0.00 4567093/5500533     rc_bit [47]
+-----------------------------------------------
+                0.00    0.00   34407/518807      helper1 [22]
+                0.01    0.01  484400/518807      helper2 [24]
+[44]     2.1    0.01    0.01  518807         get_literal_price [44]
+                0.01    0.00 3012320/4613632     rc_bit_price [48]
+-----------------------------------------------
+                0.00    0.02  546720/546720      encode_symbol [41]
+[45]     2.1    0.00    0.02  546720         literal [45]
+                0.01    0.01  530465/598164      rc_bittree [43]
+                0.00    0.00   16255/16255       literal_matched [60]
+-----------------------------------------------
+                0.00    0.00    1181/321984      helper1 [22]
+                0.00    0.00   41961/321984      get_rep_price [56]
+                0.01    0.01  278842/321984      helper2 [24]
+[46]     2.1    0.01    0.01  321984         get_pure_rep_price [46]
+                0.00    0.00  294808/1625001     rc_bit_0_price [40]
+                0.00    0.00  349160/1388600     rc_bit_1_price [49]
+                0.00    0.00   27176/4613632     rc_bit_price [48]
+-----------------------------------------------
+                0.00    0.00       1/5500533     encode_init [63]
+                0.00    0.00   10113/5500533     rep_match [65]
+                0.00    0.00   46489/5500533     length [57]
+                0.00    0.00  126085/5500533     rc_bittree_reverse [61]
+                0.00    0.00  130040/5500533     literal_matched [60]
+                0.00    0.00  620712/5500533     encode_symbol [41]
+                0.01    0.00 4567093/5500533     rc_bittree [43]
+[47]     1.3    0.01    0.00 5500533         rc_bit [47]
+-----------------------------------------------
+                0.00    0.00   27176/4613632     get_pure_rep_price [46]
+                0.00    0.00  191008/4613632     rc_bittree_reverse_price [59]
+                0.00    0.00 1383128/4613632     rc_bittree_price [54]
+                0.01    0.00 3012320/4613632     get_literal_price [44]
+[48]     1.3    0.01    0.00 4613632         rc_bit_price [48]
+-----------------------------------------------
+                0.00    0.00   68814/1388600     helper1 [22]
+                0.00    0.00  349160/1388600     get_pure_rep_price [46]
+                0.01    0.00  970626/1388600     helper2 [24]
+[49]     1.3    0.01    0.00 1388600         rc_bit_1_price [49]
+-----------------------------------------------
+                0.00    0.00       6/32774       lzma_sha256_finish [70]
+                0.00    0.01   32768/32774       lzma_sha256_update [52]
+[50]     1.3    0.00    0.01   32774         process [50]
+                0.01    0.00   32774/32774       transform [51]
+-----------------------------------------------
+                0.01    0.00   32774/32774       process [50]
+[51]     1.3    0.01    0.00   32774         transform [51]
+-----------------------------------------------
+                0.00    0.00       4/402         hash_append [66]
+                0.00    0.00     194/402         block_encode [5]
+                0.00    0.01     204/402         block_decode [16]
+[52]     1.3    0.00    0.01     402         lzma_sha256_update [52]
+                0.00    0.01   32768/32774       process [50]
+-----------------------------------------------
+                0.00    0.00    3636/252876      helper1 [22]
+                0.00    0.01  249240/252876      helper2 [24]
+[53]     0.8    0.00    0.01  252876         get_short_rep_price [53]
+                0.01    0.00  505752/1625001     rc_bit_0_price [40]
+-----------------------------------------------
+                0.00    0.00   32183/183099      helper1 [22]
+                0.00    0.00   40832/183099      fill_distances_prices [58]
+                0.00    0.00  110084/183099      helper2 [24]
+[54]     0.4    0.00    0.00  183099         rc_bittree_price [54]
+                0.00    0.00 1383128/4613632     rc_bit_price [48]
+-----------------------------------------------
+                0.00    0.00   32172/32172       encode_symbol [41]
+[55]     0.3    0.00    0.00   32172         match [55]
+                0.00    0.00   32172/35526       length [57]
+                0.00    0.00   32172/598164      rc_bittree [43]
+                0.00    0.00   31749/31749       rc_bittree_reverse [61]
+                0.00    0.00   32172/32172       get_pos_slot [90]
+                0.00    0.00   26322/26322       rc_direct [94]
+                0.00    0.00     113/145         length_update_prices [106]
+-----------------------------------------------
+                0.00    0.00   41961/41961       helper2 [24]
+[56]     0.3    0.00    0.00   41961         get_rep_price [56]
+                0.00    0.00   41961/321984      get_pure_rep_price [46]
+                0.00    0.00   41961/9891107     get_len_price [73]
+-----------------------------------------------
+                0.00    0.00    3354/35526       rep_match [65]
+                0.00    0.00   32172/35526       match [55]
+[57]     0.1    0.00    0.00   35526         length [57]
+                0.00    0.00   35526/598164      rc_bittree [43]
+                0.00    0.00   46489/5500533     rc_bit [47]
+-----------------------------------------------
+                0.00    0.00     232/232         lzma_lzma_optimum_normal [11]
+[58]     0.1    0.00    0.00     232         fill_distances_prices [58]
+                0.00    0.00   40832/183099      rc_bittree_price [54]
+                0.00    0.00   28768/46592       rc_bittree_reverse_price [59]
+                0.00    0.00   28768/28768       get_pos_slot [92]
+                0.00    0.00   27840/27840       rc_direct_price [93]
+-----------------------------------------------
+                0.00    0.00   17824/46592       fill_align_prices [62]
+                0.00    0.00   28768/46592       fill_distances_prices [58]
+[59]     0.1    0.00    0.00   46592         rc_bittree_reverse_price [59]
+                0.00    0.00  191008/4613632     rc_bit_price [48]
+-----------------------------------------------
+                0.00    0.00   16255/16255       literal [45]
+[60]     0.0    0.00    0.00   16255         literal_matched [60]
+                0.00    0.00  130040/5500533     rc_bit [47]
+-----------------------------------------------
+                0.00    0.00   31749/31749       match [55]
+[61]     0.0    0.00    0.00   31749         rc_bittree_reverse [61]
+                0.00    0.00  126085/5500533     rc_bit [47]
+-----------------------------------------------
+                0.00    0.00    1114/1114        lzma_lzma_optimum_normal [11]
+[62]     0.0    0.00    0.00    1114         fill_align_prices [62]
+                0.00    0.00   17824/46592       rc_bittree_reverse_price [59]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_lzma_encode [9]
+[63]     0.0    0.00    0.00       1         encode_init [63]
+                0.00    0.00       1/1           mf_skip [64]
+                0.00    0.00       1/598164      rc_bittree [43]
+                0.00    0.00       1/5500533     rc_bit [47]
+-----------------------------------------------
+                0.00    0.00       1/1           encode_init [63]
+[64]     0.0    0.00    0.00       1         mf_skip [64]
+                0.00    0.00       1/367         lzma_mf_bt4_skip [31]
+-----------------------------------------------
+                0.00    0.00    4824/4824        encode_symbol [41]
+[65]     0.0    0.00    0.00    4824         rep_match [65]
+                0.00    0.00    3354/35526       length [57]
+                0.00    0.00   10113/5500533     rc_bit [47]
+                0.00    0.00       8/145         length_update_prices [106]
+-----------------------------------------------
+                0.00    0.00       2/4           lzma_index_hash_append [68]
+                0.00    0.00       2/4           lzma_index_hash_decode [67]
+[66]     0.0    0.00    0.00       4         hash_append [66]
+                0.00    0.00       4/402         lzma_sha256_update [52]
+                0.00    0.00       8/25          lzma_vli_size [115]
+                0.00    0.00       4/10          vli_ceil4 [124]
+                0.00    0.00       4/1663        lzma_check_update [97]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[67]     0.0    0.00    0.00       2         lzma_index_hash_decode [67]
+                0.00    0.00       2/4           hash_append [66]
+                0.00    0.00       4/6           lzma_sha256_finish [70]
+                0.00    0.00       6/10          lzma_vli_decode [123]
+                0.00    0.00       4/7           lzma_check_finish [128]
+                0.00    0.00       2/8           index_size_unpadded [126]
+                0.00    0.00       2/10          lzma_check_size [122]
+                0.00    0.00       2/12          lzma_crc32 [119]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[68]     0.0    0.00    0.00       2         lzma_index_hash_append [68]
+                0.00    0.00       2/4           hash_append [66]
+                0.00    0.00       2/10          vli_ceil4 [124]
+                0.00    0.00       2/6           index_size [132]
+                0.00    0.00       2/2           index_stream_size [163]
+-----------------------------------------------
+                0.00    0.00       3/3           spec_mem_sum [13]
+[69]     0.0    0.00    0.00       3         sha_done [69]
+                0.00    0.00       3/87027       sha_compress [12]
+                0.00    0.00      24/27          store64 [114]
+-----------------------------------------------
+                0.00    0.00       1/6           block_encode [5]
+                0.00    0.00       1/6           block_decode [16]
+                0.00    0.00       4/6           lzma_index_hash_decode [67]
+[70]     0.0    0.00    0.00       6         lzma_sha256_finish [70]
+                0.00    0.00       6/32774       process [50]
+-----------------------------------------------
+[71]     0.0    0.00    0.00      13+19      <cycle 1 as a whole> [71]
+                0.00    0.00      23             lzma_next_end <cycle 1> [116]
+                0.00    0.00       2             stream_decoder_end <cycle 1> [202]
+                0.00    0.00       2             block_decoder_end <cycle 1> [160]
+                0.00    0.00       2             lz_decoder_end <cycle 1> [169]
+                0.00    0.00       1             stream_encoder_end <cycle 1> [255]
+                0.00    0.00       1             block_encoder_end <cycle 1> [206]
+                0.00    0.00       1             lz_encoder_end <cycle 1> [220]
+-----------------------------------------------
+                0.00    0.00 5569728/11139456     Gamma1 [42]
+                0.00    0.00 5569728/11139456     Gamma0 [34]
+[72]     0.0    0.00    0.00 11139456         Sh [72]
+-----------------------------------------------
+                0.00    0.00   23947/9891107     helper1 [22]
+                0.00    0.00   41961/9891107     get_rep_price [56]
+                0.00    0.00 3383808/9891107     get_pos_len_price [39]
+                0.00    0.00 6441391/9891107     helper2 [24]
+[73]     0.0    0.00    0.00 9891107         get_len_price [73]
+-----------------------------------------------
+                0.00    0.00 2675228/2675228     get_pos_len_price [39]
+[74]     0.0    0.00    0.00 2675228         get_pos_slot_2 [74]
+-----------------------------------------------
+                0.00    0.00 1392432/1392432     sha_compress [12]
+[75]     0.0    0.00    0.00 1392432         load64 [75]
+-----------------------------------------------
+                0.00    0.00  104323/1219130     dict_repeat [87]
+                0.00    0.00 1114807/1219130     lzma_decode [20]
+[76]     0.0    0.00    0.00 1219130         dict_get [76]
+-----------------------------------------------
+                0.00    0.00     366/1048942     lzma_mf_find [23]
+                0.00    0.00   99553/1048942     lzma_mf_bt4_skip [31]
+                0.00    0.00  949023/1048942     lzma_mf_bt4_find [25]
+[77]     0.0    0.00    0.00 1048942         mf_avail [77]
+-----------------------------------------------
+                0.00    0.00     366/1048939     lzma_mf_find [23]
+                0.00    0.00   99553/1048939     lzma_mf_bt4_skip [31]
+                0.00    0.00  949020/1048939     lzma_mf_bt4_find [25]
+[78]     0.0    0.00    0.00 1048939         mf_ptr [78]
+-----------------------------------------------
+                0.00    0.00   99553/1048573     lzma_mf_bt4_skip [31]
+                0.00    0.00  949020/1048573     lzma_mf_bt4_find [25]
+[79]     0.0    0.00    0.00 1048573         move_pos [79]
+-----------------------------------------------
+                0.00    0.00 1033054/1033054     lzma_decode [20]
+[80]     0.0    0.00    0.00 1033054         dict_put [80]
+-----------------------------------------------
+                0.00    0.00  443352/949023      lzma_lzma_optimum_normal [11]
+                0.00    0.00  505671/949023      helper1 [22]
+[81]     0.0    0.00    0.00  949023         mf_avail [81]
+-----------------------------------------------
+                0.00    0.00  443352/949023      lzma_lzma_optimum_normal [11]
+                0.00    0.00  505671/949023      helper1 [22]
+[82]     0.0    0.00    0.00  949023         mf_ptr [82]
+-----------------------------------------------
+                0.00    0.00  629881/629881      rc_encode [26]
+[83]     0.0    0.00    0.00  629881         rc_shift_low [83]
+-----------------------------------------------
+                0.00    0.00  583854/583854      lzma_lzma_encode [9]
+[84]     0.0    0.00    0.00  583854         rc_pending [84]
+-----------------------------------------------
+                0.00    0.00  303920/303920      rc_bittree_price [89]
+[85]     0.0    0.00    0.00  303920         rc_bit_price [85]
+-----------------------------------------------
+                0.00    0.00  302862/302862      lzma_decode [20]
+[86]     0.0    0.00    0.00  302862         dict_is_distance_valid [86]
+-----------------------------------------------
+                0.00    0.00  298971/298971      lzma_decode [20]
+[87]     0.0    0.00    0.00  298971         dict_repeat [87]
+                0.00    0.00  104323/1219130     dict_get [76]
+-----------------------------------------------
+                0.00    0.00     812/141124      backward [91]
+                0.00    0.00   34407/141124      helper1 [22]
+                0.00    0.00  105905/141124      helper2 [24]
+[88]     0.0    0.00    0.00  141124         make_literal [88]
+-----------------------------------------------
+                0.00    0.00   39440/39440       length_update_prices [106]
+[89]     0.0    0.00    0.00   39440         rc_bittree_price [89]
+                0.00    0.00  303920/303920      rc_bit_price [85]
+-----------------------------------------------
+                0.00    0.00   32172/32172       match [55]
+[90]     0.0    0.00    0.00   32172         get_pos_slot [90]
+-----------------------------------------------
+                0.00    0.00   31691/31691       lzma_lzma_optimum_normal [11]
+[91]     0.0    0.00    0.00   31691         backward [91]
+                0.00    0.00     812/141124      make_literal [88]
+-----------------------------------------------
+                0.00    0.00   28768/28768       fill_distances_prices [58]
+[92]     0.0    0.00    0.00   28768         get_pos_slot [92]
+-----------------------------------------------
+                0.00    0.00   27840/27840       fill_distances_prices [58]
+[93]     0.0    0.00    0.00   27840         rc_direct_price [93]
+-----------------------------------------------
+                0.00    0.00   26322/26322       match [55]
+[94]     0.0    0.00    0.00   26322         rc_direct [94]
+-----------------------------------------------
+                0.00    0.00    1394/4798        helper1 [22]
+                0.00    0.00    3404/4798        helper2 [24]
+[95]     0.0    0.00    0.00    4798         make_short_rep [95]
+-----------------------------------------------
+                0.00    0.00    2930/2930        block_decode [16]
+[96]     0.0    0.00    0.00    2930         update_size [96]
+-----------------------------------------------
+                0.00    0.00       4/1663        hash_append [66]
+                0.00    0.00     194/1663        block_encode [5]
+                0.00    0.00    1465/1663        block_decode [16]
+[97]     0.0    0.00    0.00    1663         lzma_check_update [97]
+                0.00    0.00    1261/1261        lzma_crc64 [100]
+-----------------------------------------------
+                0.00    0.00    1431/1431        lzma_decode [20]
+[98]     0.0    0.00    0.00    1431         rc_read_init [98]
+-----------------------------------------------
+                0.00    0.00      77/1309        compressStream [28]
+                0.00    0.00    1232/1309        uncompressStream [4]
+[99]     0.0    0.00    0.00    1309         spec_mem_fwrite [99]
+-----------------------------------------------
+                0.00    0.00    1261/1261        lzma_check_update [97]
+[100]    0.0    0.00    0.00    1261         lzma_crc64 [100]
+-----------------------------------------------
+                0.00    0.00     258/728         compressStream [28]
+                0.00    0.00     470/728         uncompressStream [4]
+[101]    0.0    0.00    0.00     728         spec_mem_feof [101]
+-----------------------------------------------
+                0.00    0.00     128/363         compressStream [28]
+                0.00    0.00     235/363         uncompressStream [4]
+[102]    0.0    0.00    0.00     363         spec_mem_fread [102]
+-----------------------------------------------
+                0.00    0.00     290/290         length_update_prices [106]
+[103]    0.0    0.00    0.00     290         rc_bit_0_price [103]
+-----------------------------------------------
+                0.00    0.00     290/290         length_update_prices [106]
+[104]    0.0    0.00    0.00     290         rc_bit_1_price [104]
+-----------------------------------------------
+                0.00    0.00       1/276         block_encode [5]
+                0.00    0.00       2/276         block_decode [16]
+                0.00    0.00       3/276         stream_encode [6]
+                0.00    0.00       6/276         stream_decode [15]
+                0.00    0.00      64/276         dict_write [110]
+                0.00    0.00      72/276         lzma2_encode [7]
+                0.00    0.00     128/276         fill_window [108]
+[105]    0.0    0.00    0.00     276         lzma_bufcpy [105]
+-----------------------------------------------
+                0.00    0.00       8/145         rep_match [65]
+                0.00    0.00      24/145         length_encoder_reset [133]
+                0.00    0.00     113/145         match [55]
+[106]    0.0    0.00    0.00     145         length_update_prices [106]
+                0.00    0.00   39440/39440       rc_bittree_price [89]
+                0.00    0.00     290/290         rc_bit_0_price [103]
+                0.00    0.00     290/290         rc_bit_1_price [104]
+-----------------------------------------------
+                0.00    0.00     138/138         lzma_lzma_encode [9]
+[107]    0.0    0.00    0.00     138         mf_position [107]
+-----------------------------------------------
+                0.00    0.00     128/128         lz_encode [8]
+[108]    0.0    0.00    0.00     128         fill_window [108]
+                0.00    0.00     128/276         lzma_bufcpy [105]
+-----------------------------------------------
+                0.00    0.00     128/128         sum_str_to_hex [257]
+[109]    0.0    0.00    0.00     128         hex_char_to_num [109]
+-----------------------------------------------
+                0.00    0.00      64/64          lzma2_decode [17]
+[110]    0.0    0.00    0.00      64         dict_write [110]
+                0.00    0.00      64/276         lzma_bufcpy [105]
+-----------------------------------------------
+                0.00    0.00       1/40          lzma_index_end [176]
+                0.00    0.00       1/40          index_tree_node_end [216]
+                0.00    0.00       1/40          lz_encoder_prepare [222]
+                0.00    0.00       1/40          lzma2_encoder_end [223]
+                0.00    0.00       2/40          stream_encoder_end <cycle 1> [255]
+                0.00    0.00       2/40          stream_decoder_end <cycle 1> [202]
+                0.00    0.00       2/40          lzma_lz_decoder_init [181]
+                0.00    0.00       2/40          lzma2_decoder_end [170]
+                0.00    0.00       3/40          lzma_end [152]
+                0.00    0.00       3/40          lz_encoder_end <cycle 1> [220]
+                0.00    0.00       4/40          lz_decoder_end <cycle 1> [169]
+                0.00    0.00       8/40          stream_decode [15]
+                0.00    0.00      10/40          lzma_next_end <cycle 1> [116]
+[111]    0.0    0.00    0.00      40         lzma_free [111]
+-----------------------------------------------
+                0.00    0.00       1/31          lzma_filters_copy [230]
+                0.00    0.00       1/31          index_init_plain [213]
+                0.00    0.00       1/31          index_stream_init [215]
+                0.00    0.00       1/31          lzma_index_append [231]
+                0.00    0.00       1/31          lzma_block_encoder_init [225]
+                0.00    0.00       1/31          lzma_index_encoder_init [233]
+                0.00    0.00       1/31          lzma_stream_encoder_init [248]
+                0.00    0.00       1/31          lzma_lz_encoder_init [239]
+                0.00    0.00       1/31          lzma_lzma_encoder_create [242]
+                0.00    0.00       1/31          lzma2_encoder_init [224]
+                0.00    0.00       2/31          lzma_block_decoder_init [173]
+                0.00    0.00       2/31          lzma_index_hash_init [178]
+                0.00    0.00       2/31          lzma_stream_decoder_init [195]
+                0.00    0.00       2/31          lz_encoder_init [221]
+                0.00    0.00       2/31          lzma_lzma_decoder_create [186]
+                0.00    0.00       2/31          lzma2_decoder_init [171]
+                0.00    0.00       2/31          lzma_lzma2_props_decode [185]
+                0.00    0.00       3/31          lzma_strm_init [155]
+                0.00    0.00       4/31          lzma_lz_decoder_init [181]
+[112]    0.0    0.00    0.00      31         lzma_alloc [112]
+-----------------------------------------------
+                0.00    0.00      28/28          lzma2_decode [17]
+[113]    0.0    0.00    0.00      28         lzma_decoder_uncompressed [113]
+-----------------------------------------------
+                0.00    0.00       3/27          spec_mem_sum [13]
+                0.00    0.00      24/27          sha_done [69]
+[114]    0.0    0.00    0.00      27         store64 [114]
+-----------------------------------------------
+                0.00    0.00       2/25          lzma_index_append [231]
+                0.00    0.00       2/25          lzma_filter_flags_size [229]
+                0.00    0.00       5/25          index_size_unpadded [138]
+                0.00    0.00       8/25          hash_append [66]
+                0.00    0.00       8/25          index_size_unpadded [126]
+[115]    0.0    0.00    0.00      25         lzma_vli_size [115]
+-----------------------------------------------
+                                   1             block_encoder_end <cycle 1> [206]
+                                   1             lz_encoder_end <cycle 1> [220]
+                                   2             stream_encoder_end <cycle 1> [255]
+                                   2             block_decoder_end <cycle 1> [160]
+                                   2             stream_decoder_end <cycle 1> [202]
+                                   2             lz_decoder_end <cycle 1> [169]
+                0.00    0.00       1/13          lzma_block_encoder_init [225]
+                0.00    0.00       1/13          lzma_index_encoder_init [233]
+                0.00    0.00       1/13          lzma_stream_encoder_init [248]
+                0.00    0.00       2/13          lzma_block_decoder_init [173]
+                0.00    0.00       2/13          lzma_stream_decoder_init [195]
+                0.00    0.00       3/13          lzma_next_filter_init [135]
+                0.00    0.00       3/13          lzma_end [152]
+[116]    0.0    0.00    0.00      23         lzma_next_end <cycle 1> [116]
+                0.00    0.00      10/40          lzma_free [111]
+                0.00    0.00       1/1           index_encoder_end [210]
+                                   2             lz_decoder_end <cycle 1> [169]
+                                   2             block_decoder_end <cycle 1> [160]
+                                   2             stream_decoder_end <cycle 1> [202]
+                                   1             lz_encoder_end <cycle 1> [220]
+                                   1             block_encoder_end <cycle 1> [206]
+                                   1             stream_encoder_end <cycle 1> [255]
+-----------------------------------------------
+                0.00    0.00      17/17          lzma2_encode [7]
+[117]    0.0    0.00    0.00      17         mf_read [117]
+-----------------------------------------------
+                0.00    0.00       3/14          lzma_lzma_encoder_reset [153]
+                0.00    0.00      11/14          rc_encode [26]
+[118]    0.0    0.00    0.00      14         rc_reset [118]
+-----------------------------------------------
+                0.00    0.00       1/12          lzma_block_header_encode [226]
+                0.00    0.00       1/12          index_encode [209]
+                0.00    0.00       1/12          lzma_stream_header_encode [250]
+                0.00    0.00       1/12          lzma_stream_footer_encode [249]
+                0.00    0.00       2/12          lzma_block_header_decode [174]
+                0.00    0.00       2/12          lzma_index_hash_decode [67]
+                0.00    0.00       2/12          lzma_stream_header_decode [198]
+                0.00    0.00       2/12          lzma_stream_footer_decode [197]
+[119]    0.0    0.00    0.00      12         lzma_crc32 [119]
+-----------------------------------------------
+                0.00    0.00      12/12          lzma2_encode [7]
+[120]    0.0    0.00    0.00      12         mf_unencoded [120]
+-----------------------------------------------
+                0.00    0.00      11/11          lzma_lzma_encode [9]
+[121]    0.0    0.00    0.00      11         rc_flush [121]
+-----------------------------------------------
+                0.00    0.00       1/10          block_encode [5]
+                0.00    0.00       2/10          lzma_block_decoder_init [173]
+                0.00    0.00       2/10          block_decode [16]
+                0.00    0.00       2/10          lzma_index_hash_decode [67]
+                0.00    0.00       3/10          lzma_block_unpadded_size [134]
+[122]    0.0    0.00    0.00      10         lzma_check_size [122]
+-----------------------------------------------
+                0.00    0.00       4/10          lzma_filter_flags_decode [175]
+                0.00    0.00       6/10          lzma_index_hash_decode [67]
+[123]    0.0    0.00    0.00      10         lzma_vli_decode [123]
+-----------------------------------------------
+                0.00    0.00       2/10          lzma_index_hash_append [68]
+                0.00    0.00       2/10          index_stream_size [163]
+                0.00    0.00       2/10          stream_decode [15]
+                0.00    0.00       4/10          hash_append [66]
+[124]    0.0    0.00    0.00      10         vli_ceil4 [124]
+-----------------------------------------------
+                0.00    0.00       9/9           lzma2_encode [7]
+[125]    0.0    0.00    0.00       9         lzma2_header_lzma [125]
+                0.00    0.00       1/1           lzma_lzma_lclppb_encode [243]
+-----------------------------------------------
+                0.00    0.00       2/8           lzma_index_hash_decode [67]
+                0.00    0.00       6/8           index_size [132]
+[126]    0.0    0.00    0.00       8         index_size_unpadded [126]
+                0.00    0.00       8/25          lzma_vli_size [115]
+-----------------------------------------------
+                0.00    0.00       1/8           stream_encode [6]
+                0.00    0.00       2/8           index_file_size [212]
+                0.00    0.00       2/8           lzma_index_append [231]
+                0.00    0.00       3/8           iter_set_info [219]
+[127]    0.0    0.00    0.00       8         vli_ceil4 [127]
+-----------------------------------------------
+                0.00    0.00       1/7           block_encode [5]
+                0.00    0.00       2/7           block_decode [16]
+                0.00    0.00       4/7           lzma_index_hash_decode [67]
+[128]    0.0    0.00    0.00       7         lzma_check_finish [128]
+-----------------------------------------------
+                0.00    0.00       1/7           lzma_block_encoder_init [225]
+                0.00    0.00       2/7           lzma_block_decoder_init [173]
+                0.00    0.00       4/7           lzma_index_hash_init [178]
+[129]    0.0    0.00    0.00       7         lzma_check_init [129]
+-----------------------------------------------
+                0.00    0.00       6/6           main [1]
+[130]    0.0    0.00    0.00       6         debug_time [130]
+-----------------------------------------------
+                0.00    0.00       2/6           lzma_raw_coder_init [154]
+                0.00    0.00       2/6           lzma_raw_coder_memusage [191]
+                0.00    0.00       2/6           lzma_properties_decode [189]
+[131]    0.0    0.00    0.00       6         decoder_find [131]
+-----------------------------------------------
+                0.00    0.00       2/6           lzma_index_hash_append [68]
+                0.00    0.00       2/6           index_stream_size [163]
+                0.00    0.00       2/6           stream_decode [15]
+[132]    0.0    0.00    0.00       6         index_size [132]
+                0.00    0.00       6/8           index_size_unpadded [126]
+-----------------------------------------------
+                0.00    0.00       6/6           lzma_lzma_encoder_reset [153]
+[133]    0.0    0.00    0.00       6         length_encoder_reset [133]
+                0.00    0.00      24/145         length_update_prices [106]
+-----------------------------------------------
+                0.00    0.00       1/6           lzma_block_header_encode [226]
+                0.00    0.00       1/6           stream_encode [6]
+                0.00    0.00       2/6           lzma_block_decoder_init [173]
+                0.00    0.00       2/6           stream_decode [15]
+[134]    0.0    0.00    0.00       6         lzma_block_unpadded_size [134]
+                0.00    0.00       3/10          lzma_check_size [122]
+-----------------------------------------------
+                0.00    0.00       1/6           lzma_lz_encoder_init [239]
+                0.00    0.00       2/6           lzma_lz_decoder_init [181]
+                0.00    0.00       3/6           lzma_raw_coder_init [154]
+[135]    0.0    0.00    0.00       6         lzma_next_filter_init [135]
+                0.00    0.00       3/13          lzma_next_end <cycle 1> [116]
+-----------------------------------------------
+                0.00    0.00       1/6           lzma_block_encoder_init [225]
+                0.00    0.00       1/6           lzma_block_decoder_init [173]
+                0.00    0.00       4/6           lzma_index_hash_init [178]
+[136]    0.0    0.00    0.00       6         lzma_sha256_init [136]
+-----------------------------------------------
+                0.00    0.00       2/6           lzma_stream_header_decode [198]
+                0.00    0.00       4/6           lzma_stream_footer_decode [197]
+[137]    0.0    0.00    0.00       6         unaligned_read32le [137]
+-----------------------------------------------
+                0.00    0.00       1/5           lzma_index_padding_size [237]
+                0.00    0.00       4/5           index_size [143]
+[138]    0.0    0.00    0.00       5         index_size_unpadded [138]
+                0.00    0.00       5/25          lzma_vli_size [115]
+-----------------------------------------------
+                0.00    0.00       1/5           lzma_block_encoder_init [225]
+                0.00    0.00       2/5           block_decode [16]
+                0.00    0.00       2/5           stream_decode [15]
+[139]    0.0    0.00    0.00       5         lzma_check_is_supported [139]
+-----------------------------------------------
+                0.00    0.00       2/5           lzma_filter_flags_encode [228]
+                0.00    0.00       3/5           index_encode [209]
+[140]    0.0    0.00    0.00       5         lzma_vli_encode [140]
+-----------------------------------------------
+                0.00    0.00       2/5           lzma_raw_coder_memusage [191]
+                0.00    0.00       3/5           lzma_raw_coder_init [154]
+[141]    0.0    0.00    0.00       5         validate_chain [141]
+-----------------------------------------------
+                0.00    0.00       1/4           lzma_raw_coder_init [154]
+                0.00    0.00       1/4           lzma_properties_encode [245]
+                0.00    0.00       2/4           lzma_properties_size [190]
+[142]    0.0    0.00    0.00       4         encoder_find [142]
+-----------------------------------------------
+                0.00    0.00       1/4           index_file_size [212]
+                0.00    0.00       1/4           lzma_index_append [231]
+                0.00    0.00       1/4           iter_set_info [219]
+                0.00    0.00       1/4           stream_encode [6]
+[143]    0.0    0.00    0.00       4         index_size [143]
+                0.00    0.00       4/5           index_size_unpadded [138]
+-----------------------------------------------
+                0.00    0.00       1/4           lzma_lzma_lclppb_encode [243]
+                0.00    0.00       3/4           is_options_valid [150]
+[144]    0.0    0.00    0.00       4         is_lclppb_valid [144]
+-----------------------------------------------
+                0.00    0.00       4/4           block_decode [16]
+[145]    0.0    0.00    0.00       4         is_size_valid [145]
+-----------------------------------------------
+                0.00    0.00       4/4           lzma_decoder_reset [148]
+[146]    0.0    0.00    0.00       4         literal_init [146]
+-----------------------------------------------
+                0.00    0.00       2/4           lzma_lz_decoder_init [181]
+                0.00    0.00       2/4           decode_buffer [18]
+[147]    0.0    0.00    0.00       4         lz_decoder_reset [147]
+-----------------------------------------------
+                0.00    0.00       4/4           lzma2_decode [17]
+[148]    0.0    0.00    0.00       4         lzma_decoder_reset [148]
+                0.00    0.00       4/4           literal_init [146]
+-----------------------------------------------
+                0.00    0.00       2/4           lzma_stream_header_decode [198]
+                0.00    0.00       2/4           lzma_stream_footer_decode [197]
+[149]    0.0    0.00    0.00       4         stream_flags_decode [149]
+-----------------------------------------------
+                0.00    0.00       3/3           lzma_lzma_encoder_reset [153]
+[150]    0.0    0.00    0.00       3         is_options_valid [150]
+                0.00    0.00       3/4           is_lclppb_valid [144]
+-----------------------------------------------
+                0.00    0.00       3/3           lzma_lzma_encoder_reset [153]
+[151]    0.0    0.00    0.00       3         literal_init [151]
+-----------------------------------------------
+                0.00    0.00       1/3           compressStream [28]
+                0.00    0.00       2/3           uncompressStream [4]
+[152]    0.0    0.00    0.00       3         lzma_end [152]
+                0.00    0.00       3/13          lzma_next_end <cycle 1> [116]
+                0.00    0.00       3/40          lzma_free [111]
+-----------------------------------------------
+                0.00    0.00       1/3           lzma2_encoder_init [224]
+                0.00    0.00       2/3           lzma2_encode [7]
+[153]    0.0    0.00    0.00       3         lzma_lzma_encoder_reset [153]
+                0.00    0.00       6/6           length_encoder_reset [133]
+                0.00    0.00       3/3           is_options_valid [150]
+                0.00    0.00       3/14          rc_reset [118]
+                0.00    0.00       3/3           literal_init [151]
+-----------------------------------------------
+                0.00    0.00       1/3           stream_encoder_update [256]
+                0.00    0.00       2/3           stream_decode [15]
+[154]    0.0    0.00    0.00       3         lzma_raw_coder_init [154]
+                0.00    0.00       3/5           validate_chain [141]
+                0.00    0.00       3/6           lzma_next_filter_init [135]
+                0.00    0.00       2/6           decoder_find [131]
+                0.00    0.00       2/2           lzma_lz_decoder_init [181]
+                0.00    0.00       2/2           lzma_lzma2_decoder_init [183]
+                0.00    0.00       1/4           encoder_find [142]
+                0.00    0.00       1/1           lzma_lz_encoder_init [239]
+                0.00    0.00       1/1           lzma_lzma2_encoder_init [240]
+-----------------------------------------------
+                0.00    0.00       1/3           lzma_stream_encoder [247]
+                0.00    0.00       2/3           lzma_stream_decoder [194]
+[155]    0.0    0.00    0.00       3         lzma_strm_init [155]
+                0.00    0.00       3/31          lzma_alloc [112]
+-----------------------------------------------
+                0.00    0.00       3/3           lzma_mf_bt4_find [25]
+[156]    0.0    0.00    0.00       3         move_pending [156]
+-----------------------------------------------
+                0.00    0.00       3/3           spec_mem_sum [13]
+[157]    0.0    0.00    0.00       3         sha_init [157]
+-----------------------------------------------
+                0.00    0.00       3/3           sha_process [14]
+[158]    0.0    0.00    0.00       3         sortof_strdup [158]
+-----------------------------------------------
+                0.00    0.00       1/3           lzma_stream_header_encode [250]
+                0.00    0.00       2/3           lzma_stream_footer_encode [249]
+[159]    0.0    0.00    0.00       3         unaligned_write32le [159]
+-----------------------------------------------
+                                   2             lzma_next_end <cycle 1> [116]
+[160]    0.0    0.00    0.00       2         block_decoder_end <cycle 1> [160]
+                                   2             lzma_next_end <cycle 1> [116]
+-----------------------------------------------
+                0.00    0.00       1/2           main [1]
+                0.00    0.00       1/2           spec_mem_load [10]
+[161]    0.0    0.00    0.00       2         compare_sum [161]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma2_decode [17]
+[162]    0.0    0.00    0.00       2         dict_reset [162]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_index_hash_append [68]
+[163]    0.0    0.00    0.00       2         index_stream_size [163]
+                0.00    0.00       2/10          vli_ceil4 [124]
+                0.00    0.00       2/6           index_size [132]
+-----------------------------------------------
+                0.00    0.00       1/2           lzma_index_init [234]
+                0.00    0.00       1/2           lzma_index_append [231]
+[164]    0.0    0.00    0.00       2         index_tree_append [164]
+-----------------------------------------------
+                0.00    0.00       1/2           lzma_index_end [176]
+                0.00    0.00       1/2           index_tree_node_end [216]
+[165]    0.0    0.00    0.00       2         index_tree_end [165]
+-----------------------------------------------
+                0.00    0.00       1/2           index_init_plain [213]
+                0.00    0.00       1/2           index_stream_init [215]
+[166]    0.0    0.00    0.00       2         index_tree_init [166]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_index_iter_next [180]
+[167]    0.0    0.00    0.00       2         index_tree_next [167]
+-----------------------------------------------
+                0.00    0.00       2/2           uncompressStream [4]
+[168]    0.0    0.00    0.00       2         init_decoder [168]
+                0.00    0.00       2/2           lzma_stream_decoder [194]
+-----------------------------------------------
+                                   2             lzma_next_end <cycle 1> [116]
+[169]    0.0    0.00    0.00       2         lz_decoder_end <cycle 1> [169]
+                0.00    0.00       4/40          lzma_free [111]
+                0.00    0.00       2/2           lzma2_decoder_end [170]
+                                   2             lzma_next_end <cycle 1> [116]
+-----------------------------------------------
+                0.00    0.00       2/2           lz_decoder_end <cycle 1> [169]
+[170]    0.0    0.00    0.00       2         lzma2_decoder_end [170]
+                0.00    0.00       2/40          lzma_free [111]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_lz_decoder_init [181]
+[171]    0.0    0.00    0.00       2         lzma2_decoder_init [171]
+                0.00    0.00       2/31          lzma_alloc [112]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma2_encode [7]
+[172]    0.0    0.00    0.00       2         lzma2_header_uncompressed [172]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[173]    0.0    0.00    0.00       2         lzma_block_decoder_init [173]
+                0.00    0.00       2/13          lzma_next_end <cycle 1> [116]
+                0.00    0.00       2/6           lzma_block_unpadded_size [134]
+                0.00    0.00       2/31          lzma_alloc [112]
+                0.00    0.00       2/10          lzma_check_size [122]
+                0.00    0.00       2/7           lzma_check_init [129]
+                0.00    0.00       1/6           lzma_sha256_init [136]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[174]    0.0    0.00    0.00       2         lzma_block_header_decode [174]
+                0.00    0.00       2/12          lzma_crc32 [119]
+                0.00    0.00       2/2           unaligned_read32le [205]
+                0.00    0.00       2/2           lzma_filter_flags_decode [175]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_block_header_decode [174]
+[175]    0.0    0.00    0.00       2         lzma_filter_flags_decode [175]
+                0.00    0.00       4/10          lzma_vli_decode [123]
+                0.00    0.00       2/2           lzma_lzma2_props_decode [185]
+                0.00    0.00       2/2           lzma_properties_decode [189]
+-----------------------------------------------
+                0.00    0.00       1/2           lzma_stream_encoder_init [248]
+                0.00    0.00       1/2           stream_encoder_end <cycle 1> [255]
+[176]    0.0    0.00    0.00       2         lzma_index_end [176]
+                0.00    0.00       1/40          lzma_free [111]
+                0.00    0.00       1/1           index_tree_node_end [216]
+                0.00    0.00       1/2           index_tree_end [165]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decoder_end <cycle 1> [202]
+[177]    0.0    0.00    0.00       2         lzma_index_hash_end [177]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decoder_reset [203]
+[178]    0.0    0.00    0.00       2         lzma_index_hash_init [178]
+                0.00    0.00       4/6           lzma_sha256_init [136]
+                0.00    0.00       4/7           lzma_check_init [129]
+                0.00    0.00       2/31          lzma_alloc [112]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[179]    0.0    0.00    0.00       2         lzma_index_hash_size [179]
+-----------------------------------------------
+                0.00    0.00       2/2           index_encode [209]
+[180]    0.0    0.00    0.00       2         lzma_index_iter_next [180]
+                0.00    0.00       2/2           index_tree_next [167]
+                0.00    0.00       1/1           iter_set_info [219]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_raw_coder_init [154]
+[181]    0.0    0.00    0.00       2         lzma_lz_decoder_init [181]
+                0.00    0.00       4/31          lzma_alloc [112]
+                0.00    0.00       2/2           lzma_lzma_decoder_create [186]
+                0.00    0.00       2/2           lzma2_decoder_init [171]
+                0.00    0.00       2/40          lzma_free [111]
+                0.00    0.00       2/4           lz_decoder_reset [147]
+                0.00    0.00       2/6           lzma_next_filter_init [135]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_lzma_decoder_memusage_nocheck [187]
+[182]    0.0    0.00    0.00       2         lzma_lz_decoder_memusage [182]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_raw_coder_init [154]
+[183]    0.0    0.00    0.00       2         lzma_lzma2_decoder_init [183]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_raw_coder_memusage [191]
+[184]    0.0    0.00    0.00       2         lzma_lzma2_decoder_memusage [184]
+                0.00    0.00       2/2           lzma_lzma_decoder_memusage_nocheck [187]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_filter_flags_decode [175]
+[185]    0.0    0.00    0.00       2         lzma_lzma2_props_decode [185]
+                0.00    0.00       2/31          lzma_alloc [112]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_lz_decoder_init [181]
+[186]    0.0    0.00    0.00       2         lzma_lzma_decoder_create [186]
+                0.00    0.00       2/31          lzma_alloc [112]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_lzma2_decoder_memusage [184]
+[187]    0.0    0.00    0.00       2         lzma_lzma_decoder_memusage_nocheck [187]
+                0.00    0.00       2/2           lzma_lz_decoder_memusage [182]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma2_decode [17]
+[188]    0.0    0.00    0.00       2         lzma_lzma_lclppb_decode [188]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_filter_flags_decode [175]
+[189]    0.0    0.00    0.00       2         lzma_properties_decode [189]
+                0.00    0.00       2/6           decoder_find [131]
+-----------------------------------------------
+                0.00    0.00       1/2           lzma_filter_flags_size [229]
+                0.00    0.00       1/2           lzma_filter_flags_encode [228]
+[190]    0.0    0.00    0.00       2         lzma_properties_size [190]
+                0.00    0.00       2/4           encoder_find [142]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[191]    0.0    0.00    0.00       2         lzma_raw_coder_memusage [191]
+                0.00    0.00       2/5           validate_chain [141]
+                0.00    0.00       2/6           decoder_find [131]
+                0.00    0.00       2/2           lzma_lzma2_decoder_memusage [184]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[192]    0.0    0.00    0.00       2         lzma_raw_decoder_init [192]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[193]    0.0    0.00    0.00       2         lzma_raw_decoder_memusage [193]
+-----------------------------------------------
+                0.00    0.00       2/2           init_decoder [168]
+[194]    0.0    0.00    0.00       2         lzma_stream_decoder [194]
+                0.00    0.00       2/3           lzma_strm_init [155]
+                0.00    0.00       2/2           stream_decoder_reset [203]
+                0.00    0.00       2/2           lzma_stream_decoder_init [195]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_stream_decoder [194]
+[195]    0.0    0.00    0.00       2         lzma_stream_decoder_init [195]
+                0.00    0.00       2/13          lzma_next_end <cycle 1> [116]
+                0.00    0.00       2/31          lzma_alloc [112]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[196]    0.0    0.00    0.00       2         lzma_stream_flags_compare [196]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[197]    0.0    0.00    0.00       2         lzma_stream_footer_decode [197]
+                0.00    0.00       4/6           unaligned_read32le [137]
+                0.00    0.00       2/12          lzma_crc32 [119]
+                0.00    0.00       2/4           stream_flags_decode [149]
+-----------------------------------------------
+                0.00    0.00       2/2           stream_decode [15]
+[198]    0.0    0.00    0.00       2         lzma_stream_header_decode [198]
+                0.00    0.00       2/12          lzma_crc32 [119]
+                0.00    0.00       2/6           unaligned_read32le [137]
+                0.00    0.00       2/4           stream_flags_decode [149]
+-----------------------------------------------
+                0.00    0.00       2/2           spec_mem_rewind [201]
+[199]    0.0    0.00    0.00       2         spec_mem_lseek [199]
+-----------------------------------------------
+                0.00    0.00       2/2           main [1]
+[200]    0.0    0.00    0.00       2         spec_mem_reset [200]
+-----------------------------------------------
+                0.00    0.00       2/2           main [1]
+[201]    0.0    0.00    0.00       2         spec_mem_rewind [201]
+                0.00    0.00       2/2           spec_mem_lseek [199]
+-----------------------------------------------
+                                   2             lzma_next_end <cycle 1> [116]
+[202]    0.0    0.00    0.00       2         stream_decoder_end <cycle 1> [202]
+                0.00    0.00       2/40          lzma_free [111]
+                0.00    0.00       2/2           lzma_index_hash_end [177]
+                                   2             lzma_next_end <cycle 1> [116]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_stream_decoder [194]
+[203]    0.0    0.00    0.00       2         stream_decoder_reset [203]
+                0.00    0.00       2/2           lzma_index_hash_init [178]
+-----------------------------------------------
+                0.00    0.00       1/2           lzma_stream_header_encode [250]
+                0.00    0.00       1/2           lzma_stream_footer_encode [249]
+[204]    0.0    0.00    0.00       2         stream_flags_encode [204]
+-----------------------------------------------
+                0.00    0.00       2/2           lzma_block_header_decode [174]
+[205]    0.0    0.00    0.00       2         unaligned_read32le [205]
+-----------------------------------------------
+                                   1             lzma_next_end <cycle 1> [116]
+[206]    0.0    0.00    0.00       1         block_encoder_end <cycle 1> [206]
+                                   1             lzma_next_end <cycle 1> [116]
+-----------------------------------------------
+                0.00    0.00       1/1           stream_encoder_update [256]
+[207]    0.0    0.00    0.00       1         block_encoder_init [207]
+                0.00    0.00       1/1           lzma_block_header_size [227]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_lzma2_props_encode [241]
+[208]    0.0    0.00    0.00       1         get_pos_slot [208]
+-----------------------------------------------
+                0.00    0.00       1/1           stream_encode [6]
+[209]    0.0    0.00    0.00       1         index_encode [209]
+                0.00    0.00       3/5           lzma_vli_encode [140]
+                0.00    0.00       2/2           lzma_index_iter_next [180]
+                0.00    0.00       1/1           lzma_index_block_count [232]
+                0.00    0.00       1/1           lzma_index_padding_size [237]
+                0.00    0.00       1/12          lzma_crc32 [119]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_next_end <cycle 1> [116]
+[210]    0.0    0.00    0.00       1         index_encoder_end [210]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_index_encoder_init [233]
+[211]    0.0    0.00    0.00       1         index_encoder_reset [211]
+                0.00    0.00       1/1           lzma_index_iter_rewind [236]
+                0.00    0.00       1/1           lzma_index_iter_init [235]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_index_append [231]
+[212]    0.0    0.00    0.00       1         index_file_size [212]
+                0.00    0.00       2/8           vli_ceil4 [127]
+                0.00    0.00       1/4           index_size [143]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_index_init [234]
+[213]    0.0    0.00    0.00       1         index_init_plain [213]
+                0.00    0.00       1/31          lzma_alloc [112]
+                0.00    0.00       1/2           index_tree_init [166]
+-----------------------------------------------
+                0.00    0.00       1/1           index_tree_node_end [216]
+[214]    0.0    0.00    0.00       1         index_stream_end [214]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_index_init [234]
+[215]    0.0    0.00    0.00       1         index_stream_init [215]
+                0.00    0.00       1/31          lzma_alloc [112]
+                0.00    0.00       1/2           index_tree_init [166]
+-----------------------------------------------
+                                   1             index_tree_node_end [216]
+                0.00    0.00       1/1           lzma_index_end [176]
+[216]    0.0    0.00    0.00       1+1       index_tree_node_end [216]
+                0.00    0.00       1/40          lzma_free [111]
+                0.00    0.00       1/2           index_tree_end [165]
+                0.00    0.00       1/1           index_stream_end [214]
+                                   1             index_tree_node_end [216]
+-----------------------------------------------
+                0.00    0.00       1/1           compressStream [28]
+[217]    0.0    0.00    0.00       1         init_encoder [217]
+                0.00    0.00       1/1           lzma_lzma_preset [244]
+                0.00    0.00       1/1           lzma_stream_encoder [247]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_stream_footer_encode [249]
+[218]    0.0    0.00    0.00       1         is_backward_size_valid [218]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_index_iter_next [180]
+[219]    0.0    0.00    0.00       1         iter_set_info [219]
+                0.00    0.00       3/8           vli_ceil4 [127]
+                0.00    0.00       1/4           index_size [143]
+-----------------------------------------------
+                                   1             lzma_next_end <cycle 1> [116]
+[220]    0.0    0.00    0.00       1         lz_encoder_end <cycle 1> [220]
+                0.00    0.00       3/40          lzma_free [111]
+                0.00    0.00       1/1           lzma2_encoder_end [223]
+                                   1             lzma_next_end <cycle 1> [116]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_lz_encoder_init [239]
+[221]    0.0    0.00    0.00       1         lz_encoder_init [221]
+                0.00    0.00       2/31          lzma_alloc [112]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_lz_encoder_init [239]
+[222]    0.0    0.00    0.00       1         lz_encoder_prepare [222]
+                0.00    0.00       1/40          lzma_free [111]
+-----------------------------------------------
+                0.00    0.00       1/1           lz_encoder_end <cycle 1> [220]
+[223]    0.0    0.00    0.00       1         lzma2_encoder_end [223]
+                0.00    0.00       1/40          lzma_free [111]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_lz_encoder_init [239]
+[224]    0.0    0.00    0.00       1         lzma2_encoder_init [224]
+                0.00    0.00       1/31          lzma_alloc [112]
+                0.00    0.00       1/3           lzma_lzma_encoder_reset [153]
+                0.00    0.00       1/1           lzma_lzma_encoder_create [242]
+-----------------------------------------------
+                0.00    0.00       1/1           stream_encoder_update [256]
+[225]    0.0    0.00    0.00       1         lzma_block_encoder_init [225]
+                0.00    0.00       1/13          lzma_next_end <cycle 1> [116]
+                0.00    0.00       1/5           lzma_check_is_supported [139]
+                0.00    0.00       1/31          lzma_alloc [112]
+                0.00    0.00       1/6           lzma_sha256_init [136]
+                0.00    0.00       1/7           lzma_check_init [129]
+-----------------------------------------------
+                0.00    0.00       1/1           stream_encode [6]
+[226]    0.0    0.00    0.00       1         lzma_block_header_encode [226]
+                0.00    0.00       1/6           lzma_block_unpadded_size [134]
+                0.00    0.00       1/1           lzma_filter_flags_encode [228]
+                0.00    0.00       1/12          lzma_crc32 [119]
+                0.00    0.00       1/1           unaligned_write32le [258]
+-----------------------------------------------
+                0.00    0.00       1/1           block_encoder_init [207]
+[227]    0.0    0.00    0.00       1         lzma_block_header_size [227]
+                0.00    0.00       1/1           lzma_filter_flags_size [229]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_block_header_encode [226]
+[228]    0.0    0.00    0.00       1         lzma_filter_flags_encode [228]
+                0.00    0.00       2/5           lzma_vli_encode [140]
+                0.00    0.00       1/2           lzma_properties_size [190]
+                0.00    0.00       1/1           lzma_lzma2_props_encode [241]
+                0.00    0.00       1/1           lzma_properties_encode [245]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_block_header_size [227]
+[229]    0.0    0.00    0.00       1         lzma_filter_flags_size [229]
+                0.00    0.00       2/25          lzma_vli_size [115]
+                0.00    0.00       1/2           lzma_properties_size [190]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_stream_encoder_init [248]
+[230]    0.0    0.00    0.00       1         lzma_filters_copy [230]
+                0.00    0.00       1/31          lzma_alloc [112]
+-----------------------------------------------
+                0.00    0.00       1/1           stream_encode [6]
+[231]    0.0    0.00    0.00       1         lzma_index_append [231]
+                0.00    0.00       2/25          lzma_vli_size [115]
+                0.00    0.00       2/8           vli_ceil4 [127]
+                0.00    0.00       1/1           index_file_size [212]
+                0.00    0.00       1/4           index_size [143]
+                0.00    0.00       1/31          lzma_alloc [112]
+                0.00    0.00       1/2           index_tree_append [164]
+-----------------------------------------------
+                0.00    0.00       1/1           index_encode [209]
+[232]    0.0    0.00    0.00       1         lzma_index_block_count [232]
+-----------------------------------------------
+                0.00    0.00       1/1           stream_encode [6]
+[233]    0.0    0.00    0.00       1         lzma_index_encoder_init [233]
+                0.00    0.00       1/13          lzma_next_end <cycle 1> [116]
+                0.00    0.00       1/31          lzma_alloc [112]
+                0.00    0.00       1/1           index_encoder_reset [211]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_stream_encoder_init [248]
+[234]    0.0    0.00    0.00       1         lzma_index_init [234]
+                0.00    0.00       1/1           index_init_plain [213]
+                0.00    0.00       1/1           index_stream_init [215]
+                0.00    0.00       1/2           index_tree_append [164]
+-----------------------------------------------
+                0.00    0.00       1/1           index_encoder_reset [211]
+[235]    0.0    0.00    0.00       1         lzma_index_iter_init [235]
+-----------------------------------------------
+                0.00    0.00       1/1           index_encoder_reset [211]
+[236]    0.0    0.00    0.00       1         lzma_index_iter_rewind [236]
+-----------------------------------------------
+                0.00    0.00       1/1           index_encode [209]
+[237]    0.0    0.00    0.00       1         lzma_index_padding_size [237]
+                0.00    0.00       1/5           index_size_unpadded [138]
+-----------------------------------------------
+                0.00    0.00       1/1           stream_encode [6]
+[238]    0.0    0.00    0.00       1         lzma_index_size [238]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_raw_coder_init [154]
+[239]    0.0    0.00    0.00       1         lzma_lz_encoder_init [239]
+                0.00    0.00       1/31          lzma_alloc [112]
+                0.00    0.00       1/1           lzma2_encoder_init [224]
+                0.00    0.00       1/1           lz_encoder_prepare [222]
+                0.00    0.00       1/1           lz_encoder_init [221]
+                0.00    0.00       1/6           lzma_next_filter_init [135]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_raw_coder_init [154]
+[240]    0.0    0.00    0.00       1         lzma_lzma2_encoder_init [240]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_filter_flags_encode [228]
+[241]    0.0    0.00    0.00       1         lzma_lzma2_props_encode [241]
+                0.00    0.00       1/1           get_pos_slot [208]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma2_encoder_init [224]
+[242]    0.0    0.00    0.00       1         lzma_lzma_encoder_create [242]
+                0.00    0.00       1/31          lzma_alloc [112]
+                0.00    0.00       1/1           set_lz_options [252]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma2_header_lzma [125]
+[243]    0.0    0.00    0.00       1         lzma_lzma_lclppb_encode [243]
+                0.00    0.00       1/4           is_lclppb_valid [144]
+-----------------------------------------------
+                0.00    0.00       1/1           init_encoder [217]
+[244]    0.0    0.00    0.00       1         lzma_lzma_preset [244]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_filter_flags_encode [228]
+[245]    0.0    0.00    0.00       1         lzma_properties_encode [245]
+                0.00    0.00       1/4           encoder_find [142]
+-----------------------------------------------
+                0.00    0.00       1/1           stream_encoder_update [256]
+[246]    0.0    0.00    0.00       1         lzma_raw_encoder_init [246]
+-----------------------------------------------
+                0.00    0.00       1/1           init_encoder [217]
+[247]    0.0    0.00    0.00       1         lzma_stream_encoder [247]
+                0.00    0.00       1/3           lzma_strm_init [155]
+                0.00    0.00       1/1           lzma_stream_encoder_init [248]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_stream_encoder [247]
+[248]    0.0    0.00    0.00       1         lzma_stream_encoder_init [248]
+                0.00    0.00       1/13          lzma_next_end <cycle 1> [116]
+                0.00    0.00       1/31          lzma_alloc [112]
+                0.00    0.00       1/2           lzma_index_end [176]
+                0.00    0.00       1/1           lzma_index_init [234]
+                0.00    0.00       1/1           lzma_stream_header_encode [250]
+                0.00    0.00       1/1           lzma_filters_copy [230]
+                0.00    0.00       1/1           stream_encoder_update [256]
+-----------------------------------------------
+                0.00    0.00       1/1           stream_encode [6]
+[249]    0.0    0.00    0.00       1         lzma_stream_footer_encode [249]
+                0.00    0.00       2/3           unaligned_write32le [159]
+                0.00    0.00       1/1           is_backward_size_valid [218]
+                0.00    0.00       1/2           stream_flags_encode [204]
+                0.00    0.00       1/12          lzma_crc32 [119]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_stream_encoder_init [248]
+[250]    0.0    0.00    0.00       1         lzma_stream_header_encode [250]
+                0.00    0.00       1/2           stream_flags_encode [204]
+                0.00    0.00       1/3           unaligned_write32le [159]
+                0.00    0.00       1/12          lzma_crc32 [119]
+-----------------------------------------------
+                0.00    0.00       1/1           spec_mem_load [10]
+[251]    0.0    0.00    0.00       1         print_sum [251]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_lzma_encoder_create [242]
+[252]    0.0    0.00    0.00       1         set_lz_options [252]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[253]    0.0    0.00    0.00       1         spec_initbufs [253]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[254]    0.0    0.00    0.00       1         spec_mem_alloc_fds [254]
+-----------------------------------------------
+                                   1             lzma_next_end <cycle 1> [116]
+[255]    0.0    0.00    0.00       1         stream_encoder_end <cycle 1> [255]
+                0.00    0.00       2/40          lzma_free [111]
+                0.00    0.00       1/2           lzma_index_end [176]
+                                   2             lzma_next_end <cycle 1> [116]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_stream_encoder_init [248]
+[256]    0.0    0.00    0.00       1         stream_encoder_update [256]
+                0.00    0.00       1/3           lzma_raw_coder_init [154]
+                0.00    0.00       1/1           lzma_raw_encoder_init [246]
+                0.00    0.00       1/1           lzma_block_encoder_init [225]
+                0.00    0.00       1/1           block_encoder_init [207]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[257]    0.0    0.00    0.00       1         sum_str_to_hex [257]
+                0.00    0.00     128/128         hex_char_to_num [109]
+-----------------------------------------------
+                0.00    0.00       1/1           lzma_block_header_encode [226]
+[258]    0.0    0.00    0.00       1         unaligned_write32le [258]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [37] Ch (sha512.c)          [17] lzma2_decode (lzma2_decoder.c) [197] lzma_stream_footer_decode
+  [34] Gamma0 (sha512.c)     [170] lzma2_decoder_end (lzma2_decoder.c) [249] lzma_stream_footer_encode
+  [42] Gamma1 (sha512.c)     [171] lzma2_decoder_init (lzma2_decoder.c) [198] lzma_stream_header_decode
+  [38] Maj (sha512.c)          [7] lzma2_encode (lzma2_encoder.c) [250] lzma_stream_header_encode
+  [30] Rot (sha512.c)        [223] lzma2_encoder_end (lzma2_encoder.c) [155] lzma_strm_init
+  [72] Sh (sha512.c)         [224] lzma2_encoder_init (lzma2_encoder.c) [123] lzma_vli_decode
+  [35] Sigma0 (sha512.c)     [125] lzma2_header_lzma (lzma2_encoder.c) [140] lzma_vli_encode
+  [36] Sigma1 (sha512.c)     [172] lzma2_header_uncompressed (lzma2_encoder.c) [115] lzma_vli_size
+  [91] backward (lzma_encoder_optimum_normal.c) [112] lzma_alloc [88] make_literal (lzma_encoder_optimum_normal.c)
+  [16] block_decode (block_decoder.c) [173] lzma_block_decoder_init [95] make_short_rep (lzma_encoder_optimum_normal.c)
+ [160] block_decoder_end (block_decoder.c) [225] lzma_block_encoder_init [55] match (lzma_encoder.c)
+   [5] block_encode (block_encoder.c) [174] lzma_block_header_decode [77] mf_avail (lz_encoder.h)
+ [206] block_encoder_end (block_encoder.c) [226] lzma_block_header_encode [81] mf_avail (lz_encoder.h)
+ [207] block_encoder_init (stream_encoder.c) [227] lzma_block_header_size [107] mf_position (lz_encoder.h)
+  [27] bt_find_func (lz_encoder_mf.c) [134] lzma_block_unpadded_size [78] mf_ptr (lz_encoder.h)
+  [33] bt_skip_func (lz_encoder_mf.c) [105] lzma_bufcpy   [82] mf_ptr (lz_encoder.h)
+ [161] compare_sum           [128] lzma_check_finish     [117] mf_read (lz_encoder.h)
+  [28] compressStream        [129] lzma_check_init        [64] mf_skip (lz_encoder.h)
+ [130] debug_time            [139] lzma_check_is_supported [32] mf_skip (lz_encoder.h)
+  [18] decode_buffer (lz_decoder.c) [122] lzma_check_size [120] mf_unencoded (lz_encoder.h)
+ [131] decoder_find (filter_decoder.c) [97] lzma_check_update [156] move_pending (lz_encoder_mf.c)
+  [76] dict_get (lz_decoder.h) [2] lzma_code              [79] move_pos (lz_encoder_mf.c)
+  [86] dict_is_distance_valid (lz_decoder.h) [119] lzma_crc32 [251] print_sum
+  [80] dict_put (lz_decoder.h) [100] lzma_crc64           [50] process (sha256.c)
+  [87] dict_repeat (lz_decoder.h) [20] lzma_decode (lzma_decoder.c) [47] rc_bit (range_encoder.h)
+ [162] dict_reset (lz_decoder.h) [148] lzma_decoder_reset (lzma_decoder.c) [103] rc_bit_0_price (price.h)
+ [110] dict_write (lz_decoder.h) [113] lzma_decoder_uncompressed (lzma_decoder.c) [40] rc_bit_0_price (price.h)
+  [63] encode_init (lzma_encoder.c) [152] lzma_end       [104] rc_bit_1_price (price.h)
+  [41] encode_symbol (lzma_encoder.c) [175] lzma_filter_flags_decode [49] rc_bit_1_price (price.h)
+ [142] encoder_find (filter_encoder.c) [228] lzma_filter_flags_encode [85] rc_bit_price (price.h)
+  [62] fill_align_prices (lzma_encoder_optimum_normal.c) [229] lzma_filter_flags_size [48] rc_bit_price (price.h)
+  [58] fill_distances_prices (lzma_encoder_optimum_normal.c) [230] lzma_filters_copy [43] rc_bittree (range_encoder.h)
+ [108] fill_window (lz_encoder.c) [111] lzma_free         [89] rc_bittree_price (price.h)
+  [73] get_len_price (lzma_encoder_optimum_normal.c) [231] lzma_index_append [54] rc_bittree_price (price.h)
+  [44] get_literal_price (lzma_encoder_optimum_normal.c) [232] lzma_index_block_count [61] rc_bittree_reverse (range_encoder.h)
+  [39] get_pos_len_price (lzma_encoder_optimum_normal.c) [233] lzma_index_encoder_init [59] rc_bittree_reverse_price (price.h)
+  [90] get_pos_slot (fastpos.h) [176] lzma_index_end      [94] rc_direct (range_encoder.h)
+  [92] get_pos_slot (fastpos.h) [68] lzma_index_hash_append [93] rc_direct_price (price.h)
+ [208] get_pos_slot (fastpos.h) [67] lzma_index_hash_decode [26] rc_encode (range_encoder.h)
+  [74] get_pos_slot_2 (fastpos.h) [177] lzma_index_hash_end [121] rc_flush (range_encoder.h)
+  [46] get_pure_rep_price (lzma_encoder_optimum_normal.c) [178] lzma_index_hash_init [84] rc_pending (range_encoder.h)
+  [56] get_rep_price (lzma_encoder_optimum_normal.c) [179] lzma_index_hash_size [98] rc_read_init (range_decoder.h)
+  [53] get_short_rep_price (lzma_encoder_optimum_normal.c) [234] lzma_index_init [118] rc_reset (range_encoder.h)
+  [66] hash_append (index_hash.c) [235] lzma_index_iter_init [83] rc_shift_low (range_encoder.h)
+  [22] helper1 (lzma_encoder_optimum_normal.c) [180] lzma_index_iter_next [65] rep_match (lzma_encoder.c)
+  [24] helper2 (lzma_encoder_optimum_normal.c) [236] lzma_index_iter_rewind [252] set_lz_options (lzma_encoder.c)
+ [109] hex_char_to_num (spec_mem_io.c) [237] lzma_index_padding_size [12] sha_compress (sha512.c)
+ [209] index_encode (index_encoder.c) [238] lzma_index_size [69] sha_done
+ [210] index_encoder_end (index_encoder.c) [181] lzma_lz_decoder_init [157] sha_init
+ [211] index_encoder_reset (index_encoder.c) [182] lzma_lz_decoder_memusage [14] sha_process
+ [212] index_file_size (index.c) [239] lzma_lz_encoder_init [158] sortof_strdup (sha512.c)
+ [213] index_init_plain (index.c) [183] lzma_lzma2_decoder_init [29] spec_compress
+ [143] index_size (index.h)  [184] lzma_lzma2_decoder_memusage [253] spec_initbufs
+ [132] index_size (index.h)  [240] lzma_lzma2_encoder_init [254] spec_mem_alloc_fds
+ [138] index_size_unpadded (index.h) [185] lzma_lzma2_props_decode [101] spec_mem_feof
+ [126] index_size_unpadded (index.h) [241] lzma_lzma2_props_encode [102] spec_mem_fread
+ [214] index_stream_end (index.c) [186] lzma_lzma_decoder_create [99] spec_mem_fwrite
+ [215] index_stream_init (index.c) [187] lzma_lzma_decoder_memusage_nocheck [21] spec_mem_init
+ [163] index_stream_size (index.h) [9] lzma_lzma_encode   [10] spec_mem_load
+ [164] index_tree_append (index.c) [242] lzma_lzma_encoder_create [199] spec_mem_lseek
+ [165] index_tree_end (index.c) [153] lzma_lzma_encoder_reset [200] spec_mem_reset
+ [166] index_tree_init (index.c) [188] lzma_lzma_lclppb_decode [201] spec_mem_rewind
+ [167] index_tree_next (index.c) [243] lzma_lzma_lclppb_encode [13] spec_mem_sum
+ [216] index_tree_node_end (index.c) [11] lzma_lzma_optimum_normal [3] spec_uncompress
+ [168] init_decoder (spec_xz.c) [244] lzma_lzma_preset   [114] store64 (sha512.c)
+ [217] init_encoder           [25] lzma_mf_bt4_find       [15] stream_decode (stream_decoder.c)
+ [218] is_backward_size_valid (stream_flags_common.h) [31] lzma_mf_bt4_skip [202] stream_decoder_end (stream_decoder.c)
+ [144] is_lclppb_valid (lzma_common.h) [23] lzma_mf_find [203] stream_decoder_reset (stream_decoder.c)
+ [150] is_options_valid (lzma_encoder.c) [116] lzma_next_end [6] stream_encode (stream_encoder.c)
+ [145] is_size_valid (block_decoder.c) [135] lzma_next_filter_init [255] stream_encoder_end (stream_encoder.c)
+ [219] iter_set_info (index.c) [189] lzma_properties_decode [256] stream_encoder_update (stream_encoder.c)
+  [57] length (lzma_encoder.c) [245] lzma_properties_encode [149] stream_flags_decode (stream_flags_decoder.c)
+ [133] length_encoder_reset (lzma_encoder.c) [190] lzma_properties_size [204] stream_flags_encode (stream_flags_encoder.c)
+ [106] length_update_prices (lzma_encoder.c) [154] lzma_raw_coder_init [257] sum_str_to_hex
+  [45] literal (lzma_encoder.c) [191] lzma_raw_coder_memusage [51] transform (sha256.c)
+ [151] literal_init (lzma_common.h) [192] lzma_raw_decoder_init [205] unaligned_read32le (tuklib_integer.h)
+ [146] literal_init (lzma_common.h) [193] lzma_raw_decoder_memusage [137] unaligned_read32le (tuklib_integer.h)
+  [60] literal_matched (lzma_encoder.c) [246] lzma_raw_encoder_init [258] unaligned_write32le (tuklib_integer.h)
+  [75] load64 (sha512.c)      [70] lzma_sha256_finish    [159] unaligned_write32le (tuklib_integer.h)
+  [19] lz_decode (lz_decoder.c) [136] lzma_sha256_init     [4] uncompressStream
+ [169] lz_decoder_end (lz_decoder.c) [52] lzma_sha256_update [96] update_size (block_decoder.c)
+ [147] lz_decoder_reset (lz_decoder.c) [194] lzma_stream_decoder [141] validate_chain (filter_common.c)
+   [8] lz_encode (lz_encoder.c) [195] lzma_stream_decoder_init [127] vli_ceil4 (index.h)
+ [220] lz_encoder_end (lz_encoder.c) [247] lzma_stream_encoder [124] vli_ceil4 (index.h)
+ [221] lz_encoder_init (lz_encoder.c) [248] lzma_stream_encoder_init [71] <cycle 1>
+ [222] lz_encoder_prepare (lz_encoder.c) [196] lzma_stream_flags_compare
