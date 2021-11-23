@@ -11,9 +11,9 @@ For Basic Block information the following options were used:
 ```
 
 ### 1. spec_qsort (spec_qsort/spec_qsort.c)
-Basic Block Executions: 8160331559
-
-Refrate Runtime: 24.99%
+Basic Block Executions: TODO \
+Refrate Runtime: 24.99% \
+Calls: 1977279
 
 Features:
 - Nested two level loop with a function call inside (three present in the code).
@@ -23,9 +23,9 @@ Features:
 - Goto present, jumps back to the start of the function allowing more loop executions.
 
 ### 2. primal_bea_mpp (pbeampp.c)
-Basic Block Executions: 9092114390
-
-Refrate Runtime: 18.80%
+Basic Block Executions: TODO \
+Refrate Runtime: 18.80% \
+Calls: 1977279
 
 Features:
 - Done with a conditional definition for two different prototypes.
@@ -33,9 +33,9 @@ Features:
 - If statements with function calls as their conditions.
 
 ### 3. cost_compare (pbeampp.c)
-Basic Block Executions: 17199625996
-
-Refrate Runtime: 13.67%
+Basic Block Executions: TODO \
+Refrate Runtime: 13.67% \
+Calls: 8609691404
 
 Features:
 - Very simple function.
