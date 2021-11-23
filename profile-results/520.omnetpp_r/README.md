@@ -11,9 +11,8 @@ For Basic Block information the following options were used:
 ```
 
 ### 1. shiftup (simulator/cmessageheap.cc)
-Basic Block Executions: TODO
-
-Refrate Runtime: 27.37%
+Basic Block Executions: TODO \
+Refrate Runtime: 27.37% \
 Calls: 468300994
 
 Features:
@@ -23,9 +22,8 @@ Features:
 - Minor control flow inside of the loop.
 
 ### 2. deliver (simulator/cgate.cc)
-Basic Block Executions: TODO
-
-Refrate Runtime: 9.43%
+Basic Block Executions: TODO \
+Refrate Runtime: 9.43% \
 Calls: 309644908
 
 Features:
@@ -33,9 +31,8 @@ Features:
 - Calls other functions within.
 
 ### 3. record (simulator/indexedfileoutvectormgr.cc)
-Basic Block Executions: TODO
-
-Refrate Runtime: 9.07%
+Basic Block Executions: TODO \
+Refrate Runtime: 9.07% \
 Calls: 494191607
 
 Features:
