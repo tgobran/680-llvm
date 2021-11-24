@@ -15,8 +15,14 @@ Active pass information was gathered with the following options:
 -g -O2 -mllvm --print-changed=quiet -mllvm --filter-print-funcs=FUNCNAME -march=native -fno-unsafe-math-optimizations -fcommon
 ```
 
+Function compile time information was gathered with the following options:
+```
+-g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
+```
+
 ### 1. spec_qsort (spec_qsort/spec_qsort.c)
 Refrate Runtime: 24.99% \
+Refrate Compile Time: TODO \
 Calls: 1977279
 
 Features:
@@ -31,6 +37,7 @@ Active Passes:
 
 ### 2. primal_bea_mpp (pbeampp.c)
 Refrate Runtime: 18.80% \
+Refrate Compile Time: TODO \
 Calls: 1977279
 
 Features:
@@ -43,6 +50,7 @@ Active Passes:
 
 ### 3. cost_compare (pbeampp.c)
 Refrate Runtime: 13.67% \
+Refrate Compile Time: TODO \
 Calls: 8609691404
 
 Features:
