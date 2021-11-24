@@ -10,6 +10,11 @@ Additional instrumentation information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -fprofile-instr-generate
 ```
 
+Active pass information was gathered with the following options:
+```
+-g -O2 -mllvm --print-changed=quiet -mllvm --filter-print-funcs=FUNCNAME -march=native -fno-unsafe-math-optimizations -fcommon
+```
+
 ### 1. regex.c:S_regmatch (ext/re/re_exec.c)
 Refrate Runtime: 31.77% \
 Calls: 457545339
@@ -25,6 +30,32 @@ Features:
 - While condition with function inside a nested loop.
 - Nested loops within while loops, sometimes based on conditions.
 
+Active Passes:
+- SimplifyCFGPass
+- SROA
+- EarlyCSEPass
+- IPSCCPPass
+- CalledValuePropagationPass
+- GlobalOptPass
+- DeadArgumentEliminationPass
+- InstCombinePass
+- InlinerPass
+- JumpThreadingPass
+- CorrelatedValuePropagationPass
+- TailCallElimPass
+- ReassociatePass
+- LoopSimplifyPass
+- LCSSAPass
+- LICMPass
+- LoopRotatePass
+- LoopInstSimplifyPass
+- IndVarSimplifyPass
+- MergedLoadStoreMotionPass
+- GVN
+- BDCEPass
+- DSEPass
+- LoopUnrollPass
+
 ### 2. Perl_regexec_flags (regexec.c)
 Refrate Runtime: 7.75% \
 Calls: 429181430
@@ -36,6 +67,30 @@ Features:
 - A while loop with several nested if statements inside.
 - A nested if condition with a while loop inside.
 
+Active Passes:
+- SimplifyCFGPass
+- SROA
+- EarlyCSEPass
+- IPSCCPPass
+- GlobalOptPass
+- DeadArgumentEliminationPass
+- InstCombinePass
+- InlinerPass
+- PostOrderFunctionAttrsPass
+- JumpThreadingPass
+- CorrelatedValuePropagationPass
+- TailCallElimPass
+- ReassociatePass
+- LoopSimplifyPass
+- LCSSAPass
+- LICMPass
+- LoopRotatePass
+- IndVarSimplifyPass
+- GVN
+- BDCEPass
+- MemCpyOptPass
+- LoopUnrollPass
+
 ### 3. Perl_hv_common (hv.c)
 Refrate Runtime: 6.96% \
 Calls: 506576246
@@ -44,6 +99,27 @@ Features:
 - Several nested if-else statements with complex function calls within.
 - Multiple single level loops with if statements inside, some have calls to complex functions.
 
+Active Passes:
+- IPSCCPPass
+- GlobalOptPass
+- InferFunctionAttrsPass
+- SimplifyCFGPass
+- SROA
+- EarlyCSEPass
+- DeadArgumentEliminationPass
+- InstCombinePass
+- JumpThreadingPass
+- CorrelatedValuePropagationPass
+- TailCallElimPass
+- ReassociatePass
+- LoopSimplifyPass
+- LCSSAPass
+- LoopRotatePass
+- LICMPass
+- GVN
+- BDCEPass
+- DSEPass
+- InferFunctionAttrsPass
 
 ## Ignored Functions
 
