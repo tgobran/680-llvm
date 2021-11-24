@@ -32,9 +32,6 @@ Calls: 9697
 Features:
 - TODO
 
-Active Passes:
-- TODO
-
 ### 3. qsearch (search.cpp)
 Refrate Runtime: 7.77% \
 Calls: 140537493
@@ -42,5 +39,6 @@ Calls: 140537493
 Features:
 - TODO
 
-Active Passes:
-- TODO
+## Reason for Error
+
+This benchmark worked fine with the profiling and instrumentation but reported no passes to be running on the two search functions despite them being present in the compiled code, we consider this to be an error or quirk with how llvm is treating the functions.
