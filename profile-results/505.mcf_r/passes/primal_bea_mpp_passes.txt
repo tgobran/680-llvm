@@ -1,0 +1,45 @@
+76:*** IR Dump After GlobalOptPass on [module] ***
+79:*** IR Dump After SimplifyCFGPass on primal_bea_mpp ***
+502:*** IR Dump After SROA on primal_bea_mpp ***
+768:*** IR Dump After EarlyCSEPass on primal_bea_mpp ***
+1006:*** IR Dump After GlobalOptPass on [module] ***
+1244:*** IR Dump After InstCombinePass on primal_bea_mpp ***
+1475:*** IR Dump After SimplifyCFGPass on primal_bea_mpp ***
+1694:*** IR Dump After InlinerPass on (primal_bea_mpp) ***
+1928:*** IR Dump After PostOrderFunctionAttrsPass on (primal_bea_mpp) ***
+2162:*** IR Dump After EarlyCSEPass on primal_bea_mpp ***
+2393:*** IR Dump After JumpThreadingPass on primal_bea_mpp ***
+2621:*** IR Dump After InstCombinePass on primal_bea_mpp ***
+2847:*** IR Dump After TailCallElimPass on primal_bea_mpp ***
+3073:*** IR Dump After ReassociatePass on primal_bea_mpp ***
+3299:*** IR Dump After LoopSimplifyPass on primal_bea_mpp ***
+3527:*** IR Dump After LCSSAPass on primal_bea_mpp ***
+3758:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %13<header><exiting>,%18,%38,%44,%46,%40,%50,%63<latch><exiting> ***
+3869:*** IR Dump After LoopRotatePass on Loop at depth 2 containing: %83<header>,%88,%102,%104,%107,%126<latch><exiting> ***
+3942:*** IR Dump After LoopRotatePass on Loop at depth 2 containing: %143<header><latch><exiting> ***
+3964:*** IR Dump After LoopInstSimplifyPass on Loop at depth 1 containing: %72<header>,%132,%135,%136<exiting>,%152<latch><exiting>,%142,%83,%88,%102,%104,%107,%126,%139,%82,%130,%141,%150 ***
+4119:*** IR Dump After LICMPass on Loop at depth 1 containing: %74<header>,%133,%136,%137<exiting>,%152<latch><exiting>,%142,%84,%89,%103,%105,%108,%127,%140,%83,%131,%141,%150 ***
+4274:*** IR Dump After SimplifyCFGPass on primal_bea_mpp ***
+4508:*** IR Dump After InstCombinePass on primal_bea_mpp ***
+4740:*** IR Dump After LoopSimplifyPass on primal_bea_mpp ***
+4980:*** IR Dump After LCSSAPass on primal_bea_mpp ***
+5222:*** IR Dump After IndVarSimplifyPass on Loop at depth 1 containing: %13<header><exiting>,%18,%38,%44,%46,%40,%50,%62<latch><exiting> ***
+5336:*** IR Dump After IndVarSimplifyPass on Loop at depth 2 containing: %140<header><latch><exiting> ***
+5358:*** IR Dump After GVN on primal_bea_mpp ***
+5598:*** IR Dump After InstCombinePass on primal_bea_mpp ***
+5838:*** IR Dump After JumpThreadingPass on primal_bea_mpp ***
+6074:*** IR Dump After LoopSimplifyPass on primal_bea_mpp ***
+6314:*** IR Dump After LCSSAPass on primal_bea_mpp ***
+6556:*** IR Dump After SimplifyCFGPass on primal_bea_mpp ***
+6788:*** IR Dump After LoopSimplifyPass on primal_bea_mpp ***
+7028:*** IR Dump After LCSSAPass on primal_bea_mpp ***
+7270:*** IR Dump After LoopVectorizePass on primal_bea_mpp ***
+7561:*** IR Dump After LoopLoadEliminationPass on primal_bea_mpp ***
+7854:*** IR Dump After InstCombinePass on primal_bea_mpp ***
+8137:*** IR Dump After SimplifyCFGPass on primal_bea_mpp ***
+8407:*** IR Dump After LoopUnrollPass on primal_bea_mpp ***
+8693:*** IR Dump After InstCombinePass on primal_bea_mpp ***
+8973:*** IR Dump After LCSSAPass on primal_bea_mpp ***
+9259:*** IR Dump After LICMPass on Loop at depth 1 containing: %74<header>,%83,%89,%103,%105,%108,%128,%134,%137,%138<exiting>,%141,%142,%143,%144,%168,%180,%190<latch><exiting>,%177,%188,%82,%132 ***
+9457:*** IR Dump After InstSimplifyPass on primal_bea_mpp ***
+9737:*** IR Dump After SimplifyCFGPass on primal_bea_mpp ***

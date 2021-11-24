@@ -1,0 +1,5 @@
+76:*** IR Dump After GlobalOptPass on [module] ***
+80:*** IR Dump After InferFunctionAttrsPass on [module] ***
+82:*** IR Dump After IPSCCPPass on [module] ***
+84:*** IR Dump After GlobalOptPass on [module] ***
+86:*** IR Dump After GlobalOptPass on [module] ***

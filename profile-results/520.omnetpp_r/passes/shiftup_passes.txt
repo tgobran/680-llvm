@@ -1,0 +1,29 @@
+328:*** IR Dump After InferFunctionAttrsPass on [module] ***
+454:*** IR Dump After SimplifyCFGPass on _ZN12cMessageHeap7shiftupEi ***
+576:*** IR Dump After SROA on _ZN12cMessageHeap7shiftupEi ***
+663:*** IR Dump After EarlyCSEPass on _ZN12cMessageHeap7shiftupEi ***
+732:*** IR Dump After IPSCCPPass on [module] ***
+801:*** IR Dump After GlobalOptPass on [module] ***
+870:*** IR Dump After InstCombinePass on _ZN12cMessageHeap7shiftupEi ***
+939:*** IR Dump After SimplifyCFGPass on _ZN12cMessageHeap7shiftupEi ***
+1006:*** IR Dump After InlinerPass on (_ZN12cMessageHeap7shiftupEi) ***
+1197:*** IR Dump After PostOrderFunctionAttrsPass on (_ZN12cMessageHeap7shiftupEi) ***
+1388:*** IR Dump After EarlyCSEPass on _ZN12cMessageHeap7shiftupEi ***
+1574:*** IR Dump After JumpThreadingPass on _ZN12cMessageHeap7shiftupEi ***
+1755:*** IR Dump After InstCombinePass on _ZN12cMessageHeap7shiftupEi ***
+1932:*** IR Dump After LICMPass on Loop at depth 1 containing: %7<header><exiting>,%11,%13,%27,%29,%35,%37,%43,%44<exiting>,%58,%60<exiting>,%66,%68<exiting>,%74<latch> ***
+2115:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %10<header>,%14,%28,%30,%36,%38,%44,%45<exiting>,%59,%61<exiting>,%67,%69<exiting>,%75<latch><exiting> ***
+2291:*** IR Dump After SimplifyCFGPass on _ZN12cMessageHeap7shiftupEi ***
+2471:*** IR Dump After LoopSimplifyPass on _ZN12cMessageHeap7shiftupEi ***
+2655:*** IR Dump After GVN on _ZN12cMessageHeap7shiftupEi ***
+2842:*** IR Dump After InstCombinePass on _ZN12cMessageHeap7shiftupEi ***
+3029:*** IR Dump After JumpThreadingPass on _ZN12cMessageHeap7shiftupEi ***
+3214:*** IR Dump After LoopSimplifyPass on _ZN12cMessageHeap7shiftupEi ***
+3401:*** IR Dump After SimplifyCFGPass on _ZN12cMessageHeap7shiftupEi ***
+3580:*** IR Dump After InstCombinePass on _ZN12cMessageHeap7shiftupEi ***
+3758:*** IR Dump After GlobalOptPass on [module] ***
+3936:*** IR Dump After EliminateAvailableExternallyPass on [module] ***
+4114:*** IR Dump After LoopSimplifyPass on _ZN12cMessageHeap7shiftupEi ***
+4296:*** IR Dump After SimplifyCFGPass on _ZN12cMessageHeap7shiftupEi ***
+4474:*** IR Dump After LoopUnrollPass on _ZN12cMessageHeap7shiftupEi ***
+4656:*** IR Dump After SimplifyCFGPass on _ZN12cMessageHeap7shiftupEi ***

@@ -1,0 +1,15 @@
+113:*** IR Dump After InferFunctionAttrsPass on [module] ***
+227:*** IR Dump After SimplifyCFGPass on _ZN5cGate7deliverEP8cMessage7SimTime ***
+337:*** IR Dump After SROA on _ZN5cGate7deliverEP8cMessage7SimTime ***
+428:*** IR Dump After EarlyCSEPass on _ZN5cGate7deliverEP8cMessage7SimTime ***
+512:*** IR Dump After IPSCCPPass on [module] ***
+596:*** IR Dump After InstCombinePass on _ZN5cGate7deliverEP8cMessage7SimTime ***
+678:*** IR Dump After InlinerPass on (_ZN5cGate7deliverEP8cMessage7SimTime) ***
+789:*** IR Dump After PostOrderFunctionAttrsPass on (_ZN5cGate7deliverEP8cMessage7SimTime) ***
+900:*** IR Dump After EarlyCSEPass on _ZN5cGate7deliverEP8cMessage7SimTime ***
+1009:*** IR Dump After InstCombinePass on _ZN5cGate7deliverEP8cMessage7SimTime ***
+1117:*** IR Dump After TailCallElimPass on _ZN5cGate7deliverEP8cMessage7SimTime ***
+1225:*** IR Dump After GVN on _ZN5cGate7deliverEP8cMessage7SimTime ***
+1334:*** IR Dump After GlobalOptPass on [module] ***
+1443:*** IR Dump After EliminateAvailableExternallyPass on [module] ***
+1552:*** IR Dump After GlobalDCEPass on [module] ***

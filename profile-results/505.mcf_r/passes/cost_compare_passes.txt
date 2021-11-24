@@ -1,0 +1,6 @@
+76:*** IR Dump After SROA on cost_compare ***
+123:*** IR Dump After EarlyCSEPass on cost_compare ***
+162:*** IR Dump After InstCombinePass on cost_compare ***
+201:*** IR Dump After SimplifyCFGPass on cost_compare ***
+233:*** IR Dump After PostOrderFunctionAttrsPass on (cost_compare) ***
+266:*** IR Dump After GlobalOptPass on [module] ***

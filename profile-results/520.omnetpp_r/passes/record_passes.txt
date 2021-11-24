@@ -1,0 +1,13 @@
+799:*** IR Dump After InferFunctionAttrsPass on [module] ***
+1001:*** IR Dump After SimplifyCFGPass on _ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed ***
+1201:*** IR Dump After SROA on _ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed ***
+1344:*** IR Dump After EarlyCSEPass on _ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed ***
+1476:*** IR Dump After InstCombinePass on _ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed ***
+1624:*** IR Dump After SimplifyCFGPass on _ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed ***
+1766:*** IR Dump After InlinerPass on (_ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed) ***
+2004:*** IR Dump After PostOrderFunctionAttrsPass on (_ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed) ***
+2242:*** IR Dump After SROA on _ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed ***
+2475:*** IR Dump After EarlyCSEPass on _ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed ***
+2694:*** IR Dump After CorrelatedValuePropagationPass on _ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed ***
+2913:*** IR Dump After InstCombinePass on _ZN31cIndexedFileOutputVectorManager6recordEPv7SimTimed ***
+3133:*** IR Dump After GlobalOptPass on [module] ***

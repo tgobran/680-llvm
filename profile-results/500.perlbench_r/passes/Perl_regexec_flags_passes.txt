@@ -1,0 +1,61 @@
+481:*** IR Dump After SimplifyCFGPass on Perl_regexec_flags ***
+2833:*** IR Dump After SROA on Perl_regexec_flags ***
+4652:*** IR Dump After EarlyCSEPass on Perl_regexec_flags ***
+6239:*** IR Dump After IPSCCPPass on [module] ***
+7822:*** IR Dump After GlobalOptPass on [module] ***
+9405:*** IR Dump After DeadArgumentEliminationPass on [module] ***
+10988:*** IR Dump After InstCombinePass on Perl_regexec_flags ***
+12534:*** IR Dump After SimplifyCFGPass on Perl_regexec_flags ***
+13922:*** IR Dump After InlinerPass on (Perl_regexec_flags) ***
+16246:*** IR Dump After PostOrderFunctionAttrsPass on (Perl_regexec_flags) ***
+18570:*** IR Dump After EarlyCSEPass on Perl_regexec_flags ***
+20819:*** IR Dump After JumpThreadingPass on Perl_regexec_flags ***
+23012:*** IR Dump After CorrelatedValuePropagationPass on Perl_regexec_flags ***
+25203:*** IR Dump After SimplifyCFGPass on Perl_regexec_flags ***
+27393:*** IR Dump After InstCombinePass on Perl_regexec_flags ***
+29579:*** IR Dump After TailCallElimPass on Perl_regexec_flags ***
+31765:*** IR Dump After SimplifyCFGPass on Perl_regexec_flags ***
+33941:*** IR Dump After ReassociatePass on Perl_regexec_flags ***
+36121:*** IR Dump After LoopSimplifyPass on Perl_regexec_flags ***
+38351:*** IR Dump After LCSSAPass on Perl_regexec_flags ***
+40593:*** IR Dump After LICMPass on Loop at depth 1 containing: %326<header><exiting>,%329,%333,%330,%337,%343,%347,%357,%360<latch> ***
+40690:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %326<header>,%331,%328,%335,%341,%345,%355,%358<latch><exiting> ***
+40786:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %635<header>,%643,%648,%652<exiting>,%655,%676,%678,%687<exiting>,%698,%701,%702,%705,%706,%686,%640<latch><exiting> ***
+40914:*** IR Dump After LICMPass on Loop at depth 1 containing: %837<header><exiting>,%840,%843,%863,%865,%874<exiting>,%880,%883,%884,%887,%893,%895,%899,%903<latch>,%902,%873 ***
+41047:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %840<header>,%844,%864,%866,%875<exiting>,%881,%884,%885,%888,%894,%896,%900,%904<latch><exiting>,%903,%874 ***
+41171:*** IR Dump After LoopRotatePass on Loop at depth 2 containing: %812<header><exiting>,%816<latch><exiting> ***
+41197:*** IR Dump After LICMPass on Loop at depth 1 containing: %746<header><exiting>,%749,%752,%772,%774,%783<exiting>,%789,%792,%793,%796,%802,%812,%826<latch>,%816,%825,%782,%811,%823,%824 ***
+41350:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %749<header>,%753,%773,%775,%784<exiting>,%790,%793,%794,%797,%803,%813,%827<latch><exiting>,%817,%826,%783,%812,%824,%825 ***
+41494:*** IR Dump After LICMPass on Loop at depth 2 containing: %1227<header><exiting>,%1230,%1250,%1252,%1261<exiting>,%1267,%1270,%1271,%1274,%1280<latch>,%1260 ***
+41599:*** IR Dump After LoopRotatePass on Loop at depth 2 containing: %1230<header>,%1251,%1253,%1262<exiting>,%1268,%1271,%1272,%1275,%1281<latch><exiting>,%1261 ***
+41702:*** IR Dump After LICMPass on Loop at depth 2 containing: %1164<header><exiting>,%1167,%1187,%1189,%1198<exiting>,%1204,%1207,%1208,%1211,%1217<exiting>,%1223<latch>,%1197 ***
+41821:*** IR Dump After LoopRotatePass on Loop at depth 2 containing: %1167<header>,%1188,%1190,%1199<exiting>,%1205,%1208,%1209,%1212,%1218<exiting>,%1224<latch><exiting>,%1198 ***
+41938:*** IR Dump After LICMPass on Loop at depth 1 containing: %1060<header><exiting>,%1064,%1067,%1069,%1071<exiting>,%1075,%1078,%1083,%1085,%1113,%1116,%1119,%1123,%1136,%1138,%1142,%1146,%1152,%1088,%1091,%1097,%1100,%1104,%1110,%1156,%1233,%1254,%1256,%1265<exiting>,%1271,%1274,%1275,%1278,%1284,%1167,%1188,%1190,%1199<exiting>,%1205,%1208,%1209,%1212,%1218,%1221,%1224,%1293<latch>,%1198,%1264,%1163,%1290,%1159,%1292,%1122,%1140,%1162,%1291,%1166,%1289 ***
+42340:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %1063<header>,%1068,%1070,%1072<exiting>,%1076,%1079,%1084,%1086,%1114,%1117,%1120,%1124,%1137,%1139,%1143,%1147,%1153,%1089,%1092,%1098,%1101,%1105,%1111,%1157,%1234,%1255,%1257,%1266<exiting>,%1272,%1275,%1276,%1279,%1285,%1168,%1189,%1191,%1200<exiting>,%1206,%1209,%1210,%1213,%1219,%1222,%1225,%1294<latch><exiting>,%1199,%1265,%1164,%1291,%1160,%1293,%1123,%1141,%1163,%1292,%1167,%1290 ***
+42727:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %1431<header><exiting>,%1434<latch><exiting> ***
+42755:*** IR Dump After SimplifyCFGPass on Perl_regexec_flags ***
+44966:*** IR Dump After InstCombinePass on Perl_regexec_flags ***
+47158:*** IR Dump After LoopSimplifyPass on Perl_regexec_flags ***
+49408:*** IR Dump After LCSSAPass on Perl_regexec_flags ***
+51670:*** IR Dump After IndVarSimplifyPass on Loop at depth 1 containing: %326<header>,%331,%328,%335,%341,%345,%355,%358<latch><exiting> ***
+51767:*** IR Dump After IndVarSimplifyPass on Loop at depth 2 containing: %1117<header><latch><exiting> ***
+51789:*** IR Dump After GVN on Perl_regexec_flags ***
+54068:*** IR Dump After BDCEPass on Perl_regexec_flags ***
+56337:*** IR Dump After InstCombinePass on Perl_regexec_flags ***
+58604:*** IR Dump After JumpThreadingPass on Perl_regexec_flags ***
+60799:*** IR Dump After CorrelatedValuePropagationPass on Perl_regexec_flags ***
+62994:*** IR Dump After MemCpyOptPass on Perl_regexec_flags ***
+65189:*** IR Dump After LoopSimplifyPass on Perl_regexec_flags ***
+67421:*** IR Dump After LCSSAPass on Perl_regexec_flags ***
+69667:*** IR Dump After LICMPass on Loop at depth 1 containing: %753<header>,%757,%777,%779,%788<exiting>,%794,%797,%798,%801,%807,%816,%817,%821,%828<latch><exiting>,%826,%787 ***
+69806:*** IR Dump After SimplifyCFGPass on Perl_regexec_flags ***
+71942:*** IR Dump After InstCombinePass on Perl_regexec_flags ***
+74071:*** IR Dump After LoopSimplifyPass on Perl_regexec_flags ***
+76263:*** IR Dump After LCSSAPass on Perl_regexec_flags ***
+78469:*** IR Dump After InstCombinePass on Perl_regexec_flags ***
+80661:*** IR Dump After SimplifyCFGPass on Perl_regexec_flags ***
+82790:*** IR Dump After LoopUnrollPass on Perl_regexec_flags ***
+84996:*** IR Dump After InstCombinePass on Perl_regexec_flags ***
+87188:*** IR Dump After LCSSAPass on Perl_regexec_flags ***
+89394:*** IR Dump After InstSimplifyPass on Perl_regexec_flags ***
+91586:*** IR Dump After SimplifyCFGPass on Perl_regexec_flags ***

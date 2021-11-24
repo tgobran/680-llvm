@@ -1,0 +1,49 @@
+1700:*** IR Dump After SimplifyCFGPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+1917:*** IR Dump After SROA on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+2116:*** IR Dump After EarlyCSEPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+2284:*** IR Dump After IPSCCPPass on [module] ***
+2452:*** IR Dump After GlobalOptPass on [module] ***
+2620:*** IR Dump After InstCombinePass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+2789:*** IR Dump After SimplifyCFGPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+2950:*** IR Dump After InlinerPass on (_ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_) ***
+4069:*** IR Dump After SROA on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+5084:*** IR Dump After EarlyCSEPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+6070:*** IR Dump After JumpThreadingPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+7080:*** IR Dump After SimplifyCFGPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+8084:*** IR Dump After InstCombinePass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+9079:*** IR Dump After TailCallElimPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+10074:*** IR Dump After SimplifyCFGPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+11059:*** IR Dump After LoopSimplifyPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+12048:*** IR Dump After LCSSAPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+13043:*** IR Dump After LICMPass on Loop at depth 1 containing: %65<header><exiting>,%68<exiting>,%76<exiting>,%252<latch> ***
+13125:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %67<header><exiting>,%76<exiting>,%252<latch><exiting> ***
+13200:*** IR Dump After LICMPass on Loop at depth 1 containing: %304<header><exiting>,%308<exiting>,%489<latch><exiting> ***
+13310:*** IR Dump After LoopInstSimplifyPass on Loop at depth 1 containing: %305<header><exiting>,%308<exiting>,%489<latch><exiting> ***
+13409:*** IR Dump After SimplifyCFGPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+14401:*** IR Dump After InstCombinePass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+15390:*** IR Dump After LoopSimplifyPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+16388:*** IR Dump After LCSSAPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+17393:*** IR Dump After GVN on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+18383:*** IR Dump After SCCPPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+19324:*** IR Dump After BDCEPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+20258:*** IR Dump After InstCombinePass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+21194:*** IR Dump After JumpThreadingPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+22069:*** IR Dump After ADCEPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+22894:*** IR Dump After DSEPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+23715:*** IR Dump After LoopSimplifyPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+24541:*** IR Dump After LCSSAPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+25377:*** IR Dump After LICMPass on Loop at depth 1 containing: %25<header><exiting>,%34<exiting>,%206<latch><exiting> ***
+25459:*** IR Dump After LICMPass on Loop at depth 1 containing: %239<header><exiting>,%242<exiting>,%416<latch><exiting> ***
+25542:*** IR Dump After SimplifyCFGPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+26361:*** IR Dump After InstCombinePass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+27172:*** IR Dump After GlobalOptPass on [module] ***
+27983:*** IR Dump After LoopSimplifyPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+28803:*** IR Dump After LCSSAPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+29629:*** IR Dump After InstCombinePass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+30449:*** IR Dump After SimplifyCFGPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+31259:*** IR Dump After LoopUnrollPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+32085:*** IR Dump After InstCombinePass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+32904:*** IR Dump After LCSSAPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+33730:*** IR Dump After LICMPass on Loop at depth 1 containing: %235<header><exiting>,%238<exiting>,%412<latch><exiting> ***
+33813:*** IR Dump After InstSimplifyPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***
+34633:*** IR Dump After SimplifyCFGPass on _ZN11xalanc_1_1022ReusableArenaAllocatorINS_9ElemEmptyEE13destroyObjectEPS1_ ***

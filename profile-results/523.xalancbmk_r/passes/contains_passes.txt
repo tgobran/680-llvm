@@ -1,0 +1,47 @@
+1709:*** IR Dump After SimplifyCFGPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+1868:*** IR Dump After SROA on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+1968:*** IR Dump After EarlyCSEPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+2066:*** IR Dump After IPSCCPPass on [module] ***
+2159:*** IR Dump After GlobalOptPass on [module] ***
+2252:*** IR Dump After InstCombinePass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+2336:*** IR Dump After SimplifyCFGPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+2397:*** IR Dump After InlinerPass on (_ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE) ***
+2654:*** IR Dump After PostOrderFunctionAttrsPass on (_ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE) ***
+2911:*** IR Dump After EarlyCSEPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+3167:*** IR Dump After JumpThreadingPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+3417:*** IR Dump After SimplifyCFGPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+3670:*** IR Dump After TailCallElimPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+3923:*** IR Dump After LoopSimplifyPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+4184:*** IR Dump After LCSSAPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+4450:*** IR Dump After LICMPass on Loop at depth 2 containing: %58<header><exiting>,%61,%64<exiting>,%77,%83,%87<exiting>,%100,%106,%110<exiting>,%123,%129,%133<exiting>,%146,%152<exiting>,%155<latch> ***
+4594:*** IR Dump After LoopRotatePass on Loop at depth 2 containing: %63<header>,%60<latch><exiting>,%67<exiting>,%80,%86,%90<exiting>,%103,%109,%113<exiting>,%126,%132,%136<exiting>,%149,%155<exiting> ***
+4735:*** IR Dump After LoopInstSimplifyPass on Loop at depth 1 containing: %19<header><exiting>,%22<exiting>,%38,%47,%50,%60<exiting>,%62,%66<exiting>,%79,%85,%89<exiting>,%102,%108,%112<exiting>,%125,%131,%135<exiting>,%148,%154,%159<latch>,%53<exiting>,%158,%59 ***
+4943:*** IR Dump After LICMPass on Loop at depth 1 containing: %22<header><exiting>,%25<exiting>,%41,%50,%53,%60<exiting>,%62,%66<exiting>,%79,%85,%89<exiting>,%102,%108,%112<exiting>,%125,%131,%135<exiting>,%148,%154,%159<latch>,%56<exiting>,%158,%59 ***
+5151:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %24<header><exiting>,%41,%50,%53,%60<exiting>,%62,%66<exiting>,%79,%85,%89<exiting>,%102,%108,%112<exiting>,%125,%131,%135<exiting>,%148,%154,%159<latch><exiting>,%56<exiting>,%158,%59 ***
+5345:*** IR Dump After SimplifyCFGPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+5606:*** IR Dump After InstCombinePass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+5862:*** IR Dump After LoopSimplifyPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+6129:*** IR Dump After LCSSAPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+6401:*** IR Dump After IndVarSimplifyPass on Loop at depth 2 containing: %63<header>,%67<exiting>,%81,%86,%90<exiting>,%104,%109,%113<exiting>,%127,%132,%136<exiting>,%150,%155<exiting>,%61<latch><exiting> ***
+6541:*** IR Dump After IndVarSimplifyPass on Loop at depth 1 containing: %25<header><exiting>,%43,%51,%54,%57<exiting>,%64,%68<exiting>,%82,%87,%91<exiting>,%105,%110,%114<exiting>,%128,%133,%137<exiting>,%151,%156,%161<latch><exiting>,%62<exiting>,%60,%160 ***
+6739:*** IR Dump After GVN on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+7013:*** IR Dump After BDCEPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+7286:*** IR Dump After InstCombinePass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+7559:*** IR Dump After JumpThreadingPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+7825:*** IR Dump After LoopSimplifyPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+8098:*** IR Dump After LCSSAPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+8376:*** IR Dump After LICMPass on Loop at depth 1 containing: %26<header><exiting>,%43,%51,%54,%57<exiting>,%60,%63,%67<exiting>,%81,%86,%90<exiting>,%104,%109,%113<exiting>,%127,%132,%136<exiting>,%150,%155,%160<exiting>,%163<latch>,%61<exiting>,%159 ***
+8578:*** IR Dump After SimplifyCFGPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+8844:*** IR Dump After InstCombinePass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+9105:*** IR Dump After GlobalOptPass on [module] ***
+9366:*** IR Dump After GlobalDCEPass on [module] ***
+9627:*** IR Dump After LoopSimplifyPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+9897:*** IR Dump After LCSSAPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+10172:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %39<header>,%49,%52,%55<exiting>,%61,%65<exiting>,%79,%84,%88<exiting>,%102,%107,%111<exiting>,%125,%130,%134<exiting>,%148,%153,%158<exiting>,%161<latch><exiting>,%59<exiting>,%58,%157 ***
+10377:*** IR Dump After InstCombinePass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+10649:*** IR Dump After SimplifyCFGPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+10912:*** IR Dump After LoopUnrollPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+11189:*** IR Dump After InstCombinePass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+11461:*** IR Dump After LCSSAPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+11738:*** IR Dump After InstSimplifyPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***
+12010:*** IR Dump After SimplifyCFGPass on _ZN11xercesc_2_710ValueStore8containsEPKNS_13FieldValueMapE ***

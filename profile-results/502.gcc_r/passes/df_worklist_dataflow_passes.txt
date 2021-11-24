@@ -1,0 +1,47 @@
+25979:*** IR Dump After InferFunctionAttrsPass on [module] ***
+26185:*** IR Dump After SimplifyCFGPass on df_worklist_dataflow ***
+26382:*** IR Dump After SROA on df_worklist_dataflow ***
+26516:*** IR Dump After EarlyCSEPass on df_worklist_dataflow ***
+26633:*** IR Dump After GlobalOptPass on [module] ***
+26750:*** IR Dump After InstCombinePass on df_worklist_dataflow ***
+26870:*** IR Dump After SimplifyCFGPass on df_worklist_dataflow ***
+26987:*** IR Dump After InlinerPass on (df_worklist_dataflow) ***
+27704:*** IR Dump After PostOrderFunctionAttrsPass on (df_worklist_dataflow) ***
+28421:*** IR Dump After SROA on df_worklist_dataflow ***
+29138:*** IR Dump After EarlyCSEPass on df_worklist_dataflow ***
+29852:*** IR Dump After JumpThreadingPass on df_worklist_dataflow ***
+30568:*** IR Dump After CorrelatedValuePropagationPass on df_worklist_dataflow ***
+31277:*** IR Dump After SimplifyCFGPass on df_worklist_dataflow ***
+31980:*** IR Dump After InstCombinePass on df_worklist_dataflow ***
+32673:*** IR Dump After TailCallElimPass on df_worklist_dataflow ***
+33366:*** IR Dump After SimplifyCFGPass on df_worklist_dataflow ***
+34052:*** IR Dump After ReassociatePass on df_worklist_dataflow ***
+34738:*** IR Dump After LoopSimplifyPass on df_worklist_dataflow ***
+35452:*** IR Dump After LCSSAPass on df_worklist_dataflow ***
+36176:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %35<header><latch><exiting> ***
+36200:*** IR Dump After LICMPass on Loop at depth 1 containing: %63<header>,%89,%93,%99,%74,%82,%123,%134,%144,%128,%148<latch>,%106,%111<exiting>,%116,%98,%69,%110,%81,%120 ***
+36376:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %158<header><latch><exiting> ***
+36398:*** IR Dump After SimplifyCFGPass on df_worklist_dataflow ***
+37092:*** IR Dump After InstCombinePass on df_worklist_dataflow ***
+37785:*** IR Dump After LoopSimplifyPass on df_worklist_dataflow ***
+38512:*** IR Dump After LCSSAPass on df_worklist_dataflow ***
+39249:*** IR Dump After IndVarSimplifyPass on Loop at depth 1 containing: %35<header><latch><exiting> ***
+39273:*** IR Dump After IndVarSimplifyPass on Loop at depth 1 containing: %159<header><latch><exiting> ***
+39297:*** IR Dump After GVN on df_worklist_dataflow ***
+40025:*** IR Dump After InstCombinePass on df_worklist_dataflow ***
+40753:*** IR Dump After JumpThreadingPass on df_worklist_dataflow ***
+41461:*** IR Dump After ADCEPass on df_worklist_dataflow ***
+42165:*** IR Dump After LoopSimplifyPass on df_worklist_dataflow ***
+42889:*** IR Dump After LCSSAPass on df_worklist_dataflow ***
+43623:*** IR Dump After SimplifyCFGPass on df_worklist_dataflow ***
+44316:*** IR Dump After InstCombinePass on df_worklist_dataflow ***
+45008:*** IR Dump After GlobalOptPass on [module] ***
+45700:*** IR Dump After LoopSimplifyPass on df_worklist_dataflow ***
+46424:*** IR Dump After LCSSAPass on df_worklist_dataflow ***
+47158:*** IR Dump After InstCombinePass on df_worklist_dataflow ***
+47882:*** IR Dump After SimplifyCFGPass on df_worklist_dataflow ***
+48574:*** IR Dump After LoopUnrollPass on df_worklist_dataflow ***
+49308:*** IR Dump After InstCombinePass on df_worklist_dataflow ***
+50032:*** IR Dump After LCSSAPass on df_worklist_dataflow ***
+50766:*** IR Dump After InstSimplifyPass on df_worklist_dataflow ***
+51490:*** IR Dump After SimplifyCFGPass on df_worklist_dataflow ***
