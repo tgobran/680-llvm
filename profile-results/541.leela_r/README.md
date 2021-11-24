@@ -15,7 +15,7 @@ Active pass information was gathered with the following options:
 -g -O2 -mllvm --print-changed=quiet -mllvm --filter-print-funcs=FUNCNAME -march=native -fno-unsafe-math-optimizations -fcommon
 ```
 
-### 1. update_board_fast
+### 1. update_board_fast (FastBoard.cpp)
 Refrate Runtime: 8.22% \
 Calls: 791662684
 
@@ -36,7 +36,7 @@ Features:
 Active Passes:
 - TODO
 
-### 3. self_atari
+### 3. self_atari (FastBoard.cpp)
 Refrate Runtime: 7.65% \
 Calls: 4213754285
 
