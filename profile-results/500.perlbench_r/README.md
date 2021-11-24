@@ -22,7 +22,8 @@ Function compile time information was gathered with the following options:
 
 ### 1. regex.c:S_regmatch (ext/re/re_exec.c)
 Refrate Runtime: 31.77% \
-Calls: 457545339
+Refrate Compile Time: 668ms 157us \
+Calls: 457545339 
 
 Features:
 - Single level while loop with complex function call.
@@ -63,6 +64,7 @@ Active Passes:
 
 ### 2. Perl_regexec_flags (regexec.c)
 Refrate Runtime: 7.75% \
+Refrate Compile Time: 107ms 910us \
 Calls: 429181430
 
 Features:
@@ -98,6 +100,7 @@ Active Passes:
 
 ### 3. Perl_hv_common (hv.c)
 Refrate Runtime: 6.96% \
+Refrate Compile Time: 96ms 78us \
 Calls: 506576246
 
 Features:
