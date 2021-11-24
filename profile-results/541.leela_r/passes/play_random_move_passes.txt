@@ -1,0 +1,7 @@
+70:*** IR Dump After GlobalOptPass on [module] ***
+72:*** IR Dump After GlobalOptPass on [module] ***
+88:*** IR Dump After SROA on _ZN9FastState16play_random_moveEv ***
+99:*** IR Dump After GlobalOptPass on [module] ***
+110:*** IR Dump After InstCombinePass on _ZN9FastState16play_random_moveEv ***
+119:*** IR Dump After TailCallElimPass on _ZN9FastState16play_random_moveEv ***
+128:*** IR Dump After GlobalOptPass on [module] ***

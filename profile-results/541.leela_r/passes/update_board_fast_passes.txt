@@ -1,0 +1,43 @@
+82:*** IR Dump After GlobalOptPass on [module] ***
+90:*** IR Dump After InferFunctionAttrsPass on [module] ***
+408:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard17update_board_fastEii ***
+710:*** IR Dump After SROA on _ZN9FastBoard17update_board_fastEii ***
+917:*** IR Dump After EarlyCSEPass on _ZN9FastBoard17update_board_fastEii ***
+1091:*** IR Dump After IPSCCPPass on [module] ***
+1265:*** IR Dump After GlobalOptPass on [module] ***
+1439:*** IR Dump After InstCombinePass on _ZN9FastBoard17update_board_fastEii ***
+1606:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard17update_board_fastEii ***
+1765:*** IR Dump After InlinerPass on (_ZN9FastBoard17update_board_fastEii) ***
+2100:*** IR Dump After PostOrderFunctionAttrsPass on (_ZN9FastBoard17update_board_fastEii) ***
+2435:*** IR Dump After EarlyCSEPass on _ZN9FastBoard17update_board_fastEii ***
+2758:*** IR Dump After JumpThreadingPass on _ZN9FastBoard17update_board_fastEii ***
+3079:*** IR Dump After InstCombinePass on _ZN9FastBoard17update_board_fastEii ***
+3386:*** IR Dump After TailCallElimPass on _ZN9FastBoard17update_board_fastEii ***
+3693:*** IR Dump After LoopSimplifyPass on _ZN9FastBoard17update_board_fastEii ***
+4002:*** IR Dump After LCSSAPass on _ZN9FastBoard17update_board_fastEii ***
+4312:*** IR Dump After LICMPass on Loop at depth 1 containing: %34<header><exiting>,%56,%65,%103,%105,%112,%120,%121,%67,%74,%79,%99,%122<latch> ***
+4542:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %53<header>,%63,%101,%103,%110,%118,%119,%65,%72,%77,%97,%120<latch><exiting> ***
+4771:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard17update_board_fastEii ***
+5078:*** IR Dump After InstCombinePass on _ZN9FastBoard17update_board_fastEii ***
+5384:*** IR Dump After LoopSimplifyPass on _ZN9FastBoard17update_board_fastEii ***
+5692:*** IR Dump After LCSSAPass on _ZN9FastBoard17update_board_fastEii ***
+6001:*** IR Dump After IndVarSimplifyPass on Loop at depth 1 containing: %53<header>,%62,%100,%102,%109,%117,%118,%64,%71,%76,%96,%119<latch><exiting> ***
+6229:*** IR Dump After GVN on _ZN9FastBoard17update_board_fastEii ***
+6530:*** IR Dump After InstCombinePass on _ZN9FastBoard17update_board_fastEii ***
+6831:*** IR Dump After JumpThreadingPass on _ZN9FastBoard17update_board_fastEii ***
+7130:*** IR Dump After LoopSimplifyPass on _ZN9FastBoard17update_board_fastEii ***
+7431:*** IR Dump After LCSSAPass on _ZN9FastBoard17update_board_fastEii ***
+7733:*** IR Dump After LICMPass on Loop at depth 1 containing: %52<header>,%61,%95,%97,%104,%112,%113,%63,%70,%71,%91,%114<latch><exiting> ***
+7956:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard17update_board_fastEii ***
+8247:*** IR Dump After InstCombinePass on _ZN9FastBoard17update_board_fastEii ***
+8537:*** IR Dump After GlobalOptPass on [module] ***
+8827:*** IR Dump After LoopSimplifyPass on _ZN9FastBoard17update_board_fastEii ***
+9121:*** IR Dump After LCSSAPass on _ZN9FastBoard17update_board_fastEii ***
+9416:*** IR Dump After InstCombinePass on _ZN9FastBoard17update_board_fastEii ***
+9710:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard17update_board_fastEii ***
+10000:*** IR Dump After LoopUnrollPass on _ZN9FastBoard17update_board_fastEii ***
+10295:*** IR Dump After InstCombinePass on _ZN9FastBoard17update_board_fastEii ***
+10589:*** IR Dump After LCSSAPass on _ZN9FastBoard17update_board_fastEii ***
+10884:*** IR Dump After InstSimplifyPass on _ZN9FastBoard17update_board_fastEii ***
+11178:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard17update_board_fastEii ***
+11468:*** IR Dump After GlobalDCEPass on [module] ***

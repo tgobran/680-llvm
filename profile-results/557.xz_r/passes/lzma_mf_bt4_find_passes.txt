@@ -1,0 +1,43 @@
+125:*** IR Dump After SimplifyCFGPass on lzma_mf_bt4_find ***
+542:*** IR Dump After SROA on lzma_mf_bt4_find ***
+798:*** IR Dump After EarlyCSEPass on lzma_mf_bt4_find ***
+1025:*** IR Dump After GlobalOptPass on [module] ***
+1252:*** IR Dump After InstCombinePass on lzma_mf_bt4_find ***
+1471:*** IR Dump After SimplifyCFGPass on lzma_mf_bt4_find ***
+1684:*** IR Dump After InlinerPass on (lzma_mf_bt4_find) ***
+2341:*** IR Dump After PostOrderFunctionAttrsPass on (lzma_mf_bt4_find) ***
+2998:*** IR Dump After EarlyCSEPass on lzma_mf_bt4_find ***
+3630:*** IR Dump After JumpThreadingPass on lzma_mf_bt4_find ***
+4256:*** IR Dump After InstCombinePass on lzma_mf_bt4_find ***
+4882:*** IR Dump After TailCallElimPass on lzma_mf_bt4_find ***
+5508:*** IR Dump After ReassociatePass on lzma_mf_bt4_find ***
+6136:*** IR Dump After LoopSimplifyPass on lzma_mf_bt4_find ***
+6780:*** IR Dump After LCSSAPass on lzma_mf_bt4_find ***
+7443:*** IR Dump After LICMPass on Loop at depth 1 containing: %116<header><exiting>,%119<exiting>,%126<latch> ***
+7511:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %118<header><exiting>,%126<latch><exiting> ***
+7542:*** IR Dump After SimplifyCFGPass on lzma_mf_bt4_find ***
+8183:*** IR Dump After InstCombinePass on lzma_mf_bt4_find ***
+8812:*** IR Dump After LoopSimplifyPass on lzma_mf_bt4_find ***
+9459:*** IR Dump After LCSSAPass on lzma_mf_bt4_find ***
+10125:*** IR Dump After IndVarSimplifyPass on Loop at depth 1 containing: %118<header><exiting>,%126<latch><exiting> ***
+10155:*** IR Dump After GVN on lzma_mf_bt4_find ***
+10804:*** IR Dump After InstCombinePass on lzma_mf_bt4_find ***
+11455:*** IR Dump After JumpThreadingPass on lzma_mf_bt4_find ***
+12104:*** IR Dump After CorrelatedValuePropagationPass on lzma_mf_bt4_find ***
+12749:*** IR Dump After LoopSimplifyPass on lzma_mf_bt4_find ***
+13402:*** IR Dump After LCSSAPass on lzma_mf_bt4_find ***
+14074:*** IR Dump After LICMPass on Loop at depth 2 containing: %325<header><exiting>,%329<latch><exiting> ***
+14104:*** IR Dump After LICMPass on Loop at depth 1 containing: %296<header>,%325,%326,%330,%340,%345,%337<exiting>,%339,%363,%375,%373,%376<latch><exiting> ***
+14266:*** IR Dump After SimplifyCFGPass on lzma_mf_bt4_find ***
+14912:*** IR Dump After InstCombinePass on lzma_mf_bt4_find ***
+15548:*** IR Dump After LoopSimplifyPass on lzma_mf_bt4_find ***
+16200:*** IR Dump After LCSSAPass on lzma_mf_bt4_find ***
+16870:*** IR Dump After LoopVectorizePass on lzma_mf_bt4_find ***
+17652:*** IR Dump After LoopLoadEliminationPass on lzma_mf_bt4_find ***
+18438:*** IR Dump After InstCombinePass on lzma_mf_bt4_find ***
+19188:*** IR Dump After SimplifyCFGPass on lzma_mf_bt4_find ***
+19912:*** IR Dump After LoopUnrollPass on lzma_mf_bt4_find ***
+20680:*** IR Dump After InstCombinePass on lzma_mf_bt4_find ***
+21430:*** IR Dump After LCSSAPass on lzma_mf_bt4_find ***
+22198:*** IR Dump After InstSimplifyPass on lzma_mf_bt4_find ***
+22948:*** IR Dump After SimplifyCFGPass on lzma_mf_bt4_find ***

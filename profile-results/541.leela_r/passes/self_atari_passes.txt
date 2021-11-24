@@ -1,0 +1,38 @@
+82:*** IR Dump After GlobalOptPass on [module] ***
+90:*** IR Dump After InferFunctionAttrsPass on [module] ***
+348:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard10self_atariEii ***
+588:*** IR Dump After SROA on _ZN9FastBoard10self_atariEii ***
+760:*** IR Dump After EarlyCSEPass on _ZN9FastBoard10self_atariEii ***
+925:*** IR Dump After IPSCCPPass on [module] ***
+1084:*** IR Dump After GlobalOptPass on [module] ***
+1243:*** IR Dump After InstCombinePass on _ZN9FastBoard10self_atariEii ***
+1398:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard10self_atariEii ***
+1513:*** IR Dump After InlinerPass on (_ZN9FastBoard10self_atariEii) ***
+1675:*** IR Dump After EarlyCSEPass on _ZN9FastBoard10self_atariEii ***
+1829:*** IR Dump After JumpThreadingPass on _ZN9FastBoard10self_atariEii ***
+1980:*** IR Dump After InstCombinePass on _ZN9FastBoard10self_atariEii ***
+2126:*** IR Dump After TailCallElimPass on _ZN9FastBoard10self_atariEii ***
+2272:*** IR Dump After ReassociatePass on _ZN9FastBoard10self_atariEii ***
+2418:*** IR Dump After LoopSimplifyPass on _ZN9FastBoard10self_atariEii ***
+2568:*** IR Dump After LCSSAPass on _ZN9FastBoard10self_atariEii ***
+2720:*** IR Dump After LICMPass on Loop at depth 2 containing: %37<header><exiting>,%40<exiting>,%45<latch> ***
+2752:*** IR Dump After LoopRotatePass on Loop at depth 2 containing: %42<header><exiting>,%39<latch><exiting> ***
+2781:*** IR Dump After LoopInstSimplifyPass on Loop at depth 1 containing: %23<header><exiting>,%26,%55,%57,%64<exiting>,%39,%49<exiting>,%51,%41,%68<latch>,%35,%67,%38,%48 ***
+2914:*** IR Dump After LoopRotatePass on Loop at depth 1 containing: %23<header>,%54,%56,%63<exiting>,%38,%48<exiting>,%50,%40,%67<latch><exiting>,%34,%66,%37,%47 ***
+3046:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard10self_atariEii ***
+3196:*** IR Dump After InstCombinePass on _ZN9FastBoard10self_atariEii ***
+3346:*** IR Dump After LoopSimplifyPass on _ZN9FastBoard10self_atariEii ***
+3502:*** IR Dump After IndVarSimplifyPass on Loop at depth 2 containing: %41<header><exiting>,%39<latch><exiting> ***
+3529:*** IR Dump After IndVarSimplifyPass on Loop at depth 1 containing: %23<header>,%53,%55,%62<exiting>,%33,%40,%38,%47<exiting>,%49,%66<latch><exiting>,%36,%65,%46 ***
+3661:*** IR Dump After GVN on _ZN9FastBoard10self_atariEii ***
+3818:*** IR Dump After InstCombinePass on _ZN9FastBoard10self_atariEii ***
+3975:*** IR Dump After JumpThreadingPass on _ZN9FastBoard10self_atariEii ***
+4128:*** IR Dump After LoopSimplifyPass on _ZN9FastBoard10self_atariEii ***
+4283:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard10self_atariEii ***
+4436:*** IR Dump After GlobalOptPass on [module] ***
+4589:*** IR Dump After EliminateAvailableExternallyPass on [module] ***
+4742:*** IR Dump After LoopSimplifyPass on _ZN9FastBoard10self_atariEii ***
+4897:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard10self_atariEii ***
+5050:*** IR Dump After LoopUnrollPass on _ZN9FastBoard10self_atariEii ***
+5205:*** IR Dump After SimplifyCFGPass on _ZN9FastBoard10self_atariEii ***
+5358:*** IR Dump After GlobalDCEPass on [module] ***
