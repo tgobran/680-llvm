@@ -15,7 +15,7 @@ Active pass information was gathered with the following options:
 -g -O2 -mllvm --print-changed=quiet -mllvm --filter-print-funcs=FUNCNAME -march=native -fno-unsafe-math-optimizations -fcommon
 ```
 
-### 1. destroyObject (xalanc/PlatformSupport/ReusableArenaAllocator.hpp)
+### 1. <XStringCached>destroyObject (xalanc/PlatformSupport/ReusableArenaAllocator.hpp)
 Refrate Runtime:  45.85% \
 Calls: 67113825
 
