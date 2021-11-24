@@ -15,8 +15,14 @@ Active pass information was gathered with the following options:
 -g -O2 -mllvm --print-changed=quiet -mllvm --filter-print-funcs=FUNCNAME -march=native -fno-unsafe-math-optimizations -fcommon
 ```
 
+Function compile time information was gathered with the following options:
+```
+-g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
+```
+
 ### 1. update_board_fast (FastBoard.cpp)
 Refrate Runtime: 8.22% \
+Refrate Compile Time: TODO \
 Calls: 791662684
 
 Features:
@@ -27,6 +33,7 @@ Active Passes:
 
 ### 2. play_random_move (FastState.cpp)
 Refrate Runtime: 8.19% \
+Refrate Compile Time: TODO \
 Calls: 818055991
 
 Features:
@@ -38,6 +45,7 @@ Active Passes:
 
 ### 3. self_atari (FastBoard.cpp)
 Refrate Runtime: 7.65% \
+Refrate Compile Time: TODO \
 Calls: 4213754285
 
 Features:
