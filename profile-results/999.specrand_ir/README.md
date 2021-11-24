@@ -1,10 +1,11 @@
 ## Refrate O0 Hot Functions
 
-The program was compiled with the following options:
+For Runtime information the following options were used:
+```
+-g -O2 -pg -march=native -fno-unsafe-math-optimizations -fcommon
+```
 
-```-g -O0 -fno-inline-functions -march=native -fno-unsafe-math-optimizations -fcommon -fprofile-instr-generate```
-
-Smaller functions such as simple Constructors were ignored for hot functions.
+The benchmarks timing results for some unknown reason weren't able to produce useable results.
 
 ### 1. spec_genrand_int32 (specrand-common/specrand.c)
 Basic Block Executions: 1879384
