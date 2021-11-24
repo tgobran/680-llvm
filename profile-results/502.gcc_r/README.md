@@ -17,6 +17,7 @@ Active pass information was gathered with the following options:
 
 ### 1. df_worklist_dataflow (df-core.c)
 Refrate Runtime: 3.09% \
+Refrate Compile Time: 30ms 930us \
 Calls: 1329
 
 Features:
@@ -27,6 +28,7 @@ Active Passes:
 
 ### 2. bitmap_set_bit (bitmap.c)
 Refrate Runtime: 2.70% \
+Refrate Compile Time: 10ms 554us \
 Calls: 178091693
 
 Features:
@@ -37,6 +39,7 @@ Active Passes:
 
 ### 3. df_note_compute (df-problems.c)
 Refrate Runtime: 2.16% \
+Refrate Compile Time: 51ms 12us \
 Calls: 395
 
 Features:
