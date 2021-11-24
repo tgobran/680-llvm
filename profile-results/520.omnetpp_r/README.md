@@ -15,8 +15,14 @@ Active pass information was gathered with the following options:
 -g -O2 -mllvm --print-changed=quiet -mllvm --filter-print-funcs=FUNCNAME -march=native -fno-unsafe-math-optimizations -fcommon
 ```
 
+Function compile time information was gathered with the following options:
+```
+-g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
+```
+
 ### 1. shiftup (simulator/cmessageheap.cc)
 Refrate Runtime: 27.37% \
+Refrate Compile Time: TODO \
 Calls: 468300994
 
 Features:
@@ -30,6 +36,7 @@ Active Passes:
 
 ### 2. deliver (simulator/cgate.cc)
 Refrate Runtime: 9.43% \
+Refrate Compile Time: TODO \
 Calls: 309644908
 
 Features:
@@ -41,6 +48,7 @@ Active Passes:
 
 ### 3. record (simulator/indexedfileoutvectormgr.cc)
 Refrate Runtime: 9.07% \
+Refrate Compile Time: TODO \
 Calls: 494191607
 
 Features:
