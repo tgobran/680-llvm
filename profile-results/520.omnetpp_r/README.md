@@ -22,7 +22,7 @@ Function compile time information was gathered with the following options:
 
 ### 1. shiftup (simulator/cmessageheap.cc)
 Refrate Runtime: 27.37% \
-Refrate Compile Time: TODO \
+Refrate Compile Time:	5ms 93us \
 Calls: 468300994
 
 Features:
@@ -36,7 +36,7 @@ Active Passes:
 
 ### 2. deliver (simulator/cgate.cc)
 Refrate Runtime: 9.43% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 4ms 47us \
 Calls: 309644908
 
 Features:
@@ -48,7 +48,7 @@ Active Passes:
 
 ### 3. record (simulator/indexedfileoutvectormgr.cc)
 Refrate Runtime: 9.07% \
-Refrate Compile Time: TODO \
+Refrate Compile Time:	3ms 97us \
 Calls: 494191607
 
 Features:
