@@ -22,7 +22,7 @@ Function compile time information was gathered with the following options:
 
 ### 1. \<XStringCached\>destroyObject (xalanc/PlatformSupport/ReusableArenaAllocator.hpp)
 Refrate Runtime:  45.85% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 21ms 57us \
 Calls: 67113825
 
 Features:
@@ -34,7 +34,7 @@ Active Passes:
 
 ### 2. contains (ValueStore.cpp)
 Refrate Runtime:  19.47% \
-Refrate Compile Time: TODO \
+Refrate Compile Time:	12ms 841us \
 Calls: 317186
 
 Features:
@@ -45,7 +45,7 @@ Active Passes:
 
 ### 3. release (XalanDOMStringCache.cpp)
 Refrate Runtime:  7.34% \
-Refrate Compile Time: TODO \
+Refrate Compile Time:	9ms 314us \
 Calls: 67596232
 
 Features:
