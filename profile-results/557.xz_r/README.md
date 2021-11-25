@@ -22,7 +22,7 @@ Function compile time information was gathered with the following options:
 
 ### 1. lzma_mf_bt4_find (liblzma/lz/lz_encoder_mf.c)
 Refrate Runtime: 50.66% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 31ms 573us \
 Calls: 195785210
 
 Features:
@@ -33,7 +33,7 @@ Active Passes:
 
 ### 2. lzma_lzma_optimum_normal (liblzma/lzma/lzma_encoder_optimum_normal.c)
 Refrate Runtime: 30.43% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 162ms 170us \
 Calls: 27196108
 
 Features:
@@ -44,7 +44,7 @@ Active Passes:
 
 ### 3. lzma_mf_bt4_skip (liblzma/lz/lz_encoder_mf.c)
 Refrate Runtime: 10.03% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 15ms 505us \
 Calls: 463536
 
 Features:
