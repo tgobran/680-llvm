@@ -22,7 +22,7 @@ Function compile time information was gathered with the following options:
 
 ### 1. spec_qsort (spec_qsort/spec_qsort.c)
 Refrate Runtime: 24.99% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 179ms 256us \
 Calls: 1977279
 
 Features:
@@ -37,7 +37,7 @@ Active Passes:
 
 ### 2. primal_bea_mpp (pbeampp.c)
 Refrate Runtime: 18.80% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 14ms 748us \
 Calls: 1977279
 
 Features:
@@ -50,7 +50,7 @@ Active Passes:
 
 ### 3. cost_compare (pbeampp.c)
 Refrate Runtime: 13.67% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 1ms 561us \
 Calls: 8609691404
 
 Features:
