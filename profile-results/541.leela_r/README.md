@@ -22,7 +22,7 @@ Function compile time information was gathered with the following options:
 
 ### 1. update_board_fast (FastBoard.cpp)
 Refrate Runtime: 8.22% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 11ms 59us \
 Calls: 791662684
 
 Features:
@@ -33,7 +33,7 @@ Active Passes:
 
 ### 2. play_random_move (FastState.cpp)
 Refrate Runtime: 8.19% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 31ms 283us \
 Calls: 818055991
 
 Features:
@@ -45,7 +45,7 @@ Active Passes:
 
 ### 3. self_atari (FastBoard.cpp)
 Refrate Runtime: 7.65% \
-Refrate Compile Time: TODO \
+Refrate Compile Time: 7ms 458us \
 Calls: 4213754285
 
 Features:
