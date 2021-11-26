@@ -70,4 +70,24 @@ Features:
 - TODO
 
 Active Passes:
-- TODO
+1.	InferFunctionAttrsPass
+2.	SimplifyCFGPass
+3.	SROA
+4.	EarlyCSEPass
+5.	GlobalOptPass
+6.	InstCombinePass
+7.	InlinerPass
+8.	PostOrderFunctionAttrsPass
+9.	JumpThreadingPass
+10.	CorrelatedValuePropagationPass
+11.	TailCallElimPass
+12.	ReassociatePass
+13.	LoopSimplifyPass
+14.	LCSSAPass
+15.	LICMPass
+16.	LoopRotatePass
+17.	LoopInstSimplifyPass
+18.	GVN
+19.	LoopUnrollPass
+
+
