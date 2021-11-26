@@ -47,6 +47,18 @@ Active Passes:
 5.	InstCombinePass
 6.	SimplifyCFGPass
 7.	InlinerPass
+8.	PostOrderFunctionAttrsPass
+9.	JumpThreadingPass
+10.	CorrelatedValuePropagationPass
+11.	LCSSAPass
+12.	TailCallElimPass
+13.	LoopSimplifyPassg
+14.	LICMPass
+15.	GVN
+16.	LoopUnrollPass
+17.	IPSCCPPass
+18.	CalledValuePropagationPass
+19.	InferFunctionAttrsPass
 
 
 ### 3. df_note_compute (df-problems.c)
