@@ -31,7 +31,26 @@ Features:
 - several function calls
 
 Active Passes:
-- TODO
+- LoopInstSimplifyPass
+- SimplifyCFGPass
+- EarlyCSEPass
+- InstSimplifyPass
+- LoopUnrollPass
+- TailCallElimPass
+- BDCEPass
+- LoopSimplifyPass
+- SCCPPass
+- LoopRotatePass
+- ADCEPass
+- GlobalOptPass
+- LICMPass
+- InstCombinePass
+- JumpThreadingPass
+- SROA
+- InlinerPass
+- LCSSAPass
+- DSEPass
+- GVN
 
 ### 2. contains (ValueStore.cpp)
 Refrate Runtime:  19.47% \
@@ -46,7 +65,27 @@ Features:
 - Nested if statements.
 
 Active Passes:
-- TODO
+- LoopInstSimplifyPass
+- SimplifyCFGPass
+- PostOrderFunctionAttrsPass
+- EarlyCSEPass
+- InstSimplifyPass
+- LoopUnrollPass
+- TailCallElimPass
+- BDCEPass
+- LoopSimplifyPass
+- LoopRotatePass
+- IPSCCPPass
+- IndVarSimplifyPass
+- GlobalOptPass
+- LICMPass
+- InstCombinePass
+- JumpThreadingPass
+- SROA
+- InlinerPass
+- LCSSAPass
+- GVN
+- GlobalDCEPass
 
 ### 3. release (XalanDOMStringCache.cpp)
 Refrate Runtime:  7.34% \
@@ -59,4 +98,18 @@ Features:
 - calling a function as a parameter to another function call
 
 Active Passes:
-- TODO
+- SimplifyCFGPass
+- CorrelatedValuePropagationPass
+- EarlyCSEPass
+- InstSimplifyPass
+- LoopUnrollPass
+- TailCallElimPass
+- LoopSimplifyPass
+- GlobalOptPass
+- LICMPass
+- InstCombinePass
+- JumpThreadingPass
+- SROA
+- InlinerPass
+- LCSSAPass
+- GVN
