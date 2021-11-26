@@ -26,7 +26,9 @@ Refrate Compile Time: 11ms 59us \
 Calls: 791662684
 
 Features:
-- TODO
+- several nested if statements inside a for loop with a fixed number of iterations
+- function calls inside for loop
+- function call outside of the loop
 
 Active Passes:
 - TODO
@@ -39,6 +41,10 @@ Calls: 818055991
 Features:
 - Nested if statements with function call inside.
 - One level for loop within the if condition.
+- Two-level nested for loops inside if
+- function call inside the inner loop 
+- do-while loop with if statements and function calls inside
+- for loop with if statements and function calls inside (no loop nest)
 
 Active Passes:
 - TODO
@@ -49,7 +55,10 @@ Refrate Compile Time: 7ms 458us \
 Calls: 4213754285
 
 Features:
-- TODO
+- Two level for loop nest
+- Nested if statements in the outer loop
+- If statement inside the inner loop
+- Function call in the condition of an if statement inside the outer loop 
 
 Active Passes:
 - TODO
