@@ -32,7 +32,25 @@ Features:
 - Minor control flow inside of the loop.
 
 Active Passes:
-- TODO
+1.	InferFunctionAttrsPass
+2.	SimplifyCFGPass
+3.	SROA
+4.	EarlyCSEPass
+5.	IPSCCPPass
+6.	GlobalOptPass
+7.	InstCombinePass
+8.	InlinerPass
+9.	PostOrderFunctionAttrsPass
+10.	JumpThreadingPass
+11.	LICMPass
+12.	LoopRotatePass
+13.	LoopSimplifyPass
+14.	GVN
+15.	EliminateAvailableExternallyPass
+16.	LoopUnrollPass
+
+
+
 
 ### 2. deliver (simulator/cgate.cc)
 Refrate Runtime: 9.43% \
@@ -44,7 +62,20 @@ Features:
 - Calls other functions within.
 
 Active Passes:
-- TODO
+1.	InferFunctionAttrsPass
+2.	SimplifyCFGPass
+3.	SROA
+4.	EarlyCSEPass
+5.	IPSCCPPass
+6.	InstCombinePass
+7.	InlinerPass
+8.	PostOrderFunctionAttrsPass
+9.	TailCallElimPass
+10.	GVN
+11.	GlobalOptPass
+12.	EliminateAvailableExternallyPass
+13.	GlobalDCEPass
+
 
 ### 3. record (simulator/indexedfileoutvectormgr.cc)
 Refrate Runtime: 9.07% \
@@ -56,4 +87,13 @@ Features:
 - Nested if statements with considerable calculation depending on the route.
 
 Active Passes:
-- TODO
+1.	InferFunctionAttrsPass
+2.	SimplifyCFGPass
+3.	SROA
+4.	EarlyCSEPass
+5.	InstCombinePass
+6.	InlinerPass
+7.	PostOrderFunctionAttrsPass
+8.	CorrelatedValuePropagationPass
+9.	GlobalOptPass
+
