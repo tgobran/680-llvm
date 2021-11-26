@@ -32,7 +32,27 @@ Features:
 - Function calls outside of if statements and fop loop
 
 Active Passes:
-- TODO
+- SimplifyCFGPass
+- PostOrderFunctionAttrsPass
+- CorrelatedValuePropagationPass
+- EarlyCSEPass
+- InstSimplifyPass
+- LoopUnrollPass
+- TailCallElimPass
+- LoopSimplifyPass
+- LoopRotatePass
+- IndVarSimplifyPass
+- GlobalOptPass
+- LICMPass
+- InstCombinePass
+- JumpThreadingPass
+- LoopVectorizePass
+- SROA
+- InlinerPass
+- ReassociatePass
+- LCSSAPass
+- LoopLoadEliminationPass
+- GVN
 
 ### 2. lzma_lzma_optimum_normal (liblzma/lzma/lzma_encoder_optimum_normal.c)
 Refrate Runtime: 30.43% \
@@ -46,7 +66,7 @@ Features:
 - Function call outside of the loop
 
 Active Passes:
-- TODO
+- GlobalOptPass 
 
 ### 3. lzma_mf_bt4_skip (liblzma/lz/lz_encoder_mf.c)
 Refrate Runtime: 10.03% \
@@ -57,4 +77,21 @@ Features:
 - A single do-while loop with 3 function calls inside
 
 Active Passes:
-- TODO
+- SimplifyCFGPass
+- PostOrderFunctionAttrsPass
+- EarlyCSEPass
+- InstSimplifyPass
+- LoopUnrollPass
+- TailCallElimPass
+- LoopSimplifyPass
+- GlobalOptPass
+- LICMPass
+- InstCombinePass
+- JumpThreadingPass
+- LoopVectorizePass
+- SROA
+- InlinerPass
+- ReassociatePass
+- LCSSAPass
+- LoopLoadEliminationPass
+- GVN
