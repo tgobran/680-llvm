@@ -26,8 +26,9 @@ Refrate Compile Time: 21ms 57us \
 Calls: 67113825
 
 Features:
-- No Loops
-- Multiple calls to constructors and other functions inside.
+- Two level for loop nest (not perfect nesting)
+- few if statements inside loops
+- several function calls
 
 Active Passes:
 - TODO
@@ -38,7 +39,11 @@ Refrate Compile Time:	12ms 841us \
 Calls: 317186
 
 Features:
-- TODO
+- Two one loevel while loops
+- Several if statements inside loops
+- Several function calls
+- Function calls inside if condition
+- Nested if statements.
 
 Active Passes:
 - TODO
@@ -49,7 +54,9 @@ Refrate Compile Time:	9ms 314us \
 Calls: 67596232
 
 Features:
-- TODO
+- Several function calls
+- Two level nested if statement
+- calling a function as a parameter to another function call
 
 Active Passes:
 - TODO
