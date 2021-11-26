@@ -47,7 +47,10 @@ Features:
 - for loop with if statements and function calls inside (no loop nest)
 
 Active Passes:
-- TODO
+- InstCombinePass
+- SROA
+- TailCallElimPass
+- GlobalOptPass
 
 ### 3. self_atari (FastBoard.cpp)
 Refrate Runtime: 7.65% \
