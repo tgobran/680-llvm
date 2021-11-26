@@ -29,7 +29,27 @@ Features:
 - TODO
 
 Active Passes:
-- TODO
+1.	InferFunctionAttrsPass
+2.	SimplifyCFGPass
+3.	SROA
+4.	EarlyCSEPass
+5.	GlobalOptPass
+6.	InstCombinePass
+7.	InlinerPass
+8.	PostOrderFunctionAttrsPass
+9.	JumpThreadingPass
+10.	CorrelatedValuePropagationPass
+11.	TailCallElimPass
+12.	ReassociatePass
+13.	LoopSimplifyPass
+14.	LCSSAPass
+15.	LoopRotatePass
+16.	LICMPass
+17.	IndVarSimplifyPass
+18.	GVN
+19.	ADCEPass
+20.	LoopUnrollPass
+
 
 ### 2. bitmap_set_bit (bitmap.c)
 Refrate Runtime: 2.70% \
