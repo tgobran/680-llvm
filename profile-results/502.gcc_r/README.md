@@ -89,7 +89,8 @@ Refrate Compile Time: 51ms 12us \
 Calls: 395
 
 Features:
-- TODO
+1. Several for loop with function call inside.
+2. single if statement with complicated function call inside.
 
 Active Passes:
 1.	InferFunctionAttrsPass
