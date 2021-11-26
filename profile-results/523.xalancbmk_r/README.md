@@ -39,7 +39,7 @@ Refrate Compile Time:	12ms 841us \
 Calls: 317186
 
 Features:
-- Two one loevel while loops
+- Two while loops (not nested)
 - Several if statements inside loops
 - Several function calls
 - Function calls inside if condition
