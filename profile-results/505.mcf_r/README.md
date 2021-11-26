@@ -33,7 +33,10 @@ Features:
 - Goto present, jumps back to the start of the function allowing more loop executions.
 
 Active Passes:
-- TODO
+1.	GlobalOptPass
+2.	InferFunctionAttrsPass
+3.	IPSCCPPass
+
 
 ### 2. primal_bea_mpp (pbeampp.c)
 Refrate Runtime: 18.80% \
@@ -46,7 +49,28 @@ Features:
 - If statements with function calls as their conditions.
 
 Active Passes:
-- TODO
+1.	GlobalOptPass
+2.	SimplifyCFGPass
+3.	SROA
+4.	EarlyCSEPass
+5.	InstCombinePass
+6.	InlinerPass
+7.	PostOrderFunctionAttrsPass
+8.	JumpThreadingPass
+9.	TailCallElimPass
+10.	ReassociatePass
+11.	LoopSimplifyPass
+12.	LCSSAPass
+13.	LoopRotatePass
+14.	LoopInstSimplifyPass
+15.	LICMPass
+16.	LoopVectorizePass
+17.	LoopLoadEliminationPass
+18.	LoopUnrollPass 
+19.	InstSimplifyPass
+20.	IndVarSimplifyPass
+21.	GVN
+
 
 ### 3. cost_compare (pbeampp.c)
 Refrate Runtime: 13.67% \
@@ -59,4 +83,10 @@ Features:
 - Series of comparion if statements that decide from various return values.
 
 Active Passes:
-- TODO
+1.	SROA
+2.	EarlyCSEPass
+3.	InstCombinePass
+4.	SimplifyCFGPass
+5.	PostOrderFunctionAttrsPass
+6.	GlobalOptPass
+
