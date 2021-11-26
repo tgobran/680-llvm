@@ -31,7 +31,26 @@ Features:
 - function call outside of the loop
 
 Active Passes:
-- TODO
+- SimplifyCFGPass
+- PostOrderFunctionAttrsPass
+- EarlyCSEPass
+- InstSimplifyPass
+- LoopUnrollPass
+- TailCallElimPass
+- LoopSimplifyPass
+- LoopRotatePass
+- IPSCCPPass
+- IndVarSimplifyPass
+- GlobalOptPass
+- InferFunctionAttrsPass
+- LICMPass
+- InstCombinePass
+- JumpThreadingPass
+- SROA
+- InlinerPass
+- LCSSAPass
+- GVN
+- GlobalDCEPass
 
 ### 2. play_random_move (FastState.cpp)
 Refrate Runtime: 8.19% \
@@ -64,4 +83,24 @@ Features:
 - Function call in the condition of an if statement inside the outer loop 
 
 Active Passes:
-- TODO
+- LoopInstSimplifyPass
+- SimplifyCFGPass
+- EarlyCSEPass
+- LoopUnrollPass
+- TailCallElimPass
+- LoopSimplifyPass
+- LoopRotatePass
+- IPSCCPPass
+- IndVarSimplifyPass
+- GlobalOptPass
+- InferFunctionAttrsPass
+- LICMPass
+- InstCombinePass
+- JumpThreadingPass
+- EliminateAvailableExternallyPass
+- SROA
+- InlinerPass
+- ReassociatePass
+- LCSSAPass
+- GVN
+- GlobalDCEPass
