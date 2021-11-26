@@ -40,7 +40,14 @@ Features:
 - TODO
 
 Active Passes:
-- TODO
+1.	InferFunctionAttrsPass
+2.	SROA
+3.	EarlyCSEPass
+4.	GlobalOptPass
+5.	InstCombinePass
+6.	SimplifyCFGPass
+7.	InlinerPass
+
 
 ### 3. df_note_compute (df-problems.c)
 Refrate Runtime: 2.16% \
