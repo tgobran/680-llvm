@@ -26,7 +26,8 @@ Refrate Compile Time: 30ms 930us \
 Calls: 1329
 
 Features:
-- TODO
+1. simple function
+2. If condition with a function call inside.
 
 Active Passes:
 1.	InferFunctionAttrsPass
