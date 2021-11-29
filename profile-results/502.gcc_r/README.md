@@ -74,7 +74,7 @@ Active Passes:
 10.	CorrelatedValuePropagationPass
 11.	LCSSAPass
 12.	TailCallElimPass
-13.	LoopSimplifyPassg
+13.	LoopSimplifyPass
 14.	LICMPass
 15.	GVN
 16.	LoopUnrollPass
