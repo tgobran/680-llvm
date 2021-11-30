@@ -20,6 +20,8 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
+### Total Program Runtime: TODO
+
 ### 1. regex.c:S_regmatch (ext/re/re_exec.c)
 Refrate Runtime: 31.77% \
 Refrate Compile Time: 668ms 157us \
