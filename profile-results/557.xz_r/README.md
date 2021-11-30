@@ -20,6 +20,8 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
+### Total Program Runtime: TODO
+
 ### 1. lzma_mf_bt4_find (liblzma/lz/lz_encoder_mf.c)
 Refrate Runtime: 50.66% \
 Refrate Compile Time: 31ms 573us \
