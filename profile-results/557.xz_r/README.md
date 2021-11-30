@@ -20,10 +20,10 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
-### Total Program Runtime: TODO
+### Total Program Runtime: 148.61s
 
 ### 1. lzma_mf_bt4_find (liblzma/lz/lz_encoder_mf.c)
-Refrate Runtime: 50.66% \
+Refrate Runtime: 75.28s (50.66%) \
 Refrate Compile Time: 31ms 573us \
 Calls: 195785210
 
@@ -57,7 +57,7 @@ Active Passes:
 - GVN
 
 ### 2. lzma_lzma_optimum_normal (liblzma/lzma/lzma_encoder_optimum_normal.c)
-Refrate Runtime: 30.43% \
+Refrate Runtime: 45.21s (30.43%) \
 Refrate Compile Time: 162ms 170us \
 Calls: 27196108
 
@@ -71,7 +71,7 @@ Active Passes:
 - GlobalOptPass 
 
 ### 3. lzma_mf_bt4_skip (liblzma/lz/lz_encoder_mf.c)
-Refrate Runtime: 10.03% \
+Refrate Runtime: 14.90s (10.03%) \
 Refrate Compile Time: 15ms 505us \
 Calls: 463536
 
