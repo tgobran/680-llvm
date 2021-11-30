@@ -20,10 +20,10 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
-### Total Program Runtime: TODO
+### Total Program Runtime: 475.71s
 
 ### 1. update_board_fast (FastBoard.cpp)
-Refrate Runtime: 8.22% \
+Refrate Runtime: 39.08s (8.22%) \
 Refrate Compile Time: 11ms 59us \
 Calls: 791662684
 
@@ -55,7 +55,7 @@ Active Passes:
 - GlobalDCEPass
 
 ### 2. play_random_move (FastState.cpp)
-Refrate Runtime: 8.19% \
+Refrate Runtime: 38.94s (8.19%) \
 Refrate Compile Time: 31ms 283us \
 Calls: 818055991
 
@@ -74,7 +74,7 @@ Active Passes:
 - GlobalOptPass
 
 ### 3. self_atari (FastBoard.cpp)
-Refrate Runtime: 7.65% \
+Refrate Runtime: 36.39s (7.65%) \
 Refrate Compile Time: 7ms 458us \
 Calls: 4213754285
 
