@@ -20,6 +20,8 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
+### Total Program Runtime: 440.29s
+
 ### 1. spec_qsort (spec_qsort/spec_qsort.c)
 Refrate Runtime: 109.97 (24.99%) \
 Refrate Compile Time: 179ms 256us \
