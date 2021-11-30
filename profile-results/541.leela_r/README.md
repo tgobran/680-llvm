@@ -20,6 +20,8 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
+### Total Program Runtime: TODO
+
 ### 1. update_board_fast (FastBoard.cpp)
 Refrate Runtime: 8.22% \
 Refrate Compile Time: 11ms 59us \
