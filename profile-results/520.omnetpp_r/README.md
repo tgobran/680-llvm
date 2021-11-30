@@ -20,10 +20,10 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
-### Total Program Runtime: TODO
+### Total Program Runtime: 466.29s
 
 ### 1. shiftup (simulator/cmessageheap.cc)
-Refrate Runtime: 27.37% \
+Refrate Runtime: 127.63s (27.37%) \
 Refrate Compile Time:	5ms 93us \
 Calls: 468300994
 
@@ -55,7 +55,7 @@ Active Passes:
 
 
 ### 2. deliver (simulator/cgate.cc)
-Refrate Runtime: 9.43% \
+Refrate Runtime: 43.98s (9.43%) \
 Refrate Compile Time: 4ms 47us \
 Calls: 309644908
 
@@ -80,7 +80,7 @@ Active Passes:
 
 
 ### 3. record (simulator/indexedfileoutvectormgr.cc)
-Refrate Runtime: 9.07% \
+Refrate Runtime: 42.29s (9.07%) \
 Refrate Compile Time:	3ms 97us \
 Calls: 494191607
 
