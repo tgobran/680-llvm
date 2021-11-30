@@ -20,10 +20,10 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
-### Total Program Runtime: TODO
+### Total Program Runtime: 372.93s
 
 ### 1. \<XStringCached\>destroyObject (xalanc/PlatformSupport/ReusableArenaAllocator.hpp)
-Refrate Runtime:  45.85% \
+Refrate Runtime: 171.00s (45.85%) \
 Refrate Compile Time: 21ms 57us \
 Calls: 67113825
 
@@ -55,7 +55,7 @@ Active Passes:
 - GVN
 
 ### 2. contains (ValueStore.cpp)
-Refrate Runtime:  19.47% \
+Refrate Runtime: 72.62s (19.47%) \
 Refrate Compile Time:	12ms 841us \
 Calls: 317186
 
@@ -90,7 +90,7 @@ Active Passes:
 - GlobalDCEPass
 
 ### 3. release (XalanDOMStringCache.cpp)
-Refrate Runtime:  7.34% \
+Refrate Runtime: 27.37s (7.34%) \
 Refrate Compile Time:	9ms 314us \
 Calls: 67596232
 
