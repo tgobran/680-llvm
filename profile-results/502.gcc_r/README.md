@@ -20,10 +20,10 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
-### Total Program Runtime: TODO
+### Total Program Runtime: 62.08s
 
 ### 1. df_worklist_dataflow (df-core.c)
-Refrate Runtime: 3.09% \
+Refrate Runtime: 1.92s (3.09%) \
 Refrate Compile Time: 30ms 930us \
 Calls: 1329
 
@@ -55,7 +55,7 @@ Active Passes:
 
 
 ### 2. bitmap_set_bit (bitmap.c)
-Refrate Runtime: 2.70% \
+Refrate Runtime: 1.68s (2.70%) \
 Refrate Compile Time: 10ms 554us \
 Calls: 178091693
 
@@ -86,7 +86,7 @@ Active Passes:
 
 
 ### 3. df_note_compute (df-problems.c)
-Refrate Runtime: 2.16% \
+Refrate Runtime: 1.34s (2.16%) \
 Refrate Compile Time: 51ms 12us \
 Calls: 395
 
