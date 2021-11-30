@@ -20,6 +20,8 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
+### Total Program Runtime: TODO
+
 ### 1. \<XStringCached\>destroyObject (xalanc/PlatformSupport/ReusableArenaAllocator.hpp)
 Refrate Runtime:  45.85% \
 Refrate Compile Time: 21ms 57us \
