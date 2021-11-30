@@ -20,6 +20,8 @@ Function compile time information was gathered with the following options:
 -g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
 ```
 
+### Total Program Runtime: TODO
+
 ### 1. shiftup (simulator/cmessageheap.cc)
 Refrate Runtime: 27.37% \
 Refrate Compile Time:	5ms 93us \
