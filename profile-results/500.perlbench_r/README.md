@@ -15,9 +15,17 @@ Active pass information was gathered with the following options:
 -g -O2 -mllvm --print-changed=quiet -mllvm --filter-print-funcs=FUNCNAME -march=native -fno-unsafe-math-optimizations -fcommon
 ```
 
+Function compile time information was gathered with the following options:
+```
+-g -O2 -march=native -fno-unsafe-math-optimizations -fcommon -ftime-trace
+```
+
+### Total Program Runtime: 132.03s
+
 ### 1. regex.c:S_regmatch (ext/re/re_exec.c)
-Refrate Runtime: 31.77% \
-Calls: 457545339
+Refrate Runtime: 41.95s (31.77%) \
+Refrate Compile Time: 668ms 157us \
+Calls: 457545339 
 
 Features:
 - Single level while loop with complex function call.
@@ -57,7 +65,8 @@ Active Passes:
 - LoopUnrollPass
 
 ### 2. Perl_regexec_flags (regexec.c)
-Refrate Runtime: 7.75% \
+Refrate Runtime: 11.59s (7.75%) \
+Refrate Compile Time: 107ms 910us \
 Calls: 429181430
 
 Features:
@@ -92,7 +101,8 @@ Active Passes:
 - LoopUnrollPass
 
 ### 3. Perl_hv_common (hv.c)
-Refrate Runtime: 6.96% \
+Refrate Runtime: 10.51s (6.96%) \
+Refrate Compile Time: 96ms 78us \
 Calls: 506576246
 
 Features:
