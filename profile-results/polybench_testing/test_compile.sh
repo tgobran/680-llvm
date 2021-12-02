@@ -102,7 +102,7 @@ then
 
 	$clangpath/clang main.o func.o polybench.o -o $benchcompile/$benchname.x
 
-	rm main.o func.bc func.o -rf
+	rm main.o old.bc func.bc func.o -rf
 
 	exit 0
 else
