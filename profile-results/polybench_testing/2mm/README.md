@@ -1,39 +1,38 @@
 # Compilation
 
 ## O2 Active Passes: 
-
-* EarlyCSEPass (early-cse)
-* GVN (gvn)
-* GlobalOptPass (globalopt)
-* IndVarSimplifyPass (indvars)
-* InstCombinePass (instcombine)
-* InstSimplifyPass (instsimplify)
-* JumpThreadingPass (jump-threading)
-* LCSSAPass (lcssa)
-* LICMPass (licm)
-* LoopRotatePass (loop-rotate)
-* LoopSimplifyPass (loop-simplify)
-* LoopUnrollPass (loop-unroll)
-* PostOrderFunctionAttrsPass (function-attrs)
-* ReassociatePass (reassociate)
-* SROA (sroa)
-* SimplifyCFGPass (simplifycfg)
+1. SimplifyCFGPass (simplifycfg)
+2. SROA (sroa)
+3. EarlyCSEPass (early-cse)
+4. GlobalOptPass (globalopt)
+5. InstCombinePass (instcombine)
+6. PostOrderFunctionAttrsPass (function-attrs)
+7. ReassociatePass (reassociate)
+8. LoopSimplifyPass (loop-simplify)
+9. LoopRotatePass (loop-rotate)
+10. LICMPass (licm)
+11. IndVarSimplifyPass (indvars)
+12. GVN (gvn)
+13. JumpThreadingPass (jump-threading)
+14. LoopUnrollPass (loop-unroll)
+15. LCSSAPass (lcssa)
+16. InstSimplifyPass (instsimplify)
 
 ## Pruned (Only Active) Active Passes:
+* SimplifyCFGPass
+* SROA
 * EarlyCSEPass
-* GVN
 * GlobalOptPass
-* IndVarSimplifyPass
 * InstCombinePass
-* InstSimplifyPass
-* JumpThreadingPass
-* LICMPass
-* LoopRotatePass
-* LoopUnrollPass
 * PostOrderFunctionAttrsPass
 * ReassociatePass
-* SROA
-* SimplifyCFGPass
+* LoopRotatePass
+* LICMPass
+* IndVarSimplifyPass
+* GVN
+* JumpThreadingPass
+* LoopUnrollPass
+* InstSimplifyPass
 
 Missing:
 * LCSSAPass
