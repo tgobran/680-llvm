@@ -11,7 +11,7 @@ clangpath=$1
 benchname=$2
 testruns=$3
 typeflag=$4
-passfile=0
+configs=0
 
 if [[ $typeflag == 0 ]]
 then
@@ -22,6 +22,9 @@ then
 		exit 1
 	fi
 	passfile=$5
+	passfile=$(cat $passfile | awk '{printf "%s ", $0} END {print ""}' )
+	IFS=" " read -ra passes <<< "$passfile"
+	configs=${#passes[@]}
 fi
 
 echo "--------------------Compiling Program--------------------"
@@ -30,78 +33,109 @@ if [[ -d $benchname/ ]]
 then
 	benchcompile=${benchname/%/_compile}
 
-	rm $benchcompile -rf
-
-	mkdir $benchcompile
-		
 	$clangpath/clang -I utilities $benchname/main.c -c -o main.o
+		
+	$clangpath/clang -O0 -S -I utilities -emit-llvm $benchname/func.c -c -o - | sed s/optnone// > func.bc
 			
-
 	if [[ $typeflag == 1 ]]
 	then
-	echo "Compiling Baseline Run"
-		$clangpath/clang -O0 -S -I utilities -emit-llvm $benchname/func.c -c -o - | sed s/optnone// > func.bc
+		echo "Compiling Baseline Run"
 	
 		$clangpath/opt -O2 -print-changed=quiet func.bc > change.out 2>&1 
-		
-		grep -hnr "IR Dump After" --text change.out > sparse.out
-
-		echo "" > active.out 
+	else
+		echo "Compiling Custom Pass Runs"	
 	
-		while IFS= read -r line;
-		do
-			IFS=" " read -ra element <<< "$line"
-			if ! grep -Fxq "${element[4]}" active.out;
-			then 	
-				echo -e "${element[4]}" >> active.out
-			fi
-		done < sparse.out
-
-		sort active.out > $benchcompile/${benchname/%/_active.out}
-
-		echo -e "\nActive Passes:"
-
-		cat $benchcompile/${benchname/%/_active.out}
-
-		echo ""
-
-		rm change.out sparse.out active.out -rf
+		$clangpath/opt ${passes[@]} -print-changed=quiet func.bc > change.out 2>&1 
 	fi
+
+	grep -hnr "IR Dump After" --text change.out > sparse.out
+		
+	echo "" > active.out
+
+	while IFS= read -r line;
+	do
+		IFS=" " read -ra element <<< "$line"
+		if ! grep -Fxq "${element[4]}" active.out;
+		then 	
+			echo -e "${element[4]}" >> active.out
+		fi
+	done < sparse.out
+
+	echo -e "\nActive Passes:"
+
+	cat active.out
+
+	echo ""
+
+	rm change.out sparse.out active.out -rf
 
 	mv func.bc old.bc
 
-	counter=0
-	compavg=0
-	while [ $counter -lt $testruns ]
-	do	
-		rm func.bc -rf
-	
-		if [[ $typeflag == 1 ]]
+	icounter=0
+	while [ $icounter -le $configs ]
+	do
+		jcounter=0
+		compavg=0
+		resfile=$benchcompile/${benchname/%/_comptime.out}
+
+		if [[ $typeflag == 0 ]]
 		then
-			$clangpath/opt -O2 old.bc -time-passes -o func.bc > $benchcompile/${benchname/%/_comptime.out} 2>&1
+			resfile=$benchcompile/${benchname/%/_comptime$icounter.out}	
+			currpasses=()
+			for i in ${!passes[@]};
+			do
+				let "index = $i + 1"
+				if [[ $index == $icounter ]]
+				then
+					echo "Excluding: ${passes[i]}"
+				else
+					currpasses+=(${passes[i]})
+				fi
+			done
 		fi
 	
-		grep -hnr "Total Execution Time:" $benchcompile/${benchname/%/_comptime.out} > time.out	
+		while [ $jcounter -lt $testruns ]
+		do	
+			sleep 1
 
-		IFS=$'\n' read -d '' -r -a timelines < time.out
-		comptime=${timelines[0]}
-		IFS=" " read -ra comptime <<< "$comptime"
-		compavg=`echo "scale=6; ${comptime[4]} + $compavg" | bc -l`
+			rm func.bc -rf
+	
+			if [[ $typeflag == 1 ]]
+			then
+				$clangpath/opt -O2 old.bc -time-passes -o func.bc > $resfile 2>&1
+			else
+				$clangpath/opt ${currpasses[@]} old.bc -time-passes -o func.bc > $resfile 2>&1
+			fi
+	
+			grep -hnr "Total Execution Time:" $resfile > time.out	
 
-		rm time.out -rf
+			IFS=$'\n' read -d '' -r -a timelines < time.out
+			comptime=${timelines[0]}
+			IFS=" " read -ra comptime <<< "$comptime"
+			compavg=`echo "scale=6; ${comptime[4]} + $compavg" | bc -l`
+
+			rm time.out -rf
 	
-		((counter++))
-	done
+			((jcounter++))
+		done
+
+		compavg=`echo "scale=6; $compavg / $testruns" | bc -l`
+		echo -e "Average Compile Time $icounter ($testruns Runs): $compavg seconds\n"	
 	
+		$clangpath/llc func.bc -o func.o -filetype=obj
+
+		if [[ $typeflag == 1 ]]
+		then
+			$clangpath/clang main.o func.o polybench.o -o $benchcompile/$benchname.x
+		else
+			$clangpath/clang main.o func.o polybench.o -o $benchcompile/${benchname}$icounter.x
+		fi
+
+		((icounter++))
+	done	
+
 	IFS=" "
-
-	compavg=`echo "scale=6; $compavg / $testruns" | bc -l`
-	echo -e "Average Compile Time ($testruns Runs): $compavg seconds\n"	
-
-	$clangpath/llc func.bc -o func.o -filetype=obj
-
-	$clangpath/clang main.o func.o polybench.o -o $benchcompile/$benchname.x
-
+	
 	rm main.o old.bc func.bc func.o -rf
 
 	exit 0
