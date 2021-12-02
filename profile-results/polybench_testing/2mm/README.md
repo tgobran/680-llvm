@@ -40,6 +40,5 @@ Missing:
 * LoopSimplifyPass
 
 ## Compilation Times:
-* O2 Time: .028520s
-* O2 Active Time: .008280s
-* 
+* O2 Time: .028700s
+* O2 Active Time: .001960s
