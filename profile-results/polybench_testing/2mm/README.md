@@ -19,6 +19,27 @@
 * SROA (sroa)
 * SimplifyCFGPass (simplifycfg)
 
+## Pruned (Only Active) Active Passes:
+* EarlyCSEPass
+* GVN
+* GlobalOptPass
+* IndVarSimplifyPass
+* InstCombinePass
+* InstSimplifyPass
+* JumpThreadingPass
+* LICMPass
+* LoopRotatePass
+* LoopUnrollPass
+* PostOrderFunctionAttrsPass
+* ReassociatePass
+* SROA
+* SimplifyCFGPass
+
+Missing:
+* LCSSAPass
+* LoopSimplifyPass
+
 ## Compilation Times:
 * O2 Time: .028520s
-* O2 Active Time: TODO
+* O2 Active Time: .008280s
+* 
