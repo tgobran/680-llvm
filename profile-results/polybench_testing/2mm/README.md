@@ -38,6 +38,6 @@ Missing:
 * LCSSAPass
 * LoopSimplifyPass
 
-## Compilation Times (5 Run Average):
-* O2 Time: .028580s
+## Compilation Times (10 Run Average):
+* O2 Time: .028650s
 * O2 Active Time: .008180s
