@@ -57,3 +57,7 @@ Missing:
 * .006508s  4.41x (LoopUnrollPass Excluded)
 * .008268s  3.47x (LCSSA Excluded)
 * .008176s  3.51x (InstSimplifyPass Excluded)
+
+### Largest Compilation Time Improvment: 4.70x (IndVarSimplifyPass Excluded)
+
+### Smallest Compilation Time Improvement: 2.45x (SROA Excluded)
