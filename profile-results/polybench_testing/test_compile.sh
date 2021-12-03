@@ -62,10 +62,13 @@ then
 	done < sparse.out
 
 	echo -e "\nActive Passes:"
+	echo -e "\nActive Passes:" > $benchcompile/run.results
 
 	cat active.out
+	cat active.out >> $benchcompile/run.results
 
 	echo ""
+	echo "" >> $benchcompile/run.results
 
 	rm change.out sparse.out active.out -rf
 
@@ -88,6 +91,7 @@ then
 				if [[ $index == $icounter ]]
 				then
 					echo "Excluding: ${passes[i]}"
+					echo "Excluding: ${passes[i]}" >> $benchcompile/run.results
 				else
 					currpasses+=(${passes[i]})
 				fi
@@ -107,12 +111,12 @@ then
 				$clangpath/opt ${currpasses[@]} old.bc -time-passes -o func.bc > $resfile 2>&1
 			fi
 	
-			grep -hnr "Total Execution Time:" $resfile > time.out	
+			grep -hr "Total Execution Time:" $resfile > time.out	
 
 			IFS=$'\n' read -d '' -r -a timelines < time.out
 			comptime=${timelines[0]}
 			IFS=" " read -ra comptime <<< "$comptime"
-			compavg=`echo "scale=6; ${comptime[4]} + $compavg" | bc -l`
+			compavg=`echo "scale=6; ${comptime[3]} + $compavg" | bc -l`
 
 			rm time.out -rf
 	
@@ -121,16 +125,8 @@ then
 
 		compavg=`echo "scale=6; $compavg / $testruns" | bc -l`
 		echo -e "Average Compile Time $icounter ($testruns Runs): $compavg seconds\n"	
+		echo -e "Average Compile Time $icounter ($testruns Runs): $compavg seconds\n" >> $benchcompile/run.results	
 	
-		$clangpath/llc func.bc -o func.o -filetype=obj
-
-		if [[ $typeflag == 1 ]]
-		then
-			$clangpath/clang main.o func.o polybench.o -o $benchcompile/$benchname.x
-		else
-			$clangpath/clang main.o func.o polybench.o -o $benchcompile/${benchname}$icounter.x
-		fi
-
 		((icounter++))
 	done	
 

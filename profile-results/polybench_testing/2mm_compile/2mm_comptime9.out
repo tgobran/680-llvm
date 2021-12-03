@@ -4,38 +4,38 @@
   Total Execution Time: 0.0076 seconds (0.0076 wall clock)
 
    ---User Time---   --User+System--   ---Wall Time---  --- Name ---
-   0.0033 ( 43.8%)   0.0033 ( 43.8%)   0.0033 ( 43.8%)  IndVarSimplifyPass
+   0.0033 ( 43.5%)   0.0033 ( 43.5%)   0.0033 ( 43.5%)  IndVarSimplifyPass
    0.0008 (  9.9%)   0.0008 (  9.9%)   0.0008 (  9.9%)  SimplifyCFGPass
-   0.0006 (  8.1%)   0.0006 (  8.1%)   0.0006 (  8.1%)  TargetIRAnalysis
-   0.0004 (  4.7%)   0.0004 (  4.7%)   0.0004 (  4.7%)  InstCombinePass
+   0.0006 (  8.2%)   0.0006 (  8.2%)   0.0006 (  8.2%)  TargetIRAnalysis
+   0.0004 (  4.7%)   0.0004 (  4.7%)   0.0004 (  4.7%)  BitcodeWriterPass
+   0.0004 (  4.6%)   0.0004 (  4.6%)   0.0004 (  4.6%)  InstCombinePass
    0.0003 (  4.6%)   0.0003 (  4.6%)   0.0003 (  4.6%)  GVN
-   0.0003 (  4.4%)   0.0003 (  4.4%)   0.0003 (  4.4%)  BitcodeWriterPass
    0.0003 (  3.9%)   0.0003 (  3.9%)   0.0003 (  3.9%)  LoopUnrollPass
-   0.0003 (  3.5%)   0.0003 (  3.5%)   0.0003 (  3.5%)  SROA
-   0.0002 (  2.5%)   0.0002 (  2.5%)   0.0002 (  2.5%)  LICMPass
-   0.0001 (  2.0%)   0.0001 (  2.0%)   0.0001 (  2.0%)  EarlyCSEPass
-   0.0001 (  1.8%)   0.0001 (  1.8%)   0.0001 (  1.8%)  VerifierPass
+   0.0003 (  3.6%)   0.0003 (  3.6%)   0.0003 (  3.5%)  SROA
+   0.0002 (  2.4%)   0.0002 (  2.4%)   0.0002 (  2.4%)  LICMPass
+   0.0002 (  2.0%)   0.0002 (  2.0%)   0.0002 (  2.0%)  EarlyCSEPass
+   0.0001 (  1.9%)   0.0001 (  1.9%)   0.0001 (  1.9%)  VerifierPass
    0.0001 (  1.7%)   0.0001 (  1.7%)   0.0001 (  1.7%)  VerifierAnalysis
    0.0001 (  1.4%)   0.0001 (  1.4%)   0.0001 (  1.4%)  MemorySSAAnalysis
-   0.0001 (  1.3%)   0.0001 (  1.3%)   0.0001 (  1.3%)  PostOrderFunctionAttrsPass
-   0.0001 (  1.1%)   0.0001 (  1.1%)   0.0001 (  1.2%)  LoopSimplifyPass
-   0.0001 (  1.1%)   0.0001 (  1.1%)   0.0001 (  1.1%)  ReassociatePass
+   0.0001 (  1.2%)   0.0001 (  1.2%)   0.0001 (  1.2%)  PostOrderFunctionAttrsPass
+   0.0001 (  1.2%)   0.0001 (  1.2%)   0.0001 (  1.2%)  LoopSimplifyPass
+   0.0001 (  1.0%)   0.0001 (  1.0%)   0.0001 (  1.0%)  ReassociatePass
    0.0001 (  0.7%)   0.0001 (  0.7%)   0.0001 (  0.7%)  LoopAnalysis
    0.0000 (  0.5%)   0.0000 (  0.5%)   0.0000 (  0.5%)  InstSimplifyPass
    0.0000 (  0.4%)   0.0000 (  0.4%)   0.0000 (  0.4%)  GlobalOptPass
    0.0000 (  0.4%)   0.0000 (  0.4%)   0.0000 (  0.4%)  DominatorTreeAnalysis
-   0.0000 (  0.4%)   0.0000 (  0.4%)   0.0000 (  0.4%)  LCSSAPass
    0.0000 (  0.4%)   0.0000 (  0.4%)   0.0000 (  0.4%)  JumpThreadingPass
-   0.0000 (  0.4%)   0.0000 (  0.4%)   0.0000 (  0.4%)  ScalarEvolutionAnalysis
+   0.0000 (  0.3%)   0.0000 (  0.3%)   0.0000 (  0.3%)  LCSSAPass
+   0.0000 (  0.3%)   0.0000 (  0.3%)   0.0000 (  0.3%)  ScalarEvolutionAnalysis
    0.0000 (  0.2%)   0.0000 (  0.2%)   0.0000 (  0.2%)  LazyCallGraphAnalysis
    0.0000 (  0.2%)   0.0000 (  0.2%)   0.0000 (  0.2%)  AAManager
    0.0000 (  0.2%)   0.0000 (  0.2%)   0.0000 (  0.2%)  TargetLibraryAnalysis
    0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  MemoryDependenceAnalysis
-   0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  FunctionAnalysisManagerCGSCCProxy
    0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  OptimizationRemarkEmitterAnalysis
+   0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  FunctionAnalysisManagerCGSCCProxy
    0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  BasicAA
    0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  LazyValueAnalysis
-   0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.0%)  AssumptionAnalysis
+   0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  AssumptionAnalysis
    0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  PhiValuesAnalysis
    0.0076 (100.0%)   0.0076 (100.0%)   0.0076 (100.0%)  Total
 
