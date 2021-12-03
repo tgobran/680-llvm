@@ -87,3 +87,27 @@ Missing:
 ### Largest Runtime Time Cost: 0.45x (GVN Excluded)
 
 ### Smallest Runtime Time Cost: 0.86x (PostOrderFunctionAttrsPass Excluded)
+
+## Runtime Times (5 Run Average, EXTRALARGE_DATASET):
+* TODO (O2)
+* TODO (Active Passes)
+* TODO (SimplifyCFGPass Excluded)
+* TODO (SROA Excluded)
+* TODO (EarlyCSEPass Excluded)
+* TODO (GlobalOptPass Excluded)
+* TODO (InstCombinePass Excluded)
+* TODO (PostOrderFunctionAttrsPass Excluded)
+* TODO (ReassociatePass Excluded)
+* TODO (LoopSimplifyPass Excluded)
+* TODO (LoopRotatePass Excluded)
+* TODO (LICM Excluded) 
+* TODO (IndVarSimplifyPass Excluded)
+* TODO (GVN Excluded)
+* TODO (JumpThreadingPass Excluded)
+* TODO (LoopUnrollPass Excluded)
+* TODO (LCSSA Excluded)
+* TODO (InstSimplifyPass Excluded)
+ 
+### Largest Runtime Time Cost: TODO
+
+### Smallest Runtime Time Cost: TODO
