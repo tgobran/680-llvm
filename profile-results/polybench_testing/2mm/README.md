@@ -65,25 +65,25 @@ Missing:
 # Runtime
 
 ## Runtime Times (5 Run Average, LARGE_DATASET):
-* TODO (O2)
-* TODO (Active Passes)
-* TODO (SimplifyCFGPass Excluded)
-* TODO (SROA Excluded)
-* TODO (EarlyCSEPass Excluded)
-* TODO (GlobalOptPass Excluded)
-* TODO (InstCombinePass Excluded)
-* TODO (PostOrderFunctionAttrsPass Excluded)
-* TODO (ReassociatePass Excluded)
-* TODO (LoopSimplifyPass Excluded)
-* TODO (LoopRotatePass Excluded)
-* TODO (LICM Excluded) 
-* TODO (IndVarSimplifyPass Excluded)
-* TODO (GVN Excluded)
-* TODO (JumpThreadingPass Excluded)
-* TODO (LoopUnrollPass Excluded)
-* TODO (LCSSA Excluded)
-* TODO (InstSimplifyPass Excluded)
+* 2.08s (O2)
+* 2.58s 0.81x (Active Passes)
+* 2.50s 0.83x (SimplifyCFGPass Excluded)
+* 2.63s 0.79x (SROA Excluded)
+* 2.42s 0.86x (EarlyCSEPass Excluded)
+* 2.43s 0.86x (GlobalOptPass Excluded)
+* 2.51s 0.83x (InstCombinePass Excluded)
+* 2.40s 0.86x (PostOrderFunctionAttrsPass Excluded)
+* 2.58s 0.81x (ReassociatePass Excluded)
+* 2.48s 0.84x (LoopSimplifyPass Excluded)
+* 2.64s 0.79x (LoopRotatePass Excluded)
+* 2.43s 0.86x (LICM Excluded) 
+* 2.84s 0.73x (IndVarSimplifyPass Excluded)
+* 4.63s 0.45x (GVN Excluded)
+* 2.46s 0.85x (JumpThreadingPass Excluded)
+* 2.68s 0.78x (LoopUnrollPass Excluded)
+* 2.59s 0.80x (LCSSA Excluded)
+* 2.48s 0.84x (InstSimplifyPass Excluded)
+ 
+### Largest Runtime Time Cost: 0.45x (GVN Excluded)
 
-### Largest Runtime Time Cost: TODO
-
-### Smallest Runtime Time Cost: TODO
+### Smallest Runtime Time Cost: 0.86x (PostOrderFunctionAttrsPass Excluded)
