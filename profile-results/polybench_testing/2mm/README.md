@@ -61,3 +61,29 @@ Missing:
 ### Largest Compilation Time Improvment: 4.70x (IndVarSimplifyPass Excluded)
 
 ### Smallest Compilation Time Improvement: 2.45x (SROA Excluded)
+
+# Runtime
+
+## Runtime Times (5 Run Average, LARGE_DATASET):
+* TODO (O2)
+* TODO (Active Passes)
+* TODO (SimplifyCFGPass Excluded)
+* TODO (SROA Excluded)
+* TODO (EarlyCSEPass Excluded)
+* TODO (GlobalOptPass Excluded)
+* TODO (InstCombinePass Excluded)
+* TODO (PostOrderFunctionAttrsPass Excluded)
+* TODO (ReassociatePass Excluded)
+* TODO (LoopSimplifyPass Excluded)
+* TODO (LoopRotatePass Excluded)
+* TODO (LICM Excluded) 
+* TODO (IndVarSimplifyPass Excluded)
+* TODO (GVN Excluded)
+* TODO (JumpThreadingPass Excluded)
+* TODO (LoopUnrollPass Excluded)
+* TODO (LCSSA Excluded)
+* TODO (InstSimplifyPass Excluded)
+
+### Largest Runtime Time Cost: TODO
+
+### Smallest Runtime Time Cost: TODO
