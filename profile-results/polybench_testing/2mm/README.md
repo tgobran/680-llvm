@@ -58,9 +58,9 @@ Missing:
 * .008268s  3.47x (LCSSA Excluded)
 * .008176s  3.51x (InstSimplifyPass Excluded)
 
-Largest Compilation Time Improvment: 4.70x (IndVarSimplifyPass Excluded) \
+Largest Compilation Time Improvment: 4.70x (IndVarSimplifyPass Excluded)
 
-Smallest Compilation Time Improvement: 2.45x (SROA Excluded) \
+Smallest Compilation Time Improvement: 2.45x (SROA Excluded)
 
 # Runtime
 
@@ -84,9 +84,9 @@ Smallest Compilation Time Improvement: 2.45x (SROA Excluded) \
 * 2.59s 0.80x (LCSSA Excluded)
 * 2.48s 0.84x (InstSimplifyPass Excluded)
  
-Largest Runtime Time Cost: 0.45x (GVN Excluded) \
+Largest Runtime Time Cost: 0.45x (GVN Excluded)
 
-Smallest Runtime Time Cost: 0.86x (PostOrderFunctionAttrsPass Excluded) \
+Smallest Runtime Time Cost: 0.86x (PostOrderFunctionAttrsPass Excluded)
 
 ## Runtime Times (5 Run Average, EXTRALARGE_DATASET):
 * TODO (O2)
@@ -108,6 +108,6 @@ Smallest Runtime Time Cost: 0.86x (PostOrderFunctionAttrsPass Excluded) \
 * TODO (LCSSA Excluded)
 * TODO (InstSimplifyPass Excluded)
  
-Largest Runtime Time Cost: TODO \
+Largest Runtime Time Cost: TODO
 
-Smallest Runtime Time Cost: TODO \
+Smallest Runtime Time Cost: TODO
