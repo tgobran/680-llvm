@@ -77,6 +77,7 @@ then
 				if [[ $index == $icounter ]]
 				then
 					echo "Excluding: ${passes[i]}"
+					echo "Excluding: ${passes[i]}" >> $benchrun/run.results
 				else
 					currpasses+=(${passes[i]})
 				fi
@@ -106,7 +107,6 @@ then
                 grep -hr "kernel_$benchname" gprof.out > time.out
 		IFS=$'\n' read -d '' -r -a timelines < time.out
 		IFS=" " read -ra runtime <<< "$timelines"
-		cat time.out
 		echo -e "Average Compile Time $icounter ($testruns Runs): ${runtime[2]} seconds\n"	
 		echo -e "Average Compile Time $icounter ($testruns Runs): ${runtime[2]} seconds\n" >> $benchrun/run.results	
 		rm gprof.out time.out -rf
