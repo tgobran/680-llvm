@@ -66,7 +66,7 @@ then
 		then
 			$clangpath/opt -O2 old.bc -o func.bc
 			$clangpath/llc func.bc -o func.o -filetype=obj
-			$clangpath/clang $dataset -pg main.o func.o polybench.o -o $benchrun/$benchname.x
+			$clangpath/clang $dataset -lm -pg main.o func.o polybench.o -o $benchrun/$benchname.x
 			exefile=$benchrun/$benchname.x
 		else
 			resfile=$benchrun/${benchname/%/_gmon$icounter.sum}	
@@ -84,7 +84,7 @@ then
 			done
 			$clangpath/opt ${currpasses[@]} old.bc -o func.bc
 			$clangpath/llc func.bc -o func.o -filetype=obj
-			$clangpath/clang $dataset -pg main.o func.o polybench.o -o $benchrun/${benchname}$icounter.x
+			$clangpath/clang $dataset -lm -pg main.o func.o polybench.o -o $benchrun/${benchname}$icounter.x
 			exefile=$benchrun/${benchname}$icounter.x
 		fi
 

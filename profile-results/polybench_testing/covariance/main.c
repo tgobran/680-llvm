@@ -9,18 +9,9 @@
  */
 /* covariance.c: this file is part of PolyBench/C */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
-#include <math.h>
-
-/* Include polybench common header. */
-#include <polybench.h>
-
 /* Include benchmark-specific header. */
 #include "covariance.h"
 
-static
 void kernel_covariance(int m, int n,
 		       DATA_TYPE float_n,
 		       DATA_TYPE POLYBENCH_2D(data,N,M,n,m),
