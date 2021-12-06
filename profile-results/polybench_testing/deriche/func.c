@@ -1,8 +1,9 @@
+/* Include benchmark-specific header. */
+#include "deriche.h"
 
 /* Main computational kernel. The whole function will be timed,
    including the call and return. */
 /* Original code provided by Gael Deest */
-static
 void kernel_deriche(int w, int h, DATA_TYPE alpha,
        DATA_TYPE POLYBENCH_2D(imgIn, W, H, w, h),
        DATA_TYPE POLYBENCH_2D(imgOut, W, H, w, h),

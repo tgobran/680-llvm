@@ -1,0 +1,88 @@
+
+Active Passes:
+
+InferFunctionAttrsPass
+SimplifyCFGPass
+SROA
+EarlyCSEPass
+GlobalOptPass
+InstCombinePass
+PostOrderFunctionAttrsPass
+CorrelatedValuePropagationPass
+TailCallElimPass
+ReassociatePass
+LICMPass
+LoopRotatePass
+IndVarSimplifyPass
+GVN
+JumpThreadingPass
+LoopVectorizePass
+LoopLoadEliminationPass
+LoopUnrollPass
+InstSimplifyPass
+
+Average Compile Time 0 (25 Runs): .022304 seconds
+
+Excluding: -inferattrs
+Average Compile Time 1 (25 Runs): .022244 seconds
+
+Excluding: -simplifycfg
+Average Compile Time 2 (25 Runs): .022624 seconds
+
+Excluding: -sroa
+Average Compile Time 3 (25 Runs): .024392 seconds
+
+Excluding: -early-cse
+Average Compile Time 4 (25 Runs): .022504 seconds
+
+Excluding: -globalopt
+Average Compile Time 5 (25 Runs): .022140 seconds
+
+Excluding: -instcombine
+Average Compile Time 6 (25 Runs): .022272 seconds
+
+Excluding: -function-attrs
+Average Compile Time 7 (25 Runs): .022144 seconds
+
+Excluding: -correlated-propagation
+Average Compile Time 8 (25 Runs): .022464 seconds
+
+Excluding: -tailcallelim
+Average Compile Time 9 (25 Runs): .022268 seconds
+
+Excluding: -reassociate
+Average Compile Time 10 (25 Runs): .022188 seconds
+
+Excluding: -loop-simplify
+Average Compile Time 11 (25 Runs): .022324 seconds
+
+Excluding: -licm
+Average Compile Time 12 (25 Runs): .021048 seconds
+
+Excluding: -loop-rotate
+Average Compile Time 13 (25 Runs): .018508 seconds
+
+Excluding: -indvars
+Average Compile Time 14 (25 Runs): .016740 seconds
+
+Excluding: -gvn
+Average Compile Time 15 (25 Runs): .021260 seconds
+
+Excluding: -jump-threading
+Average Compile Time 16 (25 Runs): .021516 seconds
+
+Excluding: -loop-vectorize
+Average Compile Time 17 (25 Runs): .017704 seconds
+
+Excluding: -loop-load-elim
+Average Compile Time 18 (25 Runs): .018748 seconds
+
+Excluding: -loop-unroll
+Average Compile Time 19 (25 Runs): .018576 seconds
+
+Excluding: -lcssa
+Average Compile Time 20 (25 Runs): .022300 seconds
+
+Excluding: -instsimplify
+Average Compile Time 21 (25 Runs): .022164 seconds
+

@@ -9,18 +9,9 @@
  */
 /* deriche.c: this file is part of PolyBench/C */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
-#include <math.h>
-
-/* Include polybench common header. */
-#include <polybench.h>
-
 /* Include benchmark-specific header. */
 #include "deriche.h"
 
-static
 void kernel_deriche(int w, int h, DATA_TYPE alpha,
        DATA_TYPE POLYBENCH_2D(imgIn, W, H, w, h),
        DATA_TYPE POLYBENCH_2D(imgOut, W, H, w, h),

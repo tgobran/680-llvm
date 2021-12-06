@@ -1,0 +1,60 @@
+===-------------------------------------------------------------------------===
+                      ... Pass execution timing report ...
+===-------------------------------------------------------------------------===
+  Total Execution Time: 0.0215 seconds (0.0215 wall clock)
+
+   ---User Time---   --User+System--   ---Wall Time---  --- Name ---
+   0.0047 ( 21.7%)   0.0047 ( 21.7%)   0.0047 ( 21.7%)  IndVarSimplifyPass
+   0.0033 ( 15.4%)   0.0033 ( 15.4%)   0.0033 ( 15.4%)  LoopUnrollPass
+   0.0021 (  9.6%)   0.0021 (  9.6%)   0.0021 (  9.6%)  LoopAccessAnalysis
+   0.0018 (  8.3%)   0.0018 (  8.3%)   0.0018 (  8.3%)  LoopLoadEliminationPass
+   0.0018 (  8.3%)   0.0018 (  8.3%)   0.0018 (  8.3%)  LoopVectorizePass
+   0.0009 (  4.2%)   0.0009 (  4.2%)   0.0009 (  4.2%)  InstCombinePass
+   0.0008 (  3.9%)   0.0008 (  3.9%)   0.0008 (  3.9%)  SimplifyCFGPass
+   0.0008 (  3.8%)   0.0008 (  3.8%)   0.0008 (  3.8%)  LoopRotatePass
+   0.0007 (  3.4%)   0.0007 (  3.4%)   0.0007 (  3.4%)  BitcodeWriterPass
+   0.0006 (  3.0%)   0.0006 (  3.0%)   0.0006 (  3.0%)  TargetIRAnalysis
+   0.0006 (  2.6%)   0.0006 (  2.6%)   0.0006 (  2.6%)  SROA
+   0.0005 (  2.5%)   0.0005 (  2.5%)   0.0005 (  2.5%)  GVN
+   0.0003 (  1.5%)   0.0003 (  1.5%)   0.0003 (  1.6%)  VerifierPass
+   0.0003 (  1.5%)   0.0003 (  1.5%)   0.0003 (  1.5%)  VerifierAnalysis
+   0.0003 (  1.2%)   0.0003 (  1.2%)   0.0003 (  1.2%)  EarlyCSEPass
+   0.0002 (  1.0%)   0.0002 (  1.0%)   0.0002 (  1.0%)  CorrelatedValuePropagationPass
+   0.0002 (  1.0%)   0.0002 (  1.0%)   0.0002 (  1.0%)  LICMPass
+   0.0002 (  0.9%)   0.0002 (  0.9%)   0.0002 (  0.9%)  BlockFrequencyAnalysis
+   0.0001 (  0.7%)   0.0001 (  0.7%)   0.0001 (  0.7%)  MemorySSAAnalysis
+   0.0001 (  0.7%)   0.0001 (  0.7%)   0.0001 (  0.7%)  InstSimplifyPass
+   0.0001 (  0.6%)   0.0001 (  0.6%)   0.0001 (  0.6%)  BranchProbabilityAnalysis
+   0.0001 (  0.5%)   0.0001 (  0.5%)   0.0001 (  0.5%)  ReassociatePass
+   0.0001 (  0.5%)   0.0001 (  0.5%)   0.0001 (  0.5%)  LoopSimplifyPass
+   0.0001 (  0.5%)   0.0001 (  0.5%)   0.0001 (  0.5%)  ScalarEvolutionAnalysis
+   0.0001 (  0.4%)   0.0001 (  0.4%)   0.0001 (  0.4%)  PostOrderFunctionAttrsPass
+   0.0001 (  0.4%)   0.0001 (  0.4%)   0.0001 (  0.4%)  InferFunctionAttrsPass
+   0.0001 (  0.4%)   0.0001 (  0.4%)   0.0001 (  0.4%)  LoopAnalysis
+   0.0001 (  0.4%)   0.0001 (  0.4%)   0.0001 (  0.4%)  DominatorTreeAnalysis
+   0.0001 (  0.3%)   0.0001 (  0.3%)   0.0001 (  0.3%)  LCSSAPass
+   0.0000 (  0.2%)   0.0000 (  0.2%)   0.0000 (  0.2%)  PostDominatorTreeAnalysis
+   0.0000 (  0.2%)   0.0000 (  0.2%)   0.0000 (  0.2%)  GlobalOptPass
+   0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  TailCallElimPass
+   0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  TargetLibraryAnalysis
+   0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  AAManager
+   0.0000 (  0.1%)   0.0000 (  0.1%)   0.0000 (  0.1%)  LazyCallGraphAnalysis
+   0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  MemoryDependenceAnalysis
+   0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  OptimizationRemarkEmitterAnalysis
+   0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  FunctionAnalysisManagerCGSCCProxy
+   0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  DemandedBitsAnalysis
+   0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  LazyValueAnalysis
+   0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  BasicAA
+   0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  AssumptionAnalysis
+   0.0000 (  0.0%)   0.0000 (  0.0%)   0.0000 (  0.0%)  PhiValuesAnalysis
+   0.0215 (100.0%)   0.0215 (100.0%)   0.0215 (100.0%)  Total
+
+===-------------------------------------------------------------------------===
+                                LLVM IR Parsing
+===-------------------------------------------------------------------------===
+  Total Execution Time: 0.0015 seconds (0.0015 wall clock)
+
+   ---User Time---   --User+System--   ---Wall Time---  --- Name ---
+   0.0015 (100.0%)   0.0015 (100.0%)   0.0015 (100.0%)  Parse IR
+   0.0015 (100.0%)   0.0015 (100.0%)   0.0015 (100.0%)  Total
+
