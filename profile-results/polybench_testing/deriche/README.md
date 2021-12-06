@@ -49,7 +49,10 @@ Missing:
 * LCSSAPass
 
 ## Compilation Times (25 Run Average):
+* .001360s (O0)
+* .059380s (O1)
 * .056300s (O2)
+* .089176s (O3)
 * .022304s (Active Passes)
 * .022244s (InferFunctionAttrsPass Excluded)
 * .022624s (SimplifyCFGPass Excluded)
