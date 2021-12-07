@@ -1,5 +1,7 @@
 # Compilation
 
+All Ratios are done in comparison with the O2 results.
+
 ## O2 Active Passes: 
 1. SimplifyCFGPass (simplifycfg)
 2. SROA (sroa)
@@ -39,10 +41,7 @@ Missing:
 * LoopSimplifyPass
 
 ## Compilation Times (25 Run Average):
-* .000516s (O0)
 * .025252s (O1)
-* .028696s (O2)
-* .049760s (O3)
 * .008220s  3.49x (Active Passes)
 * .008392s  3.42x (SimplifyCFGPass Excluded)
 * .011704s  2.45x (SROA Excluded)
@@ -68,10 +67,7 @@ Smallest Compilation Time Improvement: 2.45x (SROA Excluded)
 # Runtime
 
 ## Runtime Times (5 Run Average, LARGE_DATASET):
-* 8.31s (O0)
-* 4.39s (O1)
 * 2.08s (O2)
-* 2.09s (O3)
 * 2.58s 0.81x (Active Passes)
 * 2.50s 0.83x (SimplifyCFGPass Excluded)
 * 2.63s 0.79x (SROA Excluded)
