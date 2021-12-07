@@ -41,7 +41,10 @@ Missing:
 * LoopSimplifyPass
 
 ## Compilation Times (25 Run Average):
-* .025252s (O1)
+* .025252s (O2) Ratio Reference
+* .000508s 49.70x (O0)
+* .025256s  1.00x (O1)
+* .049700s  0.51x (O3)
 * .008220s  3.49x (Active Passes)
 * .008392s  3.42x (SimplifyCFGPass Excluded)
 * .011704s  2.45x (SROA Excluded)
@@ -67,9 +70,9 @@ Smallest Compilation Time Improvement: 2.45x (SROA Excluded)
 # Runtime
 
 ## Runtime Times (5 Run Average, LARGE_DATASET):
+* 2.07s (O2) Ratio Reference
 * 8.87s (O0)
 * 4.38s (O1)
-* 2.07s (O2) - Ratio Reference
 * 2.07s (O3)
 * 2.07s 1.00x (Active Passes)
 * 2.08s 1.00x (SimplifyCFGPass Excluded)
@@ -81,12 +84,12 @@ Smallest Compilation Time Improvement: 2.45x (SROA Excluded)
 * 2.08s 1.00x (ReassociatePass Excluded)
 * 2.07s 1.00x (LoopSimplifyPass Excluded)
 * 2.15s (LoopRotatePass Excluded)
-* 2.07s 1.00x (LICM Excluded) 
+* 2.07s 1.00x (LICMPass Excluded) 
 * 2.23s (IndVarSimplifyPass Excluded)
 * 4.38s (GVN Excluded)
 * 2.06s 1.00x (JumpThreadingPass Excluded)
 * 2.15s (LoopUnrollPass Excluded)
-* 2.07s 1.00x (LCSSA Excluded)
+* 2.07s 1.00x (LCSSAPass Excluded)
 * 2.07s 1.00x (InstSimplifyPass Excluded)
  
 Largest Runtime Time Cost: TODO (GVN Excluded)
@@ -94,7 +97,10 @@ Largest Runtime Time Cost: TODO (GVN Excluded)
 Smallest Runtime Time Cost: 1.00x (JumpThreadingPass Excluded)
 
 ## Runtime Times (5 Run Average, EXTRALARGE_DATASET):
-* 67.66s (O2)
+* 67.66s (O2) Ratio Reference
+* 101.69s (O0)
+* 66.59s (O1)
+* 67.29s (O3)
 * 67.30s (Active Passes)
 * 66.61s (SimplifyCFGPass Excluded)
 * 69.67s (SROA Excluded)
