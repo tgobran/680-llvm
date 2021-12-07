@@ -49,10 +49,7 @@ Missing:
 * LCSSAPass
 
 ## Compilation Times (25 Run Average):
-* .000900s (O0)
-* .044312s (O1)
 * .054964s (O2)
-* .066872s (O3)
 * .022304s (Active Passes)
 * .022244s (InferFunctionAttrsPass Excluded)
 * .022624s (SimplifyCFGPass Excluded)
@@ -83,10 +80,7 @@ Smallest Compilation Time Improvement: TODO
 # Runtime
 
 ## Runtime Times (5 Run Average, LARGE_DATASET):
-* 0.47s (O0)
-* 0.30s (O1)
 * 0.30s (O2)
-* 0.28s (O3)
 * 0.31s (Active Passes)
 * 0.34s (InferFunctionAttrsPass Excluded)
 * 0.30s (SimplifyCFGPass Excluded)
@@ -115,10 +109,7 @@ Largest Runtime Time Cost: TODO
 Smallest Runtime Time Cost: TODO
 
 ## Runtime Times (5 Run Average, EXTRALARGE_DATASET):
-* 1.83s (O0)
-* 1.13s (O1)
 * 1.11s (O2)
-* 1.11s (O3)
 * 1.11s (Active Passes)
 * 1.11s (InferFunctionAttrsPass Excluded)
 * 1.11s (SimplifyCFGPass Excluded)
