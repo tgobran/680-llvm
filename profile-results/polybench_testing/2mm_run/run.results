@@ -19,72 +19,10 @@ LCSSAPass
 InstSimplifyPass
 
 Testing: 2mm_run/2mm.x
-Average Compile Time -1 (5 Runs): 67.71 seconds
+Average Compile Time -1 (5 Runs): 2.07 seconds
 
 Testing: 2mm_run/2mm0.x
-Average Compile Time 0 (5 Runs): 68.68 seconds
+Average Compile Time 0 (5 Runs): 4.38 seconds
 
-Excluding: -simplifycfg
+Excluding: -correlated-propagation
 Testing: 2mm_run/2mm1.x
-Average Compile Time 1 (5 Runs): 66.74 seconds
-
-Excluding: -sroa
-Testing: 2mm_run/2mm2.x
-Average Compile Time 2 (5 Runs): 67.89 seconds
-
-Excluding: -early-cse
-Testing: 2mm_run/2mm3.x
-Average Compile Time 3 (5 Runs): 68.16 seconds
-
-Excluding: -globalopt
-Testing: 2mm_run/2mm4.x
-Average Compile Time 4 (5 Runs): 67.86 seconds
-
-Excluding: -instcombine
-Testing: 2mm_run/2mm5.x
-Average Compile Time 5 (5 Runs): 67.37 seconds
-
-Excluding: -function-attrs
-Testing: 2mm_run/2mm6.x
-Average Compile Time 6 (5 Runs): 66.15 seconds
-
-Excluding: -reassociate
-Testing: 2mm_run/2mm7.x
-Average Compile Time 7 (5 Runs): 67.88 seconds
-
-Excluding: -loop-simplify
-Testing: 2mm_run/2mm8.x
-Average Compile Time 8 (5 Runs): 67.30 seconds
-
-Excluding: -loop-rotate
-Testing: 2mm_run/2mm9.x
-Average Compile Time 9 (5 Runs): 68.69 seconds
-
-Excluding: -licm
-Testing: 2mm_run/2mm10.x
-Average Compile Time 10 (5 Runs): 68.13 seconds
-
-Excluding: -indvars
-Testing: 2mm_run/2mm11.x
-Average Compile Time 11 (5 Runs): 69.86 seconds
-
-Excluding: -gvn
-Testing: 2mm_run/2mm12.x
-Average Compile Time 12 (5 Runs): 67.44 seconds
-
-Excluding: -jump-threading
-Testing: 2mm_run/2mm13.x
-Average Compile Time 13 (5 Runs): 69.14 seconds
-
-Excluding: -loop-unroll
-Testing: 2mm_run/2mm14.x
-Average Compile Time 14 (5 Runs): 69.96 seconds
-
-Excluding: -lcssa
-Testing: 2mm_run/2mm15.x
-Average Compile Time 15 (5 Runs): 67.85 seconds
-
-Excluding: -instsimplify
-Testing: 2mm_run/2mm16.x
-Average Compile Time 16 (5 Runs): 67.39 seconds
-

@@ -1,80 +1,26 @@
 
 Active Passes:
 
-SimplifyCFGPass
-SROA
 EarlyCSEPass
+GVN
 GlobalOptPass
-InstCombinePass
-PostOrderFunctionAttrsPass
-CorrelatedValuePropagationPass
-ReassociatePass
 LCSSAPass
+IndVarSimplifyPass
+InstCombinePass
 LICMPass
 LoopRotatePass
-LoopInstSimplifyPass
-IndVarSimplifyPass
-GVN
-JumpThreadingPass
-LoopLoadEliminationPass
-SLPVectorizerPass
+LoopUnrollPass
+PostOrderFunctionAttrsPass
+ReassociatePass
+SROA
+SimplifyCFGPass
 
-Average Compile Time 0 (25 Runs): .016776 seconds
-
-Excluding: -simplifycfg
-Average Compile Time 1 (25 Runs): .017020 seconds
-
-Excluding: -sroa
-Average Compile Time 2 (25 Runs): .020124 seconds
+Average Compile Time 0 (25 Runs): .018012 seconds
 
 Excluding: -early-cse
-Average Compile Time 3 (25 Runs): .017024 seconds
-
-Excluding: -globalopt
-Average Compile Time 4 (25 Runs): .016752 seconds
-
-Excluding: -instcombine
-Average Compile Time 5 (25 Runs): .019080 seconds
-
-Excluding: -function-attrs
-Average Compile Time 6 (25 Runs): .016628 seconds
-
-Excluding: -correlated-propagation
-Average Compile Time 7 (25 Runs): .019248 seconds
-
-Excluding: -reassociate
-Average Compile Time 8 (25 Runs): .016696 seconds
-
-Excluding: -loop-simplify
-Average Compile Time 9 (25 Runs): .016820 seconds
-
-Excluding: -lcssa
-Average Compile Time 10 (25 Runs): .016804 seconds
-
-Excluding: -licm
-Average Compile Time 11 (25 Runs): .016532 seconds
-
-Excluding: -loop-rotate
-Average Compile Time 12 (25 Runs): .012524 seconds
-
-Excluding: -loop-instsimplify
-Average Compile Time 13 (25 Runs): .016792 seconds
-
-Excluding: -indvars
-Average Compile Time 14 (25 Runs): .015236 seconds
+Average Compile Time 1 (25 Runs): .017580 seconds
 
 Excluding: -gvn
-Average Compile Time 15 (25 Runs): .016168 seconds
+Average Compile Time 2 (25 Runs): .010148 seconds
 
-Excluding: -jump-threading
-Average Compile Time 16 (25 Runs): .016464 seconds
-
-Excluding: -loop-load-elim
-Average Compile Time 17 (25 Runs): .012032 seconds
-
-Excluding: -slp-vectorizer
-Average Compile Time 18 (25 Runs): .015876 seconds
-
-Excluding: -loop-unroll
-Average Compile Time 19 (25 Runs): .016044 seconds
-
+Excluding: -globalopt

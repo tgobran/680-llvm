@@ -1,76 +1,20 @@
 
 Active Passes:
 
-SimplifyCFGPass
-SROA
 EarlyCSEPass
+GVN
 GlobalOptPass
+LCSSAPass
+IndVarSimplifyPass
 InstCombinePass
+LICMPass
+LoopRotatePass
+LoopUnrollPass
 PostOrderFunctionAttrsPass
 ReassociatePass
-LoopRotatePass
-LICMPass
-IndVarSimplifyPass
-GVN
-JumpThreadingPass
-LoopVectorizePass
-LoopLoadEliminationPass
-LoopUnrollPass
-InstSimplifyPass
+SROA
+SimplifyCFGPass
 
-Average Compile Time 0 (25 Runs): .013804 seconds
-
-Excluding: -simplifycfg
-Average Compile Time 1 (25 Runs): .013912 seconds
-
-Excluding: -sroa
-Average Compile Time 2 (25 Runs): .017968 seconds
+Average Compile Time 0 (25 Runs): .013412 seconds
 
 Excluding: -early-cse
-Average Compile Time 3 (25 Runs): .013936 seconds
-
-Excluding: -globalopt
-Average Compile Time 4 (25 Runs): .013748 seconds
-
-Excluding: -instcombine
-Average Compile Time 5 (25 Runs): .014048 seconds
-
-Excluding: -function-attrs
-Average Compile Time 6 (25 Runs): .013660 seconds
-
-Excluding: -reassociate
-Average Compile Time 7 (25 Runs): .013716 seconds
-
-Excluding: -loop-simplify
-Average Compile Time 8 (25 Runs): .013784 seconds
-
-Excluding: -loop-rotate
-Average Compile Time 9 (25 Runs): .010100 seconds
-
-Excluding: -licm
-Average Compile Time 10 (25 Runs): .013592 seconds
-
-Excluding: -indvars
-Average Compile Time 11 (25 Runs): .011144 seconds
-
-Excluding: -gvn
-Average Compile Time 12 (25 Runs): .013844 seconds
-
-Excluding: -jump-threading
-Average Compile Time 13 (25 Runs): .013640 seconds
-
-Excluding: -lcssa
-Average Compile Time 14 (25 Runs): .013820 seconds
-
-Excluding: -loop-vectorize
-Average Compile Time 15 (25 Runs): .011216 seconds
-
-Excluding: -loop-load-elim
-Average Compile Time 16 (25 Runs): .011724 seconds
-
-Excluding: -loop-unroll
-Average Compile Time 17 (25 Runs): .011268 seconds
-
-Excluding: -instsimplify
-Average Compile Time 18 (25 Runs): .013724 seconds
-

@@ -1,0 +1,15 @@
+-early-cse
+-gvn
+-globalopt
+-indvars
+-instcombine
+-jump-threading
+-lcssa
+-licm
+-loop-rotate
+-loop-simplify
+-loop-unroll
+-function-attrs
+-reassociate
+-sroa
+-simplifycfg

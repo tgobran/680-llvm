@@ -22,84 +22,46 @@ LoopUnrollPass
 InstSimplifyPass
 
 Testing: correlation_run/correlation.x
-Average Compile Time -1 (5 Runs): 93.57 seconds
+Average Compile Time -1 (5 Runs): 6.51 seconds
 
 Testing: correlation_run/correlation0.x
-Average Compile Time 0 (5 Runs): 93.62 seconds
-
-Excluding: -inferattrs
-Testing: correlation_run/correlation1.x
-Average Compile Time 1 (5 Runs): 93.72 seconds
-
-Excluding: -simplifycfg
-Testing: correlation_run/correlation2.x
-Average Compile Time 2 (5 Runs): 93.74 seconds
-
-Excluding: -sroa
-Testing: correlation_run/correlation3.x
-Average Compile Time 3 (5 Runs): 93.57 seconds
-
-Excluding: -early-cse
-Testing: correlation_run/correlation4.x
-Average Compile Time 4 (5 Runs): 93.59 seconds
-
-Excluding: -globalopt
-Testing: correlation_run/correlation5.x
-Average Compile Time 5 (5 Runs): 93.64 seconds
-
-Excluding: -instcombine
-Testing: correlation_run/correlation6.x
-Average Compile Time 6 (5 Runs): 93.72 seconds
-
-Excluding: -function-attrs
-Testing: correlation_run/correlation7.x
-Average Compile Time 7 (5 Runs): 93.40 seconds
-
-Excluding: -tailcallelim
-Testing: correlation_run/correlation8.x
-Average Compile Time 8 (5 Runs): 93.70 seconds
-
-Excluding: -reassociate
-Testing: correlation_run/correlation9.x
-Average Compile Time 9 (5 Runs): 93.30 seconds
-
-Excluding: -loop-simplify
-Testing: correlation_run/correlation10.x
-Average Compile Time 10 (5 Runs): 93.66 seconds
-
-Excluding: -lcssa
-Testing: correlation_run/correlation11.x
-Average Compile Time 11 (5 Runs): 93.31 seconds
-
-Excluding: -loop-rotate
-Testing: correlation_run/correlation12.x
-Average Compile Time 12 (5 Runs): 94.01 seconds
-
-Excluding: -licm
-Testing: correlation_run/correlation13.x
-Average Compile Time 13 (5 Runs): 93.61 seconds
-
-Excluding: -indvars
-Testing: correlation_run/correlation14.x
-Average Compile Time 14 (5 Runs): 94.57 seconds
-
-Excluding: -gvn
-Testing: correlation_run/correlation15.x
-Average Compile Time 15 (5 Runs): 93.59 seconds
-
-Excluding: -jump-threading
-Testing: correlation_run/correlation16.x
-Average Compile Time 16 (5 Runs): 93.62 seconds
+Average Compile Time 0 (5 Runs): 6.55 seconds
 
 Excluding: -correlated-propagation
-Testing: correlation_run/correlation17.x
-Average Compile Time 17 (5 Runs): 93.59 seconds
+Testing: correlation_run/correlation1.x
+Average Compile Time 1 (5 Runs): 6.55 seconds
 
-Excluding: -loop-unroll
-Testing: correlation_run/correlation18.x
-Average Compile Time 18 (5 Runs): 93.72 seconds
+Excluding: -early-cse
+Testing: correlation_run/correlation2.x
+Average Compile Time 2 (5 Runs): 6.78 seconds
+
+Excluding: -gvn
+Testing: correlation_run/correlation3.x
+Average Compile Time 3 (5 Runs): 6.65 seconds
+
+Excluding: -globalopt
+Testing: correlation_run/correlation4.x
+Average Compile Time 4 (5 Runs): 6.52 seconds
+
+Excluding: -indvars
+Testing: correlation_run/correlation5.x
+Average Compile Time 5 (5 Runs): 6.64 seconds
+
+Excluding: -inferattrs
+Testing: correlation_run/correlation6.x
+Average Compile Time 6 (5 Runs): 6.57 seconds
+
+Excluding: -instcombine
+Testing: correlation_run/correlation7.x
+Average Compile Time 7 (5 Runs): 6.54 seconds
 
 Excluding: -instsimplify
-Testing: correlation_run/correlation19.x
-Average Compile Time 19 (5 Runs): 93.48 seconds
+Testing: correlation_run/correlation8.x
+Average Compile Time 8 (5 Runs): 6.66 seconds
 
+Excluding: -jump-threading
+Testing: correlation_run/correlation9.x
+Average Compile Time 9 (5 Runs): 6.56 seconds
+
+Excluding: -lcssa
+Testing: correlation_run/correlation10.x

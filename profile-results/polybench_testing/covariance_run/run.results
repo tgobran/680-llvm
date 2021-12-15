@@ -21,80 +21,18 @@ LoopUnrollPass
 InstSimplifyPass
 
 Testing: covariance_run/covariance.x
-Average Compile Time -1 (5 Runs): 93.73 seconds
+Average Compile Time -1 (5 Runs): 6.54 seconds
 
 Testing: covariance_run/covariance0.x
-Average Compile Time 0 (5 Runs): 93.91 seconds
+Average Compile Time 0 (5 Runs): 6.49 seconds
 
-Excluding: -simplifycfg
+Excluding: -correlated-propagation
 Testing: covariance_run/covariance1.x
-Average Compile Time 1 (5 Runs): 93.53 seconds
-
-Excluding: -sroa
-Testing: covariance_run/covariance2.x
-Average Compile Time 2 (5 Runs): 93.66 seconds
+Average Compile Time 1 (5 Runs): 6.51 seconds
 
 Excluding: -early-cse
-Testing: covariance_run/covariance3.x
-Average Compile Time 3 (5 Runs): 93.44 seconds
-
-Excluding: -globalopt
-Testing: covariance_run/covariance4.x
-Average Compile Time 4 (5 Runs): 93.59 seconds
-
-Excluding: -instcombine
-Testing: covariance_run/covariance5.x
-Average Compile Time 5 (5 Runs): 93.80 seconds
-
-Excluding: -function-attrs
-Testing: covariance_run/covariance6.x
-Average Compile Time 6 (5 Runs): 93.29 seconds
-
-Excluding: -reassociate
-Testing: covariance_run/covariance7.x
-Average Compile Time 7 (5 Runs): 93.47 seconds
-
-Excluding: -loop-simplify
-Testing: covariance_run/covariance8.x
-Average Compile Time 8 (5 Runs): 93.65 seconds
-
-Excluding: -loop-rotate
-Testing: covariance_run/covariance9.x
-Average Compile Time 9 (5 Runs): 94.63 seconds
-
-Excluding: -licm
-Testing: covariance_run/covariance10.x
-Average Compile Time 10 (5 Runs): 93.68 seconds
-
-Excluding: -indvars
-Testing: covariance_run/covariance11.x
-Average Compile Time 11 (5 Runs): 94.21 seconds
+Testing: covariance_run/covariance2.x
+Average Compile Time 2 (5 Runs): 6.74 seconds
 
 Excluding: -gvn
-Testing: covariance_run/covariance12.x
-Average Compile Time 12 (5 Runs): 93.33 seconds
-
-Excluding: -jump-threading
-Testing: covariance_run/covariance13.x
-Average Compile Time 13 (5 Runs): 93.47 seconds
-
-Excluding: -lcssa
-Testing: covariance_run/covariance14.x
-Average Compile Time 14 (5 Runs): 93.42 seconds
-
-Excluding: -loop-vectorize
-Testing: covariance_run/covariance15.x
-Average Compile Time 15 (5 Runs): 93.50 seconds
-
-Excluding: -loop-load-elim
-Testing: covariance_run/covariance16.x
-Average Compile Time 16 (5 Runs): 93.68 seconds
-
-Excluding: -loop-unroll
-Testing: covariance_run/covariance17.x
-Average Compile Time 17 (5 Runs): 68.99 seconds
-
-Excluding: -instsimplify
-Testing: covariance_run/covariance18.x
-Average Compile Time 18 (5 Runs): 93.80 seconds
-
+Testing: covariance_run/covariance3.x

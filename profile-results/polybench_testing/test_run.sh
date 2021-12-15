@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [[ "$#" -lt 5 ]]
+if [[ "$#" -lt 6 ]]
 then
 	echo "ERROR: Invalid number of script arguments"
-	echo "Arguments must be: CLANGPATH BENCHNAME TESTRUNS PASSFILE DATASET"
+	echo "Arguments must be: CLANGPATH BENCHNAME TESTRUNS PASSFILE DATASET DEFAULT_OPTLEVEL"
 	exit 1
 fi
 
@@ -15,6 +15,7 @@ passfile=$(cat $passfile | awk '{printf "%s ", $0} END {print ""}' )
 IFS=" " read -ra passes <<< "$passfile"
 configs=${#passes[@]}
 dataset=-D$5_DATASET
+optlevel=$6
 
 echo "--------------------Compiling Program--------------------"
 
@@ -28,7 +29,7 @@ then
 		
 	$clangpath/clang $dataset -O0 -S -I utilities -emit-llvm $benchname/func.c -c -o - | sed s/optnone// > func.bc
 				
-	$clangpath/opt -O2 -print-changed=quiet func.bc > change.out 2>&1 
+	$clangpath/opt -$optlevel -print-changed=quiet func.bc > change.out 2>&1 
 	
 	grep -hnr "IR Dump After" --text change.out > sparse.out
 	
@@ -64,7 +65,7 @@ then
 
 		if [[ $icounter -lt 0 ]]
 		then
-			$clangpath/opt -O2 old.bc -o func.bc
+			$clangpath/opt -$optlevel old.bc -o func.bc
 			$clangpath/llc func.bc -o func.o -filetype=obj
 			$clangpath/clang $dataset -lm -pg main.o func.o polybench.o -o $benchrun/$benchname.x
 			exefile=$benchrun/$benchname.x
@@ -82,7 +83,7 @@ then
 					currpasses+=(${passes[i]})
 				fi
 			done
-			$clangpath/opt ${currpasses[@]} old.bc -o func.bc
+			$clangpath/opt -enable-new-pm=0 ${currpasses[@]} old.bc -o func.bc
 			$clangpath/llc func.bc -o func.o -filetype=obj
 			$clangpath/clang $dataset -lm -pg main.o func.o polybench.o -o $benchrun/${benchname}$icounter.x
 			exefile=$benchrun/${benchname}$icounter.x

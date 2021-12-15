@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [[ "$#" -lt 4 ]]
+if [[ "$#" -lt 5 ]]
 then
 	echo "ERROR: Invalid number of script arguments"
-	echo "Arguments must be: CLANGPATH BENCHNAME TESTRUNS IS_O2"
+	echo "Arguments must be: CLANGPATH BENCHNAME TESTRUNS IS_BASE OPTLEVEL/PASSFILE"
 	exit 1
 fi
 
@@ -15,16 +15,12 @@ configs=0
 
 if [[ $typeflag == 0 ]]
 then
-	if [[ "$#" -lt 5 ]]
-	then
-		echo "ERROR: Invalid number of script arguments"
-		echo "Arguments must be: CLANGPATH BENCHFOLDER TESTRUNS IS_O2 PASS_FILE"
-		exit 1
-	fi
 	passfile=$5
 	passfile=$(cat $passfile | awk '{printf "%s ", $0} END {print ""}' )
 	IFS=" " read -ra passes <<< "$passfile"
 	configs=${#passes[@]}
+else
+	optlevel=$5
 fi
 
 echo "--------------------Compiling Program--------------------"
@@ -41,7 +37,7 @@ then
 	then
 		echo "Compiling Baseline Run"
 	
-		$clangpath/opt -O2 -print-changed=quiet func.bc > change.out 2>&1 
+		$clangpath/opt -$optlevel -print-changed=quiet func.bc > change.out 2>&1 
 	else
 		echo "Compiling Custom Pass Runs"	
 	
@@ -106,7 +102,7 @@ then
 	
 			if [[ $typeflag == 1 ]]
 			then
-				$clangpath/opt -O2 old.bc -time-passes -o func.bc > $resfile 2>&1
+				$clangpath/opt -$optlevel old.bc -time-passes -o func.bc > $resfile 2>&1
 			else
 				$clangpath/opt ${currpasses[@]} old.bc -time-passes -o func.bc > $resfile 2>&1
 			fi

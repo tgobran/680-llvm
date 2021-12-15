@@ -24,92 +24,14 @@ LCSSAPass
 InstSimplifyPass
 
 Testing: deriche_run/deriche.x
-Average Compile Time -1 (5 Runs): 1.19 seconds
+Average Compile Time -1 (5 Runs): 0.27 seconds
 
 Testing: deriche_run/deriche0.x
-Average Compile Time 0 (5 Runs): 1.34 seconds
-
-Excluding: -inferattrs
-Testing: deriche_run/deriche1.x
-Average Compile Time 1 (5 Runs): 1.27 seconds
-
-Excluding: -simplifycfg
-Testing: deriche_run/deriche2.x
-Average Compile Time 2 (5 Runs): 1.23 seconds
-
-Excluding: -sroa
-Testing: deriche_run/deriche3.x
-Average Compile Time 3 (5 Runs): 1.25 seconds
+Average Compile Time 0 (5 Runs): 0.27 seconds
 
 Excluding: -early-cse
-Testing: deriche_run/deriche4.x
-Average Compile Time 4 (5 Runs): 1.32 seconds
-
-Excluding: -globalopt
-Testing: deriche_run/deriche5.x
-Average Compile Time 5 (5 Runs): 1.19 seconds
-
-Excluding: -instcombine
-Testing: deriche_run/deriche6.x
-Average Compile Time 6 (5 Runs): 1.22 seconds
-
-Excluding: -function-attrs
-Testing: deriche_run/deriche7.x
-Average Compile Time 7 (5 Runs): 1.19 seconds
-
-Excluding: -correlated-propagation
-Testing: deriche_run/deriche8.x
-Average Compile Time 8 (5 Runs): 1.25 seconds
-
-Excluding: -tailcallelim
-Testing: deriche_run/deriche9.x
-Average Compile Time 9 (5 Runs): 1.26 seconds
-
-Excluding: -reassociate
-Testing: deriche_run/deriche10.x
-Average Compile Time 10 (5 Runs): 1.21 seconds
-
-Excluding: -loop-simplify
-Testing: deriche_run/deriche11.x
-Average Compile Time 11 (5 Runs): 1.18 seconds
-
-Excluding: -licm
-Testing: deriche_run/deriche12.x
-Average Compile Time 12 (5 Runs): 1.21 seconds
-
-Excluding: -loop-rotate
-Testing: deriche_run/deriche13.x
-Average Compile Time 13 (5 Runs): 1.22 seconds
-
-Excluding: -indvars
-Testing: deriche_run/deriche14.x
-Average Compile Time 14 (5 Runs): 1.39 seconds
+Testing: deriche_run/deriche1.x
+Average Compile Time 1 (5 Runs): 0.26 seconds
 
 Excluding: -gvn
-Testing: deriche_run/deriche15.x
-Average Compile Time 15 (5 Runs): 1.20 seconds
-
-Excluding: -jump-threading
-Testing: deriche_run/deriche16.x
-Average Compile Time 16 (5 Runs): 1.24 seconds
-
-Excluding: -loop-vectorize
-Testing: deriche_run/deriche17.x
-Average Compile Time 17 (5 Runs): 1.22 seconds
-
-Excluding: -loop-load-elim
-Testing: deriche_run/deriche18.x
-Average Compile Time 18 (5 Runs): 1.36 seconds
-
-Excluding: -loop-unroll
-Testing: deriche_run/deriche19.x
-Average Compile Time 19 (5 Runs): 1.22 seconds
-
-Excluding: -lcssa
-Testing: deriche_run/deriche20.x
-Average Compile Time 20 (5 Runs): 1.34 seconds
-
-Excluding: -instsimplify
-Testing: deriche_run/deriche21.x
-Average Compile Time 21 (5 Runs): 1.22 seconds
-
+Testing: deriche_run/deriche2.x
