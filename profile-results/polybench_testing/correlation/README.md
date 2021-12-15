@@ -40,7 +40,7 @@
 * LoopUnrollPass
 * InstSimplifyPass
 
-Missing:
+Didn't make changes when only pruned are run:
 * LoopSimplifyPass
 * CorrelatedValuePropagationPass
 
