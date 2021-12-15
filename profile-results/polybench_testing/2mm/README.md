@@ -36,7 +36,7 @@ All Ratios are done in comparison with the O2 results.
 * LoopUnrollPass
 * InstSimplifyPass
 
-Missing:
+Didn't make changes when only pruned are run:
 * LCSSAPass
 * LoopSimplifyPass
 
